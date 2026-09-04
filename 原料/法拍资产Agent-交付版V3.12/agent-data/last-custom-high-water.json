@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "dateKey": "20260904",
+  "runName": "20260904",
+  "batchId": "20260904-44d80a5a-ab6a-4ff2-940a-4552e28dfe1b",
+  "taskId": "5753c6e0-9e1c-47b9-a015-6dc30cb36a01",
+  "completedAt": "2026-09-04T04:01:54.298Z",
+  "province": "福建省",
+  "cities": [
+    "福州市",
+    "泉州市"
+  ],
+  "platforms": [
+    "alibaba_pc",
+    "jd"
+  ],
+  "categories": [
+    "住宅用房",
+    "商业用房",
+    "工业用房"
+  ],
+  "includeBankruptcy": false,
+  "scopeId": "f38f536eae6c64cb",
+  "anchors": {
+    "jd:住宅用房:即将开始:福州市": "https://paimai.jd.com/311217150",
+    "jd:住宅用房:已结束:福州市": "https://paimai.jd.com/311038381",
+    "jd:住宅用房:即将开始:泉州市": "https://paimai.jd.com/311218670",
+    "jd:住宅用房:已结束:泉州市": "https://paimai.jd.com/311119721",
+    "jd:商业用房:即将开始:福州市": "https://paimai.jd.com/311219365",
+    "jd:商业用房:已结束:福州市": "https://paimai.jd.com/310831941",
+    "jd:商业用房:即将开始:泉州市": "https://paimai.jd.com/311177138",
+    "jd:商业用房:已结束:泉州市": "https://paimai.jd.com/311037346",
+    "jd:工业用房:已结束:福州市": "https://paimai.jd.com/310748607",
+    "jd:工业用房:即将开始:泉州市": "https://paimai.jd.com/311161968",
+    "jd:工业用房:已结束:泉州市": "https://paimai.jd.com/311008939",
+    "jd:工业用房:即将开始:福州市": "https://paimai.jd.com/310748607",
+    "alibaba_pc:住宅用房+商业用房+工业用房@without_bankruptcy:即将开始:泉州市": "https://sf-item.taobao.com/sf_item/1081767480202.htm",
+    "alibaba_pc:住宅用房+商业用房+工业用房@without_bankruptcy:已结束:泉州市": "https://sf-item.taobao.com/sf_item/1071078254298.htm",
+    "alibaba_pc:住宅用房+商业用房+工业用房@without_bankruptcy:即将开始:福州市": "https://sf-item.taobao.com/sf_item/1080759821203.htm",
+    "alibaba_pc:住宅用房+商业用房+工业用房@without_bankruptcy:已结束:福州市": "https://sf-item.taobao.com/sf_item/1077224100364.htm"
+  },
+  "expectedCount": 16,
+  "validCount": 16,
+  "missingCount": 0,
+  "missingKeys": [],
+  "complete": true
+}
