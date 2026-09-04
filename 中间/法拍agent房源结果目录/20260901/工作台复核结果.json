@@ -1,0 +1,183 @@
+{
+  "version": 2,
+  "taskId": "9d2e54ad-1a45-41d0-be1d-2b9e680fd596",
+  "batchId": "20260901-8bf6b16e-cacb-4987-af8c-c647aa220d74",
+  "dateKey": "20260901",
+  "runName": "20260901",
+  "items": [
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078095703082.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 134.08,
+            "confidence": 0.98,
+            "evidence": "205单元建筑面积60.16㎡，206单元建筑面积73.92㎡，合计建筑面积134.08㎡。",
+            "reason": "两套住宅独立产权，公告明确给出合计建筑面积。"
+          },
+          "community": {
+            "value": "泰禾·红峪",
+            "confidence": 0.95,
+            "evidence": "金山生活区八期南片（红树林二期暨泰禾·红峪）A-17#楼205单元、206单元房产",
+            "reason": "公告标题明确列示项目别名，采用可识别的小区名。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "公告标的物调查表明确两套住宅建筑面积合计134.08㎡；小区名采用标题明确列示的泰禾·红峪。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078946802526.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 73.52,
+            "confidence": 0.98,
+            "evidence": "产权证号/合同号：闽(2021)闽清县不动产权第0001791号；总产权面积：73.52平方米。",
+            "reason": "公告拍卖标的调查情况表明确总产权面积。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "公告调查表明确该住宅总产权面积为73.52㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079996065801.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 88.87,
+            "confidence": 0.96,
+            "evidence": "福州市长乐区航城街道江莲路7号乐信花园A4-6#楼1003单元，上述标的房产建筑面积约88.87平方米。",
+            "reason": "公告拍品介绍明确住宅建筑面积。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "公告拍品介绍载明该住宅建筑面积约88.87㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080993292510.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 112.75,
+            "confidence": 0.98,
+            "evidence": "上述标的房产建筑面积约112.75平方米，车位建筑面积约27.05平方米，用途为住宅/车位。",
+            "reason": "住宅与车位并列处置，主面积按规则只取住宅部分。"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "标的类型",
+            "value": "住宅",
+            "confidence": 0.98,
+            "evidence": "上述标的房产建筑面积约112.75平方米，车位建筑面积约27.05平方米，用途为住宅/车位。",
+            "reason": "并列处置时主标的是住宅，车位为附属部分。"
+          },
+          {
+            "field": "备注",
+            "value": "附地下室804车位，车位建筑面积约27.05㎡。",
+            "confidence": 0.98,
+            "evidence": "3303单元及地下室804车位；车位建筑面积约27.05平方米。",
+            "reason": "保留完整附属车位信息。"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "住宅与804车位并列处置；主面积取住宅112.75㎡，车位27.05㎡保留在备注。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078974430142.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 284.36,
+            "confidence": 0.98,
+            "evidence": "房屋建筑面积：284.36㎡。",
+            "reason": "公告调查表的房屋建筑面积字段。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "公告调查表明确房屋建筑面积284.36㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080023181933.htm",
+      "review": {"fields":{"area":{"value":5.49,"confidence":0.98,"evidence":"储24的储藏间，建筑面积5.49，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储24建筑面积5.49㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080022225654.htm",
+      "review": {"fields":{"area":{"value":6.24,"confidence":0.98,"evidence":"储37的储藏间，建筑面积6.24，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储37建筑面积6.24㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081028348759.htm",
+      "review": {"fields":{"area":{"value":5.92,"confidence":0.98,"evidence":"储42的储藏间，建筑面积5.92，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储42建筑面积5.92㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080022281407.htm",
+      "review": {"fields":{"area":{"value":6.24,"confidence":0.98,"evidence":"储38的储藏间，建筑面积6.24，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储38建筑面积6.24㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080021809896.htm",
+      "review": {"fields":{"area":{"value":5.76,"confidence":0.98,"evidence":"储41的储藏间，建筑面积5.76，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储41建筑面积5.76㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078971490292.htm",
+      "review": {"fields":{"area":{"value":5.76,"confidence":0.98,"evidence":"储40的储藏间，建筑面积5.76，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储40建筑面积5.76㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081018036103.htm",
+      "review": {"fields":{"area":{"value":3.88,"confidence":0.98,"evidence":"储12的储藏间，建筑面积3.88，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储12建筑面积3.88㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080011153389.htm",
+      "review": {"fields":{"area":{"value":6.24,"confidence":0.98,"evidence":"储21的储藏间，建筑面积6.24，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储21建筑面积6.24㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078095235045.htm",
+      "review": {"fields":{"area":{"value":5.76,"confidence":0.98,"evidence":"储23的储藏间，建筑面积5.76，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储23建筑面积5.76㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081016444879.htm",
+      "review": {"fields":{"area":{"value":5.52,"confidence":0.98,"evidence":"储15的储藏间，建筑面积5.52，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储15建筑面积5.52㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078961034210.htm",
+      "review": {"fields":{"area":{"value":7.38,"confidence":0.98,"evidence":"储10的储藏间，建筑面积7.38，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储10建筑面积7.38㎡。"}
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078960750614.htm",
+      "review": {"fields":{"area":{"value":5.76,"confidence":0.98,"evidence":"储17的储藏间，建筑面积5.76，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储17建筑面积5.76㎡。"}
+    },
+    {"url":"https://sf-item.taobao.com/sf_item/1078093399374.htm","review":{"fields":{"area":{"value":6.28,"confidence":0.98,"evidence":"储13的储藏间，建筑面积6.28，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储13建筑面积6.28㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1080009265055.htm","review":{"fields":{"area":{"value":5.63,"confidence":0.98,"evidence":"储11的储藏间，建筑面积5.63，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储11建筑面积5.63㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1078081335256.htm","review":{"fields":{"area":{"value":5.52,"confidence":0.98,"evidence":"储09的储藏间，建筑面积5.52，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储09建筑面积5.52㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1078820894767.htm","review":{"fields":{"area":{"value":5.52,"confidence":0.98,"evidence":"储03的储藏间，建筑面积5.52，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储03建筑面积5.52㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1080876468190.htm","review":{"fields":{"area":{"value":5.98,"confidence":0.98,"evidence":"储07的储藏间，建筑面积5.98，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储07建筑面积5.98㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1078821226414.htm","review":{"fields":{"area":{"value":6.1,"confidence":0.98,"evidence":"储08的储藏间，建筑面积6.1，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储08建筑面积6.1㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1080875984989.htm","review":{"fields":{"area":{"value":6.1,"confidence":0.98,"evidence":"储04的储藏间，建筑面积6.1，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储04建筑面积6.1㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1080876092851.htm","review":{"fields":{"area":{"value":5.98,"confidence":0.98,"evidence":"储06的储藏间，建筑面积5.98，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储06建筑面积5.98㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1080876152736.htm","review":{"fields":{"area":{"value":5.98,"confidence":0.98,"evidence":"储05的储藏间，建筑面积5.98，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储05建筑面积5.98㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1077949787130.htm","review":{"fields":{"area":{"value":4.83,"confidence":0.98,"evidence":"储02的储藏间，建筑面积4.83，所在层为-1层。","reason":"公告拍品介绍明确建筑面积。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"公告明确储02建筑面积4.83㎡。"}}
+  ,
+    {"url":"https://paimai.jd.com/311192862","review":{"fields":{"area":{"value":1018.72,"confidence":0.96,"evidence":"建筑面积71.66/947.06共1018.72㎡。","reason":"页面建筑面积列明确给出两部分合计。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"建筑面积字段明确两部分合计1018.72㎡。"}},
+    {"url":"https://paimai.jd.com/311192659","review":{"fields":{"area":{"value":978.44,"confidence":0.96,"evidence":"建筑面积72.55/905.89共978.44㎡。","reason":"页面建筑面积列明确给出两部分合计。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"建筑面积字段明确两部分合计978.44㎡。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1078960782342.htm","review":{"fields":{"area":{"value":16.81,"confidence":0.99,"evidence":"附件《不动产权证书》载明：面积：房屋建筑面积16.81㎡。","reason":"已核对公告附件中的不动产权证书。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"已核对公告附件不动产权证书，储藏间房屋建筑面积16.81㎡。"}},
+    {"url":"https://paimai.jd.com/311192219","review":{"fields":{"community":{"value":"百宏·华尔街","confidence":0.98,"evidence":"青阳街道泉安中路717号百宏·华尔街2号楼1410室。","reason":"标题明确列示小区名。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"标题明确小区为百宏·华尔街。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1075184289532.htm","review":{"fields":{"community":{"value":"顺华世纪鸥洲B区","confidence":0.98,"evidence":"南屿镇乌龙江南大道89号顺华世纪鸥洲B区地下室（1#-4#楼连接体）地下1层656车位。","reason":"标题明确列示小区名。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"标题明确小区为顺华世纪鸥洲B区。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1075304416139.htm","review":{"fields":{},"otherCorrections":[],"otherIssues":["标题仅为棋山村地号及门牌信息，无可靠小区名称证据。"],"requiresHumanReview":true,"summary":"面积证据无误；无可靠小区名称，保留当前回退值待人工判断。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1081017052968.htm","review":{"fields":{"community":{"value":"温陵路北拓改造工程","confidence":0.95,"evidence":"温陵路北拓改造工程2幢608住宅及室内部分家具家电。","reason":"标题明确列示改造项目名称。"}},"otherCorrections":[],"otherIssues":[],"requiresHumanReview":false,"summary":"标题明确项目名温陵路北拓改造工程；建筑面积86.86㎡证据无误。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1069745926522.htm","review":{"fields":{},"otherCorrections":[{"field":"备注","value":"数据疑似有误：商业建筑面积16765.86㎡超过10000㎡；由1跃4层14479.28㎡及地下一层2286.58㎡组成。","confidence":0.98,"evidence":"1跃4层的建筑面积为14479.28平方米；地下一层不动产的建筑面积为2286.58平方米。","reason":"面积超过阈值，按规则补充异常说明。"}],"otherIssues":[],"requiresHumanReview":false,"summary":"组成面积合计16765.86㎡证据明确，已补充超大面积异常说明。"}},
+    {"url":"https://sf-item.taobao.com/sf_item/1071742800258.htm","review":{"fields":{},"otherCorrections":[{"field":"备注","value":"数据疑似有误：商业建筑面积94436.56㎡超过10000㎡；由主不动产47173.28㎡及多栋建筑、地下室面积组成。","confidence":0.98,"evidence":"不动产建筑面积47173.28平方米；1号楼、2号楼等及地下室建筑面积18327.6㎡。","reason":"面积超过阈值，按规则补充异常说明。"}],"otherIssues":["标题仅为村址及门牌，无可靠小区名称证据。"],"requiresHumanReview":true,"summary":"组成面积合计94436.56㎡证据明确，已补充超大面积异常说明；小区名称仍需人工判断。"}}
+  ]
+}

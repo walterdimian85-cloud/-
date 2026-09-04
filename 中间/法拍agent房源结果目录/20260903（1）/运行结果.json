@@ -1,0 +1,65 @@
+{
+  "workbookQa": {
+    "outputPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260903（1）\\20260903新增房源信息.xlsx",
+    "totalRows": 217,
+    "upcomingRows": 185,
+    "endedRows": 32,
+    "reviewRows": 0,
+    "keyRange": "成交标的!A1:W16",
+    "formulaErrors": "{\"adapter\":\"standard\",\"structuralFormulaCheck\":\"passed\"}"
+  },
+  "failures": [
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东工业用房（即将开始）未找到列表项"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东工业用房（即将开始）未找到列表项"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东工业用房（即将开始）未找到列表项"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东工业用房（即将开始）未找到列表项"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东工业用房（即将开始）未找到列表项"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东工业用房（即将开始）未找到列表项"
+    }
+  ],
+  "dryRun": false,
+  "lowFrequency": true,
+  "requestIntervalMs": 8000,
+  "stateAdvanced": false
+}

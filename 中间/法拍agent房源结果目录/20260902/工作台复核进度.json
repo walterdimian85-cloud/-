@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "taskId": "c6d1f933-2797-44bb-a7a5-debb828c551a",
+  "batchId": "20260902-284d17b2-600b-4f6a-859b-8bc16e0e675e",
+  "status": "completed",
+  "total": 59,
+  "processed": 59,
+  "remaining": 0,
+  "changes": 3,
+  "anomalies": 31,
+  "failures": 0,
+  "currentUrl": null,
+  "summary": {
+    "headline": "20260902高风险候选复核完成",
+    "keyFindings": [
+      "已按页面/标题证据回填1条建筑面积。",
+      "已核正26条可从正式项目名确认的小区名称。",
+      "独立车位与无直接面积证据记录未猜测，已保留人工复核。",
+      "1条起拍单价异常仅记录风险，未擅自改变金额单位。"
+    ],
+    "correctedFields": 27,
+    "needsManualReview": 30
+  },
+  "updatedAt": "2026-09-02T04:01:41.424Z",
+  "completedAt": "2026-09-02T04:01:41.424Z"
+}

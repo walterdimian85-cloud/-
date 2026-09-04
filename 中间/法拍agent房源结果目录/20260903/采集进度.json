@@ -1,0 +1,127 @@
+{
+  "version": 2,
+  "dateKey": "20260903",
+  "status": "采集中",
+  "startedAt": "2026-09-03T02:14:24.439Z",
+  "updatedAt": "2026-09-03T02:21:53.737Z",
+  "plan": {
+    "dateKey": "20260903",
+    "statePath": "E:\\dsh\\原料\\法拍资产Agent-交付版V3.12\\path\\scoped-tasks\\f38f536eae6c64cb\\state.json",
+    "platform": "alibaba_pc_all",
+    "categories": [
+      "住宅用房",
+      "商业用房",
+      "工业用房"
+    ],
+    "statusFilters": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxPages": 100,
+    "dryRun": false,
+    "includeParties": false
+  },
+  "groups": {},
+  "completedUrls": [],
+  "newSavedCount": 0,
+  "resumed": false,
+  "current": {
+    "platform": "jd",
+    "category": "工业用房",
+    "statusFilter": "已结束",
+    "title": "列表扫描失败，等待恢复后重试",
+    "url": ""
+  },
+  "records": [],
+  "failures": [
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "住宅用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=101。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "住宅用房",
+      "city": "福州市",
+      "status": "已结束",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=101。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "住宅用房",
+      "city": "泉州市",
+      "status": "即将开始",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=101。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "住宅用房",
+      "city": "泉州市",
+      "status": "已结束",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=101。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "商业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=102。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "商业用房",
+      "city": "福州市",
+      "status": "已结束",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=102。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "商业用房",
+      "city": "泉州市",
+      "status": "即将开始",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=102。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "商业用房",
+      "city": "泉州市",
+      "status": "已结束",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=102。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "即将开始",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=103。已保留断点，本次不推进高水位。"
+    },
+    {
+      "stage": "list",
+      "platform": "jd",
+      "category": "工业用房",
+      "city": "福州市",
+      "status": "已结束",
+      "error": "Error: 京东列表连续3次未完整加载：https://pmsearch.jd.com/?publishSource=7&projectType=&childrenCateId=103。已保留断点，本次不推进高水位。"
+    }
+  ],
+  "evidence": [],
+  "newAnchors": {},
+  "counts": {
+    "records": 0,
+    "completedUrls": 0,
+    "failures": 10
+  },
+  "checkpointWorkbookPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260903\\20260903新增房源信息_采集中.xlsx",
+  "resumeCommand": "使用与本次相同的 run 命令重新运行，程序会自动续爬"
+}

@@ -1,0 +1,49 @@
+{
+  "capturedAt": "2026-08-27T06:07:49.227Z",
+  "firstRun": true,
+  "evidence": [],
+  "failures": [
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "住宅用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "住宅用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "商业用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "商业用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "工业用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "工业用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    }
+  ]
+}

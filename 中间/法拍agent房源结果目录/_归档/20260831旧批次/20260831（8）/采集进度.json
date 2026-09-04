@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "dateKey": "20260831",
+  "status": "采集中",
+  "startedAt": "2026-08-31T02:37:22.437Z",
+  "updatedAt": "2026-08-31T02:37:22.437Z",
+  "plan": {
+    "dateKey": "20260831",
+    "statePath": "E:\\dsh\\原料\\法拍自动爬取v2.0\\data\\state\\scoped-tasks\\4e907e0077cad51e\\state.json",
+    "platform": "jd",
+    "categories": [
+      "住宅用房",
+      "商业用房"
+    ],
+    "statusFilters": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxPages": 100,
+    "dryRun": false,
+    "includeParties": false
+  },
+  "groups": {},
+  "completedUrls": [],
+  "newSavedCount": 0,
+  "resumed": false,
+  "current": {},
+  "records": [],
+  "failures": [],
+  "evidence": [],
+  "newAnchors": {},
+  "counts": {
+    "records": 0,
+    "completedUrls": 0,
+    "failures": 0
+  },
+  "checkpointWorkbookPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260831（8）\\20260831新增房源信息_采集中.xlsx",
+  "resumeCommand": "使用与本次相同的 run 命令重新运行，程序会自动续爬"
+}

@@ -1,0 +1,161 @@
+{
+  "dateKey": "20260831",
+  "anomalies": [],
+  "operationalFailures": [],
+  "changes": [
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 191,
+      "confidence": 0.99,
+      "evidence": "竞买公告：4套公寓式办公建筑面积分别为47.75㎡，四套合计191㎡",
+      "reason": "合并拍卖四套同类房屋，主面积取四套建筑面积合计",
+      "url": "https://paimai.jd.com/311024047",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "标的名称",
+      "before": "州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+      "after": "福州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+      "confidence": 0.98,
+      "evidence": "竞买公告：福州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+      "reason": "补回采集标题开头缺失的“福”字",
+      "url": "https://paimai.jd.com/311024047",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 78.24,
+      "confidence": 0.99,
+      "evidence": "页面：该房屋建筑面积共78.24平方米，其中专有建筑面积62.54平方米，分摊建筑面积15.70平方米",
+      "reason": "主面积取页面明确的房屋建筑面积总计，不取专有或分摊面积",
+      "url": "https://paimai.jd.com/311094548",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "三盛国际海岸（一期）",
+      "confidence": 0.97,
+      "evidence": "标题：三盛国际海岸（一期）B区6#1911室",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/311181572",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "名城",
+      "after": "名城港湾",
+      "confidence": 0.97,
+      "evidence": "标题：名城港湾B地块8#楼1502单元",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/311024057",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "万科大樟溪岸",
+      "confidence": 0.97,
+      "evidence": "标题：万科大樟溪岸二期B区29号楼119复式单元",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/310816859",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "新城",
+      "after": "新城丽景",
+      "confidence": 0.97,
+      "evidence": "标题：新城丽景A区6#楼208单元",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/311006085",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "南屿滨江城",
+      "after": "阳光城翡丽湾小区",
+      "confidence": 0.97,
+      "evidence": "标题：南屿滨江城二期（现：阳光城翡丽湾小区）102#楼2701单元",
+      "reason": "标题明确标注现用小区名称",
+      "url": "https://paimai.jd.com/311090816",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "丹宁顿小镇",
+      "confidence": 0.97,
+      "evidence": "标题：丹宁顿小镇C区7#楼108单元",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/311082019",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": null,
+      "after": "2026-09-28 10:00:00",
+      "confidence": 0.99,
+      "evidence": "京东详情页：09月28日 10:00:00开始",
+      "reason": "详情页明确开拍时间",
+      "url": "https://paimai.jd.com/311180125",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "址于泉州市洛江区万安中心",
+      "after": "钻石·美尔奇小区",
+      "confidence": 0.97,
+      "evidence": "标题：钻石·美尔奇小区2号楼1801室房产及室内物品",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/311105664",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "泉州保利时光印象",
+      "confidence": 0.97,
+      "evidence": "标题：泉州保利时光印象15#1603室",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/310829793",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "镇中海学府",
+      "after": "中海学府世家",
+      "confidence": 0.97,
+      "evidence": "标题：中海学府世家18号楼1001室",
+      "reason": "标题中明确出现正式项目名称",
+      "url": "https://paimai.jd.com/310829769",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": null,
+      "after": "2026-09-16 10:00:00",
+      "confidence": 0.99,
+      "evidence": "京东详情页：09月16日 10:00:00开始",
+      "reason": "详情页明确变卖开始时间",
+      "url": "https://paimai.jd.com/311185647",
+      "reviewedAt": "2026-08-31T03:18:31.725Z",
+      "reviewer": "workbench"
+    }
+  ]
+}

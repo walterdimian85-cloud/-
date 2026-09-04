@@ -1,0 +1,2158 @@
+{
+  "version": 2,
+  "taskId": "5753c6e0-9e1c-47b9-a015-6dc30cb36a01",
+  "batchId": "20260904-44d80a5a-ab6a-4ff2-940a-4552e28dfe1b",
+  "dateKey": "20260904",
+  "runName": "20260904",
+  "items": [
+    {
+      "url": "https://paimai.jd.com/311027092",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 0,
+            "evidence": "任务及当前页面可见证据未提供可核验建筑面积。",
+            "reason": "不得猜测面积"
+          },
+          "title": {
+            "value": "茶园街道茶峰路38号茶园新苑（福州北站改扩建工程安置地D地块（安置房））2#楼805单元",
+            "confidence": 1,
+            "evidence": "福州市晋安区茶园街道茶峰路38号茶园新苑（福州北站改扩建工程安置地D地块（安置房））2#楼805单元",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "茶园新苑",
+            "confidence": 1,
+            "evidence": "标题明确载有“茶园新苑”。",
+            "reason": "小区名称证据明确"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [
+          "建筑面积无可核验页面证据；已定向读取详情页，仍不得猜测，需人工补证。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "茶园新苑名称已核实；建筑面积未找到可核验原文，待人工补证。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081767480202.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079704530396.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078834003769.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080757689855.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079703910092.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079701266578.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079701034545.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078830755885.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081762608792.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080754117683.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079700434193.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079699670867.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081749240621.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078817115702.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080740985486.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081748544888.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079686654624.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079686306918.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079686194782.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078815723483.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078815171605.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079685134129.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079684230332.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080737713882.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080737953731.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078813707575.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080737409865.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079683382829.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078813147353.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080736829724.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079682526591.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080726501153.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080726021095.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078798327465.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079668178716.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078755243341.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080679313413.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079626018127.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080679517125.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081687136877.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080679065631.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081687084823.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078754291906.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080679297072.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080672221340.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080672377101.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079618622477.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078746771700.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081666912007.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080658349645.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080658141751.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079604654522.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081665316512.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078731311934.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079601922554.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080655205513.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078730347779.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081649096278.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081648436467.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080640653159.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080639361374.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080638453637.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714939061.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714259723.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080638265453.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637957685.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079584370874.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714419143.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714375004.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081646052132.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081645896369.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079584238030.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637689264.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637501516.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637121997.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081634760018.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080625501931.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079571686446.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078701255775.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079571014842.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078579679474.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079448978933.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079449254842.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080500801836.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080501205187.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081360600248.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081360448403.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079301130325.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080351113188.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300874535.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350741861.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300826290.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081359960624.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078431579165.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300326911.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300482285.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350705056.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350201757.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350261467.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078430271647.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078429427935.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080348981180.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078429215833.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080348225865.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080348457386.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081357440674.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081357284732.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081356984987.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081348428354.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080339077545.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078420027377.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079288578352.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080338545336.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079287866903.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078419047574.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337489897.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078418839945.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346776728.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337913411.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080338133049.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078419107356.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337785352.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078418759530.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346908151.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346756302.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346548821.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337233662.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346660139.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337173184.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078417615830.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080335057156.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079285274007.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080334485713.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079284574877.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343884431.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343852463.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078415351948.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079284682182.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080334305264.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080334141681.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078415711379.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080333829967.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080333745819.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343368538.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078415327421.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079283718944.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343008516.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343052388.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343320021.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081342528807.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079283582608.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081342616656.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080333089791.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078414199718.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311216889",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 119.26,
+            "confidence": 1,
+            "evidence": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 119.26平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 精装 房屋户",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "五凤街道软件大道53号五凤新区9#楼103单元",
+            "confidence": 1,
+            "evidence": "【一拍】鼓楼区五凤街道软件大道53号五凤新区9#楼103单元",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "五凤新区",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“五凤新区”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为五凤新区。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311210981",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 96.76,
+            "confidence": 1,
+            "evidence": "江县黄岐镇海丰街丰明路120号-2二扇一直房产 权证号：连房权证L字第20130304号 建筑面积：96.76㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "黄岐镇海丰街丰明路120号-2二扇一直房产",
+            "confidence": 1,
+            "evidence": "【二拍】连江县黄岐镇海丰街丰明路120号-2二扇一直房产",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": null,
+            "confidence": 0,
+            "evidence": "标题仅为黄岐镇丰明路门牌地址，未出现可靠项目名称。",
+            "reason": "不得从道路门牌猜测小区名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [
+          "无可靠小区名称证据，保留商住小区，待人工补证。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "建筑面积96.76㎡已核实；标题仅为门牌地址，未找到可靠小区名。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311209874",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 134.04,
+            "confidence": 1,
+            "evidence": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 134.04平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 简装 房屋户",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "上街镇联心村402单元",
+            "confidence": 1,
+            "evidence": "【一拍】福州市闽侯县上街镇联心村402单元",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "联心村",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“联心村”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为联心村。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081767188067.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑面积46.55㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层05商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层05商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079704226065.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑面积46.55㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层17商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层17商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080758013881.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑面积46.55㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层18商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层18商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078830915162.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑面积46.55㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层19商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层19商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081762084202.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑面积46.55㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层16商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层16商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079700294499.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑面积46.55㎡",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层03商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层03商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078733563439.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 46.55,
+            "confidence": 1,
+            "evidence": "建筑总面积 | 46.55平方米",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "盖山镇南社一路11号金辉澜林轩（二区）B-1#楼6层02商业",
+            "confidence": 1,
+            "evidence": "仓山区盖山镇南社一路11号（原江边洲路以南、美墩路以东）金辉澜林轩（二区）B-1#楼6层02商业",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "金辉澜林轩（二区）",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“金辉澜林轩（二区）”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为金辉澜林轩（二区）。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1077224100364.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位/车库未披露建筑面积；后续数据准备阶段按硬性规则§9排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081678216280.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 34.94,
+            "confidence": 1,
+            "evidence": "建筑面积 | 34.94平方米",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "凤城镇中山街313-351号鸿业华庭227店面",
+            "confidence": 1,
+            "evidence": "泉州市安溪县凤城镇中山街313-351号鸿业华庭227店面",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "鸿业华庭",
+            "confidence": 1,
+            "evidence": "标题明确载有“鸿业华庭227店面”。",
+            "reason": "小区名称证据明确"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "数据疑似有误：起拍价格39元、建筑面积34.94㎡，起拍单价约1元/㎡，低于500元/㎡核验阈值。",
+            "confidence": 1,
+            "evidence": "建筑面积 | 34.94平方米；起拍价格39元",
+            "reason": "按异常阈值硬性规则补充说明，不改写无冲突的页面价格"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "建筑面积34.94㎡及鸿业华庭已核实；异常起拍单价说明已写入备注。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079585218762.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 94436.56,
+            "confidence": 1,
+            "evidence": "登记信息表》记载：福建省永泰县城峰镇汤洋村上山院7号不动产的建筑面积为47173.28平方米，土地使用终止日期为2054年1月5日；1号楼-1建筑面积为5490.12㎡，楼层1-6/6；1号楼-2建筑面积为9515.77㎡，楼层1-6/6；2号楼建筑面积为2004.91㎡，楼层1-2/2；3号楼建筑面积为8153.08㎡，楼层1-5/5；5号楼建筑面积为1117.48㎡，楼层1-2/2；6号楼建筑面积为1132.48㎡，楼层1-2/2；7号楼建筑面积为247.76㎡，楼层1-2/2；8号楼建筑面积为507.28㎡，楼层1-2/2；9号楼建筑面积为766.80㎡，楼层1-2/2；地下室建筑面积为18327.6㎡，楼层-2～-1/2。 标的物的具体情况及租赁合同情况详见附件《",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "城峰镇汤洋村上山院7号不动产",
+            "confidence": 1,
+            "evidence": "福建省永泰县城峰镇汤洋村上山院7号不动产",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "上山院",
+            "confidence": 1,
+            "evidence": "用户人工确认小区名称为“上山院”。",
+            "reason": "采用用户人工确认"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "数据疑似有误：商业建筑面积94436.56㎡超过10000㎡；小区名称已由用户人工确认为上山院。",
+            "confidence": 1,
+            "evidence": "建筑面积为47173.28平方米；分项建筑面积合计94436.56㎡；用户人工确认小区名称为上山院。",
+            "reason": "按超大面积硬性规则补充异常说明"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "建筑面积94436.56㎡已由分项核实；上山院为用户人工确认，小区与异常备注已写入。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079584754723.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 16765.86,
+            "confidence": 1,
+            "evidence": "息表》记载：石狮市石龙路288号世茂摩天城北5号楼1跃4层的建筑面积为14479.28平方米，总层数为4层，所在层数为1-4层，土地使用终止日期为2053年6月19日；石狮市石龙路288号世茂摩天城北5号楼地下一层不动产的建筑面积为2286.58平方米，总层数为4层，所在楼层为-1层，土地使用终止日期为2053年6月19日。 标的物的具体情况及租赁合同情况详见附",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产",
+            "confidence": 1,
+            "evidence": "石狮市石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "世茂摩天城",
+            "confidence": 1,
+            "evidence": "标题及任务小区证据均载有世茂摩天城。",
+            "reason": "小区名称证据明确"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "数据疑似有误：商业建筑面积16765.86㎡超过10000㎡。",
+            "confidence": 1,
+            "evidence": "建筑面积14479.28平方米；建筑面积2286.58平方米；合计=16765.86㎡",
+            "reason": "按超大面积硬性规则补充异常说明"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "两个建筑面积分项合计16765.86㎡；异常说明已写入备注。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073200298425.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 89.56,
+            "confidence": 1,
+            "evidence": "城镇北门街92号的房产【不动产权证书号：闽(2023)永春县不动产权第0001076号】。建筑面积89.56平方米（专有建筑面积87.12平方米，分摊建筑面积2.44平方米），房屋总层数：7层，所在层：1",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "址在永春县桃城镇北门街92号的房产",
+            "confidence": 1,
+            "evidence": "址在永春县桃城镇北门街92号的房产",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "北门街",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“北门街”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为北门街。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311207207",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 230.58,
+            "confidence": 1,
+            "evidence": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 230.58平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 装修情况 简装 房屋户型",
+            "reason": "已有建筑面积证据明确"
+          },
+          "title": {
+            "value": "甘蔗街道滨江西大道88号领海三期2#楼124商业（复式）",
+            "confidence": 1,
+            "evidence": "【一拍】福建省闽侯县甘蔗街道滨江西大道88号领海三期2#楼124商业（复式）",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "领海三期",
+            "confidence": 1,
+            "evidence": "标题或用户人工确认明确小区名称为“领海三期”。",
+            "reason": "采用标题明确项目名或用户人工确认"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "面积已核实；小区名称修正为领海三期。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311027092",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 139.09,
+            "confidence": 1,
+            "evidence": "用户提供页面原文：建筑面积为：139.09平方米",
+            "reason": "人工补证，采用明确建筑面积"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "发拍次数",
+            "value": "一拍",
+            "confidence": 1,
+            "evidence": "用户人工核证：一拍",
+            "reason": "人工确认拍卖轮次"
+          },
+          {
+            "field": "拍卖时间",
+            "value": "2026-09-03T02:28:29Z",
+            "confidence": 1,
+            "evidence": "用户提供页面原文：2026-09-03 10:28:29结束",
+            "reason": "按北京时间换算并写入真实结束时间"
+          },
+          {
+            "field": "报名人数",
+            "value": 7,
+            "confidence": 1,
+            "evidence": "用户提供页面原文：7人报名",
+            "reason": "人工补证"
+          },
+          {
+            "field": "竞买记录",
+            "value": 57,
+            "confidence": 1,
+            "evidence": "用户提供页面原文：出价记录(57)",
+            "reason": "人工补证"
+          },
+          {
+            "field": "起拍价格",
+            "value": 1265719,
+            "confidence": 1,
+            "evidence": "页面明确显示起拍价格1265719元",
+            "reason": "原值误填为成交价，按页面起拍价更正"
+          }
+        ],
+        "requiresHumanReview": false,
+        "otherIssues": [],
+        "summary": "用户人工核证完成（2026-09-04T04:24:51.250Z）：茶园新苑建筑面积、轮次、结束时间、报名人数、出价记录及起拍价格已补齐或更正。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311210981",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "丰明路",
+            "confidence": 1,
+            "evidence": "用户人工确认：小区为丰明路",
+            "reason": "按用户明确核证覆盖原待人工复核状态"
+          }
+        },
+        "otherCorrections": [],
+        "requiresHumanReview": false,
+        "otherIssues": [],
+        "summary": "用户人工核证完成（2026-09-04T04:24:51.250Z）：小区名称为丰明路。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1067288875111.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [
+          {
+            "field": "拍卖时间",
+            "value": "2026-09-03T07:54:24Z",
+            "confidence": 1,
+            "evidence": "详情页明确：结束时间2026/09/03 15:54:24",
+            "reason": "纠正被错误保留的未来结束时间"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "页面复核完成（2026-09-04T04:52:27.043Z）：恒祥大厦1502真实结束时间为2026-09-03 15:54:24。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073200298425.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [
+          {
+            "field": "拍卖时间",
+            "value": "2026-09-03T01:53:55Z",
+            "confidence": 1,
+            "evidence": "详情页明确：结束时间2026/09/03 09:53:55",
+            "reason": "纠正被错误保留的未来结束时间"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "页面复核完成（2026-09-04T04:52:27.043Z）：北门街92号真实结束时间为2026-09-03 09:53:55。"
+      }
+    }
+  ],
+  "updatedAt": "2026-09-04T04:52:27.043Z"
+}

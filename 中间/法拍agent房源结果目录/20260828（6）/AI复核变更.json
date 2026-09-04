@@ -1,0 +1,287 @@
+{
+  "changes": [
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 143.14,
+      "confidence": 0.99,
+      "evidence": "标的物介绍：建筑面积 143.14㎡",
+      "reason": "调查表与公告均明确为建筑面积/总建筑面积。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.228Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "标的名称",
+      "before": "",
+      "after": "泉州市丰泽区宝荣华庭04#2003住宅",
+      "confidence": 0.99,
+      "evidence": "标的名称：泉州市丰泽区宝荣华庭04#2003住宅",
+      "reason": "页面调查表明确列示标的名称。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "宝荣华庭",
+      "confidence": 0.99,
+      "evidence": "标的名称：泉州市丰泽区宝荣华庭04#2003住宅",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "发拍次数",
+      "before": "待核验",
+      "after": "二拍",
+      "confidence": 0.99,
+      "evidence": "【二拍】 泉州市丰泽区宝荣华庭04#2003住宅",
+      "reason": "页面标示二拍。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "起拍价格",
+      "before": null,
+      "after": 784000,
+      "confidence": 0.99,
+      "evidence": "起拍价：¥784,000",
+      "reason": "页面明确列示起拍价。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "评估价",
+      "before": null,
+      "after": 1217978.26,
+      "confidence": 0.99,
+      "evidence": "市场价：￥1,217,978.26；调查表询价1217978.26元",
+      "reason": "页面市场价和调查表询价一致。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "报名人数",
+      "before": null,
+      "after": 0,
+      "confidence": 0.99,
+      "evidence": "0人报名",
+      "reason": "页面明确列示报名人数。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "是否成交",
+      "before": "待核验",
+      "after": "即将开始",
+      "confidence": 0.99,
+      "evidence": "09月14日 10:00:00开始；预告中",
+      "reason": "页面显示预告中，尚未开拍。",
+      "url": "https://paimai.jd.com/311173852",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 947.17,
+      "confidence": 0.99,
+      "evidence": "建筑面积：72.55/874.62共947.17㎡",
+      "reason": "01室、02室两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017807",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 947.17,
+      "confidence": 0.99,
+      "evidence": "建筑面积：72.55/874.62共947.17㎡",
+      "reason": "01室、02室两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017893",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 1033.5,
+      "confidence": 0.99,
+      "evidence": "建筑面积：71.56/961.94共1033.5㎡",
+      "reason": "01单元、02单元两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017846",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 949.61,
+      "confidence": 0.99,
+      "evidence": "建筑面积：72.55/877.06共949.61㎡",
+      "reason": "01室、02室两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017842",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 946.2,
+      "confidence": 0.99,
+      "evidence": "建筑面积：71.56/874.64共946.2㎡",
+      "reason": "01单元、02单元两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017756",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 946.2,
+      "confidence": 0.99,
+      "evidence": "建筑面积：71.56/874.64共946.2㎡",
+      "reason": "01单元、02单元两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017746",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 1018.72,
+      "confidence": 0.99,
+      "evidence": "建筑面积：71.66/947.06共1018.72㎡",
+      "reason": "01单元、02单元两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017679",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 980.62,
+      "confidence": 0.99,
+      "evidence": "建筑面积：72.55/908.07共980.62㎡",
+      "reason": "01室、02室两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017783",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 978.44,
+      "confidence": 0.99,
+      "evidence": "建筑面积：72.55/905.89共978.44㎡",
+      "reason": "01室、02室两套房屋的页面明确合计建筑面积。",
+      "url": "https://paimai.jd.com/311017736",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "闽侯县旧城",
+      "after": "瀛洲花园",
+      "confidence": 0.99,
+      "evidence": "标的名称：甘蔗街道十字街39号闽侯县旧城改造安置房(现:瀛洲花园小区)A6#楼1001单元",
+      "reason": "标题在“现”后明确给出小区名称。",
+      "url": "https://paimai.jd.com/311177567",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": null,
+      "after": "2026/9/29 10:00:00",
+      "confidence": 0.99,
+      "evidence": "预告中；09月29日 10:00:00开始",
+      "reason": "页面明确列示开始时间。",
+      "url": "https://paimai.jd.com/311177567",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "万里",
+      "after": "万里解困小区",
+      "confidence": 0.99,
+      "evidence": "标的名称：福州市仓山区仓山镇万里解困小区4#楼1层15附属间、706单元",
+      "reason": "标题明确给出小区名称。",
+      "url": "https://paimai.jd.com/311175667",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "潭中佳苑",
+      "after": "潭中佳苑五组团",
+      "confidence": 0.99,
+      "evidence": "标的名称：福建省平潭县中楼乡大中村大中1号潭中佳苑五组团24#楼2702室",
+      "reason": "标题明确给出项目及组团名称。",
+      "url": "https://paimai.jd.com/311174910",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": null,
+      "after": "2026/9/15 10:00:00",
+      "confidence": 0.99,
+      "evidence": "预告中；09月15日 10:00:00开始",
+      "reason": "页面明确列示变卖开始时间。",
+      "url": "https://paimai.jd.com/311173753",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": null,
+      "after": "2026/9/12 10:00:00",
+      "confidence": 0.99,
+      "evidence": "预告中；09月12日 10:00:00开始",
+      "reason": "页面明确列示开始时间。",
+      "url": "https://paimai.jd.com/311175400",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "经济技术开发区金盾商住花苑",
+      "after": "金盾商住花苑",
+      "confidence": 0.99,
+      "evidence": "标的名称：福建省泉州市经济技术开发区金盾商住花苑14号楼406",
+      "reason": "标题明确给出小区名称。",
+      "url": "https://paimai.jd.com/311087346",
+      "reviewedAt": "2026-08-28T08:13:18.229Z",
+      "reviewer": "workbench"
+    }
+  ],
+  "anomalies": [
+    {
+      "url": "https://paimai.jd.com/311173852",
+      "reason": "已依据调查表和页面字段补全主房面积、标的名称、小区及可直接确认的交易字段。",
+      "suggestions": [
+        {
+          "field": "竞买记录",
+          "before": null,
+          "after": 0,
+          "confidence": 0.99,
+          "evidence": "出价记录：暂无出价记录！",
+          "reason": "页面无出价记录。"
+        }
+      ],
+      "otherIssues": []
+    }
+  ],
+  "operationalFailures": [],
+  "reviewer": "workbench"
+}

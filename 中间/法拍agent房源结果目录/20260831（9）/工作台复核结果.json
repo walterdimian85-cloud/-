@@ -1,0 +1,365 @@
+{
+  "version": 1,
+  "dateKey": "20260831",
+  "items": [
+    {
+      "url": "https://paimai.jd.com/311024047",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 191,
+            "confidence": 0.99,
+            "evidence": "竞买公告：4套公寓式办公建筑面积分别为47.75㎡，四套合计191㎡",
+            "reason": "合并拍卖四套同类房屋，主面积取四套建筑面积合计"
+          },
+          "title": {
+            "value": "福州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+            "confidence": 0.98,
+            "evidence": "竞买公告：福州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+            "reason": "补回采集标题开头缺失的“福”字"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "公告确认四套建筑面积各47.75㎡，合计191㎡；同时修正标题开头缺字；小区名称“蓝波湾”与公告一致。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311094548",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 78.24,
+            "confidence": 0.99,
+            "evidence": "页面：该房屋建筑面积共78.24平方米，其中专有建筑面积62.54平方米，分摊建筑面积15.70平方米",
+            "reason": "主面积取页面明确的房屋建筑面积总计，不取专有或分摊面积"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "页面确认房屋建筑面积共78.24㎡；未把专有面积62.54㎡或分摊面积15.70㎡作为主面积。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311181572",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三盛国际海岸（一期）",
+            "confidence": 0.97,
+            "evidence": "标题：三盛国际海岸（一期）B区6#1911室",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "由标题明确项目名，将回退值“商住小区”更正为“三盛国际海岸（一期）”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311180985",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“金海湾1#楼301室”，现有小区名称“金海湾”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311180171",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“贵安新天地贵阁苑5幢201单元”，现有小区名称正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311178866",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“潭中佳苑五组团9幢3101室”，现有小区名称“潭中佳苑”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311024057",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "名城港湾",
+            "confidence": 0.97,
+            "evidence": "标题：名城港湾B地块8#楼1502单元",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "原小区名称“名城”截断，按标题更正为“名城港湾”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311024355",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“群升江山城（三期）”，现有小区名称“群升江山城”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310829999",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“英泰第一城B区”，现有小区名称“英泰第一城”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311024198",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“香海新城A区”，现有小区名称“香海新城”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311030766",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题仅载“潭城镇红山居委会荷花庄”，无可靠正式项目名；按规则保留回退值“商住小区”，不猜测。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311008399",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“融信大卫城A区”，现有小区名称“融信大卫城”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310816859",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "万科大樟溪岸",
+            "confidence": 0.97,
+            "evidence": "标题：万科大樟溪岸二期B区29号楼119复式单元",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "由标题明确项目名，将回退值“商住小区”更正为“万科大樟溪岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311002768",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“正荣·悦湖湾（二期）”，现有小区名称“正荣·悦湖湾”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311006085",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "新城丽景",
+            "confidence": 0.97,
+            "evidence": "标题：新城丽景A区6#楼208单元",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "原小区名称“新城”截断，按标题更正为“新城丽景”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311090816",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "阳光城翡丽湾小区",
+            "confidence": 0.97,
+            "evidence": "标题：南屿滨江城二期（现：阳光城翡丽湾小区）102#楼2701单元",
+            "reason": "标题明确标注现用小区名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确标注现名“阳光城翡丽湾小区”，据此更正小区名称。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311006351",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“三盛盛欣苑（福州未来城（二期））”，现有小区名称“三盛盛欣苑”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311009270",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确标注“现：中海凤凰熙岸小区”，现有小区名称正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311082019",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "丹宁顿小镇",
+            "confidence": 0.97,
+            "evidence": "标题：丹宁顿小镇C区7#楼108单元",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "由标题明确项目名，将回退值“商住小区”更正为“丹宁顿小镇”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311009974",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“滨海新苑A幢205室”，现有小区名称“滨海新苑”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311180125",
+      "review": {
+        "fields": {},
+        "otherCorrections": [
+          {
+            "field": "拍卖时间",
+            "value": "2026-09-28 10:00:00",
+            "confidence": 0.99,
+            "evidence": "京东详情页：09月28日 10:00:00开始",
+            "reason": "详情页明确开拍时间"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "补齐详情页明确显示的开拍时间2026-09-28 10:00:00；面积、标题和小区名称证据一致。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311105664",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "钻石·美尔奇小区",
+            "confidence": 0.97,
+            "evidence": "标题：钻石·美尔奇小区2号楼1801室房产及室内物品",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "原小区名称误取地址片段，按标题更正为“钻石·美尔奇小区”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311105702",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题明确出现“星河城（B地块）7号楼302”，现有小区名称“星河城”正确。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310829793",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "泉州保利时光印象",
+            "confidence": 0.97,
+            "evidence": "标题：泉州保利时光印象15#1603室",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "由标题明确项目名，将回退值“商住小区”更正为“泉州保利时光印象”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310829769",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "中海学府世家",
+            "confidence": 0.97,
+            "evidence": "标题：中海学府世家18号楼1001室",
+            "reason": "标题中明确出现正式项目名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "原小区名称“镇中海学府”混入行政词且截断，按标题更正为“中海学府世家”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311185647",
+      "review": {
+        "fields": {},
+        "otherCorrections": [
+          {
+            "field": "拍卖时间",
+            "value": "2026-09-16 10:00:00",
+            "confidence": 0.99,
+            "evidence": "京东详情页：09月16日 10:00:00开始",
+            "reason": "详情页明确变卖开始时间"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "补齐详情页明确显示的变卖开始时间2026-09-16 10:00:00；小区名称“德力城”与标题一致。"
+      }
+    }
+  ]
+}

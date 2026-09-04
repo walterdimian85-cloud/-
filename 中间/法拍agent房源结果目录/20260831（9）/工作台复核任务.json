@@ -1,0 +1,3311 @@
+{
+  "version": 1,
+  "dateKey": "20260831",
+  "generatedAt": "2026-08-31T03:15:13.107Z",
+  "candidateCount": 26,
+  "candidates": [
+    {
+      "url": "https://paimai.jd.com/311024047",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "小区名称需复核",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "马尾区",
+        "标的名称": "州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+        "小区名称（仅供参考）": "蓝波湾",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-31T02:00:00.000Z",
+        "发拍时间": "2026-08-30T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-31T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "福州市台江区人民法院",
+        "面积/㎡": "未找到",
+        "备注": "未找到评估报告",
+        "起拍价格": 1069600,
+        "评估价": 1528000,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311024047",
+        "_capturedAt": "2026-08-31T02:42:05.812Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "未找到",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "蓝波湾",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "州市马尾区马尾镇江滨东大道68-1号蓝波湾2#楼14层17、18、19、20公寓式办公"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "未找到",
+              "element": "建筑面积",
+              "rawText": ""
+            },
+            "ruleId": "area-not-found-v2",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 1528000,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1528000"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311094548",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "南安市",
+        "标的名称": "美林办事处南美南金路万星城市广场11号楼23层2302室的房产",
+        "小区名称（仅供参考）": "万星城市广场",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-30T02:00:00.000Z",
+        "发拍时间": "2026-08-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-30T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "南安市人民法院",
+        "面积/㎡": "未找到",
+        "备注": "需打开网页评估报告提取面积",
+        "起拍价格": 170877,
+        "评估价": 305136,
+        "成交金额": 193081,
+        "竞买记录": 14,
+        "报名人数": 4,
+        "网站链接": "https://paimai.jd.com/311094548",
+        "_capturedAt": "2026-08-31T02:54:04.289Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "未找到",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/54ABB1080EAF1AFF99AD644B9DEEBD0020260812121929264.pdf",
+            "text": "商品房买卖合同.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/5BF25AB6C3B8FE2207D7B6FC50AF4EE320260812121929379.pdf",
+            "text": "执行裁定书.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "美林办事处南美南金路万星城市广场11号楼23层2302室的房产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】福建省南安市美林办事处南美南金路万星城市广场11号楼23层2302室的房产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "万星城市广场",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "美林办事处南美南金路万星城市广场11号楼23层2302室的房产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 14,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(14)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 4,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "4人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "未找到",
+              "element": "建筑面积",
+              "rawText": ""
+            },
+            "ruleId": "area-not-found-v2",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 305136,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：305136"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311181572",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "北厝镇如意路66号三盛国际海岸（一期）B区6#1911室",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-28T02:00:00.000Z",
+        "发拍时间": "2026-09-28T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-29T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 122.03,
+        "备注": "",
+        "起拍价格": 697575,
+        "评估价": 697575.73,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311181572",
+        "_capturedAt": "2026-08-31T02:39:29.466Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "北厝镇如意路66号三盛国际海岸（一期）B区6#1911室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省平潭县北厝镇如意路66号三盛国际海岸（一期）B区6#1911室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "规定回退值",
+              "rawText": "北厝镇如意路66号三盛国际海岸（一期）B区6#1911室"
+            },
+            "ruleId": "community-fallback-v1",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 122.03,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "介绍 1.拍卖对象：平潭县北厝镇如意路66号三盛国际海岸（一期）B区6#1911室房产，房屋建筑面积：122.03平方米。具体情况以现场看样为准。 2.权证编号情况：闽（2024）平潭不动产权第0002729"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 697575.73,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：697575.73"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311180985",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "金井镇诚意路3号金海湾1#楼301室",
+        "小区名称（仅供参考）": "金海湾",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-28T02:00:00.000Z",
+        "发拍时间": "2026-09-28T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-29T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 120.96,
+        "备注": "",
+        "起拍价格": 543068,
+        "评估价": 678835.92,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311180985",
+        "_capturedAt": "2026-08-31T02:39:42.188Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "金井镇诚意路3号金海湾1#楼301室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】平潭县金井镇诚意路3号金海湾1#楼301室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "金海湾",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "金井镇诚意路3号金海湾1#楼301室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 120.96,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 1.拍卖对象：平潭县金井镇诚意路3号金海湾1#楼301室房产，房屋建筑面积：120.96平方米。具体情况以现场看样为准。 2.权证编号情况：无。 3.税费负担情况（成交后可能产生税"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 678835.92,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：678835.92"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311180171",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地贵阁苑5幢201单元",
+        "小区名称（仅供参考）": "贵安新天地贵阁苑",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-29T02:00:00.000Z",
+        "发拍时间": "2026-09-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-30T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 129.42,
+        "备注": "",
+        "起拍价格": 336461,
+        "评估价": 420577.06,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311180171",
+        "_capturedAt": "2026-08-31T02:39:55.358Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "潘渡乡沿江大道1号贵安新天地贵阁苑5幢201单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】连江县潘渡乡沿江大道1号贵安新天地贵阁苑5幢201单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "贵安新天地贵阁苑",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "潘渡乡沿江大道1号贵安新天地贵阁苑5幢201单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 129.42,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 1.拍卖对象：连江县潘渡乡沿江大道1号贵安新天地贵阁苑5幢201单元房产，房屋建筑面积：129.42平方米。具体情况以现场看样为准。 2.权证编号情况：闽(2020)连江县不动产权第001526"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 420577.06,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：420577.06"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311178866",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "中楼乡大中村大中1号潭中佳苑五组团9幢3101室",
+        "小区名称（仅供参考）": "潭中佳苑",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-29T02:00:00.000Z",
+        "发拍时间": "2026-09-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-30T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "武汉市江夏区人民法院",
+        "面积/㎡": 131.32,
+        "备注": "",
+        "起拍价格": 440960,
+        "评估价": 629942,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311178866",
+        "_capturedAt": "2026-08-31T02:40:08.962Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "中楼乡大中村大中1号潭中佳苑五组团9幢3101室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省平潭县中楼乡大中村大中1号潭中佳苑五组团9幢3101室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "潭中佳苑",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "中楼乡大中村大中1号潭中佳苑五组团9幢3101室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 131.32,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "中楼乡大中村大中1号潭中佳苑五组团9幢3101室（拍卖标的物为还建房，暂未办理产权登记）。房屋建筑面积：131.32平方米，房屋规划用途：住宅，标的物位于31层，总层数为31层。 评估价：629942元， 起拍"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 629942,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：629942"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311024057",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "马尾区",
+        "标的名称": "马尾镇快安路128号名城港湾B地块8#楼1502单元",
+        "小区名称（仅供参考）": "名城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-31T02:00:00.000Z",
+        "发拍时间": "2026-08-30T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-31T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "福州市台江区人民法院",
+        "面积/㎡": 96.92,
+        "备注": "",
+        "起拍价格": 814128,
+        "评估价": 1163040,
+        "成交金额": 1022128,
+        "竞买记录": 27,
+        "报名人数": 5,
+        "网站链接": "https://paimai.jd.com/311024057",
+        "_capturedAt": "2026-08-31T02:41:14.722Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "马尾镇快安路128号名城港湾B地块8#楼1502单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福州市马尾区马尾镇快安路128号名城港湾B地块8#楼1502单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "名城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "马尾镇快安路128号名城港湾B地块8#楼1502单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 27,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(27)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 5,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "5人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 96.92,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积为：96.92㎡"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1163040,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1163040"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311024355",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "上街镇新保路13号群升江山城（三期）32#楼105单元",
+        "小区名称（仅供参考）": "群升江山城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-31T02:00:00.000Z",
+        "发拍时间": "2026-08-30T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-31T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "福州市台江区人民法院",
+        "面积/㎡": 125.38,
+        "备注": "",
+        "起拍价格": 1123405,
+        "评估价": 1604864,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311024355",
+        "_capturedAt": "2026-08-31T02:41:40.453Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "上街镇新保路13号群升江山城（三期）32#楼105单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省闽侯县上街镇新保路13号群升江山城（三期）32#楼 105单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "群升江山城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "上街镇新保路13号群升江山城（三期）32#楼105单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 125.38,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "四、拍卖标的：福建省闽侯县上街镇新保路13号群升江山城（三期）32#楼 105单元、建筑面积为：125.38㎡。 拍卖依据文号：（2026）闽0103执1786号执行裁定书。询价方式：定向询价。询价"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1604864,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1604864"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310829999",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "上街镇国宾大道338号英泰第一城B区12#楼205单元",
+        "小区名称（仅供参考）": "英泰第一城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "变卖",
+        "拍卖时间": "2026-08-30T02:00:00.000Z",
+        "发拍时间": "2026-07-02T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-30T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "福州市台江区人民法院",
+        "面积/㎡": 139.3,
+        "备注": "",
+        "起拍价格": 1115514.4,
+        "评估价": 1115514.4,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/310829999",
+        "_capturedAt": "2026-08-31T02:41:53.335Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "上街镇国宾大道338号英泰第一城B区12#楼205单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【变卖】福建省福州市闽侯县上街镇国宾大道338号英泰第一城B区12#楼205单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "英泰第一城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "上街镇国宾大道338号英泰第一城B区12#楼205单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 139.3,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "38号英泰第一城B区12#楼205单元（闽(2020)闽侯县不动产权第0017377号），建筑面积139.3㎡ 特别提醒：1、该标的已腾空，具体交付时间以法院通知为准。房屋状况以实际交付为准，可能存"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1115514.4,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1115514.4"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311024198",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "马尾区",
+        "标的名称": "琅岐镇香海路1号（原琅岐国际旅游度假区雁行江北岸）香海新城A区16#楼103单元",
+        "小区名称（仅供参考）": "香海新城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-31T02:00:00.000Z",
+        "发拍时间": "2026-08-30T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-31T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "福州市台江区人民法院",
+        "面积/㎡": 72.76,
+        "备注": "",
+        "起拍价格": 229194,
+        "评估价": 327420,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311024198",
+        "_capturedAt": "2026-08-31T02:42:32.027Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "琅岐镇香海路1号（原琅岐国际旅游度假区雁行江北岸）香海新城A区16#楼103单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福州市马尾区琅岐镇香海路1号（原琅岐国际旅游度假区雁行江北岸）香海新城A区16#楼103单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "香海新城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "琅岐镇香海路1号（原琅岐国际旅游度假区雁行江北岸）香海新城A区16#楼103单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 72.76,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积为：72.76㎡"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 327420,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：327420"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311030766",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "潭城镇红山居委会荷花庄",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-30T02:00:00.000Z",
+        "发拍时间": "2026-08-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-30T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 655.95,
+        "备注": "",
+        "起拍价格": 4278041,
+        "评估价": 6111486,
+        "成交金额": 4278041,
+        "竞买记录": 1,
+        "报名人数": 1,
+        "网站链接": "https://paimai.jd.com/311030766",
+        "_capturedAt": "2026-08-31T02:42:59.694Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/B582B5F1BA1B6E994DBDE38DB85B660820260729184354427.doc",
+            "text": "平潭县潭城镇红山居委会荷花庄（平潭县人民法院） - 结果报告.doc"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "潭城镇红山居委会荷花庄",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】平潭县潭城镇红山居委会荷花庄"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "规定回退值",
+              "rawText": "潭城镇红山居委会荷花庄"
+            },
+            "ruleId": "community-fallback-v1",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(1)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "1人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 655.95,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 1.拍卖对象：潭城镇红山居委会荷花庄房产，房屋建筑面积：655.95平方米。具体情况以现场看样为准。 2.权证编号情况：闽（2025）平潭不动产权第0004875号"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 6111486,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：6111486"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311008399",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "岚城乡上楼村366号融信大卫城A区A6#2202室",
+        "小区名称（仅供参考）": "融信大卫城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-29T02:00:00.000Z",
+        "发拍时间": "2026-08-28T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-29T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 108.23,
+        "备注": "",
+        "起拍价格": 905850,
+        "评估价": 1132312.62,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311008399",
+        "_capturedAt": "2026-08-31T02:43:25.720Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "岚城乡上楼村366号融信大卫城A区A6#2202室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省平潭县岚城乡上楼村366号融信大卫城A区A6#2202室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "融信大卫城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "岚城乡上楼村366号融信大卫城A区A6#2202室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 108.23,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "品介绍 1.拍卖对象：福建省平潭县岚城乡上楼村366号融信大卫城A区A6#2202室房产，房屋建筑面积：108.23平方米。具体情况以现场看样为准。 2.权证编号情况：20150904 3.税费负担情况：税费以房"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1132312.62,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1132312.62"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310816859",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇赤壁村62号万科大樟溪岸二期B区29号楼119复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "变卖",
+        "拍卖时间": "2026-08-28T08:21:00.000Z",
+        "发拍时间": null,
+        "竞拍结束时间": "2026-08-28T08:21:00.000Z",
+        "是否成交": "是",
+        "处置法院": "福州市晋安区人民法院",
+        "面积/㎡": 124.92,
+        "备注": "",
+        "起拍价格": 238268,
+        "评估价": 425477.64,
+        "成交金额": 238268,
+        "竞买记录": 1,
+        "报名人数": 1,
+        "网站链接": "https://paimai.jd.com/310816859",
+        "_capturedAt": "2026-08-31T02:43:37.860Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/D4CC21E71AB8DAA312EF6D1D7ABD3B4620260611171140043.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/2B728A248A97271C007AB8CDA820C57220260611171140108.pdf",
+            "text": "江苏京东信息技术有限公司询价报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "葛岭镇赤壁村62号万科大樟溪岸二期B区29号楼119复式单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【变卖】福建省永泰县葛岭镇赤壁村62号万科大樟溪岸二期B区29号楼119复式单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "规定回退值",
+              "rawText": "葛岭镇赤壁村62号万科大樟溪岸二期B区29号楼119复式单元"
+            },
+            "ruleId": "community-fallback-v1",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(1)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "1人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 124.92,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积 | 124.92平方米（一手证未办，以房管局出证面积为准）"
+            },
+            "ruleId": "area-table-leading-total-in-value-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 425477.64,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：425477.64"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311002768",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "竹屿湖中路12号正荣·悦湖湾（二期）7幢605室",
+        "小区名称（仅供参考）": "正荣·悦湖湾",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 98.43,
+        "备注": "",
+        "起拍价格": 813358,
+        "评估价": 1016697.09,
+        "成交金额": 929358,
+        "竞买记录": 30,
+        "报名人数": 8,
+        "网站链接": "https://paimai.jd.com/311002768",
+        "_capturedAt": "2026-08-31T02:44:02.680Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "竹屿湖中路12号正荣·悦湖湾（二期）7幢605室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】平潭县竹屿湖中路12号正荣·悦湖湾（二期）7幢605室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "正荣·悦湖湾",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "竹屿湖中路12号正荣·悦湖湾（二期）7幢605室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 30,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(30)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 8,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "8人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 98.43,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 1.拍卖对象：平潭县竹屿湖中路12号正荣·悦湖湾（二期）7幢605室房产，房屋建筑面积：98.43平方米。具体情况以现场看样为准。 2.权证编号情况：闽(2017)平潭不动产证明第0015166"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1016697.09,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1016697.09"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311006085",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "甘蔗街道昙石山中大道118号新城丽景A区6#楼208单元",
+        "小区名称（仅供参考）": "新城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 131.24,
+        "备注": "",
+        "起拍价格": 570000,
+        "评估价": 805525.64,
+        "成交金额": 639000,
+        "竞买记录": 23,
+        "报名人数": 3,
+        "网站链接": "https://paimai.jd.com/311006085",
+        "_capturedAt": "2026-08-31T02:44:14.638Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/78B3805F857DB27546A71B59C56F851020260724104723528.pdf",
+            "text": "459602aaef604bdf9030db8ccf7d76f0 (1).pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/79C06C362081A5E6256275B9952ABE5520260724104723634.pdf",
+            "text": "4e91c9672db54620b40837f1cc2f3ec9.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "甘蔗街道昙石山中大道118号新城丽景A区6#楼208单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】甘蔗街道昙石山中大道118号新城丽景A区6#楼208单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "新城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "甘蔗街道昙石山中大道118号新城丽景A区6#楼208单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 23,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(23)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 3,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "3人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 131.24,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 131.24平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 简装 房屋户"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 805525.64,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：805525.64"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311090816",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "南屿镇乌龙江南大道58-1号南屿滨江城二期（现：阳光城翡丽湾小区）102#楼2701单元",
+        "小区名称（仅供参考）": "南屿滨江城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 94.78,
+        "备注": "",
+        "起拍价格": 705000,
+        "评估价": 1255039.03,
+        "成交金额": 753000,
+        "竞买记录": 9,
+        "报名人数": 3,
+        "网站链接": "https://paimai.jd.com/311090816",
+        "_capturedAt": "2026-08-31T02:45:03.356Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/5FF25786040F64D8BB4B014466CCEA2E20260811171224739.pdf",
+            "text": "江苏京东信息技术有限公司询价报告.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/4AEC035CD4089213A66F30968D38E21E20260811171224778.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "南屿镇乌龙江南大道58-1号南屿滨江城二期（现：阳光城翡丽湾小区）102#楼2701单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】福建省闽侯县南屿镇乌龙江南大道58-1号南屿滨江城二期（现：阳光城翡丽湾小区）102#楼2701单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "南屿滨江城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "南屿镇乌龙江南大道58-1号南屿滨江城二期（现：阳光城翡丽湾小区）102#楼2701单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 9,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(9)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 3,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "3人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 94.78,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《法院裁定书》《成交确认书》 标的物介绍 建筑总面积 94.78平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 简装 房屋户"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1255039.03,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：1255039.03"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311006351",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "马尾区",
+        "标的名称": "琅岐镇芦沙路2号三盛盛欣苑（福州未来城（二期））25#楼305复式单元",
+        "小区名称（仅供参考）": "三盛盛欣苑",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 88.94,
+        "备注": "",
+        "起拍价格": 390000,
+        "评估价": 547872.91,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311006351",
+        "_capturedAt": "2026-08-31T02:45:40.141Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/EEE80431FE75CF48151AE34AE071EF2220260724105631496.pdf",
+            "text": "4d16013508914e348fbf7202a8675478.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/D301EBCBAAE2461CCC42E5CAD1B83F7E20260724105631543.pdf",
+            "text": "c5f096c009604fecb198b43a56707852.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "琅岐镇芦沙路2号三盛盛欣苑（福州未来城（二期））25#楼305复式单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】马尾区琅岐镇芦沙路2号三盛盛欣苑（福州未来城（二期））25#楼305复式单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "三盛盛欣苑",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "琅岐镇芦沙路2号三盛盛欣苑（福州未来城（二期））25#楼305复式单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 88.94,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 88.94平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 毛坯 房屋户"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 547872.91,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：547872.91"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311009270",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "南通镇福通路85号中海凤凰熙岸（现：中海凤凰熙岸小区）5#楼605单元",
+        "小区名称（仅供参考）": "中海凤凰熙岸小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "福州市台江区人民法院",
+        "面积/㎡": 89.49,
+        "备注": "",
+        "起拍价格": 604130,
+        "评估价": 863042,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311009270",
+        "_capturedAt": "2026-08-31T02:45:53.205Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/F68BFC7527574AFAF508D2A89AFA952720260724172044566.pdf",
+            "text": "（法院）闽大地[2026]房地估044号福州市闽侯县南通镇福通路85号中海凤凰熙岸（现：中海凤凰熙岸小区）5#楼605单元房地产市场价格评估.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "南通镇福通路85号中海凤凰熙岸（现：中海凤凰熙岸小区）5#楼605单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福州市闽侯县南通镇福通路85号中海凤凰熙岸（现：中海凤凰熙岸小区）5#楼605单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "中海凤凰熙岸小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "项目名称候选",
+              "rawText": "南通镇福通路85号中海凤凰熙岸（现：中海凤凰熙岸小区）5#楼605单元"
+            },
+            "ruleId": "community-title-suffix-v1",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 89.49,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "标的：福州市闽侯县南通镇福通路85号中海凤凰熙岸（现：中海凤凰熙岸小区）5#楼605单元，建筑面积为：89.49㎡。 拍卖依据文号：(2026)闽0103执恢229号执行裁定书。询价方式：委托评估。询价"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 863042,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：863042"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311082019",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "上街镇工贸路189号丹宁顿小镇C区7#楼108单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": null,
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "东莞市第二人民法院",
+        "面积/㎡": 47.31,
+        "备注": "",
+        "起拍价格": 397379,
+        "评估价": 709604.39,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311082019",
+        "_capturedAt": "2026-08-31T02:46:19.502Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/D6F337F6A6F0D861968F66FD44655B9120260810150720580.pdf",
+            "text": "江苏京东信息技术有限公司询价报告.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/0FFD7AFF925C58832586C78ABF593E5120260810150720631.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "上街镇工贸路189号丹宁顿小镇C区7#楼108单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】闽侯县上街镇工贸路189号丹宁顿小镇C区7#楼108单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "规定回退值",
+              "rawText": "上街镇工贸路189号丹宁顿小镇C区7#楼108单元"
+            },
+            "ruleId": "community-fallback-v1",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 47.31,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "容； 3.买受人需承担过户风险及费用，标的质量以实物为准。 标的物介绍 建筑总面积 47.31平方米 土地总面积 不详 登记日期 -- 装修情况"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 709604.39,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：709604.39"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311009974",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "潭城镇东门庄89号滨海新苑A幢205室",
+        "小区名称（仅供参考）": "滨海新苑",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": null,
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 154.03,
+        "备注": "",
+        "起拍价格": 829452,
+        "评估价": 921613.59,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311009974",
+        "_capturedAt": "2026-08-31T02:46:45.104Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "潭城镇东门庄89号滨海新苑A幢205室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】潭城镇东门庄89号滨海新苑A幢205室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "滨海新苑",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "潭城镇东门庄89号滨海新苑A幢205室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 154.03,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 1.拍卖对象：潭城镇东门庄89号滨海新苑A幢205室房产，房屋建筑面积：154.03平方米。具体情况以现场看样为准。 2.权证编号情况：闽(2022)平潭不动产权第0009160号"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 921613.59,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：921613.59"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311180125",
+      "reasons": [
+        "拍卖时间缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "洛江区",
+        "标的名称": "址于泉州市洛江区双阳街道阳光北路和经五路交叉东北侧大唐世家2号楼2001室",
+        "小区名称（仅供参考）": "大唐世家",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": null,
+        "发拍时间": null,
+        "竞拍结束时间": null,
+        "是否成交": "即将开始",
+        "处置法院": "泉州市洛江区人民法院",
+        "面积/㎡": 105.88,
+        "备注": "",
+        "起拍价格": 566963.49,
+        "评估价": 809947.84,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311180125",
+        "_capturedAt": "2026-08-31T02:48:23.419Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "址于泉州市洛江区双阳街道阳光北路和经五路交叉东北侧大唐世家2号楼2001室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】址于泉州市洛江区双阳街道阳光北路和经五路交叉东北侧大唐世家2号楼2001室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "大唐世家",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "址于泉州市洛江区双阳街道阳光北路和经五路交叉东北侧大唐世家2号楼2001室"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 105.88,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积105.88㎡"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 809947.84,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：809947.84"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "未找到",
+        "_missing": [
+          "拍卖时间"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311105664",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "洛江区",
+        "标的名称": "址于泉州市洛江区万安中心城区万荣街与安平路交叉路口东北侧钻石·美尔奇小区2号楼1801室房产及室内物品",
+        "小区名称（仅供参考）": "址于泉州市洛江区万安中心",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-31T02:00:00.000Z",
+        "发拍时间": null,
+        "竞拍结束时间": "2026-08-31T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "泉州市洛江区人民法院",
+        "面积/㎡": 112.01,
+        "备注": "",
+        "起拍价格": 664979.84,
+        "评估价": 1187464,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311105664",
+        "_capturedAt": "2026-08-31T02:52:19.547Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "址于泉州市洛江区万安中心城区万荣街与安平路交叉路口东北侧钻石·美尔奇小区2号楼1801室房产及室内物品",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】址于泉州市洛江区万安中心城区万荣街与安平路交叉路口东北侧钻石·美尔奇小区2号楼1801室房产及室内物品"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "址于泉州市洛江区万安中心",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "址于泉州市洛江区万安中心城区万荣街与安平路交叉路口东北侧钻石·美尔奇小区2号楼1801室房产及室内物品"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 112.01,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积112.01㎡"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1187464,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1187464"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311105702",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "惠安县",
+        "标的名称": "址于泉州台商投资区百崎乡星河城（B地块）7号楼302房产",
+        "小区名称（仅供参考）": "星河城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-31T02:00:00.000Z",
+        "发拍时间": null,
+        "竞拍结束时间": "2026-08-31T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "泉州市洛江区人民法院",
+        "面积/㎡": 103.35,
+        "备注": "",
+        "起拍价格": 518780.24,
+        "评估价": 926393.29,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/311105702",
+        "_capturedAt": "2026-08-31T02:53:37.649Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "址于泉州台商投资区百崎乡星河城（B地块）7号楼302房产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】址于泉州台商投资区百崎乡星河城（B地块）7号楼302房产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "星河城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "址于泉州台商投资区百崎乡星河城（B地块）7号楼302房产"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 103.35,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积103.35㎡"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 926393.29,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：926393.29"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310829793",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "惠安县",
+        "标的名称": "台商投资区张坂镇泉州保利时光印象15#1603室",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "变卖",
+        "拍卖时间": "2026-08-30T02:00:00.000Z",
+        "发拍时间": "2026-07-01T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-30T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "泉州市丰泽区人民法院",
+        "面积/㎡": 88.87,
+        "备注": "",
+        "起拍价格": 416000,
+        "评估价": 648751,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/310829793",
+        "_capturedAt": "2026-08-31T02:54:30.870Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/80E419B9259B6EC5838B973D0EC6090820260615171843511.pdf",
+            "text": "欣昌（房地）估字第2025QZ073号 人民法院确定财产处置参考价涉及陈建旺位于泉州市台商投资区张坂镇泉州保利时光印象15#1603室住宅房地产市场价值估价.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "台商投资区张坂镇泉州保利时光印象15#1603室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【变卖】泉州市台商投资区张坂镇泉州保利时光印象15#1603室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "规定回退值",
+              "rawText": "台商投资区张坂镇泉州保利时光印象15#1603室"
+            },
+            "ruleId": "community-fallback-v1",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 88.87,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "标的：泉州市台商投资区张坂镇泉州保利时光印象15#1603室（以标的物实际交付现状为准）。总建筑面积：88.87㎡（以权属证明为准）。权属证明：《商品房买卖合同》合同编号：202106070065号。"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 648751,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：648751"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/310829769",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "惠安县",
+        "标的名称": "台商投资区东园镇中海学府世家18号楼1001室",
+        "小区名称（仅供参考）": "镇中海学府",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "变卖",
+        "拍卖时间": "2026-08-30T02:00:00.000Z",
+        "发拍时间": "2026-07-01T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-30T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "泉州市丰泽区人民法院",
+        "面积/㎡": 129.88,
+        "备注": "",
+        "起拍价格": 1064000,
+        "评估价": 1657300,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 0,
+        "网站链接": "https://paimai.jd.com/310829769",
+        "_capturedAt": "2026-08-31T02:56:26.198Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/2AE12733A877FD2734E175ECAFC0C39220260615171827258.pdf",
+            "text": "评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "台商投资区东园镇中海学府世家18号楼1001室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【变卖】泉州市台商投资区东园镇中海学府世家18号楼1001室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "镇中海学府",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "台商投资区东园镇中海学府世家18号楼1001室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "0人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 129.88,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "卖标的：泉州市台商投资区东园镇中海学府世家18号楼1001室（以标的物实际交付现状为准）。总建筑面积：129.88㎡（以权属证明为准）。权属证明：《商品房买卖合同（预售）》合同编号：202205190003"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1657300,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1657300"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311185647",
+      "reasons": [
+        "小区名称需复核",
+        "拍卖时间缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "敖江镇通港大道9号德力城3幢803办公房产",
+        "小区名称（仅供参考）": "德力城",
+        "标的类型": "商业",
+        "平台": "京东拍卖",
+        "发拍次数": "变卖",
+        "拍卖时间": null,
+        "发拍时间": null,
+        "竞拍结束时间": null,
+        "是否成交": "即将开始",
+        "处置法院": "福建省福州市中级人民法院",
+        "面积/㎡": 92.67,
+        "备注": "",
+        "起拍价格": 547399,
+        "评估价": 608221,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311185647",
+        "_capturedAt": "2026-08-31T02:59:21.706Z",
+        "_sourceStatus": "预告中",
+        "_状态分组": "即将开始",
+        "_源分类": "商业用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "敖江镇通港大道9号德力城3幢803办公房产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【变卖】位于福建省连江县敖江镇通港大道9号德力城3幢803办公房产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "德力城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "敖江镇通港大道9号德力城3幢803办公房产"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 92.67,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 一、建筑面积：92.67㎡，（其中专有面积70.61㎡、分摊面积22.06㎡），用途：商务办公，所在楼层8（总楼层2"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 608221,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：608221"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "未找到",
+        "_missing": [
+          "拍卖时间"
+        ]
+      }
+    }
+  ],
+  "resultSchema": {
+    "version": 1,
+    "items": [
+      {
+        "url": "标的链接",
+        "review": {
+          "fields": {},
+          "otherCorrections": [],
+          "otherIssues": [],
+          "requiresHumanReview": false,
+          "summary": ""
+        }
+      }
+    ]
+  }
+}

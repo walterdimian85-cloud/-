@@ -1,0 +1,16 @@
+{
+  "workbookQa": {
+    "outputPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260831（10）\\20260831新增房源信息.xlsx",
+    "totalRows": 156,
+    "upcomingRows": 61,
+    "endedRows": 95,
+    "reviewRows": 9,
+    "keyRange": "成交标的!A1:W31",
+    "formulaErrors": "{\"adapter\":\"standard\",\"structuralFormulaCheck\":\"passed\"}"
+  },
+  "failures": [],
+  "dryRun": false,
+  "lowFrequency": true,
+  "requestIntervalMs": 8000,
+  "stateAdvanced": true
+}

@@ -1,0 +1,2397 @@
+{
+  "version": 1,
+  "dateKey": "20260828",
+  "generatedAt": "2026-08-28T08:05:53.121Z",
+  "candidateCount": 18,
+  "candidates": [
+    {
+      "url": "https://paimai.jd.com/311173852",
+      "reasons": [
+        "面积未找到",
+        "评估价缺失",
+        "面积存在冲突",
+        "标的名称低置信度",
+        "小区名称需复核",
+        "发拍次数缺失",
+        "拍卖时间缺失",
+        "起拍价格缺失",
+        "面积/㎡缺失",
+        "是否成交缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "丰泽区",
+        "标的名称": "",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "待核验",
+        "拍卖时间": null,
+        "发拍时间": null,
+        "竞拍结束时间": null,
+        "是否成交": "待核验",
+        "处置法院": "泉州市丰泽区人民法院",
+        "面积/㎡": "未找到",
+        "备注": "未找到评估报告",
+        "起拍价格": null,
+        "评估价": null,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311173852",
+        "_capturedAt": "2026-08-28T05:09:34.105Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "未找到",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "\n        \n          \n        \n    "
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": true
+          },
+          "小区名称（仅供参考）": {
+            "value": "商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "规定回退值",
+              "rawText": ""
+            },
+            "ruleId": "community-fallback-v1",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "未找到",
+              "element": "建筑面积",
+              "rawText": ""
+            },
+            "ruleId": "area-not-found-v2",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": null,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": ""
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "low",
+            "conflicts": [],
+            "reviewRequired": true
+          }
+        },
+        "_endTimeSource": "未找到",
+        "_missing": [
+          "标的名称",
+          "发拍次数",
+          "拍卖时间",
+          "起拍价格",
+          "评估价",
+          "面积/㎡",
+          "是否成交"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017807",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城一期A15幢01室、02室不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "72.55/874.62共947.17㎡，人工需复核",
+        "起拍价格": 8650400,
+        "评估价": 12357700,
+        "成交金额": 12130400,
+        "竞买记录": 81,
+        "报名人数": 5,
+        "网站链接": "https://paimai.jd.com/311017807",
+        "_capturedAt": "2026-08-28T05:12:26.701Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/8FAAE02A73F914A70807A93CB1F3C02D20260727173136289.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城一期A15幢01室、02室不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城一期A15幢01室、02室不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城一期A15幢01室、02室不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 81,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(81)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 5,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "5人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "826号 登记时间 2021-04-27 房屋性质 商品房 土地权利性质 出让 建筑面积 72.55/874.62共947.17㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2084-04-29 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  72.55,
+                  874.62,
+                  947.17
+                ],
+                "rawExpression": "72.55/874.62共947.17㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 12357700,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：12357700"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017893",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城一期A13幢01室、02室不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "72.55/874.62共947.17㎡，人工需复核",
+        "起拍价格": 8650400,
+        "评估价": 12357700,
+        "成交金额": 12490400,
+        "竞买记录": 84,
+        "报名人数": 5,
+        "网站链接": "https://paimai.jd.com/311017893",
+        "_capturedAt": "2026-08-28T05:12:37.718Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/8717B3A61748ED451862468841E98AB620260727173427477.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城一期A13幢01室、02室不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城一期A13幢01室、02室不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城一期A13幢01室、02室不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 84,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(84)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 5,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "5人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "823号 登记时间 2021-04-27 房屋性质 商品房 土地权利性质 出让 建筑面积 72.55/874.62共947.17㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2084-04-29 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  72.55,
+                  874.62,
+                  947.17
+                ],
+                "rawExpression": "72.55/874.62共947.17㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 12357700,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：12357700"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017846",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城I-A-52幢01单元、02单元不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "71.56/961.94共1033.5㎡，人工需复核",
+        "起拍价格": 8880800,
+        "评估价": 12686200,
+        "成交金额": 11560800,
+        "竞买记录": 51,
+        "报名人数": 6,
+        "网站链接": "https://paimai.jd.com/311017846",
+        "_capturedAt": "2026-08-28T05:12:50.848Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/AB0F851B5A0641A8F8509A2A96FCBF2420260727173248804.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城I-A-52幢01单元、02单元不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城I-A-52幢01单元、02单元不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城I-A-52幢01单元、02单元不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 51,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(51)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 6,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "6人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "004号 登记时间 2018-03-14 房屋性质 商品房 土地权利性质 出让 建筑面积 71.56/961.94共1033.5㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2083-06-19 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  71.56,
+                  961.94,
+                  1033.5
+                ],
+                "rawExpression": "71.56/961.94共1033.5㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 12686200,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：12686200"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017842",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城一期A16幢01室、02室不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "72.55/877.06共949.61㎡，人工需复核",
+        "起拍价格": 8325800,
+        "评估价": 11893900,
+        "成交金额": 11165800,
+        "竞买记录": 52,
+        "报名人数": 5,
+        "网站链接": "https://paimai.jd.com/311017842",
+        "_capturedAt": "2026-08-28T05:13:03.668Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/C3CDEFB91486777C92D3137704FBBFCF20260727173243832.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城一期A16幢01室、02室不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城一期A16幢01室、02室不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城一期A16幢01室、02室不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 52,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(52)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 5,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "5人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "828号 登记时间 2021-04-27 房屋性质 商品房 土地权利性质 出让 建筑面积 72.55/877.06共949.61㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2084-04-29 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  72.55,
+                  877.06,
+                  949.61
+                ],
+                "rawExpression": "72.55/877.06共949.61㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 11893900,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：11893900"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017756",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城I-A-25幢01单元、02单元不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "71.56/874.64共946.2㎡，人工需复核",
+        "起拍价格": 8296000,
+        "评估价": 11851200,
+        "成交金额": 10456000,
+        "竞买记录": 46,
+        "报名人数": 6,
+        "网站链接": "https://paimai.jd.com/311017756",
+        "_capturedAt": "2026-08-28T05:13:14.843Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/B48B0DD84D7F8AF70B320FB1E5B8899C20260727173025889.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城I-A-25幢01单元、02单元不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城I-A-25幢01单元、02单元不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城I-A-25幢01单元、02单元不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 46,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(46)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 6,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "6人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "991号 登记时间 2018-03-14 房屋性质 商品房 土地权利性质 出让 建筑面积 71.56/874.64共946.2㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2083-06-19 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  71.56,
+                  874.64,
+                  946.2
+                ],
+                "rawExpression": "71.56/874.64共946.2㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 11851200,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：11851200"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017746",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城I-A-39幢01单元、02单元不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "71.56/874.64共946.2㎡，人工需复核",
+        "起拍价格": 8296000,
+        "评估价": 11851200,
+        "成交金额": 8296000,
+        "竞买记录": 1,
+        "报名人数": 3,
+        "网站链接": "https://paimai.jd.com/311017746",
+        "_capturedAt": "2026-08-28T05:14:14.057Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/2F61AD8B44E054933D205FE9A67E804C20260727172953359.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城I-A-39幢01单元、02单元不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城I-A-39幢01单元、02单元不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城I-A-39幢01单元、02单元不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(1)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 3,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "3人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "117号 登记时间 2018-03-13 房屋性质 商品房 土地权利性质 出让 建筑面积 71.56/874.64共946.2㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2083-06-19 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  71.56,
+                  874.64,
+                  946.2
+                ],
+                "rawExpression": "71.56/874.64共946.2㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 11851200,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：11851200"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017679",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "71.66/947.06共1018.72㎡，人工需复核",
+        "起拍价格": 8754000,
+        "评估价": 12504800,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 1,
+        "网站链接": "https://paimai.jd.com/311017679",
+        "_capturedAt": "2026-08-28T05:14:48.721Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/0CB766B173631C3EAE0BF481A53A66DA20260727172836087.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "1人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "127号 登记时间 2018-03-13 房屋性质 商品房 土地权利性质 出让 建筑面积 71.66/947.06共1018.72㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2083-06-19 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  71.66,
+                  947.06,
+                  1018.72
+                ],
+                "rawExpression": "71.66/947.06共1018.72㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 12504800,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：12504800"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017783",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城一期A20幢01室、02室不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "72.55/908.07共980.62㎡，人工需复核",
+        "起拍价格": 8597700,
+        "评估价": 12282300,
+        "成交金额": 8597700,
+        "竞买记录": 1,
+        "报名人数": 2,
+        "网站链接": "https://paimai.jd.com/311017783",
+        "_capturedAt": "2026-08-28T05:15:37.518Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/6865B872DBEA23C7895D1175D7EE322E20260727173054801.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城一期A20幢01室、02室不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城一期A20幢01室、02室不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城一期A20幢01室、02室不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(1)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 2,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "2人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "812号 登记时间 2021-04-27 房屋性质 商品房 土地权利性质 出让 建筑面积 72.55/908.07共980.62㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2084-04-29 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  72.55,
+                  908.07,
+                  980.62
+                ],
+                "rawExpression": "72.55/908.07共980.62㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 12282300,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：12282300"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311017736",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城一期A17幢01室、02室不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "否",
+        "处置法院": "江苏省南京市中级人民法院",
+        "面积/㎡": "未找到",
+        "备注": "72.55/905.89共978.44㎡，人工需复核",
+        "起拍价格": 8578500,
+        "评估价": 12255000,
+        "成交金额": 0,
+        "竞买记录": 0,
+        "报名人数": 1,
+        "网站链接": "https://paimai.jd.com/311017736",
+        "_capturedAt": "2026-08-28T05:16:15.270Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/6092A8AECFF5BE18621B42EBB275C5D020260730154957674.pdf",
+            "text": "福建省石狮市石龙路288号世茂摩天城一期23套别墅不动产评估报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "石龙路288号世茂摩天城一期A17幢01室、02室不动产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省石狮市石龙路288号世茂摩天城一期A17幢01室、02室不动产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "世茂摩天城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "石龙路288号世茂摩天城一期A17幢01室、02室不动产"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 0,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(0)"
+            },
+            "ruleId": "participation-unsold-zero-bids-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "1人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": null,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "830号 登记时间 2021-04-27 房屋性质 商品房 土地权利性质 出让 建筑面积 72.55/905.89共978.44㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2084-04-29 权利类型 国有建设用地"
+            },
+            "ruleId": "area-compound-values-unresolved-v2",
+            "confidence": "low",
+            "conflicts": [
+              {
+                "type": "compound-area-values-unresolved",
+                "values": [
+                  72.55,
+                  905.89,
+                  978.44
+                ],
+                "rawExpression": "72.55/905.89共978.44㎡"
+              }
+            ],
+            "reviewRequired": true
+          },
+          "评估价": {
+            "value": 12255000,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：12255000"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": [
+          "面积/㎡"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311177567",
+      "reasons": [
+        "小区名称需复核",
+        "拍卖时间缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元",
+        "小区名称（仅供参考）": "闽侯县旧城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": null,
+        "发拍时间": null,
+        "竞拍结束时间": null,
+        "是否成交": "即将开始",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 135.98,
+        "备注": "",
+        "起拍价格": 350000,
+        "评估价": 491249.31,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311177567",
+        "_capturedAt": "2026-08-28T05:02:42.715Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": false,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/3F24085C96874A001227D2AA770F123320260828110237945.pdf",
+            "text": "江苏京东信息技术有限公司询价报告.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/535F969D32CFAB7AD07C8F0A72D97CE820260828110238027.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】甘蔗街道十字街39号闽侯县旧城改造安置房(现:瀛洲花园小区)A6#楼1001单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "闽侯县旧城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 135.98,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 135.98平方米（以房管局出证面积为准） 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 491249.31,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：491249.31"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "未找到",
+        "_missing": [
+          "拍卖时间"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311175667",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "仓山镇万里解困小区4#楼1层15附属间、706单元",
+        "小区名称（仅供参考）": "万里",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-29T02:00:00.000Z",
+        "发拍时间": "2026-09-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-30T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 68.71,
+        "备注": "",
+        "起拍价格": 515000,
+        "评估价": 730153.69,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311175667",
+        "_capturedAt": "2026-08-28T05:03:22.585Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": false,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/43FE1924D8A54942E27476A10F79C2A320260827183537721.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告 (35).pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/4B2AE61D9CEAA8674D4814F1ADD0329220260827183537777.pdf",
+            "text": "江苏京东信息技术有限公司询价报告 (32).pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "仓山镇万里解困小区4#楼1层15附属间、706单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福州市仓山区仓山镇万里解困小区4#楼1层15附属间、706单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "万里",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "仓山镇万里解困小区4#楼1层15附属间、706单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 68.71,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 68.71平方米（房子64.39平方米，附属间4.32平方米） 公摊总面积 实际产生为准 土地总面积 实际"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 730153.69,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：730153.69"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311174910",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "中楼乡大中村大中1号潭中佳苑五组团24#楼2702室",
+        "小区名称（仅供参考）": "潭中佳苑",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-09-13T02:00:00.000Z",
+        "发拍时间": "2026-09-13T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-14T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "平潭县人民法院",
+        "面积/㎡": 132.09,
+        "备注": "",
+        "起拍价格": 476901,
+        "评估价": 662362.14,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311174910",
+        "_capturedAt": "2026-08-28T05:03:48.127Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "中楼乡大中村大中1号潭中佳苑五组团24#楼2702室",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】福建省平潭县中楼乡大中村大中1号潭中佳苑五组团24#楼2702室"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "潭中佳苑",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "中楼乡大中村大中1号潭中佳苑五组团24#楼2702室"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 132.09,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "拍品介绍 1.拍卖对象：平潭县中楼乡大中村大中1号潭中佳苑五组团24#楼2702室房产，房屋建筑面积：132.09平方米，具体情况以现场看样为准。 2.权证编号情况：权证号：闽(2021)平潭不动产证明第00"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 662362.14,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：662362.14"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311173753",
+      "reasons": [
+        "拍卖时间缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "晋安区",
+        "标的名称": "新店镇福飞北路189号福晟·钱隆御景（二期）9#楼106单元",
+        "小区名称（仅供参考）": "福晟·钱隆御景",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "变卖",
+        "拍卖时间": null,
+        "发拍时间": null,
+        "竞拍结束时间": null,
+        "是否成交": "即将开始",
+        "处置法院": "福州市仓山区人民法院",
+        "面积/㎡": 119.91,
+        "备注": "",
+        "起拍价格": 1007244,
+        "评估价": 1798650,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311173753",
+        "_capturedAt": "2026-08-28T05:04:12.110Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "新店镇福飞北路189号福晟·钱隆御景（二期）9#楼106单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【变卖】晋安区新店镇福飞北路189号福晟·钱隆御景（二期）9#楼106单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "福晟·钱隆御景",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "新店镇福飞北路189号福晟·钱隆御景（二期）9#楼106单元"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 119.91,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "制情况 查封 被仓山区人民法院查封 抵押 有 提供的文件 《拍卖成交确认书》 标的物介绍 建筑总面积 119.91平方米 公摊总面积 不详 土地总面积 不详 房产年龄 不详 装修情况 精装 房屋户型 以实际看样"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 1798650,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：1798650"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "未找到",
+        "_missing": [
+          "拍卖时间"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311177664",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "南安市",
+        "标的名称": "诗山镇山二村富贵世家商住小区11号楼6层602室的房产",
+        "小区名称（仅供参考）": "富贵世家商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-29T02:00:00.000Z",
+        "发拍时间": "2026-09-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-30T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "南安市人民法院",
+        "面积/㎡": 109.56,
+        "备注": "",
+        "起拍价格": 306768,
+        "评估价": 438240,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311177664",
+        "_capturedAt": "2026-08-28T05:05:38.506Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/AFD6B7CD34E9CA79489CAAD418D9556420260828110453233.pdf",
+            "text": "不动产权证书.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/363368F0292073B597CF814AF9AAAA8320260828110453322.pdf",
+            "text": "执行裁定书.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "诗山镇山二村富贵世家商住小区11号楼6层602室的房产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福建省南安市诗山镇山二村富贵世家商住小区11号楼6层602室的房产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "富贵世家商住小区",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "诗山镇山二村富贵世家商住小区11号楼6层602室的房产"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 109.56,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "该房屋的用途为成套住宅，房屋属钢筋混凝土结构，位于所在建筑第6层，建筑总层数18层。 该房屋建筑面积共109.56平方米，其中，专有建筑面积89.80平方米，分摊建筑面积19.76平方米。 拍品详细情况请参照"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 438240,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：438240"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311175400",
+      "reasons": [
+        "拍卖时间缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "泉港区",
+        "标的名称": "前黄镇通站路西侧晶鑫华庭1#楼302房产",
+        "小区名称（仅供参考）": "晶鑫华庭",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": null,
+        "发拍时间": null,
+        "竞拍结束时间": null,
+        "是否成交": "即将开始",
+        "处置法院": "泉州市泉港区人民法院",
+        "面积/㎡": 141.54,
+        "备注": "",
+        "起拍价格": 350000,
+        "评估价": 578291.12,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311175400",
+        "_capturedAt": "2026-08-28T05:06:55.001Z",
+        "_sourceStatus": "",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "标的物调查表表格",
+        "_participationExtractionAttempted": false,
+        "_attachments": [],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "前黄镇通站路西侧晶鑫华庭1#楼302房产",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】泉港区前黄镇通站路西侧晶鑫华庭1#楼302房产"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "晶鑫华庭",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的物详情/竞买公告",
+              "element": "小区名称明确字段",
+              "rawText": "晶鑫华庭"
+            },
+            "ruleId": "community-explicit-detail-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 141.54,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "标的物调查表表格",
+              "element": "建筑面积",
+              "rawText": "3 面积 141.54㎡"
+            },
+            "ruleId": "area-text-labeled-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 578291.12,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：578291.12"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "未找到",
+        "_missing": [
+          "拍卖时间"
+        ]
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311087346",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "鲤城区",
+        "标的名称": "经济技术开发区金盾商住花苑14号楼406",
+        "小区名称（仅供参考）": "经济技术开发区金盾商住花苑",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "福建省泉州市中级人民法院",
+        "面积/㎡": 151.83,
+        "备注": "",
+        "起拍价格": 437000,
+        "评估价": 779875,
+        "成交金额": 481000,
+        "竞买记录": 12,
+        "报名人数": 2,
+        "网站链接": "https://paimai.jd.com/311087346",
+        "_capturedAt": "2026-08-28T05:13:28.042Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/AA8706F6165AA0F12C9D45CE91F6B8FC20260811121100458.pdf",
+            "text": "江苏京东信息技术有限公司询价报告.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/1DCBCB7204328D4ECD5D654869B0006F20260811121100546.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "经济技术开发区金盾商住花苑14号楼406",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】福建省泉州市经济技术开发区金盾商住花苑14号楼406"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "经济技术开发区金盾商住花苑",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "经济技术开发区金盾商住花苑14号楼406"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 12,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(12)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 2,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "2人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 151.83,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "建筑面积 | 151.83㎡"
+            },
+            "ruleId": "area-table-adjacent-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 779875,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：779875"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311082404",
+      "reasons": [
+        "小区名称需复核"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "南安市",
+        "标的名称": "水头镇林炳片区C地块改造工程（怡景园）3号楼11层1112室的房产及室内物品",
+        "小区名称（仅供参考）": "怡景园",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "二拍",
+        "拍卖时间": "2026-08-28T02:00:00.000Z",
+        "发拍时间": "2026-08-27T02:00:00.000Z",
+        "竞拍结束时间": "2026-08-28T02:00:00.000Z",
+        "是否成交": "是",
+        "处置法院": "南安市人民法院",
+        "面积/㎡": 92.27,
+        "备注": "",
+        "起拍价格": 258687,
+        "评估价": 461940,
+        "成交金额": 258687,
+        "竞买记录": 1,
+        "报名人数": 2,
+        "网站链接": "https://paimai.jd.com/311082404",
+        "_capturedAt": "2026-08-28T05:14:25.742Z",
+        "_sourceStatus": "",
+        "_状态分组": "已结束",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面表格建筑面积列",
+        "_participationExtractionAttempted": true,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/9061503FA49C3C380458CF051A5A4CD520260810153832182.pdf",
+            "text": "不动产权证书.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/E8737F5B3ABFC961684C7F6C951C7D8F20260810153832301.docx",
+            "text": "评估报告.docx"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/23BF253B7A3CB95C21456E329BE62E3620260810153832505.pdf",
+            "text": "执行裁定书.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "水头镇林炳片区C地块改造工程（怡景园）3号楼11层1112室的房产及室内物品",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【二拍】福建省南安市水头镇林炳片区C地块改造工程（怡景园）3号楼11层1112室的房产及室内物品"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "怡景园",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "项目名称候选",
+              "rawText": "水头镇林炳片区C地块改造工程（怡景园）3号楼11层1112室的房产及室内物品"
+            },
+            "ruleId": "community-title-suffix-v1",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "竞买记录": {
+            "value": 1,
+            "dataType": "integer",
+            "unit": "次",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞买记录标签",
+              "element": "竞买记录（N）",
+              "rawText": "出价记录(1)"
+            },
+            "ruleId": "participation-bid-tab-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "报名人数": {
+            "value": 2,
+            "dataType": "integer",
+            "unit": "人",
+            "source": {
+              "platform": "jd",
+              "section": "详情页价格区下方统计栏",
+              "element": "N人报名",
+              "rawText": "2人报名"
+            },
+            "ruleId": "participation-registration-counter-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 92.27,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面表格建筑面积列",
+              "element": "建筑面积",
+              "rawText": "房屋结构：钢筋混凝土 房屋建筑面积：92.27㎡ 房屋总层数：16 所在层：11 产权来源：购买商品房"
+            },
+            "ruleId": "area-table-same-cell-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 461940,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "评估价",
+              "rawText": "评估价：461940"
+            },
+            "ruleId": "jd-assessment-price-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    }
+  ],
+  "resultSchema": {
+    "version": 1,
+    "items": [
+      {
+        "url": "标的链接",
+        "review": {
+          "fields": {},
+          "otherCorrections": [],
+          "otherIssues": [],
+          "requiresHumanReview": false,
+          "summary": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "dateKey": "20260831",
+  "anomalies": [
+    {
+      "url": "https://paimai.jd.com/311190671",
+      "reason": "工作台建议人工复核",
+      "suggestions": [
+        {
+          "field": "评估价",
+          "before": null,
+          "after": 853080,
+          "confidence": 0,
+          "evidence": "评估价：853,080",
+          "reason": "页面评估价/市场价"
+        },
+        {
+          "field": "起拍价格",
+          "before": null,
+          "after": 597156,
+          "confidence": 0,
+          "evidence": "起拍价：597,156",
+          "reason": "页面起拍价"
+        }
+      ],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311024047",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017807",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017893",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017846",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017842",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017756",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017746",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017679",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017783",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311017736",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "面积证据不足/口径不明，需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311030766",
+      "reason": "工作台建议人工复核",
+      "suggestions": [],
+      "otherIssues": [
+        "小区名无可靠项目名（社区/街道非小区），需人工确认"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311185647",
+      "reason": "工作台建议人工复核",
+      "suggestions": [
+        {
+          "field": "起拍价格",
+          "before": null,
+          "after": 547399,
+          "confidence": 0,
+          "evidence": "起拍价：547399",
+          "reason": "页面起拍价"
+        }
+      ],
+      "otherIssues": []
+    }
+  ],
+  "operationalFailures": [],
+  "changes": [
+    {
+      "field": "面积/㎡",
+      "before": "未找到",
+      "after": 174.02,
+      "confidence": 0.95,
+      "evidence": "建筑面积174.02",
+      "reason": "页面建筑面积证据",
+      "url": "https://paimai.jd.com/311080429",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "中海寰宇天下",
+      "confidence": 0.9,
+      "evidence": "上街镇高新大道1-1号中海寰宇天下22#楼",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311186389",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "三盛国际海岸",
+      "confidence": 0.9,
+      "evidence": "北厝镇如意路66号三盛国际海岸",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311181572",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "闽侯县旧城",
+      "after": "瀛洲花园小区",
+      "confidence": 0.9,
+      "evidence": "闽侯县旧城改造安置房（现:瀛洲花园小区）",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311177567",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "万里",
+      "after": "万里解困小区",
+      "confidence": 0.9,
+      "evidence": "仓山镇万里解困小区",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311175667",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "名城",
+      "after": "名城港湾",
+      "confidence": 0.9,
+      "evidence": "马尾镇快安路128号名城港湾B地块",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311024057",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "万科大樟溪岸",
+      "confidence": 0.9,
+      "evidence": "葛岭镇赤壁村62号万科大樟溪岸",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/310816859",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "中海凤凰熙岸小区",
+      "after": "中海凤凰熙岸",
+      "confidence": 0.9,
+      "evidence": "南通镇福通路85号中海凤凰熙岸",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311009270",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "丹宁顿小镇",
+      "confidence": 0.9,
+      "evidence": "上街镇工贸路189号丹宁顿小镇",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311082019",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "青华小区",
+      "after": "嘉诚鞋城",
+      "confidence": 0.9,
+      "evidence": "青阳街道青华小区嘉诚鞋城",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311190677",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "富贵世家商住小区",
+      "after": "富贵世家",
+      "confidence": 0.9,
+      "evidence": "诗山镇山二村富贵世家商住小区",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311177664",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "址于泉州市洛江区万安中心",
+      "after": "万安中心城区",
+      "confidence": 0.9,
+      "evidence": "洛江区万安中心城区万荣街",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311105664",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "保利时光印象",
+      "confidence": 0.9,
+      "evidence": "张坂镇泉州保利时光印象",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/310829793",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "镇中海学府",
+      "after": "中海学府世家",
+      "confidence": 0.9,
+      "evidence": "东园镇中海学府世家",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/310829769",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "经济技术开发区金盾商住花苑",
+      "after": "金盾商住花苑",
+      "confidence": 0.9,
+      "evidence": "经济技术开发区金盾商住花苑",
+      "reason": "标题项目名/现名",
+      "url": "https://paimai.jd.com/311087346",
+      "reviewedAt": "2026-08-31T10:34:18.252Z",
+      "reviewer": "workbench"
+    }
+  ]
+}

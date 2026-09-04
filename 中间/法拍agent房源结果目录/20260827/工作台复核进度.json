@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "taskId": "9ee8836e-828f-4a8c-b7d0-9c1120d477f0",
+  "batchId": "20260827-27f7acf6-6893-4430-aedd-050464b9f047",
+  "status": "completed",
+  "total": 42,
+  "processed": 42,
+  "remaining": 0,
+  "changes": 37,
+  "anomalies": 15,
+  "failures": 0,
+  "currentUrl": null,
+  "summary": {
+    "headline": "等待外部工作台开始复核",
+    "keyFindings": []
+  },
+  "updatedAt": "2026-08-27T05:21:46.301Z",
+  "completedAt": "2026-08-27T05:21:46.301Z"
+}

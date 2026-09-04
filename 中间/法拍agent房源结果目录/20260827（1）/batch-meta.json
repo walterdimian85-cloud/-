@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "taskId": "ae082318-4b14-43ae-b09c-b3c41ffcb023",
+  "batchId": "20260827-18587ec2-176d-4904-ae4a-72d6699e8a23",
+  "dateKey": "20260827",
+  "runName": "20260827（1）",
+  "batchDirectory": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（1）",
+  "workbookPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（1）\\20260827新增房源信息.xlsx",
+  "progressPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（1）\\采集进度.json",
+  "reportPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（1）\\每日摘要与异常报告.md",
+  "createdAt": "2026-08-27T05:29:27.014Z",
+  "selectedStatuses": [
+    "即将开始",
+    "已结束"
+  ],
+  "statusScope": "all",
+  "statusLabel": "即将开始 + 已结束",
+  "status": "failed",
+  "expectedGroupCount": 2,
+  "collection": {
+    "platform": "alibaba_pc",
+    "maxRuntimeMinutes": 240,
+    "maxRetries": 5,
+    "userActionTimeoutMinutes": 60,
+    "warnAtRecords": 500,
+    "stopAtRecords": 800,
+    "pauseGraceSeconds": 90,
+    "heartbeatSeconds": 15,
+    "pollSeconds": 5,
+    "category": "住宅用房,商业用房,工业用房",
+    "status": "即将开始,已结束",
+    "selectedStatuses": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxItems": null,
+    "maxPages": null,
+    "dryRun": false,
+    "skipHistoricalRefresh": true,
+    "preScan": false,
+    "alibabaPc": {
+      "includeBankruptcy": true
+    },
+    "scope": {
+      "mode": "custom",
+      "province": "福建省",
+      "cities": [
+        "泉州市"
+      ],
+      "anchors": {
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:即将开始:泉州市": "https://sf-item.taobao.com/sf_item/1076634867823.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.6&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=1ed3091c-743e-4e3b-ada1-66f1fa11ef36",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:已结束:泉州市": "https://sf-item.taobao.com/sf_item/1073753548560.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.1&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=32e1c8cf-97ba-44f0-94a7-6caa7bb8ff65"
+      },
+      "platforms": [
+        "alibaba_pc"
+      ],
+      "selectedStatuses": [
+        "即将开始",
+        "已结束"
+      ],
+      "includeBankruptcy": true,
+      "anchorsConsumed": false
+    }
+  },
+  "updatedAt": "2026-08-27T06:14:58.651Z",
+  "phase": "detail_collection",
+  "statusMessage": "本次已扫描 1/2 个分组，其中 1/2 个命中高水位。断点和已采集记录均已保留，请继续上次采集以重新验证未完成分组。",
+  "startedAt": "2026-08-27T06:14:24.289Z",
+  "completedAt": null,
+  "failedAt": null
+}

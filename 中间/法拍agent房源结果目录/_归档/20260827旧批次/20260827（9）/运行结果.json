@@ -1,0 +1,45 @@
+{
+  "workbookQa": {
+    "outputPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（9）\\20260827新增房源信息.xlsx",
+    "totalRows": 0,
+    "upcomingRows": 0,
+    "endedRows": 0,
+    "reviewRows": 0,
+    "keyRange": "成交标的!A1:W1",
+    "formulaErrors": "{\"adapter\":\"standard\",\"structuralFormulaCheck\":\"passed\"}"
+  },
+  "failures": [
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "住宅用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "住宅用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "商业用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "商业用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    }
+  ],
+  "dryRun": false,
+  "lowFrequency": true,
+  "requestIntervalMs": 8000,
+  "stateAdvanced": false
+}

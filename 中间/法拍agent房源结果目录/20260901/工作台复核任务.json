@@ -1,0 +1,2449 @@
+{
+  "version": 2,
+  "taskId": "9d2e54ad-1a45-41d0-be1d-2b9e680fd596",
+  "batchId": "20260901-8bf6b16e-cacb-4987-af8c-c647aa220d74",
+  "dateKey": "20260901",
+  "runName": "20260901",
+  "workbookPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260901\\20260901新增房源信息.xlsx",
+  "generatedAt": "2026-09-01T03:14:57.132Z",
+  "candidateCount": 36,
+  "candidates": [
+    {
+      "url": "https://paimai.jd.com/311192862",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 7003200,
+        "评估价": 12504800,
+        "备注": "71.66/947.06共1018.72㎡，人工需复核",
+        "网站链接": "https://paimai.jd.com/311192862",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "127号 登记时间 2018-03-13 房屋性质 商品房 土地权利性质 出让 建筑面积 71.66/947.06共1018.72㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2083-06-19 权利类型 国有建设用地"
+          },
+          "ruleId": "area-compound-values-unresolved-v2",
+          "confidence": "low",
+          "conflicts": [
+            {
+              "type": "compound-area-values-unresolved",
+              "values": [
+                71.66,
+                947.06,
+                1018.72
+              ],
+              "rawExpression": "71.66/947.06共1018.72㎡"
+            }
+          ],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省石狮市石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "世茂摩天城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "石龙路288号世茂摩天城I-A-32幢01单元、02单元不动产"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311192659",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城一期A17幢01室、02室不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 6862800,
+        "评估价": 12255000,
+        "备注": "72.55/905.89共978.44㎡，人工需复核",
+        "网站链接": "https://paimai.jd.com/311192659",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "830号 登记时间 2021-04-27 房屋性质 商品房 土地权利性质 出让 建筑面积 72.55/905.89共978.44㎡ 房屋用途 城镇住宅用地/成套住宅 终止日期 2084-04-29 权利类型 国有建设用地"
+          },
+          "ruleId": "area-compound-values-unresolved-v2",
+          "confidence": "low",
+          "conflicts": [
+            {
+              "type": "compound-area-values-unresolved",
+              "values": [
+                72.55,
+                905.89,
+                978.44
+              ],
+              "rawExpression": "72.55/905.89共978.44㎡"
+            }
+          ],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "石龙路288号世茂摩天城一期A17幢01室、02室不动产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省石狮市石龙路288号世茂摩天城一期A17幢01室、02室不动产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "世茂摩天城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "石龙路288号世茂摩天城一期A17幢01室、02室不动产"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078095703082.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "小区名称需复核（先核对标题证据和小区名单）",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "金山街道浦上大道418号金山生活区八期南片（红树林二期暨泰禾·红峪）A-17#楼205单元、206单元房产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 1595552,
+        "评估价": 2279360,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078095703082.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "金山街道浦上大道418号金山生活区八期南片（红树林二期暨泰禾·红峪）A-17#楼205单元、206单元房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "仓山区金山街道浦上大道418号金山生活区八期南片（红树林二期暨泰禾·红峪）A-17#楼205单元、206单元房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "金山街道浦上大道418号金山生活区八期南片（红树林二期暨泰禾·红峪）A-17#楼205单元、206单元房产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078946802526.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽清县",
+        "标的名称": "闽江大道1号闽清理想湾11#楼412单元",
+        "小区名称（仅供参考）": "闽清理想湾",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 406320,
+        "评估价": 507900,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078946802526.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "闽江大道1号闽清理想湾11#楼412单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "闽清县闽江大道1号闽清理想湾11#楼412单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "闽清理想湾",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "闽江大道1号闽清理想湾11#楼412单元"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079996065801.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "长乐区",
+        "标的名称": "航城街道江莲路7号乐信花园A4-6#楼1003单元",
+        "小区名称（仅供参考）": "乐信花园",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 640000,
+        "评估价": 913095,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079996065801.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "航城街道江莲路7号乐信花园A4-6#楼1003单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市长乐区航城街道江莲路7号乐信花园A4-6#楼1003单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "乐信花园",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "航城街道江莲路7号乐信花园A4-6#楼1003单元"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080993292510.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "长乐区",
+        "标的名称": "首占镇会堂南路89号长乐名城7#楼3303单元及地下室804车位",
+        "小区名称（仅供参考）": "长乐名城",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 910000,
+        "评估价": 1613063,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080993292510.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "首占镇会堂南路89号长乐名城7#楼3303单元及地下室804车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市长乐区首占镇会堂南路89号长乐名城7#楼3303单元及地下室804车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "长乐名城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "首占镇会堂南路89号长乐名城7#楼3303单元及地下室804车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080023181933.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储24的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 14570,
+        "评估价": 20813,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080023181933.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储24的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储24的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储24的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078974430142.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "丰泽区",
+        "标的名称": "刺桐路淮云新城B8号住宅",
+        "小区名称（仅供参考）": "淮云新城",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 11000000,
+        "评估价": 15710000,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078974430142.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "刺桐路淮云新城B8号住宅",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省泉州市丰泽区刺桐路淮云新城B8号住宅"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "淮云新城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "刺桐路淮云新城B8号住宅"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080022225654.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储37的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 16560,
+        "评估价": 23656,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080022225654.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储37的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储37的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储37的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081028348759.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储42的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15711,
+        "评估价": 22443,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081028348759.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储42的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储42的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储42的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080022281407.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储38的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 16560,
+        "评估价": 23656,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080022281407.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储38的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储38的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储38的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080021809896.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储41的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15286,
+        "评估价": 21836,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080021809896.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储41的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储41的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储41的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078971490292.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储40的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15286,
+        "评估价": 21836,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078971490292.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储40的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储40的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储40的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081018036103.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储12的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 10297,
+        "评估价": 14709,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081018036103.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储12的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储12的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储12的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080011153389.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储21的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 16560,
+        "评估价": 23656,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080011153389.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储21的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储21的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储21的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078095235045.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储23的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15286,
+        "评估价": 21836,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078095235045.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储23的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储23的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储23的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081016444879.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储15的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 14649,
+        "评估价": 20926,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081016444879.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储15的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储15的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储15的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078961034210.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储10的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 19585,
+        "评估价": 27978,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078961034210.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储10的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储10的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储10的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078960750614.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储17的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15286,
+        "评估价": 21836,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078960750614.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储17的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储17的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储17的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078960782342.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "丰泽区",
+        "标的名称": "福田路118号东霞新村29幢701储藏间的不动产",
+        "小区名称（仅供参考）": "东霞新村",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 106000,
+        "评估价": 151290,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078960782342.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "福田路118号东霞新村29幢701储藏间的不动产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省泉州市丰泽区福田路118号东霞新村29幢701储藏间的不动产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "东霞新村",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "福田路118号东霞新村29幢701储藏间的不动产"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078093399374.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储13的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 16665,
+        "评估价": 23807,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078093399374.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储13的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储13的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储13的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080009265055.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储11的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 14941,
+        "评估价": 21343,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080009265055.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储11的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储11的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储11的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078081335256.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储09的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 14649,
+        "评估价": 20926,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078081335256.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储09的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储09的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储09的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078820894767.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储03的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 14649,
+        "评估价": 20926,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078820894767.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储03的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储03的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储03的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080876468190.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储07的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15869,
+        "评估价": 22670,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080876468190.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储07的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储07的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储07的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078821226414.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储08的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 16188,
+        "评估价": 23125,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078821226414.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储08的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储08的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储08的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080875984989.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储04的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 16188,
+        "评估价": 23125,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080875984989.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储04的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储04的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储04的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080876092851.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储06的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15869,
+        "评估价": 22670,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080876092851.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储06的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储06的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储06的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080876152736.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储05的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15869,
+        "评估价": 22670,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080876152736.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储05的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储05的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储05的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1077949787130.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储02的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 12818,
+        "评估价": 18311,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1077949787130.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储02的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储02的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储02的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311192219",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "晋江市",
+        "标的名称": "青阳街道泉安中路717号百宏·华尔街2号楼1410室",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 37.61,
+        "起拍价格": 240000,
+        "评估价": 312332.73,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311192219",
+        "面积证据": {
+          "value": 37.61,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "产权面积 房屋建筑面积37.61㎡，其中专有建筑面积27.09㎡，分摊建筑面积10.52㎡。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "青阳街道泉安中路717号百宏·华尔街2号楼1410室",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省晋江市青阳街道泉安中路717号百宏·华尔街2号楼1410室"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "青阳街道泉安中路717号百宏·华尔街2号楼1410室"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1075184289532.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区地下室（1#-4#楼连接体）地下1层656车位",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": 21.7,
+        "起拍价格": 42560,
+        "评估价": 76000,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1075184289532.htm",
+        "面积证据": {
+          "value": 21.7,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "：南屿镇乌龙江南大道89号顺华世纪鸥洲B区地下室(1#-4#楼连接体)地下1层656车位，建筑面积：21.7平方米。具体情况以现场看样为准。 2.权证编号情况：闽(2022)闽侯县(G)不动产权第0004"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区地下室（1#-4#楼连接体）地下1层656车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区地下室(1#-4#楼连接体)地下1层656车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区地下室（1#-4#楼连接体）地下1层656车位"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1075304416139.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "福清市",
+        "标的名称": "宏路镇棋山村15-260、15-261地号的不动产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 994.84,
+        "起拍价格": 1911952,
+        "评估价": 3414200,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1075304416139.htm",
+        "面积证据": {
+          "value": 994.84,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑面积 | 994.84平方米（15-260、15-261均为497.42平方米）"
+          },
+          "ruleId": "area-table-leading-total-in-value-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "宏路镇棋山村15-260、15-261地号的不动产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福清市宏路镇棋山村15-260（门牌号：福岚新村680号）、15-261（门牌号：福岚新村681号）地号的不动产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "宏路镇棋山村15-260、15-261地号的不动产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081017052968.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "丰泽区",
+        "标的名称": "温陵路北拓改造工程2幢608住宅及室内部分家具家电",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 86.86,
+        "起拍价格": 720000,
+        "评估价": 1018400,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081017052968.htm",
+        "面积证据": {
+          "value": 86.86,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑总面积 | 86.86平方米"
+          },
+          "ruleId": "area-table-adjacent-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "温陵路北拓改造工程2幢608住宅及室内部分家具家电",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "泉州市丰泽区温陵路北拓改造工程2幢608住宅及室内部分家具家电"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "温陵路北拓改造工程2幢608住宅及室内部分家具家电"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1069745926522.htm",
+      "reasons": [
+        "数据疑似有误：商业面积为16765.86㎡，超过10000㎡"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产",
+        "小区名称（仅供参考）": "世茂摩天城",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": 16765.86,
+        "起拍价格": 82073600,
+        "评估价": 117247900,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1069745926522.htm",
+        "面积证据": {
+          "value": 16765.86,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "息表》记载：石狮市石龙路288号世茂摩天城北5号楼1跃4层的建筑面积为14479.28平方米，总层数为4层，所在层数为1-4层，土地使用终止日期为2053年6月19日；石狮市石龙路288号世茂摩天城北5号楼地下一层不动产的建筑面积为2286.58平方米，总层数为4层，所在楼层为-1层，土地使用终止日期为2053年6月19日。 标的物的具体情况及租赁合同情况详见附"
+          },
+          "ruleId": "area-text-component-sum-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "石狮市石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "世茂摩天城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1071742800258.htm",
+      "reasons": [
+        "数据疑似有误：商业面积为94436.56㎡，超过10000㎡",
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "城峰镇汤洋村上山院7号不动产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": 94436.56,
+        "起拍价格": 108732800,
+        "评估价": 155332500,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1071742800258.htm",
+        "面积证据": {
+          "value": 94436.56,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "登记信息表》记载：福建省永泰县城峰镇汤洋村上山院7号不动产的建筑面积为47173.28平方米，土地使用终止日期为2054年1月5日；1号楼-1建筑面积为5490.12㎡，楼层1-6/6；1号楼-2建筑面积为9515.77㎡，楼层1-6/6；2号楼建筑面积为2004.91㎡，楼层1-2/2；3号楼建筑面积为8153.08㎡，楼层1-5/5；5号楼建筑面积为1117.48㎡，楼层1-2/2；6号楼建筑面积为1132.48㎡，楼层1-2/2；7号楼建筑面积为247.76㎡，楼层1-2/2；8号楼建筑面积为507.28㎡，楼层1-2/2；9号楼建筑面积为766.80㎡，楼层1-2/2；地下室建筑面积为18327.6㎡，楼层-2～-1/2。 标的物的具体情况及租赁合同情况详见附件《"
+          },
+          "ruleId": "area-text-component-sum-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "城峰镇汤洋村上山院7号不动产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省永泰县城峰镇汤洋村上山院7号不动产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "城峰镇汤洋村上山院7号不动产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    }
+  ],
+  "resultSchema": {
+    "version": 1,
+    "items": [
+      {
+        "url": "标的链接",
+        "review": {
+          "fields": {},
+          "otherCorrections": [],
+          "otherIssues": [],
+          "requiresHumanReview": false,
+          "summary": ""
+        }
+      }
+    ]
+  }
+}

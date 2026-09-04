@@ -1,0 +1,2780 @@
+{
+  "version": 2,
+  "taskId": "9ee8836e-828f-4a8c-b7d0-9c1120d477f0",
+  "batchId": "20260827-27f7acf6-6893-4430-aedd-050464b9f047",
+  "dateKey": "20260827",
+  "runName": "20260827",
+  "workbookPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827\\20260827新增房源信息.xlsx",
+  "generatedAt": "2026-08-27T04:58:54.159Z",
+  "candidateCount": 42,
+  "candidates": [
+    {
+      "url": "https://paimai.jd.com/108789958",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "晋安区",
+        "标的名称": "新店镇南平东路151号建发北湖苑（二区）地下室地下1层122车位",
+        "小区名称（仅供参考）": "建发北湖苑",
+        "标的类型": "其他/待确认",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 284742,
+        "评估价": 284742,
+        "备注": "未找到评估报告",
+        "网站链接": "https://paimai.jd.com/108789958",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-not-found-v2",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "新店镇南平东路151号建发北湖苑（二区）地下室地下1层122车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市晋安区新店镇南平东路151号建发北湖苑（二区）地下室地下1层122车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "建发北湖苑",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "新店镇南平东路151号建发北湖苑（二区）地下室地下1层122车位"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/110360883",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "建新镇金山大道518号江南名城5号楼607复式单元",
+        "小区名称（仅供参考）": "江南名城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 2863069,
+        "评估价": 3490097.76,
+        "备注": "未找到评估报告",
+        "网站链接": "https://paimai.jd.com/110360883",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-not-found-v2",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "建新镇金山大道518号江南名城5号楼607复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市仓山区建新镇金山大道518号江南名城5号楼607复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "江南名城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "建新镇金山大道518号江南名城5号楼607复式单元"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/104774266",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "泉港区",
+        "标的名称": "泉二路东盛商城2栋603-703号房产",
+        "小区名称（仅供参考）": "东盛商城",
+        "标的类型": "其他/待确认",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 270000,
+        "评估价": 457800,
+        "备注": "未找到评估报告",
+        "网站链接": "https://paimai.jd.com/104774266",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-not-found-v2",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "泉二路东盛商城2栋603-703号房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省泉州市泉港区泉二路东盛商城2栋603-703号房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "东盛商城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "泉二路东盛商城2栋603-703号房产"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076857615108.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "小区名称需复核（先核对标题证据和小区名单）",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "下渡街道港南路79号2#楼104单元、2#楼1层06附属间",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 709436,
+        "评估价": 44,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076857615108.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "下渡街道港南路79号2#楼104单元、2#楼1层06附属间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "仓山区下渡街道港南路79号2#楼104单元、2#楼1层06附属间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "下渡街道港南路79号2#楼104单元、2#楼1层06附属间"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076844007468.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "小区名称需复核（先核对标题证据和小区名单）",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "罗源县",
+        "标的名称": "凤山镇司前新村9#楼501室及杂物间",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 171319.5,
+        "评估价": 267686.8,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076844007468.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "凤山镇司前新村9#楼501室及杂物间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省罗源县凤山镇司前新村9#楼501室及杂物间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "凤山镇司前新村9#楼501室及杂物间"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076842995306.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "三叉街街道则徐大道153号先锋苑1#楼8层09室",
+        "小区名称（仅供参考）": "先锋苑",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 2097200,
+        "评估价": 2996000,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076842995306.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "三叉街街道则徐大道153号先锋苑1#楼8层09室",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省福州市仓山区三叉街街道则徐大道153号先锋苑1#楼8层09室"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "先锋苑",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "三叉街街道则徐大道153号先锋苑1#楼8层09室"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076842623569.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "鼓楼区",
+        "标的名称": "五凤街道龙腰路60号筑家·左海家园B2#楼903单元",
+        "小区名称（仅供参考）": "筑家·左海家园",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 1291689,
+        "评估价": 1845270,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076842623569.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "五凤街道龙腰路60号筑家·左海家园B2#楼903单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省福州市鼓楼区五凤街道龙腰路60号筑家·左海家园B2#楼903单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "筑家·左海家园",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "五凤街道龙腰路60号筑家·左海家园B2#楼903单元"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079477412703.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区1#203、208-210、212、213A、215、218-219室的房产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 5004440,
+        "评估价": 8936500,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079477412703.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区1#203、208-210、212、213A、215、218-219室的房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省福州市平潭县潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区1#203、208-210、212、213A、215、218-219室的房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区1#203、208-210、212、213A、215、218-219室的房产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078474725606.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区4#101-103、103A、201-203、203A、205-210、1113室的房产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 22507688,
+        "评估价": 40192300,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078474725606.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区4#101-103、103A、201-203、203A、205-210、1113室的房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省福州市平潭县潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区4#101-103、103A、201-203、203A、205-210、1113室的房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潭城镇龙凤路南侧、东环路东侧平潭滨海国际度假区4#101-103、103A、201-203、203A、205-210、1113室的房产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311169248",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "南通镇南灵路98号福晟钱隆樽品16#楼2304单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 88.76,
+        "起拍价格": 320000,
+        "评估价": 452600.45,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311169248",
+        "面积证据": {
+          "value": 88.76,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 88.76平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 毛坯 房屋户"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "南通镇南灵路98号福晟钱隆樽品16#楼2304单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省南通镇南灵路98号福晟钱隆樽品16#楼2304单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "南通镇南灵路98号福晟钱隆樽品16#楼2304单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311168590",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "长乐区",
+        "标的名称": "文武砂镇东湖·海西高新技术企业港软件开发基地（数字福建VR“双创”产业孵化基地）七期21#楼409研发设计",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "商业",
+        "平台": "京东拍卖",
+        "面积/㎡": 91.13,
+        "起拍价格": 438046,
+        "评估价": 625779,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311168590",
+        "面积证据": {
+          "value": 91.13,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "高新技术企业港软件开发基地（数字福建VR“双创”产业孵化基地）七期21#楼409研发设计、建筑面积为：91.13㎡。 拍卖依据文号：（2026）闽0103执1725号执行裁定书。询价方式：网络询价。询价"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "文武砂镇东湖·海西高新技术企业港软件开发基地（数字福建VR“双创”产业孵化基地）七期21#楼409研发设计",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市长乐区文武砂镇东湖·海西高新技术企业港软件开发基地（数字福建VR“双创”产业孵化基地）七期21#楼409研发设计"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "文武砂镇东湖·海西高新技术企业港软件开发基地（数字福建VR“双创”产业孵化基地）七期21#楼409研发设计"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311167521",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "建新镇杨周路118号飞凤水岸2#楼104单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 76.79,
+        "起拍价格": 520000,
+        "评估价": 729505,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311167521",
+        "面积证据": {
+          "value": 76.79,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 76.79平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 / 装修情况 简装 房屋户"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "建新镇杨周路118号飞凤水岸2#楼104单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】仓山区建新镇杨周路118号飞凤水岸2#楼104单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "建新镇杨周路118号飞凤水岸2#楼104单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340345",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "义洲街道锦标路37号义州新区北兴区B2地块7号楼1层01店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 40.48,
+        "起拍价格": 1117300,
+        "评估价": 1117629,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340345",
+        "面积证据": {
+          "value": 40.48,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "7号义州新区北兴区B2地块7号楼1层01店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积40.48㎡，设计用途为商铺。 起拍价：1117300元，保证金：100000元，增价幅度：5000"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "义洲街道锦标路37号义州新区北兴区B2地块7号楼1层01店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区义洲街道锦标路37号义州新区北兴区B2地块7号楼1层01店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "义洲街道锦标路37号义州新区北兴区B2地块7号楼1层01店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340251",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层09店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340251",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层09店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层09店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层09店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层09店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340461",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层04店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340461",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层04店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层04店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层04店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层04店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340284",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层08店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.61,
+        "起拍价格": 532900,
+        "评估价": 760669,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340284",
+        "面积证据": {
+          "value": 25.61,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层08店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.61㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层08店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层08店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层08店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108339729",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层11店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108339729",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层11店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层11店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层11店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层11店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340074",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层10店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340074",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层10店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层10店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层10店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层10店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108339838",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层05店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108339838",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层05店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层05店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层05店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层05店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340083",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层07店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340083",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层07店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层07店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层07店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层07店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/108340264",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层06店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 25.63,
+        "起拍价格": 532900,
+        "评估价": 761263,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/108340264",
+        "面积证据": {
+          "value": 25.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "改造二期汀州小学地块安置房1号楼1层06店面，混合结构，总层数为1层，估价对象位于第1层，建筑面积25.63㎡，设计用途为商铺。 起拍价：532900元，保证金：60000元，增价幅度：5000元。"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层06店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市台江区苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层06店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层06店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/110065832",
+      "reasons": [
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "凤城镇文汇路3号凤翔名仕3号楼603室房地产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 156.91,
+        "起拍价格": 2000000,
+        "评估价": 2844300,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/110065832",
+        "面积证据": {
+          "value": 156.91,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "行裁定书》；2、《协助执行通知书》； 3、《拍卖成交确认书》4、拍卖款凭证。 标的物介绍 建筑总面积 156.91平方米 土地总面积 不详 建成年份 不详 装修情况 买受人须实地确认（不包含可拆除、可移动的家具"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "凤城镇文汇路3号凤翔名仕3号楼603室房地产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市连江县凤城镇文汇路3号凤翔名仕3号楼603室房地产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "凤城镇文汇路3号凤翔名仕3号楼603室房地产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/110599649",
+      "reasons": [
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "凤城镇文汇路3号凤翔名仕3号楼603室房地产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 156.91,
+        "起拍价格": 1600000,
+        "评估价": 2844300,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/110599649",
+        "面积证据": {
+          "value": 156.91,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "行裁定书》；2、《协助执行通知书》； 3、《拍卖成交确认书》4、拍卖款凭证。 标的物介绍 建筑总面积 156.91平方米 土地总面积 28.3平方米 建成年份 不详 装修情况 买受人须实地确认（不包含可拆除、可"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "凤城镇文汇路3号凤翔名仕3号楼603室房地产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福州市连江县凤城镇文汇路3号凤翔名仕3号楼603室房地产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "凤城镇文汇路3号凤翔名仕3号楼603室房地产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/111595809",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 56.99,
+        "起拍价格": 902200,
+        "评估价": 902200,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/111595809",
+        "面积证据": {
+          "value": 56.99,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "产权证载明建筑面积 | 建筑面积为：56.99平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省连江县潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/111595795",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 100.22,
+        "起拍价格": 1233800,
+        "评估价": 1233800,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/111595795",
+        "面积证据": {
+          "value": 100.22,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "产权证载明建筑面积 | 建筑面积为：100.22平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省连江县潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/111595807",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 102.91,
+        "起拍价格": 1240300,
+        "评估价": 1240300,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/111595807",
+        "面积证据": {
+          "value": 102.91,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "产权证载明建筑面积 | 建筑面积为：102.91平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省连江县潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/112307050",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 102.91,
+        "起拍价格": 1178285,
+        "评估价": 1240300,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/112307050",
+        "面积证据": {
+          "value": 102.91,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "产权证载明建筑面积 | 建筑面积为：102.91平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省连江县潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/112307056",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 100.22,
+        "起拍价格": 1172110,
+        "评估价": 1233800,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/112307056",
+        "面积证据": {
+          "value": 100.22,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "产权证载明建筑面积 | 建筑面积为：100.22平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省连江县潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/112307058",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 56.99,
+        "起拍价格": 857090,
+        "评估价": 902200,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/112307058",
+        "面积证据": {
+          "value": 56.99,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "产权证载明建筑面积 | 建筑面积为：56.99平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省连江县潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/112098649",
+      "reasons": [
+        "数据疑似有误：起拍单价约103465元/㎡，超出500—100000元/㎡常规核验区间",
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "上海街道茶中路20号2001单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 20.78,
+        "起拍价格": 2150000,
+        "评估价": 3063400,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/112098649",
+        "面积证据": {
+          "value": 20.78,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑面积 | 118.80平方米，其中共有面积 20.78平方米"
+          },
+          "ruleId": "area-table-adjacent-labeled-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "上海街道茶中路20号2001单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】台江区上海街道茶中路20号2001单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "上海街道茶中路20号2001单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/112239186",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "福清市",
+        "标的名称": "龙田镇龙辉街龙粮商住楼401号住宅一套",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 134.27,
+        "起拍价格": 447600,
+        "评估价": 559500,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/112239186",
+        "面积证据": {
+          "value": 134.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "01号住宅一套。房屋所有权证号：榕融S字第36652号，房屋建筑面积：128.19平方米，2#柴火间建筑面积：6.08平方米。 标的物有抵押，未腾空，本次拍卖的房产买受人需自行了解标的物现状及"
+          },
+          "ruleId": "area-text-component-sum-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "龙田镇龙辉街龙粮商住楼401号住宅一套",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省福清市龙田镇龙辉街龙粮商住楼401号住宅一套"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "龙田镇龙辉街龙粮商住楼401号住宅一套"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/113185399",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "福清市",
+        "标的名称": "龙田镇龙辉街龙粮商住楼401号住宅一套",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 134.27,
+        "起拍价格": 380000,
+        "评估价": 559500,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/113185399",
+        "面积证据": {
+          "value": 134.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "平台首页简介",
+            "element": "建筑面积",
+            "rawText": "01号住宅一套。房屋所有权证号：榕融S字第36652号，房屋建筑面积：128.19平方米，2#柴火间建筑面积：6.08平方米。 标的物有抵押，未腾空，本次拍卖的房产买受人需自行了解标的物现状及"
+          },
+          "ruleId": "area-text-component-sum-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "龙田镇龙辉街龙粮商住楼401号住宅一套",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省福清市龙田镇龙辉街龙粮商住楼401号住宅一套"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "龙田镇龙辉街龙粮商住楼401号住宅一套"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311004153",
+      "reasons": [
+        "数据疑似有误：商业面积为56505.59㎡，超过10000㎡"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "下渡街道南江滨西大道96号港头商务中心（港头广场）3#楼在建工程及相应土地使用权的房地产以及地下室A、D、E地下1层E001-E086车位及地下2层E001-E213车位的房地产",
+        "小区名称（仅供参考）": "港头商务中心",
+        "标的类型": "商业",
+        "平台": "京东拍卖",
+        "面积/㎡": 56505.59,
+        "起拍价格": 539449669,
+        "评估价": 770642383,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311004153",
+        "面积证据": {
+          "value": 56505.59,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "（2015）第33535782645号;预售许可证号：（2021）榕房许字第0469号】。总建筑面积56505.59平方米，其中酒店总建筑面积43559.67平方米，商务办公总建筑面积8882.99平方米，其他配"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "下渡街道南江滨西大道96号港头商务中心（港头广场）3#楼在建工程及相应土地使用权的房地产以及地下室A、D、E地下1层E001-E086车位及地下2层E001-E213车位的房地产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市仓山区下渡街道南江滨西大道96号港头商务中心（港头广场）3#楼在建工程及相应土地使用权的房地产以及地下室A、D、E地下1层E001-E086车位及地下2层E001-E213车位的房地产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "港头商务中心",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "下渡街道南江滨西大道96号港头商务中心（港头广场）3#楼在建工程及相应土地使用权的房地产以及地下室A、D、E地下1层E001-E086车位及地下2层E001-E213车位的房地产"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311169812",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "南安市",
+        "标的名称": "石井镇雄风路177号碧海蓝天12号楼3层301室",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "其他/待确认",
+        "平台": "京东拍卖",
+        "面积/㎡": 133.18,
+        "起拍价格": 388000,
+        "评估价": 554105,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311169812",
+        "面积证据": {
+          "value": 133.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑面积 | 133.18㎡"
+          },
+          "ruleId": "area-table-adjacent-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "石井镇雄风路177号碧海蓝天12号楼3层301室",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省南安市石井镇雄风路177号碧海蓝天12号楼3层301室"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "石井镇雄风路177号碧海蓝天12号楼3层301室"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311168142",
+      "reasons": [
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "晋江市",
+        "标的名称": "深沪镇码头大路东侧联溢小区房产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "其他/待确认",
+        "平台": "京东拍卖",
+        "面积/㎡": 516.96,
+        "起拍价格": 3330614.21,
+        "评估价": 3330614.21,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311168142",
+        "面积证据": {
+          "value": 516.96,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "标的介绍 土地信息： 土地使用权面积：505.9㎡；建筑面积：516.96㎡； 房屋信息： 标的完整坐落地址：福建省晋江市深沪镇码头大路东侧联溢小区房产；登记建筑"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "深沪镇码头大路东侧联溢小区房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建省晋江市深沪镇码头大路东侧联溢小区房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "深沪镇码头大路东侧联溢小区房产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311008939",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "南安市",
+        "标的名称": "水头镇曾庄村、康店村的工业房地产",
+        "小区名称（仅供参考）": "工业区",
+        "标的类型": "工业",
+        "平台": "京东拍卖",
+        "面积/㎡": 16040.42,
+        "起拍价格": 42040000,
+        "评估价": 52549200,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311008939",
+        "面积证据": {
+          "value": 16040.42,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "㎡。房屋所有权证号：南建房权证房管处字第01051231号，建筑面积共计3543.73㎡；南房权证房管处字第01054900号，建筑面积共计12496.69㎡。"
+          },
+          "ruleId": "area-text-component-sum-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "水头镇曾庄村、康店村的工业房地产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福建泉州市大地石业有限公司名下坐落于南安市水头镇曾庄村、康店村的工业房地产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "工业区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "水头镇曾庄村、康店村的工业房地产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076663795695.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区3#楼3106复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 228.2,
+        "起拍价格": 1633032,
+        "评估价": 2268100,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076663795695.htm",
+        "面积证据": {
+          "value": 228.2,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "帮助中心-这套房关键信息",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-center-v1",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区3#楼3106复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区3#楼3106复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "南屿镇乌龙江南大道89号顺华世纪鸥洲B区3#楼3106复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079478676292.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "晋安区",
+        "标的名称": "鼓山镇远洋路58号融侨东区C区3#楼206单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 90.92,
+        "起拍价格": 776869,
+        "评估价": 1109812.51,
+        "备注": "户型：3室1厅",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079478676292.htm",
+        "面积证据": {
+          "value": 90.92,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "帮助中心-这套房关键信息",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-center-v1",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "鼓山镇远洋路58号融侨东区C区3#楼206单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市晋安区鼓山镇远洋路58号融侨东区C区3#楼206单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "鼓山镇远洋路58号融侨东区C区3#楼206单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076408703955.htm",
+      "reasons": [
+        "数据疑似有误：起拍单价约1元/㎡，超出500—100000元/㎡常规核验区间"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "罗源县",
+        "标的名称": "凤山镇东外路12号蓝波湾小区4#楼903单元",
+        "小区名称（仅供参考）": "蓝波湾",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 128.83,
+        "起拍价格": 65.9,
+        "评估价": 940459,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076408703955.htm",
+        "面积证据": {
+          "value": 128.83,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑面积 | 128.83平方米"
+          },
+          "ruleId": "area-table-adjacent-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "凤山镇东外路12号蓝波湾小区4#楼903单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省罗源县凤山镇东外路12号蓝波湾小区4#楼903单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "蓝波湾",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "凤山镇东外路12号蓝波湾小区4#楼903单元"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076399775701.htm",
+      "reasons": [
+        "数据疑似有误：起拍单价约0元/㎡，超出500—100000元/㎡常规核验区间"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "长乐区",
+        "标的名称": "文武砂镇东阳路99号新天地时代广场D-3#楼、D-S3#楼2001商务办公及D地块地下室400车位",
+        "小区名称（仅供参考）": "新天地时代广场",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": 139.63,
+        "起拍价格": 6,
+        "评估价": 1207000,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1076399775701.htm",
+        "面积证据": {
+          "value": 139.63,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "产证明第0003388号]及D地块地下室400车位[证号：2022003522]。上述房产建筑面积约139.63平方米，车位建筑面积约32.03平方米。规划用途为办公/车位。 特别提醒：本标的物现由被执行人"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "文武砂镇东阳路99号新天地时代广场D-3#楼、D-S3#楼2001商务办公及D地块地下室400车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市长乐区文武砂镇东阳路99号新天地时代广场D-3#楼、D-S3#楼2001商务办公及D地块地下室400车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "新天地时代广场",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "文武砂镇东阳路99号新天地时代广场D-3#楼、D-S3#楼2001商务办公及D地块地下室400车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079291964527.htm",
+      "reasons": [
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "连江县",
+        "标的名称": "凤城镇816西路1号商贸供销综合大楼A座306单元，B座3层24附属间",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 158.32,
+        "起拍价格": 473884,
+        "评估价": 592354.46,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079291964527.htm",
+        "面积证据": {
+          "value": 158.32,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "路1号商贸供销综合大楼A座306单元，B座3层24附属间。房屋所有权人为被执行人林木金 ，建筑面积为158.32平方米。 2.税费负担情况：标的物过户登记手续由买受人自行办理，所涉及的应由买方承担的税费由买受"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "凤城镇816西路1号商贸供销综合大楼A座306单元，B座3层24附属间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "连江县凤城镇816西路1号商贸供销综合大楼A座306单元，B座3层24附属间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "凤城镇816西路1号商贸供销综合大楼A座306单元，B座3层24附属间"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079314996946.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "台江区",
+        "标的名称": "鳌峰街道亚兴路50号亚峰新区7#楼403单元及7#楼2层69附属间房产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 61.42,
+        "起拍价格": 420000,
+        "评估价": 593200,
+        "备注": "户型：1室2厅",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079314996946.htm",
+        "面积证据": {
+          "value": 61.42,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "路50号亚峰新区7#楼403单元及7#楼2层69附属间房产(建筑面积：54.75平方米，其中单元房面积为48.08平方米，附属间面积为6.67平方米)，详见评估报告。 2、费用负担情况：拍卖记录评估价不包含"
+          },
+          "ruleId": "area-text-component-sum-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "鳌峰街道亚兴路50号亚峰新区7#楼403单元及7#楼2层69附属间房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福建省福州市台江区鳌峰街道亚兴路50号亚峰新区7#楼403单元及7#楼2层69附属间房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "鳌峰街道亚兴路50号亚峰新区7#楼403单元及7#楼2层69附属间房产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    }
+  ],
+  "resultSchema": {
+    "version": 1,
+    "items": [
+      {
+        "url": "标的链接",
+        "review": {
+          "fields": {},
+          "otherCorrections": [],
+          "otherIssues": [],
+          "requiresHumanReview": false,
+          "summary": ""
+        }
+      }
+    ]
+  }
+}

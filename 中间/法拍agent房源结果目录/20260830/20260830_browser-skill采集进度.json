@@ -1,0 +1,143 @@
+{
+  "任务范围": "阿里PC；福州/泉州；住宅/商业/工业；上新/结束；不含破产",
+  "开始时间": "2026-08-31T10:03:48",
+  "最近更新时间": "2026-08-31T10:24:44",
+  "状态": "已完成",
+  "高水位": {
+    "泉州上新": "https://sf-item.taobao.com/sf_item/1077217587867.htm",
+    "泉州结束": "https://sf-item.taobao.com/sf_item/1069162324888.htm",
+    "福州上新": "https://sf-item.taobao.com/sf_item/1077218727448.htm",
+    "福州结束": "https://sf-item.taobao.com/sf_item/1073281914179.htm"
+  },
+  "日期边界": {
+    "泉州上新": "1077255391721本身及其后归属20260830；此前归属20260831"
+  },
+  "总数": 37,
+  "完成数": 37,
+  "剩余数": 0,
+  "当前链接": null,
+  "已完成规范链接": [
+    "https://sf-item.taobao.com/sf_item/1057646590062.htm",
+    "https://sf-item.taobao.com/sf_item/1058635789004.htm",
+    "https://sf-item.taobao.com/sf_item/1059030204261.htm",
+    "https://sf-item.taobao.com/sf_item/1059341900072.htm",
+    "https://sf-item.taobao.com/sf_item/1060197284667.htm",
+    "https://sf-item.taobao.com/sf_item/1068424119968.htm",
+    "https://sf-item.taobao.com/sf_item/1068549431254.htm",
+    "https://sf-item.taobao.com/sf_item/1068572199911.htm",
+    "https://sf-item.taobao.com/sf_item/1068637231715.htm",
+    "https://sf-item.taobao.com/sf_item/1070427961611.htm",
+    "https://sf-item.taobao.com/sf_item/1070496789973.htm",
+    "https://sf-item.taobao.com/sf_item/1070829405054.htm",
+    "https://sf-item.taobao.com/sf_item/1070829549122.htm",
+    "https://sf-item.taobao.com/sf_item/1071374528214.htm",
+    "https://sf-item.taobao.com/sf_item/1072751395730.htm",
+    "https://sf-item.taobao.com/sf_item/1073004647405.htm",
+    "https://sf-item.taobao.com/sf_item/1074770509175.htm",
+    "https://sf-item.taobao.com/sf_item/1075614032775.htm",
+    "https://sf-item.taobao.com/sf_item/1076264535425.htm",
+    "https://sf-item.taobao.com/sf_item/1076264839517.htm",
+    "https://sf-item.taobao.com/sf_item/1077226999531.htm",
+    "https://sf-item.taobao.com/sf_item/1077227551302.htm",
+    "https://sf-item.taobao.com/sf_item/1077228391959.htm",
+    "https://sf-item.taobao.com/sf_item/1078090514554.htm",
+    "https://sf-item.taobao.com/sf_item/1078090890585.htm",
+    "https://sf-item.taobao.com/sf_item/1078091018929.htm",
+    "https://sf-item.taobao.com/sf_item/1079139765610.htm",
+    "https://sf-item.taobao.com/sf_item/1079139869433.htm",
+    "https://sf-item.taobao.com/sf_item/1079140005818.htm",
+    "https://sf-item.taobao.com/sf_item/1079140549978.htm",
+    "https://sf-item.taobao.com/sf_item/1079141113071.htm",
+    "https://sf-item.taobao.com/sf_item/1080143448662.htm",
+    "https://sf-item.taobao.com/sf_item/1080143644626.htm",
+    "https://sf-item.taobao.com/sf_item/1080143956285.htm",
+    "https://sf-item.taobao.com/sf_item/1080144148162.htm",
+    "https://sf-item.taobao.com/sf_item/1080144792017.htm",
+    "https://sf-item.taobao.com/sf_item/1080699852707.htm"
+  ],
+  "待处理链接": [],
+  "过滤项": [
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1077782423451.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1080699228701.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1079695513492.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1077255391721.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260830"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1080164428377.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260830"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1077248687686.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260830"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1077248891443.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260830"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1077227431848.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260830"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1073597090873.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1072426635815.htm",
+      "原因": "纯车位/车库/储藏间等附属物",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1075622108633.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1073573258933.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1069388746582.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1066724763256.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1070288773464.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    },
+    {
+      "链接": "https://sf-item.taobao.com/sf_item/1073597834312.htm",
+      "原因": "已存在于累积HTML",
+      "归属日期": "20260831"
+    }
+  ],
+  "补采说明": "2026-08-31补入泉州大宗/工业独立分类前两条；记录存放于20260831目录，该分类下一次高水位使用1076264839517",
+  "本目录记录数": 14
+}

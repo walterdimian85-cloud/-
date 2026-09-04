@@ -1,0 +1,3058 @@
+{
+  "version": 2,
+  "taskId": "90b6fa73-351c-49a9-83aa-b4a998f8a6ee",
+  "batchId": "20260903-8e08abf1-3a5b-4861-b23b-d3a5fb8a7f10",
+  "dateKey": "20260903",
+  "runName": "20260903（1）",
+  "items": [
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081649096278.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A38的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A38的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A38的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A38的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081648436467.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A45的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A45的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A45的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A45的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080640653159.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A52的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A52的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A52的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A52的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080639361374.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A42的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A42的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A42的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A42的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080638453637.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A54的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A54的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A54的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A54的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714939061.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A50的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A50的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A50的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A50的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714259723.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A37的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A37的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A37的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A37的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080638265453.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A53的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A53的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A53的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A53的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637957685.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A49的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A49的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A49的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A49的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079584370874.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A94的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A94的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A94的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A94的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714419143.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A36的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A36的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A36的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A36的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078714375004.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A51的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A51的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A51的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A51的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081646052132.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A44的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A44的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A44的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A44的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081645896369.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A93的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A93的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A93的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A93的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079584238030.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A55的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A55的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A55的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A55的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637689264.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A56的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A56的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A56的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A56的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637501516.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A57的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A57的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A57的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A57的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080637121997.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A48的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A48的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A48的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A48的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081634760018.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A31的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A31的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A31的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A31的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080625501931.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A35的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A35的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A35的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A35的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079571686446.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A29的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A29的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A29的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A29的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078701255775.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A32的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A32的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A32的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A32的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079571014842.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A34的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A34的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A34的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A34的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078579679474.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A27的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A27的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A27的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A27的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079448978933.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A22的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A22的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A22的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A22的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079449254842.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A17的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A17的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A17的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A17的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080500801836.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A21的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A21的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A21的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A21的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080501205187.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A24的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A24的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A24的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A24的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081360600248.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B173的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B173的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B173的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B173的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081360448403.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B163的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B163的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B163的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B163的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079301130325.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A02的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A02的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A02的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A02的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080351113188.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B165的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B165的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B165的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B165的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300874535.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B160的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B160的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B160的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B160的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350741861.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A04的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A04的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A04的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A04的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300826290.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B162的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B162的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B162的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B162的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081359960624.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A01的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A01的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A01的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A01的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078431579165.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A16的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A16的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A16的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A16的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300326911.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B172的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B172的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B172的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B172的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079300482285.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B171的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B171的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B171的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B171的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350705056.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B161的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B161的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B161的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B161的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350201757.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B174的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B174的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B174的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B174的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080350261467.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B159的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B159的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B159的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B159的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078430271647.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A11的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A11的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A11的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A11的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078429427935.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B169的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B169的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B169的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B169的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080348981180.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B164的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B164的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B164的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B164的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078429215833.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A03的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A03的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A03的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A03的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080348225865.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A14的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A14的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A14的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A14的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080348457386.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B166的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B166的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B166的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B166的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081357440674.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A05的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A05的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A05的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A05的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081357284732.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B168的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B168的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B168的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B168的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081356984987.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B170的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B170的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B170的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B170的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081348428354.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A124的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A124的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A124的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A124的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080339077545.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B157的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B157的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B157的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B157的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078420027377.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A126的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A126的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A126的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A126的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079288578352.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B138的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B138的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B138的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B138的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080338545336.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B140的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B140的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B140的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B140的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079287866903.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B131的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B131的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B131的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B131的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078419047574.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B146的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B146的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B146的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B146的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337489897.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B153的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B153的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B153的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B153的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078418839945.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A125的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A125的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A125的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A125的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346776728.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B135的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B135的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B135的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B135的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337913411.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B128的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B128的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B128的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B128的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080338133049.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B129的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B129的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B129的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B129的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078419107356.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B126的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B126的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B126的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B126的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337785352.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B143的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B143的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B143的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B143的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078418759530.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A118的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A118的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A118的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A118的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346908151.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B144的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B144的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B144的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B144的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346756302.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A117的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A117的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A117的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A117的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346548821.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B149的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B149的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B149的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B149的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337233662.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B158的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B158的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B158的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B158的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081346660139.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B151的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B151的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B151的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B151的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080337173184.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B137的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B137的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B137的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B137的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078417615830.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B150的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B150的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B150的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B150的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080335057156.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B125的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B125的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B125的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B125的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079285274007.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B134的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B134的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B134的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B134的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080334485713.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B141的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B141的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B141的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B141的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079284574877.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B175的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B175的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B175的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B175的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343884431.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B176的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B176的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B176的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B176的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343852463.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B127的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B127的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B127的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B127的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078415351948.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B132的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B132的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B132的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B132的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079284682182.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A116的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A116的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A116的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A116的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080334305264.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B142的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B142的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B142的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B142的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080334141681.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B154的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B154的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B154的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B154的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078415711379.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B155的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B155的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B155的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B155的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080333829967.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B118的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B118的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B118的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B118的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080333745819.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B119的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B119的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B119的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B119的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343368538.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车A115的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车A115的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A115的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车A115的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078415327421.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B148的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B148的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B148的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B148的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079283718944.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B120的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B120的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B120的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B120的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343008516.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B139的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B139的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B139的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B139的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343052388.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B136的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B136的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B136的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B136的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081343320021.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B145的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B145的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B145的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B145的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081342528807.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B152的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B152的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B152的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B152的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079283582608.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B156的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B156的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B156的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B156的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081342616656.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B147的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B147的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B147的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B147的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080333089791.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B133的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B133的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B133的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B133的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078414199718.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": null,
+            "confidence": 1,
+            "evidence": "标题为“址在永春县五里街镇桃源北路二期安置房地下室车B130的车位”，任务及已有证据均未披露建筑面积。",
+            "reason": "无建筑面积证据，不得猜测或以车位编号代替面积"
+          },
+          "title": {
+            "value": "址在永春县五里街镇桃源北路二期安置房地下室车B130的车位",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B130的车位”",
+            "reason": "标题证据明确，无需更改"
+          },
+          "community": {
+            "value": "桃源北路二期安置房",
+            "confidence": 1,
+            "evidence": "详情标题：“址在永春县五里街镇桃源北路二期安置房地下室车B130的车位”",
+            "reason": "标题明确载明项目名称，修正截断的小区名"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "独立车位未披露建筑面积；已按标题修正小区名。该类标的后续数据准备阶段按硬性规则排除，不扩展网页复核。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311209874",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 134.04,
+            "confidence": 1,
+            "evidence": "建筑总面积 134.04平方米",
+            "reason": "建筑面积证据明确"
+          },
+          "title": {
+            "value": "上街镇联心村402单元",
+            "confidence": 1,
+            "evidence": "【一拍】福州市闽侯县上街镇联心村402单元",
+            "reason": "标题证据明确"
+          },
+          "community": {
+            "value": null,
+            "confidence": 0,
+            "evidence": "标题仅载联心村门牌地址，名单库未命中可靠项目名。",
+            "reason": "不得从门牌地址猜测小区名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [
+          "无可靠小区名称证据，保留“商住小区”，待人工补证。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "建筑面积134.04㎡已核实；标题仅为联心村门牌地址，未找到可靠小区名，保留商住小区。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311207207",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 230.58,
+            "confidence": 1,
+            "evidence": "建筑总面积 230.58平方米",
+            "reason": "建筑面积证据明确"
+          },
+          "title": {
+            "value": "甘蔗街道滨江西大道88号领海三期2#楼124商业（复式）",
+            "confidence": 1,
+            "evidence": "【一拍】福建省闽侯县甘蔗街道滨江西大道88号领海三期2#楼124商业（复式）",
+            "reason": "标题证据明确"
+          },
+          "community": {
+            "value": "领海三期",
+            "confidence": 1,
+            "evidence": "标题明确载有“领海三期2#楼”",
+            "reason": "按标题明确项目名修正小区名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "建筑面积230.58㎡已核实；小区名称修正为领海三期。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079585218762.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 94436.56,
+            "confidence": 1,
+            "evidence": "建筑面积47173.28平方米；分项建筑面积合计94436.56㎡",
+            "reason": "任务已有建筑面积及分项求和证据明确"
+          },
+          "title": {
+            "value": "城峰镇汤洋村上山院7号不动产",
+            "confidence": 1,
+            "evidence": "福建省永泰县城峰镇汤洋村上山院7号不动产",
+            "reason": "标题证据明确"
+          },
+          "community": {
+            "value": null,
+            "confidence": 0,
+            "evidence": "标题与任务证据仅为汤洋村上山院门牌，无可靠项目名称。",
+            "reason": "不得猜测小区名称"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "数据疑似有误：商业建筑面积94436.56㎡超过10000㎡；标题与任务证据未披露可靠小区名称，保留商住小区，不猜测。",
+            "confidence": 1,
+            "evidence": "建筑面积为47173.28平方米；分项建筑面积合计94436.56㎡",
+            "reason": "按超大面积硬性规则补充异常说明"
+          }
+        ],
+        "otherIssues": [
+          "无可靠小区名称证据，保留“商住小区”，待人工补证。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "建筑面积94436.56㎡已由分项核实；数据疑似有误已写入备注，小区名无可靠证据。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079584754723.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 16765.86,
+            "confidence": 1,
+            "evidence": "建筑面积14479.28平方米；建筑面积2286.58平方米；合计=16765.86㎡",
+            "reason": "两个同一标的分项建筑面积相加"
+          },
+          "title": {
+            "value": "石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产",
+            "confidence": 1,
+            "evidence": "石狮市石龙路288号世茂摩天城北5号楼1跃4层、石狮市石龙路288号世茂摩天城北5号楼地下一层不动产",
+            "reason": "标题证据明确"
+          },
+          "community": {
+            "value": "世茂摩天城",
+            "confidence": 1,
+            "evidence": "标题及小区证据均载有世茂摩天城",
+            "reason": "小区名称证据明确"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "数据疑似有误：商业建筑面积16765.86㎡超过10000㎡。",
+            "confidence": 1,
+            "evidence": "建筑面积14479.28平方米；建筑面积2286.58平方米；合计=16765.86㎡",
+            "reason": "按超大面积硬性规则补充异常说明"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "两个建筑面积分项合计16765.86㎡；数据疑似有误已写入备注。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073200298425.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 89.56,
+            "confidence": 1,
+            "evidence": "建筑面积89.56平方米（专有建筑面积87.12平方米，分摊建筑面积2.44平方米）",
+            "reason": "取建筑面积，不取专有或分摊面积"
+          },
+          "title": {
+            "value": "址在永春县桃城镇北门街92号的房产",
+            "confidence": 1,
+            "evidence": "址在永春县桃城镇北门街92号的房产",
+            "reason": "标题证据明确"
+          },
+          "community": {
+            "value": null,
+            "confidence": 0,
+            "evidence": "标题仅为北门街92号门牌地址，名单库未命中可靠项目名。",
+            "reason": "不得从门牌地址猜测小区名称"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [
+          "无可靠小区名称证据，保留“商住小区”，待人工补证。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "建筑面积89.56㎡已核实；未找到可靠项目名，保留商住小区。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311209874",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "联心村",
+            "confidence": 1,
+            "evidence": "用户人工确认小区名称为“联心村”。",
+            "reason": "采用用户人工确认，覆盖原通用回退值"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "用户已人工确认小区名称为联心村。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079585218762.htm",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "上山院",
+            "confidence": 1,
+            "evidence": "用户人工确认小区名称为“上山院”。",
+            "reason": "采用用户人工确认，覆盖原通用回退值"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "用户已人工确认小区名称为上山院。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073200298425.htm",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "北门街",
+            "confidence": 1,
+            "evidence": "用户人工确认小区名称为“北门街”。",
+            "reason": "采用用户人工确认，覆盖原通用回退值"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "用户已人工确认小区名称为北门街。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079585218762.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "数据疑似有误：商业建筑面积94436.56㎡超过10000㎡；小区名称已由用户人工确认为上山院。",
+            "confidence": 1,
+            "evidence": "建筑面积为47173.28平方米；分项建筑面积合计94436.56㎡；用户人工确认小区名称为上山院。",
+            "reason": "用户确认后，移除与最终小区名称冲突的旧说明"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "用户已确认小区名称为上山院，超大面积异常说明保留。"
+      }
+    }
+  ]
+}

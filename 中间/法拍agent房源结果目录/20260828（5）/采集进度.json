@@ -1,0 +1,604 @@
+{
+  "version": 2,
+  "dateKey": "20260828",
+  "status": "采集中",
+  "startedAt": "2026-08-28T04:59:36.630Z",
+  "updatedAt": "2026-08-28T05:01:12.558Z",
+  "plan": {
+    "dateKey": "20260828",
+    "statePath": "E:\\dsh\\原料\\法拍自动爬取v2.0\\data\\state\\scoped-tasks\\4e907e0077cad51e\\state.json",
+    "platform": "jd",
+    "categories": [
+      "住宅用房",
+      "商业用房"
+    ],
+    "statusFilters": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxPages": 100,
+    "dryRun": false,
+    "includeParties": false
+  },
+  "groups": {
+    "jd:住宅用房:即将开始:福州市": {
+      "priorAnchor": "https://paimai.jd.com/311170275",
+      "firstUrl": "https://paimai.jd.com/311177691",
+      "anchorFound": true,
+      "anchorMatchMode": "primary",
+      "matchedAnchor": "https://paimai.jd.com/311170275",
+      "items": [
+        {
+          "url": "https://paimai.jd.com/311177691",
+          "title": "福州市仓山区金山街道亭头路253号福州仓山万达广场B区（原金洲南路东侧与亭头路南侧交叉处）B12#楼701单",
+          "location": "福州市",
+          "price": "当前价:¥121万",
+          "assessment": "市场价:¥172.635万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311177567",
+          "title": "甘蔗街道十字街39号闽侯县旧城改造安置房(现:瀛洲花园小区)A6#楼1001单元",
+          "location": "福州市",
+          "price": "当前价:¥35万",
+          "assessment": "市场价:¥49.124931万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311175718",
+          "title": "福州市鼓楼区华大街道湖前路13号（原五四北路西侧）民都商住楼212单身公寓",
+          "location": "福州市",
+          "price": "当前价:¥46.5万",
+          "assessment": "市场价:¥65.969947万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311175669",
+          "title": "福州市鼓楼区华大街道湖前路13号（原五四北路西侧）民都商住楼418单身公寓",
+          "location": "福州市",
+          "price": "当前价:¥57.5万",
+          "assessment": "市场价:¥82.014291万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311175667",
+          "title": "福州市仓山区仓山镇万里解困小区4#楼1层15附属间、706单元",
+          "location": "福州市",
+          "price": "当前价:¥51.5万",
+          "assessment": "市场价:¥73.015369万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311174971",
+          "title": "连江县潘渡乡沿江大道1号贵安新天地贵泉苑25幢3204单元",
+          "location": "福州市",
+          "price": "当前价:¥30.03万",
+          "assessment": "评估价:¥42.9万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311174910",
+          "title": "福建省平潭县中楼乡大中村大中1号潭中佳苑五组团24#楼2702室",
+          "location": "福州市",
+          "price": "当前价:¥47.6901万",
+          "assessment": "评估价:¥66.236214万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311173861",
+          "title": "仓山区金山街道金桔路336号中天金海岸2-1#地48#楼2903单元",
+          "location": "福州市",
+          "price": "当前价:¥172.4677万",
+          "assessment": "评估价:¥307.978万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311173753",
+          "title": "晋安区新店镇福飞北路189号福晟·钱隆御景（二期）9#楼106单元",
+          "location": "福州市",
+          "price": "当前价:¥100.7244万",
+          "assessment": "评估价:¥179.865万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        },
+        {
+          "url": "https://paimai.jd.com/311170388",
+          "title": "福州市台江区新港街道水运里1号光明花园3#楼1层46附属间及401单元",
+          "location": "福州市",
+          "price": "当前价:¥144.1342万",
+          "assessment": "评估价:¥257.38236万",
+          "status": "预告中",
+          "category": "住宅用房",
+          "platform": "京东拍卖",
+          "statusGroup": "即将开始"
+        }
+      ],
+      "scannedAt": "2026-08-28T05:00:36.261Z",
+      "status": "部分完成"
+    }
+  },
+  "completedUrls": [
+    "https://paimai.jd.com/311177567",
+    "https://paimai.jd.com/311175718"
+  ],
+  "newSavedCount": 2,
+  "resumed": false,
+  "current": {
+    "platform": "jd",
+    "category": "住宅用房",
+    "statusFilter": "即将开始",
+    "title": "福州市鼓楼区华大街道湖前路13号（原五四北路西侧）民都商住楼212单身公寓",
+    "url": "https://paimai.jd.com/311175718"
+  },
+  "records": [
+    {
+      "所在省份": "福建省",
+      "城市": "福州市",
+      "区域": "闽侯县",
+      "标的名称": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元",
+      "小区名称（仅供参考）": "闽侯县旧城",
+      "标的类型": "住宅",
+      "平台": "京东拍卖",
+      "发拍次数": "一拍",
+      "拍卖时间": "2026-09-29T02:00:00.000Z",
+      "发拍时间": "2026-09-29T02:00:00.000Z",
+      "竞拍结束时间": "2026-09-30T02:00:00.000Z",
+      "是否成交": "即将开始",
+      "处置法院": "福州市鼓楼区人民法院",
+      "面积/㎡": 135.98,
+      "备注": "",
+      "起拍价格": 350000,
+      "评估价": 491249.31,
+      "成交金额": 0,
+      "竞买记录": null,
+      "报名人数": null,
+      "网站链接": "https://paimai.jd.com/311177567",
+      "_capturedAt": "2026-08-28T05:01:00.049Z",
+      "_sourceStatus": "预告中",
+      "_状态分组": "即将开始",
+      "_源分类": "住宅用房",
+      "_areaSource": "页面明确总面积",
+      "_participationExtractionAttempted": false,
+      "_attachments": [
+        {
+          "href": "https://storage.jd.com/auction.gateway/3F24085C96874A001227D2AA770F123320260828110237945.pdf",
+          "text": "江苏京东信息技术有限公司询价报告.pdf"
+        },
+        {
+          "href": "https://storage.jd.com/auction.gateway/535F969D32CFAB7AD07C8F0A72D97CE820260828110238027.pdf",
+          "text": "淘宝(中国)软件有限公司询价报告.pdf"
+        }
+      ],
+      "_fieldEvidence": {
+        "标的名称": {
+          "value": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】甘蔗街道十字街39号闽侯县旧城改造安置房(现:瀛洲花园小区)A6#楼1001单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区名称（仅供参考）": {
+          "value": "闽侯县旧城",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "面积/㎡": {
+          "value": 135.98,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 135.98平方米（以房管局出证面积为准） 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "评估价": {
+          "value": 491249.31,
+          "dataType": "number",
+          "unit": "元",
+          "source": {
+            "platform": "jd",
+            "section": "详情页竞价信息",
+            "element": "市场价",
+            "rawText": "市场价：491249.31"
+          },
+          "ruleId": "jd-market-price-as-assessment-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      },
+      "_endTimeSource": "页面明确时间",
+      "_missing": []
+    },
+    {
+      "所在省份": "福建省",
+      "城市": "福州市",
+      "区域": "鼓楼区",
+      "标的名称": "华大街道湖前路13号民都商住楼212单身公寓",
+      "小区名称（仅供参考）": "民都商住楼",
+      "标的类型": "住宅",
+      "平台": "京东拍卖",
+      "发拍次数": "一拍",
+      "拍卖时间": "2026-09-28T02:00:00.000Z",
+      "发拍时间": "2026-09-28T02:00:00.000Z",
+      "竞拍结束时间": "2026-09-29T02:00:00.000Z",
+      "是否成交": "即将开始",
+      "处置法院": "福州市鼓楼区人民法院",
+      "面积/㎡": 64.1,
+      "备注": "",
+      "起拍价格": 465000,
+      "评估价": 659699.47,
+      "成交金额": 0,
+      "竞买记录": null,
+      "报名人数": null,
+      "网站链接": "https://paimai.jd.com/311175718",
+      "_capturedAt": "2026-08-28T05:01:12.558Z",
+      "_sourceStatus": "预告中",
+      "_状态分组": "即将开始",
+      "_源分类": "住宅用房",
+      "_areaSource": "页面明确总面积",
+      "_participationExtractionAttempted": false,
+      "_attachments": [
+        {
+          "href": "https://storage.jd.com/auction.gateway/41C26AD6B7869160BA1B8C901DA317C320260827183653844.pdf",
+          "text": "淘宝(中国)软件有限公司询价报告 (28).pdf"
+        },
+        {
+          "href": "https://storage.jd.com/auction.gateway/28813A67B14D3A5A4D0D79AC99BDDE3920260827183653933.pdf",
+          "text": "江苏京东信息技术有限公司询价报告 (26).pdf"
+        }
+      ],
+      "_fieldEvidence": {
+        "标的名称": {
+          "value": "华大街道湖前路13号民都商住楼212单身公寓",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市鼓楼区华大街道湖前路13号（原五四北路西侧）民都商住楼212单身公寓"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区名称（仅供参考）": {
+          "value": "民都商住楼",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "华大街道湖前路13号民都商住楼212单身公寓"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "面积/㎡": {
+          "value": 64.1,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 64.1平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 装修情况 简装 房屋户型"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "评估价": {
+          "value": 659699.47,
+          "dataType": "number",
+          "unit": "元",
+          "source": {
+            "platform": "jd",
+            "section": "详情页竞价信息",
+            "element": "市场价",
+            "rawText": "市场价：659699.47"
+          },
+          "ruleId": "jd-market-price-as-assessment-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      },
+      "_endTimeSource": "页面明确时间",
+      "_missing": []
+    }
+  ],
+  "failures": [
+    {
+      "stage": "detail",
+      "platform": "jd",
+      "category": "住宅用房",
+      "status": "即将开始",
+      "title": "福州市仓山区金山街道亭头路253号福州仓山万达广场B区（原金洲南路东侧与亭头路南侧交叉处）B12#楼701单",
+      "url": "https://paimai.jd.com/311177691",
+      "error": "Error: page.goto: net::ERR_CONNECTION_CLOSED at https://paimai.jd.com/311177691\nCall log:\n\u001b[2m  - navigating to \"https://paimai.jd.com/311177691\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    }
+  ],
+  "evidence": [
+    {
+      "action": "new-or-update",
+      "status": "即将开始",
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "闽侯县",
+        "标的名称": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元",
+        "小区名称（仅供参考）": "闽侯县旧城",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-29T02:00:00.000Z",
+        "发拍时间": "2026-09-29T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-30T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 135.98,
+        "备注": "",
+        "起拍价格": 350000,
+        "评估价": 491249.31,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311177567",
+        "_capturedAt": "2026-08-28T05:01:00.049Z",
+        "_sourceStatus": "预告中",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": false,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/3F24085C96874A001227D2AA770F123320260828110237945.pdf",
+            "text": "江苏京东信息技术有限公司询价报告.pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/535F969D32CFAB7AD07C8F0A72D97CE820260828110238027.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告.pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】甘蔗街道十字街39号闽侯县旧城改造安置房(现:瀛洲花园小区)A6#楼1001单元"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "闽侯县旧城",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "标题正文项目名称候选",
+              "rawText": "甘蔗街道十字街39号闽侯县旧城改造安置房（现:瀛洲花园小区）A6#楼1001单元"
+            },
+            "ruleId": "community-primary-title-suffix-v2",
+            "confidence": "medium",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 135.98,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 135.98平方米（以房管局出证面积为准） 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 491249.31,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：491249.31"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    },
+    {
+      "action": "new-or-update",
+      "status": "即将开始",
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "鼓楼区",
+        "标的名称": "华大街道湖前路13号民都商住楼212单身公寓",
+        "小区名称（仅供参考）": "民都商住楼",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "发拍次数": "一拍",
+        "拍卖时间": "2026-09-28T02:00:00.000Z",
+        "发拍时间": "2026-09-28T02:00:00.000Z",
+        "竞拍结束时间": "2026-09-29T02:00:00.000Z",
+        "是否成交": "即将开始",
+        "处置法院": "福州市鼓楼区人民法院",
+        "面积/㎡": 64.1,
+        "备注": "",
+        "起拍价格": 465000,
+        "评估价": 659699.47,
+        "成交金额": 0,
+        "竞买记录": null,
+        "报名人数": null,
+        "网站链接": "https://paimai.jd.com/311175718",
+        "_capturedAt": "2026-08-28T05:01:12.558Z",
+        "_sourceStatus": "预告中",
+        "_状态分组": "即将开始",
+        "_源分类": "住宅用房",
+        "_areaSource": "页面明确总面积",
+        "_participationExtractionAttempted": false,
+        "_attachments": [
+          {
+            "href": "https://storage.jd.com/auction.gateway/41C26AD6B7869160BA1B8C901DA317C320260827183653844.pdf",
+            "text": "淘宝(中国)软件有限公司询价报告 (28).pdf"
+          },
+          {
+            "href": "https://storage.jd.com/auction.gateway/28813A67B14D3A5A4D0D79AC99BDDE3920260827183653933.pdf",
+            "text": "江苏京东信息技术有限公司询价报告 (26).pdf"
+          }
+        ],
+        "_fieldEvidence": {
+          "标的名称": {
+            "value": "华大街道湖前路13号民都商住楼212单身公寓",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "jd",
+              "section": "详情页标题",
+              "element": "标的名称",
+              "rawText": "【一拍】福州市鼓楼区华大街道湖前路13号（原五四北路西侧）民都商住楼212单身公寓"
+            },
+            "ruleId": "property-title-shared-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "小区名称（仅供参考）": {
+            "value": "民都商住楼",
+            "dataType": "string",
+            "unit": null,
+            "source": {
+              "platform": "京东拍卖",
+              "section": "标的名称后处理",
+              "element": "福州泉州小区词典主标题匹配",
+              "rawText": "华大街道湖前路13号民都商住楼212单身公寓"
+            },
+            "ruleId": "community-curated-dictionary-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "面积/㎡": {
+            "value": 64.1,
+            "dataType": "number",
+            "unit": "㎡",
+            "source": {
+              "platform": "jd",
+              "section": "页面明确总面积",
+              "element": "建筑面积",
+              "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 64.1平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 装修情况 简装 房屋户型"
+            },
+            "ruleId": "area-page-explicit-total-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          },
+          "评估价": {
+            "value": 659699.47,
+            "dataType": "number",
+            "unit": "元",
+            "source": {
+              "platform": "jd",
+              "section": "详情页竞价信息",
+              "element": "市场价",
+              "rawText": "市场价：659699.47"
+            },
+            "ruleId": "jd-market-price-as-assessment-v2",
+            "confidence": "high",
+            "conflicts": [],
+            "reviewRequired": false
+          }
+        },
+        "_endTimeSource": "页面明确时间",
+        "_missing": []
+      }
+    }
+  ],
+  "newAnchors": {
+    "jd:住宅用房:即将开始:福州市": "https://paimai.jd.com/311177691"
+  },
+  "counts": {
+    "records": 2,
+    "completedUrls": 2,
+    "failures": 1
+  },
+  "checkpointWorkbookPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260828（5）\\20260828新增房源信息_采集中.xlsx",
+  "resumeCommand": "使用与本次相同的 run 命令重新运行，程序会自动续爬"
+}

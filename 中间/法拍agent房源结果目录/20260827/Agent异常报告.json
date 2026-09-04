@@ -1,0 +1,535 @@
+{
+  "dateKey": "20260827",
+  "anomalies": [
+    {
+      "url": "https://paimai.jd.com/108789958",
+      "reason": "车位标的缺少建筑面积证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供可确定主面积的建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/110360883",
+      "reason": "住宅标的缺少建筑面积证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/104774266",
+      "reason": "商业标的缺少建筑面积证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076857615108.htm",
+      "reason": "缺少可拆分的建筑面积证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "标题同时列出单元与附属间，但任务内没有建筑面积原文，不能把附属间计入主面积；需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076844007468.htm",
+      "reason": "已按标题补正小区；主面积缺少证据。",
+      "suggestions": [],
+      "otherIssues": [
+        "标题同时列出住宅与杂物间，但任务内没有建筑面积原文，不能确定住宅主面积；需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076842995306.htm",
+      "reason": "住宅标的缺少建筑面积证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076842623569.htm",
+      "reason": "住宅标的缺少建筑面积证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079477412703.htm",
+      "reason": "已按标题补正小区；缺少建筑面积证据。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078474725606.htm",
+      "reason": "已按标题补正小区；缺少建筑面积证据。",
+      "suggestions": [],
+      "otherIssues": [
+        "任务内未提供建筑面积原文；保留空面积，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/112098649",
+      "reason": "主面积已由共有面积20.78㎡更正为建筑面积118.80㎡。",
+      "suggestions": [],
+      "otherIssues": [
+        "标题未包含可可靠识别的小区名称，保留原小区并需人工复核。"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311004153",
+      "reason": "保留总建筑面积并标记车位拆分与超大商业面积风险。",
+      "suggestions": [],
+      "otherIssues": [
+        "商业总建筑面积56505.59㎡超过10000㎡，且车位是否计入总面积无法由任务内证据安全判断，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311008939",
+      "reason": "工业房地产无可靠项目名称证据，未打开网页。",
+      "suggestions": [],
+      "otherIssues": [
+        "标题仅提供村庄名称，未提供可可靠识别的工业园区或项目名称；保留原值，需人工复核。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076408703955.htm",
+      "reason": "面积证据与当前值一致，已标记极低起拍单价风险。",
+      "suggestions": [],
+      "otherIssues": [
+        "建筑面积原文为128.83平方米；起拍价65.9元÷建筑面积128.83㎡≈1元/㎡，低于500元/㎡，数据疑似有误，需人工复核价格单位或原始金额。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1076399775701.htm",
+      "reason": "确认主面积139.63㎡不含车位，并标记极低起拍单价风险。",
+      "suggestions": [],
+      "otherIssues": [
+        "起拍价6元对应主建筑面积139.63㎡的单价低于500元/㎡，需人工复核价格单位或原始金额。"
+      ]
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079291964527.htm",
+      "reason": "已按标题补正楼盘；附属间面积未拆分。",
+      "suggestions": [],
+      "otherIssues": [
+        "住宅/商业与附属间并列，但任务内未提供附属间分项面积，需人工复核主面积是否可拆分。"
+      ]
+    }
+  ],
+  "operationalFailures": [],
+  "changes": [
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "司前新村",
+      "confidence": 0.99,
+      "evidence": "标的名称：凤山镇司前新村9#楼501室及杂物间",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1076844007468.htm",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "平潭滨海国际度假区",
+      "confidence": 0.99,
+      "evidence": "标的名称：平潭滨海国际度假区1#203、208-210、212、213A、215、218-219室",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1079477412703.htm",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "平潭滨海国际度假区",
+      "confidence": 0.99,
+      "evidence": "标的名称：平潭滨海国际度假区4#101-103、103A、201-203、203A、205-210、1113室",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1078474725606.htm",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "福晟钱隆樽品",
+      "confidence": 0.99,
+      "evidence": "标的名称：南通镇南灵路98号福晟钱隆樽品16#楼2304单元",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/311169248",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "东湖·海西高新技术企业港",
+      "confidence": 0.99,
+      "evidence": "标的名称：文武砂镇东湖·海西高新技术企业港软件开发基地（数字福建VR“双创”产业孵化基地）七期21#楼409研发设计",
+      "reason": "标题明确出现园区名称。",
+      "url": "https://paimai.jd.com/311168590",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "飞凤水岸",
+      "confidence": 0.99,
+      "evidence": "标的名称：建新镇杨周路118号飞凤水岸2#楼104单元",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/311167521",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "义州新区北兴区B2地块",
+      "confidence": 0.99,
+      "evidence": "标的名称：义洲街道锦标路37号义州新区北兴区B2地块7号楼1层01店面",
+      "reason": "标题明确出现项目地块名称。",
+      "url": "https://paimai.jd.com/108340345",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层09店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108340251",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层04店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108340461",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层08店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108340284",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层11店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108339729",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层10店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108340074",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层05店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108339838",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层07店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108340083",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "改造二期汀州小学地块安置房",
+      "confidence": 0.99,
+      "evidence": "标的名称：苍霞街道白马南路256号改造二期汀州小学地块安置房1号楼1层06店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/108340264",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "凤翔名仕",
+      "confidence": 0.99,
+      "evidence": "标的名称：凤城镇文汇路3号凤翔名仕3号楼603室房地产",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/110065832",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "凤翔名仕",
+      "confidence": 0.99,
+      "evidence": "标的名称：凤城镇文汇路3号凤翔名仕3号楼603室房地产",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/110599649",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "贵安新天地海峡传统文化街",
+      "confidence": 0.99,
+      "evidence": "标的名称：潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/111595809",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "贵安新天地海峡传统文化街",
+      "confidence": 0.99,
+      "evidence": "标的名称：潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/111595795",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "贵安新天地海峡传统文化街",
+      "confidence": 0.99,
+      "evidence": "标的名称：潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/111595807",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "贵安新天地海峡传统文化街",
+      "confidence": 0.99,
+      "evidence": "标的名称：潘渡乡沿江大道1号贵安新天地海峡传统文化街19#楼14店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/112307050",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "贵安新天地海峡传统文化街",
+      "confidence": 0.99,
+      "evidence": "标的名称：潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼10店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/112307056",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "工业区",
+      "after": "贵安新天地海峡传统文化街",
+      "confidence": 0.99,
+      "evidence": "标的名称：潘渡乡沿江大道1号贵安新天地海峡传统文化街8#楼11店面",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/112307058",
+      "reviewedAt": "2026-08-27T05:21:45.969Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": 20.78,
+      "after": 118.8,
+      "confidence": 0.99,
+      "evidence": "建筑面积 | 118.80平方米，其中共有面积20.78平方米",
+      "reason": "建筑面积优先于共有面积，主面积取118.80㎡。",
+      "url": "https://paimai.jd.com/112098649",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "龙粮商住楼",
+      "confidence": 0.99,
+      "evidence": "标的名称：龙田镇龙辉街龙粮商住楼401号住宅一套",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/112239186",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "龙粮商住楼",
+      "confidence": 0.99,
+      "evidence": "标的名称：龙田镇龙辉街龙粮商住楼401号住宅一套",
+      "reason": "标题明确出现项目名称。",
+      "url": "https://paimai.jd.com/113185399",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "备注",
+      "before": "",
+      "after": "面积证据：总建筑面积56505.59平方米，其中酒店总建筑面积43559.67平方米，商务办公总建筑面积8882.99平方米；标题另列地下车位但任务内无车位分项面积，无法确认总建筑面积是否含车位，人工需复核。",
+      "confidence": 0.99,
+      "evidence": "总建筑面积56505.59平方米，其中酒店总建筑面积43559.67平方米，商务办公总建筑面积8882.99平方米；标题另列地下车位。",
+      "reason": "保留完整可用面积原文并说明车位面积无法拆分。",
+      "url": "https://paimai.jd.com/311004153",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "碧海蓝天",
+      "confidence": 0.99,
+      "evidence": "标的名称：石井镇雄风路177号碧海蓝天12号楼3层301室",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/311169812",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "联溢小区",
+      "confidence": 0.99,
+      "evidence": "标的名称：深沪镇码头大路东侧联溢小区房产",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://paimai.jd.com/311168142",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "顺华世纪鸥洲B区",
+      "confidence": 0.99,
+      "evidence": "标的名称：南屿镇乌龙江南大道89号顺华世纪鸥洲B区3#楼3106复式单元",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1076663795695.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "融侨东区C区",
+      "confidence": 0.99,
+      "evidence": "标的名称：鼓山镇远洋路58号融侨东区C区3#楼206单元",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1079478676292.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "备注",
+      "before": "",
+      "after": "面积原文：上述房产建筑面积约139.63平方米，车位建筑面积约32.03平方米。主面积仅取商务办公139.63平方米，车位未计入。数据疑似有误：起拍价6元÷建筑面积139.63㎡≈0元/㎡，低于500元/㎡。",
+      "confidence": 0.99,
+      "evidence": "上述房产建筑面积约139.63平方米，车位建筑面积约32.03平方米；起拍价6元。",
+      "reason": "保留办公与车位面积原文，主面积不计车位，并记录极低起拍单价。",
+      "url": "https://sf-item.taobao.com/sf_item/1076399775701.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "商贸供销综合大楼",
+      "confidence": 0.99,
+      "evidence": "标的名称：凤城镇816西路1号商贸供销综合大楼A座306单元，B座3层24附属间",
+      "reason": "标题明确出现楼盘名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1079291964527.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "备注",
+      "before": "",
+      "after": "面积原文：商贸供销综合大楼A座306单元，B座3层24附属间；建筑面积为158.32平方米。标题另列附属间但无分项面积，无法确认158.32㎡是否包含附属间，人工需复核。",
+      "confidence": 0.99,
+      "evidence": "商贸供销综合大楼A座306单元，B座3层24附属间。建筑面积为158.32平方米。",
+      "reason": "保留完整面积原文并标记附属间拆分不足。",
+      "url": "https://sf-item.taobao.com/sf_item/1079291964527.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "面积/㎡",
+      "before": 61.42,
+      "after": 48.08,
+      "confidence": 0.99,
+      "evidence": "建筑面积：54.75平方米，其中单元房面积为48.08平方米，附属间面积为6.67平方米；主面积=48.08㎡",
+      "reason": "住宅与附属间并列时，主面积仅取单元房面积。",
+      "url": "https://sf-item.taobao.com/sf_item/1079314996946.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "小区名称（仅供参考）",
+      "before": "商住小区",
+      "after": "亚峰新区",
+      "confidence": 0.99,
+      "evidence": "标的名称：鳌峰街道亚兴路50号亚峰新区7#楼403单元及7#楼2层69附属间房产",
+      "reason": "标题明确出现小区名称。",
+      "url": "https://sf-item.taobao.com/sf_item/1079314996946.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "备注",
+      "before": "户型：1室2厅",
+      "after": "户型：1室2厅；面积原文：建筑面积：54.75平方米，其中单元房面积为48.08平方米，附属间面积为6.67平方米；主面积仅取单元房48.08平方米，附属间未计入。",
+      "confidence": 0.99,
+      "evidence": "建筑面积：54.75平方米，其中单元房面积为48.08平方米，附属间面积为6.67平方米。",
+      "reason": "保留完整面积原文并明确主面积拆分。",
+      "url": "https://sf-item.taobao.com/sf_item/1079314996946.htm",
+      "reviewedAt": "2026-08-27T05:21:45.970Z",
+      "reviewer": "workbench"
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "version": 2,
+  "dateKey": "20260827",
+  "status": "采集中",
+  "startedAt": "2026-08-27T05:29:27.383Z",
+  "updatedAt": "2026-08-27T05:51:27.890Z",
+  "plan": {
+    "dateKey": "20260827",
+    "statePath": "E:\\dsh\\法拍资产Agent-交付版V3.7\\path\\scoped-tasks\\3e69773da368c01b\\state.json",
+    "platform": "alibaba_pc",
+    "categories": [
+      "住宅用房",
+      "商业用房",
+      "工业用房"
+    ],
+    "statusFilters": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxPages": 100,
+    "dryRun": false,
+    "includeParties": false
+  },
+  "groups": {
+    "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:即将开始:泉州市": {
+      "priorAnchor": "https://sf-item.taobao.com/sf_item/1076634867823.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.6&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=1ed3091c-743e-4e3b-ada1-66f1fa11ef36",
+      "firstUrl": "https://sf-item.taobao.com/sf_item/1077723618848.htm",
+      "anchorFound": true,
+      "anchorMatchMode": "primary",
+      "matchedAnchor": "https://sf-item.taobao.com/sf_item/1076634867823.htm",
+      "listExhausted": false,
+      "items": [
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1077723618848.htm",
+          "title": "址在永春县桃城镇北门街71号的不动产",
+          "text": "低于评估价30%\n支持贷款\n址在永春县桃城镇北门街71号的不动产\n永春 | 泉州\n起拍价\n¥\n38.81\n万\n评估价\n¥ \n55.45万\n开拍\n09月29日10:00\n6\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 30,
+            "currentPrice": 388100,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "低于评估价30%\n支持贷款\n址在永春县桃城镇北门街71号的不动产\n永春 | 泉州\n起拍价\n¥\n38.81\n万\n评估价\n¥ \n55.45万\n开拍\n09月29日10:00\n6\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1077719558217.htm",
+          "title": "晋江市梅岭街道长兴路657号中奥·名雅居2幢201住宅",
+          "text": "支持贷款\n晋江市梅岭街道长兴路657号中奥·名雅居2幢201住宅\n晋江 | 泉州\n起拍价\n¥\n72.71\n万\n市场价\n¥ \n129.85万\n开拍\n09月14日10:00\n27\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 1298500,
+            "currentPrice": 727099.9999999999,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n晋江市梅岭街道长兴路657号中奥·名雅居2幢201住宅\n晋江 | 泉州\n起拍价\n¥\n72.71\n万\n市场价\n¥ \n129.85万\n开拍\n09月14日10:00\n27\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1076858171152.htm",
+          "title": "泉州市鲤城区常泰街道上村社区常泰南路99号8栋1705室房产",
+          "text": "泉州市鲤城区常泰街道上村社区常泰南路99号8栋1705室房产\n鲤城 | 泉州\n起拍价\n¥\n29.2\n万\n市场价\n¥ \n49万\n开拍\n09月17日10:00\n12\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 490000,
+            "currentPrice": 292000,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "泉州市鲤城区常泰街道上村社区常泰南路99号8栋1705室房产\n鲤城 | 泉州\n起拍价\n¥\n29.2\n万\n市场价\n¥ \n49万\n开拍\n09月17日10:00\n12\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1077716818602.htm",
+          "title": "安溪县凤城镇河滨南路1358号世纪豪庭15#楼501室房产",
+          "text": "支持贷款\n安溪县凤城镇河滨南路1358号世纪豪庭15#楼501室房产\n安溪 | 泉州\n起拍价\n¥\n43.47\n万\n市场价\n¥ \n56.79万\n开拍\n09月17日10:00\n41\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 567900,
+            "currentPrice": 434700,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n安溪县凤城镇河滨南路1358号世纪豪庭15#楼501室房产\n安溪 | 泉州\n起拍价\n¥\n43.47\n万\n市场价\n¥ \n56.79万\n开拍\n09月17日10:00\n41\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1077716718125.htm",
+          "title": "安溪县凤城镇北石兴安路3幢63号402室房产",
+          "text": "支持贷款\n安溪县凤城镇北石兴安路3幢63号402室房产\n安溪 | 泉州\n起拍价\n¥\n17.5\n万\n市场价\n¥ \n19.35万\n开拍\n09月17日10:00\n40\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 193500,
+            "currentPrice": 175000,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n安溪县凤城镇北石兴安路3幢63号402室房产\n安溪 | 泉州\n起拍价\n¥\n17.5\n万\n市场价\n¥ \n19.35万\n开拍\n09月17日10:00\n40\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1079760268881.htm",
+          "title": "南安市水头镇荷楼片区首期奎峰北路安置区（东星荷景园）3号楼B4层401室住宅",
+          "text": "南安市水头镇荷楼片区首期奎峰北路安置区（东星荷景园）3号楼B4层401室住宅\n南安 | 泉州\n起拍价\n¥\n33.27\n万\n市场价\n¥ \n59.41万\n开拍\n09月12日10:00\n14\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 594100,
+            "currentPrice": 332700.00000000006,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "南安市水头镇荷楼片区首期奎峰北路安置区（东星荷景园）3号楼B4层401室住宅\n南安 | 泉州\n起拍价\n¥\n33.27\n万\n市场价\n¥ \n59.41万\n开拍\n09月12日10:00\n14\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1076847235217.htm",
+          "title": "德化县龙浔镇兴南街77号金龙中心城9幢4层I401",
+          "text": "德化县龙浔镇兴南街77号金龙中心城9幢4层I401\n德化 | 泉州\n起拍价\n¥\n327.47\n万\n评估价\n¥ \n467.82万\n开拍\n09月28日10:00\n6\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 4678200,
+            "currentPrice": 3274700.0000000005,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "德化县龙浔镇兴南街77号金龙中心城9幢4层I401\n德化 | 泉州\n起拍价\n¥\n327.47\n万\n评估价\n¥ \n467.82万\n开拍\n09月28日10:00\n6\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1079760312123.htm",
+          "title": "安溪县凤城镇锦城路99号铁观音山庄51号楼3004室房产",
+          "text": "支持贷款\n安溪县凤城镇锦城路99号铁观音山庄51号楼3004室房产\n安溪 | 泉州\n起拍价\n¥\n70.3\n万\n市场价\n¥ \n87.84万\n开拍\n10月03日10:00\n12\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 878400,
+            "currentPrice": 703000,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n安溪县凤城镇锦城路99号铁观音山庄51号楼3004室房产\n安溪 | 泉州\n起拍价\n¥\n70.3\n万\n市场价\n¥ \n87.84万\n开拍\n10月03日10:00\n12\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1076846623564.htm",
+          "title": "德化龙浔镇兴南街77号金龙中心城9幢3层I301",
+          "text": "德化龙浔镇兴南街77号金龙中心城9幢3层I301\n德化 | 泉州\n起拍价\n¥\n327.3\n万\n评估价\n¥ \n467.58万\n开拍\n09月28日10:00\n3\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 4675800,
+            "currentPrice": 3273000,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "德化龙浔镇兴南街77号金龙中心城9幢3层I301\n德化 | 泉州\n起拍价\n¥\n327.3\n万\n评估价\n¥ \n467.58万\n开拍\n09月28日10:00\n3\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1078755433984.htm",
+          "title": "德化县龙浔镇兴南街77号金龙中心城9幢2层I201",
+          "text": "德化县龙浔镇兴南街77号金龙中心城9幢2层I201\n德化 | 泉州\n起拍价\n¥\n117.2\n万\n评估价\n¥ \n167.43万\n开拍\n09月28日10:00\n5\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 1674300,
+            "currentPrice": 1172000,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "德化县龙浔镇兴南街77号金龙中心城9幢2层I201\n德化 | 泉州\n起拍价\n¥\n117.2\n万\n评估价\n¥ \n167.43万\n开拍\n09月28日10:00\n5\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1078754889677.htm",
+          "title": "德化县龙浔镇兴南街77号金龙中心城9幢2层I202",
+          "text": "德化县龙浔镇兴南街77号金龙中心城9幢2层I202\n德化 | 泉州\n起拍价\n¥\n370.91\n万\n评估价\n¥ \n529.88万\n开拍\n09月28日10:00\n4\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 5298800,
+            "currentPrice": 3709100.0000000005,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "德化县龙浔镇兴南街77号金龙中心城9幢2层I202\n德化 | 泉州\n起拍价\n¥\n370.91\n万\n评估价\n¥ \n529.88万\n开拍\n09月28日10:00\n4\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1076842391975.htm",
+          "title": "福建省晋江市梅岭街道双龙西路305号中航城·天玺46幢3702室",
+          "text": "支持贷款\n福建省晋江市梅岭街道双龙西路305号中航城·天玺46幢3702室\n晋江 | 泉州\n起拍价\n¥\n90.7\n万\n市场价\n¥ \n129.45万\n开拍\n09月28日10:00\n16\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 1294500,
+            "currentPrice": 907000,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n福建省晋江市梅岭街道双龙西路305号中航城·天玺46幢3702室\n晋江 | 泉州\n起拍价\n¥\n90.7\n万\n市场价\n¥ \n129.45万\n开拍\n09月28日10:00\n16\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1078738913494.htm",
+          "title": "福建省泉州市丰泽区江滨北路潘山段北侧泉州万科城一期3号楼A305",
+          "text": "福建省泉州市丰泽区江滨北路潘山段北侧泉州万科城一期3号楼A305\n丰泽 | 泉州\n起拍价\n¥\n74.5\n万\n市场价\n¥ \n133万\n开拍\n09月14日10:00\n93\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 1330000,
+            "currentPrice": 745000,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "福建省泉州市丰泽区江滨北路潘山段北侧泉州万科城一期3号楼A305\n丰泽 | 泉州\n起拍价\n¥\n74.5\n万\n市场价\n¥ \n133万\n开拍\n09月14日10:00\n93\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1079730120338.htm",
+          "title": "安溪县城厢镇二环南路666号百福豪城21号楼1601室房产",
+          "text": "支持贷款\n安溪县城厢镇二环南路666号百福豪城21号楼1601室房产\n安溪 | 泉州\n起拍价\n¥\n67.5\n万\n市场价\n¥ \n84.36万\n开拍\n10月08日10:00\n40\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 843600,
+            "currentPrice": 675000,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n安溪县城厢镇二环南路666号百福豪城21号楼1601室房产\n安溪 | 泉州\n起拍价\n¥\n67.5\n万\n市场价\n¥ \n84.36万\n开拍\n10月08日10:00\n40\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1078725409847.htm",
+          "title": "安溪县城厢镇建安南路999号正祥溪山安邸7号楼1梯1801室房产",
+          "text": "支持贷款\n安溪县城厢镇建安南路999号正祥溪山安邸7号楼1梯1801室房产\n安溪 | 泉州\n起拍价\n¥\n63.4\n万\n市场价\n¥ \n79.24万\n开拍\n10月08日10:00\n28\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "住宅用房",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": null,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 792400,
+            "currentPrice": 634000,
+            "bidCount": null,
+            "category": "住宅用房",
+            "categoryConfidence": "high",
+            "rawText": "支持贷款\n安溪县城厢镇建安南路999号正祥溪山安邸7号楼1梯1801室房产\n安溪 | 泉州\n起拍价\n¥\n63.4\n万\n市场价\n¥ \n79.24万\n开拍\n10月08日10:00\n28\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1077528230423.htm",
+          "title": "福建省泉州市丰泽区东海街道北星社区海星小区17号楼1604的房产",
+          "text": "支持贷款\n福建省泉州市丰泽区东海街道北星社区海星小区17号楼1604的房产\n海星小区 | 159.18m² | 丰泽 | 泉州\n起拍价\n¥\n133.71\n万\n市场价\n¥ \n191.01万\n开拍\n09月27日10:00\n210\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": 159.18,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 1910100,
+            "currentPrice": 1337100,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "支持贷款\n福建省泉州市丰泽区东海街道北星社区海星小区17号楼1604的房产\n海星小区 | 159.18m² | 丰泽 | 泉州\n起拍价\n¥\n133.71\n万\n市场价\n¥ \n191.01万\n开拍\n09月27日10:00\n210\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1078571145234.htm",
+          "title": "福建省南安市柳城办事处外二环路柳湖花园小区1幢1层20号店的不动产",
+          "text": "福建省南安市柳城办事处外二环路柳湖花园小区1幢1层20号店的不动产\n35.33m² | 南安 | 泉州\n起拍价\n¥\n22.41\n万\n评估价\n¥ \n32.02万\n开拍\n09月27日10:00\n61\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": 35.33,
+            "community": "",
+            "room": "",
+            "assessmentPrice": 320200.00000000006,
+            "currentPrice": 224100,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "福建省南安市柳城办事处外二环路柳湖花园小区1幢1层20号店的不动产\n35.33m² | 南安 | 泉州\n起拍价\n¥\n22.41\n万\n评估价\n¥ \n32.02万\n开拍\n09月27日10:00\n61\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        },
+        {
+          "url": "https://sf-item.taobao.com/sf_item/1076649915448.htm",
+          "title": "泉州市丰泽区田安路与丰泽街交叉口东南侧和昌花苑5号楼606",
+          "text": "支持贷款\n泉州市丰泽区田安路与丰泽街交叉口东南侧和昌花苑5号楼606\n和昌花苑 | 137.53m² | 丰泽 | 泉州\n起拍价\n¥\n176\n万\n市场价\n¥ \n220万\n开拍\n09月27日10:00\n199\n次围观\n0\n人报名\n司法拍卖\n即将开始",
+          "category": "",
+          "selectedCategories": [
+            "住宅用房",
+            "商业用房",
+            "工业用房"
+          ],
+          "platform": "阿里资产",
+          "collectorPlatform": "alibaba_pc",
+          "statusGroup": "即将开始",
+          "listEvidence": {
+            "area": 137.53,
+            "community": "和昌花苑",
+            "room": "",
+            "assessmentPrice": 2200000,
+            "currentPrice": 1760000,
+            "bidCount": null,
+            "category": "",
+            "categoryConfidence": "low",
+            "rawText": "支持贷款\n泉州市丰泽区田安路与丰泽街交叉口东南侧和昌花苑5号楼606\n和昌花苑 | 137.53m² | 丰泽 | 泉州\n起拍价\n¥\n176\n万\n市场价\n¥ \n220万\n开拍\n09月27日10:00\n199\n次围观\n0\n人报名\n司法拍卖\n即将开始"
+          }
+        }
+      ],
+      "scannedAt": "2026-08-27T05:29:40.483Z",
+      "status": "待采集详情"
+    }
+  },
+  "completedUrls": [],
+  "newSavedCount": 0,
+  "resumed": true,
+  "current": {
+    "platform": "alibaba_pc",
+    "category": "住宅用房+商业用房+工业用房@with_bankruptcy",
+    "statusFilter": "即将开始",
+    "title": "列表扫描完成",
+    "url": "https://sf-item.taobao.com/sf_item/1077723618848.htm"
+  },
+  "records": [],
+  "failures": [],
+  "evidence": [],
+  "newAnchors": {},
+  "counts": {
+    "records": 0,
+    "completedUrls": 0,
+    "failures": 0
+  },
+  "checkpointWorkbookPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（1）\\20260827新增房源信息_采集中.xlsx",
+  "resumeCommand": "使用与本次相同的 run 命令重新运行，程序会自动续爬"
+}

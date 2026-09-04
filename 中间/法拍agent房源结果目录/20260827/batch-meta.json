@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "taskId": "9ee8836e-828f-4a8c-b7d0-9c1120d477f0",
+  "batchId": "20260827-27f7acf6-6893-4430-aedd-050464b9f047",
+  "dateKey": "20260827",
+  "runName": "20260827",
+  "batchDirectory": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827",
+  "workbookPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827\\20260827新增房源信息.xlsx",
+  "progressPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827\\采集进度.json",
+  "reportPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827\\每日摘要与异常报告.md",
+  "createdAt": "2026-08-27T03:02:21.777Z",
+  "selectedStatuses": [
+    "即将开始",
+    "已结束"
+  ],
+  "statusScope": "all",
+  "statusLabel": "即将开始 + 已结束",
+  "status": "completed",
+  "expectedGroupCount": 8,
+  "collection": {
+    "platform": "alibaba_pc_jd_pc",
+    "maxRuntimeMinutes": 240,
+    "maxRetries": 5,
+    "userActionTimeoutMinutes": 60,
+    "warnAtRecords": 500,
+    "stopAtRecords": 800,
+    "pauseGraceSeconds": 90,
+    "heartbeatSeconds": 15,
+    "pollSeconds": 5,
+    "category": "住宅用房,商业用房,工业用房",
+    "status": "即将开始,已结束",
+    "selectedStatuses": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxItems": null,
+    "maxPages": null,
+    "dryRun": false,
+    "skipHistoricalRefresh": true,
+    "preScan": false,
+    "alibabaPc": {
+      "includeBankruptcy": true
+    },
+    "scope": {
+      "mode": "custom",
+      "province": "福建省",
+      "cities": [
+        "福州市",
+        "泉州市"
+      ],
+      "anchors": {
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:即将开始:福州市": "https://sf-item.taobao.com/sf_item/1077166530125.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.57&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=792fe30c-d8e6-4fcb-9c4a-fd3fdeddc4dc",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:已结束:福州市": "https://sf-item.taobao.com/sf_item/1071651538846.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.40&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=e9023184-78f7-4412-b6bd-e80479065f1f",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:即将开始:泉州市": "https://sf-item.taobao.com/sf_item/1076634867823.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.6&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=1ed3091c-743e-4e3b-ada1-66f1fa11ef36",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:已结束:泉州市": "https://sf-item.taobao.com/sf_item/1073753548560.htm?spm=a2129.25287131.puimod-pc-search-list_9018433170.1&pmid=0144569595_1685414424109&pmtk=20140647.0.0.0.27064540.puimod-pc-search-navbar_5143927030.vault-jump&path=27181431%2C25287131&track_id=32e1c8cf-97ba-44f0-94a7-6caa7bb8ff65",
+        "jd_pc:住宅用房+商业用房+工业用房:即将开始:福州市": "https://paimai.jd.com/311163784",
+        "jd_pc:住宅用房+商业用房+工业用房:已结束:福州市": "https://paimai.jd.com/311070469",
+        "jd_pc:住宅用房+商业用房+工业用房:即将开始:泉州市": "https://paimai.jd.com/311166307",
+        "jd_pc:住宅用房+商业用房+工业用房:已结束:泉州市": "https://paimai.jd.com/311071651"
+      },
+      "platforms": [
+        "alibaba_pc",
+        "jd_pc"
+      ],
+      "selectedStatuses": [
+        "即将开始",
+        "已结束"
+      ],
+      "includeBankruptcy": true,
+      "anchorsConsumed": false
+    }
+  },
+  "updatedAt": "2026-08-27T05:29:27.013Z",
+  "phase": "complete",
+  "statusMessage": "工作台复核已完成：复核 42 条，应用 37 项修正。",
+  "startedAt": "2026-08-27T04:55:18.897Z",
+  "completedAt": "2026-08-27T05:21:46.324Z",
+  "failedAt": null
+}

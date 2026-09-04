@@ -1,0 +1,500 @@
+@vom 1
+@view 1263x847
+@layers 1 focus=L1
+L1 page
+  RootWebArea "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 - 司法拍卖 - 阿里资产"
+    @e1 link "欢迎进入 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 - 司法拍卖 - 阿里资产,盲人用户使用操作智能引导，请按快捷键Ctrl+Alt+R；阅读详细操作说明请按快捷键Ctrl+Alt+问号键。"
+    list
+      listitem
+        @e2 link "tb67691054" [→ i.taobao.com]
+        StaticText ""
+      listitem
+        @e3 link "网页无障碍"
+    list
+      listitem
+        @e4 button "com"
+      listitem
+        @e5 link "已买到的宝贝" [→ buyertrade.taobao.com]
+      listitem
+        @e6 link "我的淘宝" [→ i.taobao.com]
+        StaticText ""
+      listitem
+        @e7 link " 购物车" [→ cart.taobao.com]
+      listitem
+        @e8 link " 收藏夹" [→ i.taobao.com]
+        StaticText ""
+      listitem
+        @e9 link "免费开店" [→ ishop.taobao.com]
+        StaticText ""
+      listitem
+        @e10 link "千牛卖家中心" [→ myseller.taobao.com]
+        StaticText ""
+      listitem
+        @e11 link "帮助中心" [→ consumerservice.taobao.com]
+        StaticText ""
+    list
+      listitem
+        @e12 link "首页" [→ sf.taobao.com]
+      listitem
+        @e13 link "法院" [→ sf.taobao.com]
+      listitem
+        @e14 link "公告" [→ sf.taobao.com]
+      listitem
+        @e15 link "预告" [→ sf.taobao.com]
+      listitem
+        @e16 link "刑案" [→ sf.taobao.com]
+      listitem
+        @e17 link "自行处置" [→ sf.taobao.com]
+      listitem
+        @e18 link "破产" [→ susong.taobao.com]
+      listitem
+        @e19 link "捡漏" [→ sf.taobao.com]
+      listitem
+        @e20 link "精准获客" [→ huodong.taobao.com]
+      listitem
+        @e21 link "流拍再买" [→ huodong.taobao.com]
+    search
+      form
+        @e22 textbox "标的物名称/地理位置/执行案号" [empty] placeholder="标的物名称/地理位置/执行案号"
+        @e23 button "搜索"
+    image "司法拍卖"
+    list
+      listitem
+        @e24 link [→ z.taobao.com]
+      listitem
+        @e25 link [→ sf.taobao.com]
+      listitem
+        @e26 link [→ zc-paimai.taobao.com]
+      listitem
+        @e27 link [→ paimai.taobao.com]
+      listitem
+        @e28 link [→ huodong.taobao.com]
+      listitem
+        @e29 link [→ help-paimai.taobao.com]
+      listitem
+        @e30 link [→ huodong.taobao.com]
+    list
+      listitem
+        @e31 link "我的" [→ item-paimai.taobao.com]
+      listitem
+        @e32 link [→ ai.alimebot.taobao.com]
+      listitem
+        StaticText "400-822-2870"
+    StaticText "为您推荐"
+    StaticText "换一换"
+    @e33 link "连江县敖江镇杉塘村新厦路1号厦宫新区13幢13A02单元房产 起拍 ¥ 18.3888万" [ctx: 为您推荐]
+    @e34 link "福建省连江县潘渡乡沿江大道1号贵安天地贵泉苑a10幢3001单元 起拍 ¥ 35万" [ctx: 为您推荐]
+    @e35 link "（破）福州市晋安区新店镇泉头村泉头396号龙湖璟宸苑8#楼1801单元房产 起拍 ¥ 73.472万"
+    @e36 link "（破）福州市晋安区新店镇泉头村泉头396号龙湖璟宸苑8#楼2001单元房产 起拍 ¥ 74.207万"
+    @e37 link "（破）福州市晋安区新店镇泉头村泉头396号龙湖璟宸苑8#楼2101单元房产 起拍 ¥ 74.207万"
+    @e38 link "连江县东湖镇飞石村瑞安路18号富山御苑6幢1305单元房地产 起拍 ¥ 15万" [ctx: 为您推荐]
+    paragraph
+      StaticText "当前标的物信息于 2026.08.24 11:36:48 进行了更新"
+      @e39 link "查看修改记录" [ctx: 浏览器IE8、IE9将在10月后停止使用flash功能，请升级浏览器！] [→ sf.taobao.com]
+    paragraph
+      StaticText "当前标的物公告于 2026.08.24 11:36:48 进行了更新"
+      @e40 link "查看修改记录" [ctx: 浏览器IE8、IE9将在10月后停止使用flash功能，请升级浏览器！] [→ sf.taobao.com]
+    heading "二拍 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元"
+      StaticText "二拍"
+      StaticText "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元"
+    image "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元"
+    list
+      listitem
+        @e41 link "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元" [ctx: 二拍 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元]
+      listitem
+        @e42 link "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元" [ctx: 二拍 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元]
+    @e43 link [→ ai.alimebot.taobao.com]
+    StaticText "6"
+    StaticText "人报名"
+    StaticText "52"
+    StaticText "人设置提醒"
+    StaticText "2851"
+    StaticText "次围观"
+    table
+      rowgroup
+      row
+        cell "保证金 : ¥40,000 查看如何支付"
+          StaticText "保证金"
+          StaticText ":"
+          StaticText "¥"
+          StaticText "40,000"
+          @e44 button "¥" [ctx: 40,000]
+          @e45 button "40,000"
+          StaticText "查看如何支付"
+          @e46 button "查看如何支付"
+      row
+        cell "起拍价 : ¥325,279"
+          StaticText "起拍价"
+          StaticText ":"
+          StaticText "¥"
+          StaticText "325,279"
+          @e47 button "¥" [ctx: 325,279]
+          @e48 button "325,279"
+        cell "评估价 : ¥406,598.57"
+          StaticText "评估价"
+          StaticText ":"
+          StaticText "¥"
+          StaticText "406,598.57"
+          @e49 button "¥" [ctx: 评估价]
+          @e50 button "406,598.57"
+        cell "延时周期 : 5分钟"
+          @e51 button "延时周期"
+          StaticText ":"
+          StaticText "5分钟"
+          @e52 button "5分钟"
+          @e53 link [→ help-paimai.taobao.com]
+          @e54 button ":"
+      row
+        cell "加价幅度 : ¥3,000"
+          StaticText "加价幅度"
+          StaticText ":"
+          StaticText "¥"
+          StaticText "3,000"
+          @e55 button "¥" [ctx: 3,000]
+          @e56 button "3,000"
+        cell "竞价周期 : 1天"
+    @e57 link " 再拍提醒"
+    list
+      listitem
+        StaticText "结束时间"
+        StaticText "2026/08/28 10:45:56"
+        StaticText "28"
+        StaticText "次延时"
+      listitem
+        StaticText "拍下价"
+        paragraph
+          StaticText "430,279"
+          StaticText "元"
+        paragraph
+    image "图标"
+    StaticText "本场已结束 ！"
+    @e58 button "报名遇到问题"
+    @e59 button "连江县人民法院"
+    paragraph
+      StaticText "联系方式："
+    StaticText "执行局"
+    @e60 button "执行局"
+    paragraph
+      @e61 link "查看公告" [→ sf.taobao.com]
+      StaticText "标的公告："
+    @e62 link [→ ai.alimebot.taobao.com]
+    list
+      listitem
+        @e63 link "标的物介绍"
+      listitem
+        @e64 link "竞买公告"
+      listitem
+        @e65 link "竞买须知"
+      listitem
+        @e66 link "竞买记录 ( 36 )"
+      listitem
+        @e67 link "竞价结果确认书"
+      listitem
+        @e68 link "扫码出价"
+    StaticText "大家都在问"
+    @e69 link "平台客服" [→ ai.alimebot.taobao.com]
+    @e70 link "查看全部"
+    paragraph
+      StaticText "标的问题"
+    @e71 link "限购吗"
+    @e72 link "这套房关键信息"
+    @e73 link "能贷款吗"
+    @e74 link "能过户吗"
+    @e75 link "能腾房吗"
+    @e76 link "有其他费用吗"
+    paragraph
+      StaticText "流程问题"
+    @e77 link "报名前要注意什么"
+    @e78 link "怎么报名交钱"
+    @e79 link "保证金能借钱吗"
+    @e80 link "没拍到钱怎么退"
+    @e81 link "怎么付尾款"
+    @e82 link "怎么办交割"
+    StaticText "竞拍流程"
+    StaticText "报名交钱"
+    StaticText "出价竞拍"
+    StaticText "竞价成功"
+    StaticText "支付尾款"
+    StaticText "办理交割"
+    StaticText "标的物介绍"
+    paragraph
+      StaticText "拍卖标的调查情况表"
+    table
+      row
+        cell "拍品名称"
+        cell "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元"
+      row
+        cell "权利来源"
+        cell "（2026）闽0122执484号"
+      row
+        cell "权证情况"
+        cell "【权利证书号：闽（2020）连江县不动产权证明第00128478号】"
+      row
+        cell "拍品所有人"
+        cell "孙*"
+      row
+        cell "拍品现状"
+        cell "房屋用途 及土地性质"
+        cell "住宅"
+      row
+        cell "租赁情况"
+        cell "无"
+      row
+        cell "钥 匙"
+        cell "有"
+      row
+        cell "配套情况"
+        cell "无"
+      row
+        cell "权利限制情况"
+        cell "被法院查封。"
+      row
+        cell "提供的文件"
+        cell "1、《法院裁定书》；2、《协助执行通知书》； 3、《拍卖成交确认书》"
+      row
+        cell "拍品介绍 1．位于连江县敖江镇云坝路1号世茂云锦公馆7幢403单元。房屋所有权人为被执行人孙* ，建筑面积为88.88平方米。 2.税费负担情况：标的物过户登记手续由买受人自行办理，所涉及的应由买方承担的税费由买受人承担；所涉及的应由原所有人（被执行人）承担的税费，由买受人垫付，从拍卖价款中优先支付，但买受人应当自收到本院出具的执行裁定书后15日内向本院提交所垫付税费的发票，逾期未提交的，所垫付的税费由买受人自行承担；在过户过程中可能存在的物业费、水、电等欠费由买受人承担。 特别提醒： 1：如拍卖成交后，非因买受人个人原因一个月内未能成功办理产权过户或房产移交手续的，买受人可向本院书面申请本次拍卖作不成交处理，所缴纳的拍卖款无息退还。逾期不申请的，视为放弃该项权利。产权过户以本院作出的过户裁定书及协助执行通知书送达不动产登记中心的情况为准，本院对何时能办理产权过户及将房产腾空交付不作保证。 2：该拍品不包含家电家具。"
+          paragraph
+            StaticText "拍品介绍"
+          paragraph
+            StaticText "1．位于"
+            StaticText "连江县敖江镇云坝路1号世茂云锦公馆7幢403单元"
+            StaticText "。房屋所有权人为被执行人"
+            StaticText "孙*"
+            StaticText "，建筑面积为"
+            StaticText "88.88"
+            StaticText "平方米。"
+          paragraph
+            StaticText "2.税费负担情况"
+            StaticText "："
+            StaticText "标的物过户登记手续由买受人自行办理，所涉及的应由买方承担的税费由买受人承担；所涉及的应由原所有人（被执行人）承担的税费，由买受人垫付，从拍卖价款中优先支付，但买受人应当自收到本院出具的执行裁定书后15日内向本院提交所垫付税费的发票，逾期未提交的，所垫付的税费由买受人自行承担；在过户过程中可能存在的物业费、水、电等欠费由买受人承担。"
+          paragraph
+            StaticText "特别提醒："
+          paragraph
+            StaticText "1：如拍卖成交后，非因买受人个人原因一个月内未能成功办理产权过户或房产移交手续的，买受人可向本院书面申请本次拍卖作不成交处理，所缴纳的拍卖款无息退还。逾期不申请的，视为放弃该项权利。产权过户以本院作出的过户裁定书及协助执行通知书送达不动产登记中心的情况为准，本院对何时能办理产权过户及将房产腾空交付不作保证。"
+          paragraph
+            StaticText "2：该拍品不包含家电家具。"
+    paragraph
+    paragraph
+    StaticText "标的物位置"
+    StaticText "福建省 福州市 连江县"
+    StaticText "敖江镇云坝路1号世茂云锦公馆7幢403单元"
+    paragraph
+      StaticText "地图标注仅供参考，具体位置以标的物实际为准"
+    StaticText "竞买公告"
+    StaticText "公告详情加载中......"
+    heading "相关附件"
+      StaticText "相关附件"
+    list
+      StaticText "附件加载中......"
+    StaticText "竞买须知"
+    StaticText "拍卖须知加载中......"
+    StaticText "尾款支付说明"
+    StaticText "线上支付截止"
+    StaticText "按竞买公告/须知中的截止时间及时支付"
+    StaticText "尾款支付方式"
+    StaticText "查看竞买公告中的说明"
+    StaticText "收款账号信息"
+    StaticText "通过淘宝订单支付会自动转入以下账号，可实时查看钱款去向"
+    StaticText "户名"
+    StaticText "连江县人民法院"
+    StaticText "账号"
+    StaticText "1183 8010 0100 0065 5205 8485"
+    StaticText "开户行"
+    StaticText "兴业银行股份有限公司福州连江支行"
+    StaticText "竞买记录"
+    table
+      rowgroup
+        row
+          columnheader "状态"
+          columnheader "竞买号"
+          columnheader "价格"
+          columnheader "时间"
+      row
+        cell "成交"
+        cell "L5386"
+        cell "430,279"
+        cell "2026年08月28日 10:40:56"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "427,279"
+        cell "2026年08月28日 10:40:51"
+      row
+        cell "出局"
+        cell "L5386"
+        cell "424,279"
+        cell "2026年08月28日 10:35:54"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "421,279"
+        cell "2026年08月28日 10:35:45"
+      row
+        cell "出局"
+        cell "L5386"
+        cell "418,279"
+        cell "2026年08月28日 10:31:14"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "415,279"
+        cell "2026年08月28日 10:26:21"
+      row
+        cell "出局"
+        cell "L5386"
+        cell "412,279"
+        cell "2026年08月28日 10:23:06"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "409,279"
+        cell "2026年08月28日 10:19:51"
+      row
+        cell "出局"
+        cell "L5386"
+        cell "406,279"
+        cell "2026年08月28日 10:18:04"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "403,279"
+        cell "2026年08月28日 10:13:29"
+      row
+        cell "出局"
+        cell "L5386"
+        cell "400,279"
+        cell "2026年08月28日 10:13:01"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "397,279"
+        cell "2026年08月28日 10:12:39"
+      row
+        cell "出局"
+        cell "F7932"
+        cell "394,279"
+        cell "2026年08月28日 10:12:03"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "391,279"
+        cell "2026年08月28日 10:11:53"
+      row
+        cell "出局"
+        cell "F7932"
+        cell "388,279"
+        cell "2026年08月28日 10:10:09"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "385,279"
+        cell "2026年08月28日 10:08:10"
+      row
+        cell "出局"
+        cell "F7932"
+        cell "382,279"
+        cell "2026年08月28日 10:07:44"
+      row
+        cell "出局"
+        cell "S3494"
+        cell "379,279"
+        cell "2026年08月28日 10:07:37"
+      row
+        cell "出局"
+        cell "L3013"
+        cell "376,279"
+        cell "2026年08月28日 10:03:33"
+      row
+        cell "出局"
+        cell "S3494"
+        cell "373,279"
+        cell "2026年08月28日 10:03:01"
+    list
+      listitem
+      listitem
+        @e83 link "下一页"
+    StaticText "竞价结果确认书"
+    StaticText "相关推荐"
+    @e84 link "连江县潘渡乡沿江大道1号贵安新天地贵尊苑（Za）区8幢1303单元 起拍 ¥ 16.7748万"
+    @e85 link "连江县潘渡乡沿江大道1号贵安新天地贵雅苑22幢1602单元 起拍 ¥ 18.8172万"
+    @e86 link "连江县潘渡镇沿江大道1号贵安新天地贵尊苑（三区）12幢2505单元 起拍 ¥ 18.1793万"
+    @e87 link "连江县琯头镇粗芦岛龙沙村联合路135号丽水蓝湾小区1幢908单元 起拍 ¥ 19.93万"
+    @e88 link "连江县敖江镇文笔东路18号翰林公馆7幢302单元 起拍 ¥ 93万"
+    @e89 link "连江县琯头镇粗芦岛龙沙村联合路135号丽水蓝湾小区1幢1010单元 起拍 ¥ 13.5万"
+    @e90 link "连江县凤城镇华光西路2号凤凰城3幢902单元 起拍 ¥ 90.15万"
+    @e91 link "连江县琯头镇粗芦岛龙沙村联合路135号丽水蓝湾小区1幢907单元 起拍 ¥ 25.58万"
+    @e92 link "连江县琯头镇粗芦岛龙沙村联合路135号丽水蓝湾小区1幢1101单元 起拍 ¥ 16.31万"
+    @e93 link "连江县潘渡乡沿江大道1号贵安新天地贵香苑27幢701单元 起拍 ¥ 30.15万"
+    @e94 link "连江县敖江镇云坝路1号世茂云锦公馆10幢1502单元 起拍 ¥ 50.23万"
+    @e95 link "连江县敖江镇云坝路1号世茂云锦公馆10幢1401单元 起拍 ¥ 50.482万"
+    @e96 link "连江县敖江镇云坝路1号世茂云锦公馆10幢1402单元 起拍 ¥ 49.99万"
+    @e97 link "连江县敖江镇云坝路1号世茂云锦公馆10幢1602单元 起拍 ¥ 50.47万"
+    @e98 link "（破）福州市晋安区新店镇泉头村泉头396号龙湖璟宸苑8#楼301单元房产 起拍 ¥ 68.334万"
+    @e99 link "（破）福州市晋安区新店镇泉头村泉头396号龙湖璟宸苑8#楼101单元房产 起拍 ¥ 69.069万"
+    @e100 link "福州市连江县凤城镇西凤路53号凯悦明珠住宅楼1609单元 起拍 ¥ 61万"
+    @e101 link "连江县敖江镇杉塘村新厦路1号厦宫新区13幢13A02单元房产 起拍 ¥ 18.3888万" [ctx: 二拍 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 图标]
+    @e102 link "连江县东湖镇飞石村瑞安路18号富山御苑6幢1305单元房地产 起拍 ¥ 15万" [ctx: 二拍 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 图标]
+    @e103 link "福建省连江县潘渡乡沿江大道1号贵安天地贵泉苑a10幢3001单元 起拍 ¥ 35万" [ctx: 二拍 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 连江县敖江镇云坝路1号世茂云锦公馆7幢403单元 图标]
+    image "二维码"
+    paragraph
+      StaticText "手机淘宝扫一扫"
+    paragraph
+      StaticText "手机上随时随地出价"
+    paragraph
+      StaticText "连江县人民法院"
+    @e104 link "查看全部标的物" [→ sf.taobao.com]
+    @e105 link "体验参拍" [ctx: 查看你的专属权益] [→ huodong.taobao.com]
+    @e106 link "咨询客服" [ctx: 查看你的专属权益] [→ ai.alimebot.taobao.com]
+    @e107 link "顶" [ctx: 查看你的专属权益]
+    heading "竞买人帮助"
+      StaticText "竞买人帮助"
+    list
+      listitem
+        @e108 link "金融【贷款】服务" [→ fwpm.taobao.com]
+      listitem
+        @e109 link "企业账号注册流程" [→ help-paimai.taobao.com]
+      listitem
+        @e110 link "司法拍卖竞拍流程" [→ help-paimai.taobao.com]
+      listitem
+        @e111 link "司法拍卖出价规则" [→ help-paimai.taobao.com]
+      listitem
+        @e112 link "常见问题必看" [→ help-paimai.taobao.com]
+    heading "支付帮助"
+      StaticText "支付帮助"
+    list
+      listitem
+        @e113 link "如何报名交保证金" [→ help-paimai.taobao.com]
+      listitem
+        @e114 link "交保遇到限额" [→ help-paimai.taobao.com]
+      listitem
+        @e115 link "报名交保时间" [→ help-paimai.taobao.com]
+      listitem
+        @e116 link "出局者保证金退回银行卡" [→ help-paimai.taobao.com]
+      listitem
+        @e117 link "尾款如何支付" [→ help-paimai.taobao.com]
+    heading "法院服务"
+      StaticText "法院服务"
+    list
+      listitem
+        @e118 link "入驻司法拍卖" [→ sf.taobao.com]
+      listitem
+        @e119 link "法院入驻联系方式" [→ help-paimai.taobao.com]
+      listitem
+        @e120 link "法院后台登陆" [→ sf.taobao.com]
+      listitem
+        @e121 link "法院帮助中心" [→ help-paimai.taobao.com]
+    heading "司辅机构服务"
+      StaticText "司辅机构服务"
+    list
+      listitem
+        @e122 link "司辅机构申请入驻" [→ zc-paimai.taobao.com]
+      listitem
+        @e123 link "司辅机构后台登录" [→ sf.taobao.com]
+      listitem
+        @e124 link "司辅机构入驻联系方式" [→ help-paimai.taobao.com]
+      listitem
+        @e125 link "司辅机构入驻申请流程" [→ help-paimai.taobao.com]
+      listitem
+        @e126 link "贷款银行后台登录" [→ paimai.taobao.com]
+    StaticText "govdetail033043239165.center.na610"
+    @e127 button ""

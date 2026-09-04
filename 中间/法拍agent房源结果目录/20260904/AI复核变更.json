@@ -1,0 +1,79 @@
+{
+  "changes": [
+    {
+      "field": "备注",
+      "before": "数据疑似有误：起拍价格39元、建筑面积34.94㎡，起拍单价约1元/㎡，低于500元/㎡核验阈值。；数据疑似有误：起拍单价约1元/㎡，超出500—100000元/㎡常规核验区间",
+      "after": "数据疑似有误：起拍价格39元、建筑面积34.94㎡，起拍单价约1元/㎡，低于500元/㎡核验阈值。",
+      "confidence": 1,
+      "evidence": "建筑面积 | 34.94平方米；起拍价格39元",
+      "reason": "按异常阈值硬性规则补充说明，不改写无冲突的页面价格",
+      "url": "https://sf-item.taobao.com/sf_item/1081678216280.htm",
+      "reviewedAt": "2026-09-04T04:52:27.168Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "备注",
+      "before": "数据疑似有误：商业建筑面积94436.56㎡超过10000㎡；小区名称已由用户人工确认为上山院。；数据疑似有误：商业面积为94436.56㎡，超过10000㎡",
+      "after": "数据疑似有误：商业建筑面积94436.56㎡超过10000㎡；小区名称已由用户人工确认为上山院。",
+      "confidence": 1,
+      "evidence": "建筑面积为47173.28平方米；分项建筑面积合计94436.56㎡；用户人工确认小区名称为上山院。",
+      "reason": "按超大面积硬性规则补充异常说明",
+      "url": "https://sf-item.taobao.com/sf_item/1079585218762.htm",
+      "reviewedAt": "2026-09-04T04:52:27.168Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "备注",
+      "before": "数据疑似有误：商业建筑面积16765.86㎡超过10000㎡。；数据疑似有误：商业面积为16765.86㎡，超过10000㎡",
+      "after": "数据疑似有误：商业建筑面积16765.86㎡超过10000㎡。",
+      "confidence": 1,
+      "evidence": "建筑面积14479.28平方米；建筑面积2286.58平方米；合计=16765.86㎡",
+      "reason": "按超大面积硬性规则补充异常说明",
+      "url": "https://sf-item.taobao.com/sf_item/1079584754723.htm",
+      "reviewedAt": "2026-09-04T04:52:27.168Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": "2026-10-07T02:00:00.000Z",
+      "after": "2026-09-03T07:54:24Z",
+      "confidence": 1,
+      "evidence": "详情页明确：结束时间2026/09/03 15:54:24",
+      "reason": "纠正被错误保留的未来结束时间",
+      "url": "https://sf-item.taobao.com/sf_item/1067288875111.htm",
+      "reviewedAt": "2026-09-04T04:52:27.169Z",
+      "reviewer": "workbench"
+    },
+    {
+      "field": "拍卖时间",
+      "before": "2026-10-30T02:00:00.000Z",
+      "after": "2026-09-03T01:53:55Z",
+      "confidence": 1,
+      "evidence": "详情页明确：结束时间2026/09/03 09:53:55",
+      "reason": "纠正被错误保留的未来结束时间",
+      "url": "https://sf-item.taobao.com/sf_item/1073200298425.htm",
+      "reviewedAt": "2026-09-04T04:52:27.169Z",
+      "reviewer": "workbench"
+    }
+  ],
+  "anomalies": [
+    {
+      "url": "https://paimai.jd.com/311027092",
+      "reason": "茶园新苑名称已核实；建筑面积未找到可核验原文，待人工补证。",
+      "suggestions": [],
+      "otherIssues": [
+        "建筑面积无可核验页面证据；已定向读取详情页，仍不得猜测，需人工补证。"
+      ]
+    },
+    {
+      "url": "https://paimai.jd.com/311210981",
+      "reason": "建筑面积96.76㎡已核实；标题仅为门牌地址，未找到可靠小区名。",
+      "suggestions": [],
+      "otherIssues": [
+        "无可靠小区名称证据，保留商住小区，待人工补证。"
+      ]
+    }
+  ],
+  "operationalFailures": [],
+  "reviewer": "workbench"
+}

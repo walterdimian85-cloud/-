@@ -1,0 +1,15 @@
+{
+  "dateKey": "20260903",
+  "generatedAt": "2026-09-03T03:56:18.552Z",
+  "totalRecords": 217,
+  "upcoming": 185,
+  "succeeded": 15,
+  "failed": 17,
+  "reviewed": 106,
+  "aiCorrectedRecords": 2,
+  "aiFieldChanges": 3,
+  "anomalies": 3,
+  "aiOperationalFailures": 0,
+  "historyTotalRecords": 508,
+  "opportunitySignals": 53
+}

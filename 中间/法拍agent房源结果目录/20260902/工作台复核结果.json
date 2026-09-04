@@ -1,0 +1,1006 @@
+{
+  "version": 2,
+  "taskId": "c6d1f933-2797-44bb-a7a5-debb828c551a",
+  "batchId": "20260902-284d17b2-600b-4f6a-859b-8bc16e0e675e",
+  "dateKey": "20260902",
+  "runName": "20260902",
+  "items": [
+    {
+      "url": "https://paimai.jd.com/311096156",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "任务中面积证据为空；页面/附件需人工进一步核验，不能猜测面积。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311015195",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "任务中面积证据为空；页面/附件需人工进一步核验，不能猜测面积。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081325852345.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 231.98,
+            "confidence": 0.99,
+            "evidence": "标的物介绍：建筑面积231.98平方米。",
+            "reason": "详情页调查表明确披露建筑面积。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已按详情页调查表回填建筑面积231.98㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081328884632.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081328924550.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080318877615.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080317765753.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079267570242.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080317525139.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078383823670.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081197540017.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081196844662.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080190101406.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081187816077.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078262531665.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079130890662.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079130906527.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078262371951.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081187204529.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080048709759.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078999538741.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078131503857.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078997998919.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078997982808.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078130475730.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080038405035.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "任务中面积证据为空；页面/附件需人工进一步核验，不能猜测面积。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078121371848.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081042196503.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "任务中面积证据为空；页面/附件需人工进一步核验，不能猜测面积。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078986766876.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "独立车位且任务中面积证据为空；不得仅依据车位号猜测面积，需评估报告或权证原文核验。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078986554579.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "任务中面积证据为空；页面/附件需人工进一步核验，不能猜测面积。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "面积无可用证据，未自动填值；已列人工复核。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202113",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202099",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202077",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202032",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202025",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202018",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202011",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202005",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201997",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201978",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201977",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201866",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201811",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201760",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201722",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201715",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201700",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201491",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201487",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201436",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "三迪江山水岸",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“三迪江山水岸”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“三迪江山水岸”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311199424",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "日韵东方",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“日韵东方”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“日韵东方”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311199326",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "绿色金山四期",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“绿色金山四期”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“绿色金山四期”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311198818",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "正荣·悦玺",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“正荣·悦玺”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“正荣·悦玺”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311197425",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "龙湖池店南项目五期",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“龙湖池店南项目五期”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“龙湖池店南项目五期”。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311197395",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "现有任务证据不足以自动更正；不得猜测。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "保留原值并列人工复核。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1072980146330.htm",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "香江国际",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“香江国际”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“香江国际”。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1069462711863.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [
+          "起拍价格31.58与111.18㎡计算出的单价约0元/㎡冲突；需人工核对起拍价单位或页面原始金额。"
+        ],
+        "requiresHumanReview": true,
+        "summary": "已保留原价格，因单位异常未擅自放大或改写。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079266006740.htm",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "鼎盛骏景",
+            "confidence": 0.99,
+            "evidence": "标的名称明确载有“鼎盛骏景”。",
+            "reason": "标题中的正式项目名可作为小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已由标题证据核正小区名称为“鼎盛骏景”。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073940031901.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "标题和现有证据均未披露可靠项目名；按规则保留“商住小区”，不猜测。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080038405035.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 5.75,
+            "confidence": 0.99,
+            "evidence": "拍卖标的调查情况表：该储藏间未办理产权证，用途为储藏间，建筑面积5.75，所在层为-1层。",
+            "reason": "页面调查情况表明确披露建筑面积。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已依据调查情况表补齐建筑面积5.75㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081042196503.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 3.45,
+            "confidence": 0.99,
+            "evidence": "拍卖标的调查情况表：该储藏间未办理产权证，用途为储藏间，建筑面积3.45，所在层为-1层。",
+            "reason": "页面调查情况表明确披露建筑面积。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已依据调查情况表补齐建筑面积3.45㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078986554579.htm",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 4.63,
+            "confidence": 0.99,
+            "evidence": "拍卖标的调查情况表：该储藏间未办理产权证，用途为储藏间，建筑面积4.63，所在层为-1层。",
+            "reason": "页面调查情况表明确披露建筑面积。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已依据调查情况表补齐建筑面积4.63㎡。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1069462711863.htm",
+      "review": {
+        "fields": {},
+        "otherCorrections": [
+          {
+            "field": "起拍价格",
+            "value": 315800,
+            "confidence": 0.99,
+            "evidence": "页面竞价信息明确显示：起拍价：¥315,800。",
+            "reason": "页面金额为315,800元，原31.58为采集单位错误。"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已依据页面竞价信息将起拍价格更正为315,800元。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311015195",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 66.22,
+            "confidence": 0.99,
+            "evidence": "住宅/商业类标的物调查情况表：建筑面积：47附属间5平方米、804单元66.22平方米。",
+            "reason": "组合处置时主面积只取住宅804单元的建筑面积66.22㎡，附属间面积写入备注。"
+          }
+        },
+        "otherCorrections": [
+          {
+            "field": "备注",
+            "value": "主住宅804单元建筑面积66.22㎡；47附属间建筑面积5㎡。",
+            "confidence": 0.99,
+            "evidence": "住宅/商业类标的物调查情况表：建筑面积：47附属间5平方米、804单元66.22平方米。",
+            "reason": "保留完整并列面积原文口径。"
+          }
+        ],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "已补齐主住宅建筑面积66.22㎡，附属间5㎡写入备注。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311096156",
+      "review": {
+        "fields": {
+          "area": {
+            "value": 108.45,
+            "confidence": 0.99,
+            "evidence": "用户核定：华大新村建筑面积108.45㎡。",
+            "reason": "用户已明确确认面积，按确认值写回。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "按用户确认补齐建筑面积108.45㎡。"
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311197395",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "圣湖邮电宿舍",
+            "confidence": 0.99,
+            "evidence": "用户核定：标准小区名称为“圣湖邮电宿舍”。",
+            "reason": "用户已确认页面标题中的重复前缀应去除。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "按用户确认小区名称为圣湖邮电宿舍。"
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073940031901.htm",
+      "review": {
+        "fields": {
+          "community": {
+            "value": "沙堤十二区",
+            "confidence": 0.99,
+            "evidence": "用户核定：标准小区名称为“沙堤十二区”。",
+            "reason": "用户已确认小区名称。"
+          }
+        },
+        "otherCorrections": [],
+        "otherIssues": [],
+        "requiresHumanReview": false,
+        "summary": "按用户确认小区名称为沙堤十二区。"
+      }
+    }
+  ],
+  "summary": {
+    "headline": "20260902高风险候选复核完成",
+    "keyFindings": [
+      "已按页面/标题证据回填1条建筑面积。",
+      "已核正26条可从正式项目名确认的小区名称。",
+      "独立车位与无直接面积证据记录未猜测，已保留人工复核。",
+      "1条起拍单价异常仅记录风险，未擅自改变金额单位。"
+    ],
+    "correctedFields": 27,
+    "needsManualReview": 30
+  }
+}

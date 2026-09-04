@@ -1,0 +1,90 @@
+{
+  "version": 2,
+  "dateKey": "20260827",
+  "status": "部分完成（可续爬）",
+  "startedAt": "2026-08-27T06:07:25.446Z",
+  "updatedAt": "2026-08-27T06:07:49.260Z",
+  "plan": {
+    "dateKey": "20260827",
+    "statePath": "E:\\dsh\\法拍自动爬取v2.0\\data\\state\\scoped-tasks\\8f473422bea9ba90\\state.json",
+    "platform": "alibaba",
+    "categories": [
+      "住宅用房",
+      "商业用房",
+      "工业用房"
+    ],
+    "statusFilters": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxPages": 100,
+    "dryRun": false,
+    "includeParties": false
+  },
+  "groups": {},
+  "completedUrls": [],
+  "newSavedCount": 0,
+  "resumed": false,
+  "current": {
+    "platform": "",
+    "category": "",
+    "statusFilter": "",
+    "title": "存在待重试项目；重新运行相同命令可继续",
+    "url": ""
+  },
+  "finalOutputPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（8）\\20260827新增房源信息.xlsx",
+  "records": [],
+  "failures": [
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "住宅用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "住宅用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "商业用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "商业用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "工业用房",
+      "status": "即将开始",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    },
+    {
+      "stage": "list",
+      "platform": "alibaba",
+      "category": "工业用房",
+      "status": "已结束",
+      "error": "Error: 阿里资产未能展开福建的地级市筛选，无法选择：福州"
+    }
+  ],
+  "evidence": [],
+  "newAnchors": {},
+  "counts": {
+    "records": 0,
+    "completedUrls": 0,
+    "failures": 6
+  },
+  "checkpointWorkbookPath": "E:\\dsh\\三产物\\法拍agent房源结果目录\\20260827（8）\\20260827新增房源信息_采集中.xlsx",
+  "resumeCommand": "使用与本次相同的 run 命令重新运行，程序会自动续爬"
+}

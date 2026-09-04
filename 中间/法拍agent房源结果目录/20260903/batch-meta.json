@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "taskId": "f5d81ea5-5445-4026-8c33-512ddc25aacf",
+  "batchId": "20260903-0dad9e57-dae6-4bc9-801a-973aa983e542",
+  "dateKey": "20260903",
+  "runName": "20260903",
+  "batchDirectory": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260903",
+  "workbookPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260903\\20260903新增房源信息.xlsx",
+  "progressPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260903\\采集进度.json",
+  "reportPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260903\\每日摘要与异常报告.md",
+  "createdAt": "2026-09-03T02:13:45.108Z",
+  "selectedStatuses": [
+    "即将开始",
+    "已结束"
+  ],
+  "statusScope": "all",
+  "statusLabel": "即将开始 + 已结束",
+  "status": "terminated",
+  "expectedGroupCount": 16,
+  "collection": {
+    "platform": "alibaba_pc_all",
+    "maxRuntimeMinutes": 240,
+    "maxRetries": 5,
+    "userActionTimeoutMinutes": 60,
+    "warnAtRecords": 500,
+    "stopAtRecords": 800,
+    "pauseGraceSeconds": 90,
+    "heartbeatSeconds": 15,
+    "pollSeconds": 5,
+    "category": "住宅用房,商业用房,工业用房",
+    "status": "即将开始,已结束",
+    "selectedStatuses": [
+      "即将开始",
+      "已结束"
+    ],
+    "maxItems": null,
+    "maxPages": null,
+    "dryRun": false,
+    "skipHistoricalRefresh": true,
+    "preScan": false,
+    "alibabaPc": {
+      "includeBankruptcy": false
+    },
+    "scope": {
+      "mode": "custom",
+      "province": "福建省",
+      "cities": [
+        "福州市",
+        "泉州市"
+      ],
+      "anchors": {
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:即将开始:福州市": "",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:已结束:福州市": "",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:即将开始:泉州市": "",
+        "alibaba_pc:住宅用房+商业用房+工业用房@with_bankruptcy:已结束:泉州市": "",
+        "jd:住宅用房:即将开始:福州市": "https://paimai.jd.com/311190671",
+        "jd:住宅用房:已结束:福州市": "https://paimai.jd.com/311023125",
+        "jd:住宅用房:即将开始:泉州市": "https://paimai.jd.com/311192865",
+        "jd:住宅用房:已结束:泉州市": "https://paimai.jd.com/311109381",
+        "jd:商业用房:即将开始:福州市": "https://paimai.jd.com/311185647",
+        "jd:商业用房:已结束:福州市": "https://paimai.jd.com/310831941",
+        "jd:商业用房:即将开始:泉州市": "https://paimai.jd.com/311177138",
+        "jd:商业用房:已结束:泉州市": "https://paimai.jd.com/311037346",
+        "jd:工业用房:即将开始:福州市": "https://paimai.jd.com/310748607",
+        "jd:工业用房:已结束:福州市": "https://paimai.jd.com/310748607",
+        "jd:工业用房:即将开始:泉州市": "https://paimai.jd.com/311161968",
+        "jd:工业用房:已结束:泉州市": "https://paimai.jd.com/311008939"
+      },
+      "platforms": [
+        "alibaba_pc",
+        "jd"
+      ],
+      "selectedStatuses": [
+        "即将开始",
+        "已结束"
+      ],
+      "includeBankruptcy": false,
+      "anchorsConsumed": false
+    }
+  },
+  "updatedAt": "2026-09-03T02:23:25.546Z",
+  "phase": "finalization",
+  "statusMessage": "已放弃当前采集任务；断点和已保存结果仅作历史留存，本次候选高水位不生效。现在可以重新选择采集范围。",
+  "startedAt": "2026-09-03T02:14:24.153Z",
+  "completedAt": null,
+  "failedAt": null
+}

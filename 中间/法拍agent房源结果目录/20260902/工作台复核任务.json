@@ -1,0 +1,3922 @@
+{
+  "version": 2,
+  "taskId": "c6d1f933-2797-44bb-a7a5-debb828c551a",
+  "batchId": "20260902-284d17b2-600b-4f6a-859b-8bc16e0e675e",
+  "dateKey": "20260902",
+  "runName": "20260902",
+  "workbookPath": "E:\\dsh\\中间\\法拍agent房源结果目录\\20260902\\20260902新增房源信息.xlsx",
+  "generatedAt": "2026-09-02T03:18:24.983Z",
+  "candidateCount": 59,
+  "candidates": [
+    {
+      "url": "https://paimai.jd.com/311096156",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "鼓楼区",
+        "标的名称": "五凤街道华大新村B3#楼801单元、1层41附属间不动产（含室内不可移动装饰装修）",
+        "小区名称（仅供参考）": "华大新村",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 1800000,
+        "评估价": 3213110,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://paimai.jd.com/311096156",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-not-found-v2",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "五凤街道华大新村B3#楼801单元、1层41附属间不动产（含室内不可移动装饰装修）",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福建省福州市鼓楼区五凤街道华大新村B3#楼801单元、1层41附属间不动产（含室内不可移动装饰装修）"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "华大新村",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "五凤街道华大新村B3#楼801单元、1层41附属间不动产（含室内不可移动装饰装修）"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311015195",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "晋安区",
+        "标的名称": "茶会小区2#楼1层47附属间、804单元",
+        "小区名称（仅供参考）": "茶会小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": "未找到",
+        "起拍价格": 648102,
+        "评估价": 925860,
+        "备注": "未找到评估报告",
+        "网站链接": "https://paimai.jd.com/311015195",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-not-found-v2",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "茶会小区2#楼1层47附属间、804单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市晋安区茶会小区2#楼1层47附属间、804单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "茶会小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "福州泉州小区词典主标题匹配",
+            "rawText": "茶会小区2#楼1层47附属间、804单元"
+          },
+          "ruleId": "community-curated-dictionary-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081325852345.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "晋安区",
+        "标的名称": "鼓山镇樟林秀岭村康乐山庄212#楼整座",
+        "小区名称（仅供参考）": "康乐山庄",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 2672410,
+        "评估价": 4175640,
+        "备注": "未找到评估报告",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081325852345.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "鼓山镇樟林秀岭村康乐山庄212#楼整座",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市晋安区鼓山镇樟林秀岭村康乐山庄212#楼整座"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "康乐山庄",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "鼓山镇樟林秀岭村康乐山庄212#楼整座"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081328884632.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B115的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081328884632.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B115的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B115的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B115的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081328924550.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B177的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 48949,
+        "评估价": 69927,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081328924550.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B177的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B177的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B177的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080318877615.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B178的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 48949,
+        "评估价": 69927,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080318877615.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B178的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B178的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B178的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080317765753.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B117的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080317765753.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B117的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B117的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B117的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079267570242.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B179的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 48949,
+        "评估价": 69927,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079267570242.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B179的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B179的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B179的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080317525139.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B116的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080317525139.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B116的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B116的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B116的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078383823670.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B180的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 48949,
+        "评估价": 69927,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078383823670.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B180的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B180的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B180的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081197540017.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B181的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 48949,
+        "评估价": 69927,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081197540017.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B181的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B181的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B181的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081196844662.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B183的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081196844662.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B183的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B183的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B183的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080190101406.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B184的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080190101406.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B184的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B184的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B184的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081187816077.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B189的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081187816077.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B189的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B189的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B189的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078262531665.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B185的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078262531665.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B185的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B185的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B185的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079130890662.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B187的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079130890662.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B187的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B187的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B187的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079130906527.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B186的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079130906527.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B186的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B186的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B186的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078262371951.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B188的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078262371951.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B188的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B188的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B188的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081187204529.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B191的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081187204529.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B191的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B191的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B191的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080048709759.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B193的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080048709759.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B193的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B193的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B193的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078999538741.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B192的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 47523,
+        "评估价": 67890,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078999538741.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B192的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B192的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B192的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078131503857.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B82的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 30891,
+        "评估价": 44129,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078131503857.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B82的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B82的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B82的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078997998919.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B33的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 32316,
+        "评估价": 46165,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078997998919.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B33的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B33的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B33的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078997982808.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B123的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 30891,
+        "评估价": 44129,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078997982808.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B123的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B123的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B123的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078130475730.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B81的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 30891,
+        "评估价": 44129,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078130475730.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B81的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B81的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B81的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1080038405035.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储45的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 15259,
+        "评估价": 21789,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1080038405035.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储45的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储45的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储45的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078121371848.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B16的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 32316,
+        "评估价": 46165,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078121371848.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B16的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B16的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B16的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1081042196503.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储44的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 9156,
+        "评估价": 13079,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1081042196503.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储44的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储44的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储44的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078986766876.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房地下室车B11的车位",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "车位",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 32316,
+        "评估价": 46165,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078986766876.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房地下室车B11的车位",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B11的车位"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房地下室车B11的车位"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1078986554579.htm",
+      "reasons": [
+        "面积未找到",
+        "面积存在冲突",
+        "面积/㎡缺失"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "永春县",
+        "标的名称": "址在永春县五里街镇桃源北路二期安置房6-储43的储藏间",
+        "小区名称（仅供参考）": "址在永春县五里",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": "未找到",
+        "起拍价格": 12287,
+        "评估价": 17552,
+        "备注": "需打开网页评估报告提取面积",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1078986554579.htm",
+        "面积证据": {
+          "value": null,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "未找到",
+            "element": "建筑面积",
+            "rawText": ""
+          },
+          "ruleId": "area-help-not-found-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": true
+        },
+        "标题证据": {
+          "value": "址在永春县五里街镇桃源北路二期安置房6-储43的储藏间",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储43的储藏间"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "址在永春县五里",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "标题正文项目名称候选",
+            "rawText": "址在永春县五里街镇桃源北路二期安置房6-储43的储藏间"
+          },
+          "ruleId": "community-primary-title-suffix-v2",
+          "confidence": "medium",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202113",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸20号楼103复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202113",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸20号楼103复式单元【权证号：闽（2021）永泰县不动产权第0008012号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸20号楼103复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸20号楼103复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸20号楼103复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202099",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸19号楼102复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202099",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸19号楼102复式单元【权证号：闽（2021）永泰县不动产权第0007993号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸19号楼102复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸19号楼102复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸19号楼102复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202077",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸19号楼101复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 726304,
+        "评估价": 1037576,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202077",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸19号楼101复式单元【权证号：闽（2021）永泰县不动产权第0007992号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸19号楼101复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸19号楼101复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸19号楼101复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202032",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸20号楼104复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 711784,
+        "评估价": 1016834,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202032",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸20号楼104复式单元【权证号：闽（2021）永泰县不动产权第0008007号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸20号楼104复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸20号楼104复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸20号楼104复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202025",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸20号楼101复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 726304,
+        "评估价": 1037576,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202025",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸20号楼101复式单元【权证号：闽（2021）永泰县不动产权第0007999号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸20号楼101复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸20号楼101复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸20号楼101复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202018",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸18号楼103复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202018",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸18号楼103复式单元【权证号：闽（2021）永泰县不动产权第0007978号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸18号楼103复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸18号楼103复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸18号楼103复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202011",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸16号楼101复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 726304,
+        "评估价": 1037576,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202011",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸16号楼101复式单元【权证号：闽（2021）永泰县不动产权第0007971号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸16号楼101复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸16号楼101复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸16号楼101复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311202005",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸18号楼101复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 726304,
+        "评估价": 1037576,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311202005",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸18号楼101复式单元【权证号：闽（2021）永泰县不动产权第0007972号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸18号楼101复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸18号楼101复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸18号楼101复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201997",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸15号楼103复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.38,
+        "起拍价格": 668667,
+        "评估价": 955238,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201997",
+        "面积证据": {
+          "value": 167.38,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸15号楼103复式单元【权证号：闽（2021）永泰县不动产权第0007965号】建筑面积：167.38平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸15号楼103复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸15号楼103复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸15号楼103复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201978",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸19号楼103复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201978",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸19号楼103复式单元【权证号：闽（2021）永泰县不动产权第0007994号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸19号楼103复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸19号楼103复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸19号楼103复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201977",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸18号楼102复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201977",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸18号楼102复式单元【权证号：闽（2021）永泰县不动产权第0007975号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸18号楼102复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸18号楼102复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸18号楼102复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201866",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸16号楼104复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 711784,
+        "评估价": 1016834,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201866",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸16号楼104复式单元【权证号：闽（2021）永泰县不动产权第0007977号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸16号楼104复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸16号楼104复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸16号楼104复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201811",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸20号楼102复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201811",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸20号楼102复式单元【权证号：闽（2021）永泰县不动产权第0008000号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸20号楼102复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸20号楼102复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸20号楼102复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201760",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸16号楼103复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201760",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸16号楼103复式单元【权证号：闽（2021）永泰县不动产权第0007976号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸16号楼103复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸16号楼103复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸16号楼103复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201722",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸18号楼104复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 711784,
+        "评估价": 1016834,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201722",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸18号楼104复式单元【权证号：闽（2021）永泰县不动产权第0007985号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸18号楼104复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸18号楼104复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸18号楼104复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201715",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸19号楼104复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.27,
+        "起拍价格": 711784,
+        "评估价": 1016834,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201715",
+        "面积证据": {
+          "value": 167.27,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸19号楼104复式单元【权证号：闽（2021）永泰县不动产权第0007995号】建筑面积：167.27平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸19号楼104复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸19号楼104复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸19号楼104复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201700",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸16号楼102复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.18,
+        "起拍价格": 667868,
+        "评估价": 954096,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201700",
+        "面积证据": {
+          "value": 167.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸16号楼102复式单元【权证号：闽（2021）永泰县不动产权第0007974号】建筑面积：167.18平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸16号楼102复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸16号楼102复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸16号楼102复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201491",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸15号楼102复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.38,
+        "起拍价格": 668667,
+        "评估价": 955238,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201491",
+        "面积证据": {
+          "value": 167.38,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸15号楼102复式单元【权证号：闽（2021）永泰县不动产权第0007955号】建筑面积：167.38平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸15号楼102复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸15号楼102复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸15号楼102复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201487",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸15号楼101复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 167.4,
+        "起拍价格": 726868,
+        "评估价": 1038382,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201487",
+        "面积证据": {
+          "value": 167.4,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸15号楼101复式单元【权证号：闽（2021）永泰县不动产权第0007949号】建筑面积：167.4平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸15号楼101复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸15号楼101复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸15号楼101复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311201436",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "永泰县",
+        "标的名称": "葛岭镇溪南村汤口9号三迪江山水岸21号楼104复式单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 168.19,
+        "起拍价格": 657304,
+        "评估价": 939005,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311201436",
+        "面积证据": {
+          "value": 168.19,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "迪江山水岸21号楼104复式单元【权证号：闽（2021）永泰县不动产权第0008032号】建筑面积：168.19平方米 二、限购情况：不详。 三、本次拍卖按现状拍卖。 四、费用负担情况：拍卖时的起拍价、成交价"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "葛岭镇溪南村汤口9号三迪江山水岸21号楼104复式单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】永泰县葛岭镇溪南村汤口9号三迪江山水岸21号楼104复式单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "葛岭镇溪南村汤口9号三迪江山水岸21号楼104复式单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311199424",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "长乐区",
+        "标的名称": "吴航街道鳌山路73号日韵东方D07",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 458.4,
+        "起拍价格": 2745000,
+        "评估价": 4888816.09,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311199424",
+        "面积证据": {
+          "value": 458.4,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 458.4平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 装修情况 简装 房屋户型"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "吴航街道鳌山路73号日韵东方D07",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【二拍】福州市长乐区吴航街道鳌山路73号日韵东方D07"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "吴航街道鳌山路73号日韵东方D07"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311199326",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "仓山区",
+        "标的名称": "建新镇金山大道580号绿色金山四期59#楼103单元",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 141.08,
+        "起拍价格": 1385000,
+        "评估价": 1975120,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311199326",
+        "面积证据": {
+          "value": 141.08,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "福州市鼓楼区人民法院 抵押 已抵押 提供的文件 《执行裁定书》《成交确认书》 标的物介绍 建筑总面积 141.08平方米 公摊总面积 实际产生为准 土地总面积 实际产生为准 房产年龄 装修情况 简装 房屋户型"
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "建新镇金山大道580号绿色金山四期59#楼103单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】福州市仓山区建新镇金山大道580号绿色金山四期59#楼103单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "建新镇金山大道580号绿色金山四期59#楼103单元"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311198818",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "平潭县",
+        "标的名称": "兴港中路西侧，诚意路南侧正荣·悦玺1#楼2202室",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 116.39,
+        "起拍价格": 592959,
+        "评估价": 741199.03,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311198818",
+        "面积证据": {
+          "value": 116.39,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "标的物调查表表格",
+            "element": "建筑面积",
+            "rawText": "验区兴港中路（原金井二路）西侧，诚意路（原天大山北路）南侧正荣·悦玺1#楼2202室房产，房屋建筑面积：116.39平方米。具体情况以现场看样为准。 2.权证编号情况：闽(2018)平潭不动产证明第001670"
+          },
+          "ruleId": "area-text-labeled-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "兴港中路西侧，诚意路南侧正荣·悦玺1#楼2202室",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】平潭综合实验区兴港中路（原金井二路）西侧，诚意路（原天大山北路）南侧正荣·悦玺1#楼2202室"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "兴港中路西侧，诚意路南侧正荣·悦玺1#楼2202室"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311197425",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "晋江市",
+        "标的名称": "池店镇滨泉路2号晋江龙湖池店南项目五期9幢2303",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 88.19,
+        "起拍价格": 900000,
+        "评估价": 1125000,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311197425",
+        "面积证据": {
+          "value": 88.19,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "的：晋江市池店镇滨泉路2号晋江龙湖池店南项目五期9幢2303（以标的物实际交付现状为准）。总建筑面积：88.19㎡（以权属证明为准）。权属证明：闽(2023)晋江市不动产权第0001099号。 起拍价："
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "池店镇滨泉路2号晋江龙湖池店南项目五期9幢2303",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】晋江市池店镇滨泉路2号晋江龙湖池店南项目五期9幢2303"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "池店镇滨泉路2号晋江龙湖池店南项目五期9幢2303"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://paimai.jd.com/311197395",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "丰泽区",
+        "标的名称": "圣湖圣湖邮电宿舍3#702",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "京东拍卖",
+        "面积/㎡": 134.31,
+        "起拍价格": 1510000,
+        "评估价": 1883805,
+        "备注": "",
+        "网站链接": "https://paimai.jd.com/311197395",
+        "面积证据": {
+          "value": 134.31,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "jd",
+            "section": "页面明确总面积",
+            "element": "建筑面积",
+            "rawText": "： 一、 拍卖标的：泉州市丰泽区圣湖圣湖邮电宿舍3#702（以标的物实际交付现状为准）。总建筑面积：134.31㎡（以权属证明为准）。权属证明：闽(2021)泉州市不动产权第0098395号。 起拍价："
+          },
+          "ruleId": "area-page-explicit-total-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "圣湖圣湖邮电宿舍3#702",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "jd",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "【一拍】泉州市丰泽区圣湖圣湖邮电宿舍3#702"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "京东拍卖",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "圣湖圣湖邮电宿舍3#702"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1072980146330.htm",
+      "reasons": [
+        "标题疑似包含小区名但当前识别为“商住小区”（先核对标题和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "长乐区",
+        "标的名称": "航城街道航辉社区香江路1号香江国际2幢406、407单元 精选资产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 157.14,
+        "起拍价格": 880000,
+        "评估价": 1564043,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1072980146330.htm",
+        "面积证据": {
+          "value": 157.14,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑总面积 | 157.14平方米（406单元：72.67平方米、407单元：84.47平方米）"
+          },
+          "ruleId": "area-table-leading-total-in-value-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "航城街道航辉社区香江路1号香江国际2幢406、407单元 精选资产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福州市长乐区航城街道航辉社区香江路1号香江国际2幢406、407单元 精选资产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "航城街道航辉社区香江路1号香江国际2幢406、407单元 精选资产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1069462711863.htm",
+      "reasons": [
+        "数据疑似有误：起拍单价约0元/㎡，超出500—100000元/㎡常规核验区间"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "福州市",
+        "区域": "福清市",
+        "标的名称": "城头镇城头街江城之花B号楼403单元",
+        "小区名称（仅供参考）": "江城之花",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 111.18,
+        "起拍价格": 31.58,
+        "评估价": 451100,
+        "备注": "户型：3室2厅",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1069462711863.htm",
+        "面积证据": {
+          "value": 111.18,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "建筑总面积 | 111.18平方米"
+          },
+          "ruleId": "area-table-adjacent-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "城头镇城头街江城之花B号楼403单元",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "福清市城头镇城头街江城之花B号楼403单元"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "江城之花",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "阿里资产PC端列表卡片",
+            "element": "小区名称",
+            "rawText": "低于评估价29%\n福清市城头镇城头街江城之花B号楼403单元\n江城之花 | 111.18m² | 3室2厅 | 福清 | 福州\n当前价\n¥\n31.58\n万\n评估价\n¥ \n45.11万\n结束\n2026年09月02日\n1019\n次围观\n0\n人报名\n司法拍卖\n已结束"
+          },
+          "ruleId": "alibaba-pc-list-community-v1",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1079266006740.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "（最后一拍）石狮市灵秀镇港塘路96号鼎盛骏景10幢2梯201室房地产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "住宅",
+        "平台": "阿里资产",
+        "面积/㎡": 135.38,
+        "起拍价格": 996869,
+        "评估价": 1246086,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1079266006740.htm",
+        "面积证据": {
+          "value": 135.38,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "专有建筑面积 | 135.38㎡"
+          },
+          "ruleId": "area-table-adjacent-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "（最后一拍）石狮市灵秀镇港塘路96号鼎盛骏景10幢2梯201室房地产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "（最后一拍）石狮市灵秀镇港塘路96号鼎盛骏景10幢2梯201室房地产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "（最后一拍）石狮市灵秀镇港塘路96号鼎盛骏景10幢2梯201室房地产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    },
+    {
+      "url": "https://sf-item.taobao.com/sf_item/1073940031901.htm",
+      "reasons": [
+        "小区名称需复核（先核对标题证据和小区名单）"
+      ],
+      "record": {
+        "所在省份": "福建省",
+        "城市": "泉州市",
+        "区域": "石狮市",
+        "标的名称": "永宁镇沙堤十二区20号2栋店面33房产",
+        "小区名称（仅供参考）": "商住小区",
+        "标的类型": "商业",
+        "平台": "阿里资产",
+        "面积/㎡": 39.51,
+        "起拍价格": 168000,
+        "评估价": 300000,
+        "备注": "",
+        "网站链接": "https://sf-item.taobao.com/sf_item/1073940031901.htm",
+        "面积证据": {
+          "value": 39.51,
+          "dataType": "number",
+          "unit": "㎡",
+          "source": {
+            "platform": "alibaba",
+            "section": "页面表格建筑面积列",
+            "element": "建筑面积",
+            "rawText": "拍品介绍 1、拍卖对象：建筑面积39.51㎡，用途：商业服务，当事人双方经议价确认参考价为300000元。 2、权证编号情况：闽(20"
+          },
+          "ruleId": "area-table-same-cell-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "标题证据": {
+          "value": "永宁镇沙堤十二区20号2栋店面33房产",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "alibaba",
+            "section": "详情页标题",
+            "element": "标的名称",
+            "rawText": "泉州市石狮市永宁镇沙堤十二区20号2栋店面33房产"
+          },
+          "ruleId": "property-title-shared-v2",
+          "confidence": "high",
+          "conflicts": [],
+          "reviewRequired": false
+        },
+        "小区证据": {
+          "value": "商住小区",
+          "dataType": "string",
+          "unit": null,
+          "source": {
+            "platform": "阿里资产",
+            "section": "标的名称后处理",
+            "element": "规定回退值",
+            "rawText": "永宁镇沙堤十二区20号2栋店面33房产"
+          },
+          "ruleId": "community-fallback-v1",
+          "confidence": "low",
+          "conflicts": [],
+          "reviewRequired": false
+        }
+      }
+    }
+  ],
+  "resultSchema": {
+    "version": 1,
+    "items": [
+      {
+        "url": "标的链接",
+        "review": {
+          "fields": {},
+          "otherCorrections": [],
+          "otherIssues": [],
+          "requiresHumanReview": false,
+          "summary": ""
+        }
+      }
+    ]
+  }
+}

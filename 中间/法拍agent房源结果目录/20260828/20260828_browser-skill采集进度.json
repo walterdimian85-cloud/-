@@ -1,0 +1,77 @@
+{
+  "任务日期": "20260828",
+  "采集器": "browser-skill",
+  "任务范围": "阿里资产PC端；福州、泉州；住宅、商业、工业；即将开始、已结束；不含破产",
+  "规则": "仅缺字段时滚动到竞买公告区；公告等待上限10秒；住宅/商业与附属间并列时直接采用页面给出的合并建筑面积；其余未加载字段标记待补采并进入下一条",
+  "高水位": {
+    "泉州上新": "https://sf-item.taobao.com/sf_item/1076890443075.htm（安溪世纪豪庭14#1111，列表第46条）",
+    "泉州结束": "https://sf-item.taobao.com/sf_item/1073753548560.htm（石狮金辉城D区35幢1305，列表第12条）",
+    "福州结束": "https://sf-item.taobao.com/sf_item/1070408920851.htm（台江利嘉城AD1-156，列表第21条）",
+    "福州上新": "https://sf-item.taobao.com/sf_item/1077166530125.htm（第一页全采 + 第二页到该高水位为止，列表第103条）"
+  },
+  "关联京东高水位（由法拍资产Agent采集，截图已确认）": {
+    "福州市-住宅用房-即将开始": "https://paimai.jd.com/311170275",
+    "福州市-住宅用房-已结束": "https://paimai.jd.com/311005570",
+    "泉州市-住宅用房-即将开始": "https://paimai.jd.com/311173199",
+    "泉州市-住宅用房-已结束": "https://paimai.jd.com/311084108",
+    "福州市-商业用房-即将开始": "https://paimai.jd.com/311169302",
+    "福州市-商业用房-已结束": "https://paimai.jd.com/311004153",
+    "泉州市-商业用房-即将开始": "https://paimai.jd.com/311163294",
+    "泉州市-商业用房-已结束": "https://paimai.jd.com/311063234"
+  },
+  "开始时间": "2026-08-28T12:00:00+08:00",
+  "最近更新时间": "2026-08-28T20:50:00+08:00",
+  "已完成规范链接": [
+    "https://sf-item.taobao.com/sf_item/1077995650959.htm",
+    "https://sf-item.taobao.com/sf_item/1079036665056.htm",
+    "https://sf-item.taobao.com/sf_item/1079034749388.htm",
+    "https://sf-item.taobao.com/sf_item/1077987378671.htm",
+    "https://sf-item.taobao.com/sf_item/1079033241170.htm",
+    "https://sf-item.taobao.com/sf_item/1077099831996.htm",
+    "https://sf-item.taobao.com/sf_item/1077111107784.htm",
+    "https://sf-item.taobao.com/sf_item/1077122487758.htm",
+    "https://sf-item.taobao.com/sf_item/1077123523615.htm",
+    "https://sf-item.taobao.com/sf_item/1077125127797.htm",
+    "https://sf-item.taobao.com/sf_item/1077962718790.htm",
+    "https://sf-item.taobao.com/sf_item/1077963198840.htm",
+    "https://sf-item.taobao.com/sf_item/1077976186773.htm",
+    "https://sf-item.taobao.com/sf_item/1077976498366.htm",
+    "https://sf-item.taobao.com/sf_item/1077986814810.htm",
+    "https://sf-item.taobao.com/sf_item/1079008813432.htm",
+    "https://sf-item.taobao.com/sf_item/1077123919544.htm",
+    "https://sf-item.taobao.com/sf_item/1079009649639.htm",
+    "https://sf-item.taobao.com/sf_item/1079021741375.htm",
+    "https://sf-item.taobao.com/sf_item/1079022117943.htm",
+    "https://sf-item.taobao.com/sf_item/1079023517977.htm",
+    "https://sf-item.taobao.com/sf_item/1079034589683.htm",
+    "https://sf-item.taobao.com/sf_item/1080026480754.htm",
+    "https://sf-item.taobao.com/sf_item/1080027496608.htm"
+  ],
+  "当前范围": "阿里四路全部完成（泉州上新/泉州结束/福州结束/福州上新）",
+  "当前链接": "（四路全部完成）",
+  "待处理链接": [],
+  "已排除链接": [
+    {
+      "网站链接": "https://sf-item.taobao.com/sf_item/1077111075869.htm",
+      "原因": "标的为地下车位，不属于住宅、商业或工业用房采集范围",
+      "确认时间": "2026-08-28T13:51:00+08:00"
+    }
+  ],
+  "待补采链接": [],
+  "失败项": [],
+  "本次接续完成": 165,
+  "重叠误爬处理": {
+    "时间": "2026-08-28T20:33:00+08:00",
+    "说明": "828即将开始170条中有60条与827累积HTML链接重复（59条为827当日入库，1条08-25），判定为误爬已删除",
+    "删除数": 60,
+    "清单": "E:/dsh/中间/法拍agent房源结果目录/20260828/20260828_重叠误爬删除清单.json",
+    "删除后": "即将开始110条（阿里72+京东38）",
+    "补充": "另删2条高水位标的本身：泉州结束高水位金辉城(1073753548560, 8/26结拍)、福州结束高水位利嘉城(1070408920851, 8/27结拍)——结拍日非8/28，属827批次"
+  },
+  "高水位定义": "高水位 = 上次采集范围边界（最旧一条），下次从高水位之后接续，禁止重采高水位及之前的（高水位标的本身属上次批次）",
+  "数据修正": {
+    "地址前缀": "已统一清洗：标的名称去掉福建省/福州市/泉州市前缀（make_main_xlsx.py strip_admin_prefix），HTML/Excel零残留",
+    "报名人数": "福州阿里成交8条补齐报名人数（bsk补采），1条串数据修正：1077217587867实为泉港儒林居18#13A02住宅（一拍流拍72.32万），原误记为世茂云锦成交43万",
+    "最终数据": "即将开始110 + 成交26 + 流拍23 = 159（阿里101 + 京东58）"
+  }
+}
