@@ -1,0 +1,4242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>福州法拍结果 - 持续更新</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Microsoft YaHei",sans-serif;background:#f5f5f5;color:#333;line-height:1.8;padding:20px}
+.c{max-width:1800px;margin:0 auto}
+h1{text-align:center;color:#1a1a2e;margin-bottom:8px;font-size:28px}
+.dt{text-align:center;color:#666;margin-bottom:30px;font-size:16px}
+.summary{display:flex;justify-content:center;gap:30px;margin-bottom:30px;flex-wrap:wrap}
+.summary .box{background:#fff;padding:15px 25px;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08);text-align:center}
+.summary .box .num{font-size:32px;font-weight:bold;color:#1a1a2e}
+.summary .box .label{font-size:13px;color:#666;margin-top:4px}
+.summary .box .num.deal{color:#155724}
+.summary .box .num.fail{color:#721c24}
+.s{background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08);margin-bottom:30px;overflow:hidden}
+.sh{padding:15px 20px;color:#fff;font-size:18px;font-weight:bold;display:flex;justify-content:space-between;align-items:center}
+.sh.deal-h{background:linear-gradient(135deg,#155724,#27ae60)}
+.sh.fail-h{background:linear-gradient(135deg,#721c24,#c0392b)}
+.sh .ct{background:rgba(255,255,255,.25);padding:2px 12px;border-radius:20px;font-size:14px}
+.ft{width:100%;border-collapse:collapse;font-size:13px}
+.ft th{background:#f1f3f5;padding:12px 8px;text-align:center;font-weight:600;color:#495057;border-bottom:2px solid #dee2e6;white-space:nowrap;position:sticky;top:0}
+.ft td{padding:10px 8px;border-bottom:1px solid #e9ecef;text-align:center;vertical-align:middle}
+.ft td.addr{text-align:left;min-width:420px;max-width=500px;line-height:1.8}
+.ft tr:hover{background:#f8f9fa}
+.ft tr.stripe-a{background:#F2F2F2}
+.ft tr.stripe-b{background:#FFFFFF}
+.rnd{display:inline-block;padding:2px 8px;border-radius:4px;font-weight:bold;font-size:12px}
+.rnd1{background:#E3F2FD;color:#0D47A1}
+.rnd2{background:#FFF3E0;color:#E65100}
+.rnd3{background:#F3E5F5;color:#6A1B9A}
+.rnd4{background:#E0E0E0;color:#424242}
+.price{color:#e31837;font-weight:bold}
+.dlt{color:#155724;font-weight:bold}
+.flt{color:#721c24;font-weight:bold}
+.premium-high{color:#e74c3c;font-weight:bold}
+.premium-low{color:#27ae60}
+.day-sep td{background:#e8f4fd;padding:8px 12px;font-weight:bold;font-size:14px;color:#1565c0;border-bottom:2px solid #90caf9;text-align:left}
+.day-sep td i{font-style:normal;color:#666;font-size:12px;margin-left:8px}
+.note{padding:15px 20px;background:#fff3cd;border:1px solid #ffeaa7;font-size:12px;color:#856404;margin-top:20px;border-radius:8px}
+.note b{color:#721c24}
+</style>
+<style>
+.filter-bar{position:sticky;top:0;z-index:100;height:54px;box-sizing:border-box;display:flex;align-items:center;gap:12px;flex-wrap:wrap;background:#fff;border:1px solid #dee2e6;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08);padding:0 16px;margin-bottom:16px}
+.filter-bar label{font-size:14px;font-weight:bold;color:#1a1a2e;white-space:nowrap}
+.filter-bar select{font-size:14px;padding:6px 10px;border:1px solid #ced4da;border-radius:6px;background:#fff;cursor:pointer;min-width:170px}
+.filter-bar select:focus{outline:none;border-color:#1a73e8}
+.filter-bar .count{font-size:13px;color:#666;margin-left:auto;white-space:nowrap}
+.ft th{top:54px}
+</style>
+</head>
+<body>
+<div class="c">
+<h1>福州法拍结果</h1>
+<p class="dt">持续更新 | 阿里资产 + 京东资产 合并展示</p>
+
+<div class="summary">
+<div class="box"><div class="num">313</div><div class="label">结果标的总数</div></div>
+<div class="box"><div class="num deal">110</div><div class="label">成交</div></div>
+<div class="box"><div class="num fail">203</div><div class="label">流拍</div></div>
+</div>
+
+<!-- ===== 成交表格 ===== -->
+<div class="filter-bar" id="filterBar">
+  <label for="dateFilter">筛选日期：</label>
+  <select id="dateFilter"><option value="all">全部</option></select>
+  <label for="regionFilter">筛选地区：</label>
+  <select id="regionFilter"><option value="all">全部</option></select>
+  <span class="count" id="filterCount"></span>
+</div>
+<div class="s">
+<div class="sh deal-h"><span>成交标的</span><span class="ct">110 条</span></div>
+<div style="overflow-x:auto">
+<table class="ft">
+<thead>
+<tr>
+<th>区域</th>
+<th>拍卖阶段</th>
+<th>拍卖标的地址</th>
+<th>小区名称</th>
+<th>房屋用途</th>
+<th>起拍总价（万元）</th>
+<th>建筑面积（㎡）</th>
+<th>起拍单价（元/㎡）</th>
+<th>结果</th>
+<th>成交总价（万元）</th>
+<th>溢价率（%）</th>
+<th>成交单价（元/㎡）</th>
+<th>竞买记录</th>
+<th>报名人数</th>
+</tr>
+</thead>
+<tbody><tr class="day-sep"><td colspan="14">📅 7月9日结束 <i>4条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">洪山镇双下路37号乌山西路凤湖片安置房地块一3#楼804单元房产</td>
+<td>凤湖片安置房地块一</td>
+<td>住宅</td>
+<td>105.7</td>
+<td>125.90</td>
+<td><span class="price">8395</span></td>
+<td class="dlt">成交</td>
+<td>129.7</td>
+<td class="premium-high">22.7%</td>
+<td><span class="price">10302</span></td>
+<td>31</td>
+<td>6</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">首山路55号6#楼406单元</td>
+<td>-</td>
+<td>成套住宅</td>
+<td>52.4</td>
+<td>92.64</td>
+<td><span class="price">5662</span></td>
+<td class="dlt">成交</td>
+<td>67.1</td>
+<td class="premium-high">28.0%</td>
+<td><span class="price">7246</span></td>
+<td>28</td>
+<td>6</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">岳峰镇横屿路25号东二环泰禾城市广场三期11号楼16层16办公房地产</td>
+<td>东二环泰禾城市广场三期</td>
+<td>商业</td>
+<td>55.2</td>
+<td>50.25</td>
+<td><span class="price">10985</span></td>
+<td class="dlt">成交</td>
+<td>55.2</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">10985</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">新店镇井店一路2号君临香格里C区（原秀峰路与井店路交叉处）3#楼303单元</td>
+<td>君临香格里C区</td>
+<td>住宅</td>
+<td>71.2</td>
+<td>92.73</td>
+<td><span class="price">7678</span></td>
+<td class="dlt">成交</td>
+<td>76.8</td>
+<td class="premium-low">7.9%</td>
+<td><span class="price">8282</span></td>
+<td>9</td>
+<td>5</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月10日结束 <i>7条成交</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">杨桥中路283号2#楼704单元及1层20附属间</td>
+<td>-</td>
+<td>住宅</td>
+<td>125.0</td>
+<td>81.57</td>
+<td><span class="price">15324</span></td>
+<td class="dlt">成交</td>
+<td>173.5</td>
+<td class="premium-high">38.8%</td>
+<td><span class="price">21270</span></td>
+<td>76</td>
+<td>10</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">洪山镇梅峰路166号美之国花园（保福新苑三期一、二组团）3-86#楼101复式单元</td>
+<td>美之国花园</td>
+<td>居住</td>
+<td>1123.0</td>
+<td>379.39</td>
+<td><span class="price">29600</span></td>
+<td class="dlt">成交</td>
+<td>2965.4</td>
+<td class="premium-high">164.1%</td>
+<td><span class="price">78162</span></td>
+<td>241</td>
+<td>10</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓西街道湖头街91号（原西二环东侧，光荣路南侧）金典小区1#楼A区1108单元</td>
+<td>金典小区</td>
+<td>住宅</td>
+<td>109.0</td>
+<td>79.23</td>
+<td><span class="price">13757</span></td>
+<td class="dlt">成交</td>
+<td>152.0</td>
+<td class="premium-high">39.4%</td>
+<td><span class="price">19185</span></td>
+<td>85</td>
+<td>4</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">金山街道浦上大道410号天鹅湾34#楼1608单元</td>
+<td>天鹅湾</td>
+<td>住宅</td>
+<td>106.3</td>
+<td>101.28</td>
+<td><span class="price">10500</span></td>
+<td class="dlt">成交</td>
+<td>148.3</td>
+<td class="premium-high">39.5%</td>
+<td><span class="price">14643</span></td>
+<td>32</td>
+<td>12</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">临江街道南江滨西大道16号（原南江滨西大道南侧，观井路北侧）江城锦绣园（江城锦绣商务住宅项目）观井E#楼9层01办公</td>
+<td>江城锦绣园</td>
+<td>商业</td>
+<td>128.2</td>
+<td>144.16</td>
+<td><span class="price">8890</span></td>
+<td class="dlt">成交</td>
+<td>236.2</td>
+<td class="premium-high">84.3%</td>
+<td><span class="price">16382</span></td>
+<td>68</td>
+<td>9</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">岳峰镇塔头路158号永兴家园2#楼305单元</td>
+<td>永兴家园</td>
+<td>住宅</td>
+<td>99.5</td>
+<td>88.87</td>
+<td><span class="price">11196</span></td>
+<td class="dlt">成交</td>
+<td>107.6</td>
+<td class="premium-low">8.1%</td>
+<td><span class="price">12108</span></td>
+<td>10</td>
+<td>4</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">宁化街道江滨西大道98号滨江御园1#楼302单元</td>
+<td>滨江御园</td>
+<td>住宅</td>
+<td>43.7</td>
+<td>31.19</td>
+<td><span class="price">14011</span></td>
+<td class="dlt">成交</td>
+<td>44.5</td>
+<td class="premium-low">1.8%</td>
+<td><span class="price">14267</span></td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月13日结束 <i>5条成交</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">洪山镇梅峰路222号（原梅峰路北侧）绿景嘉园8#楼1204单元</td>
+<td>绿景嘉园</td>
+<td>住宅</td>
+<td>204.0</td>
+<td>140.74</td>
+<td><span class="price">14495</span></td>
+<td class="dlt">成交</td>
+<td>258.9</td>
+<td class="premium-high">26.9%</td>
+<td><span class="price">18396</span></td>
+<td>60</td>
+<td>7</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">杨桥中路231号黎明大厦1610复式单元</td>
+<td>黎明大厦</td>
+<td>住宅</td>
+  <td>199.2</td>
+  <td>177.89</td>
+  <td><span class="price">11198</span></td>
+<td class="dlt">成交</td>
+<td>199.2</td>
+  <td class="premium-low">0.0%</td>
+  <td><span class="price">11198</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇南平东路100号东方高尔夫花园二期7#楼602单元</td>
+<td>东方高尔夫花园二期</td>
+<td>住宅</td>
+<td>135.3</td>
+<td>107.49</td>
+<td><span class="price">12587</span></td>
+<td class="dlt">成交</td>
+<td>152.7</td>
+<td class="premium-high">12.9%</td>
+<td><span class="price">14206</span></td>
+<td>16</td>
+<td>4</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">后洲街道安平小区5#楼113单元</td>
+<td>安平小区</td>
+<td>住宅</td>
+<td>46.0</td>
+<td>51.45</td>
+<td><span class="price">8941</span></td>
+<td class="dlt">成交</td>
+<td>46.4</td>
+<td class="premium-low">0.9%</td>
+<td><span class="price">9019</span></td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鳌峰街道亚峰新村1#楼1层13附属间、408单元（原坐落;台江区亚峰新村1座408单元、杂物间13#）</td>
+<td>亚峰新村</td>
+<td>住宅</td>
+<td>50.6</td>
+<td>90.41</td>
+<td><span class="price">5597</span></td>
+<td class="dlt">成交</td>
+<td>75.6</td>
+<td class="premium-high">49.4%</td>
+<td><span class="price">8362</span></td>
+<td>45</td>
+<td>10</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月14日结束 <i>9条成交</i></td></tr>
+<tr class="stripe-a">
+ <td>鼓楼</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层01室（不含室内家具家电）</td>
+ <td>闽发西湖广场</td>
+ <td>商业</td>
+ <td>151.3</td>
+ <td>168.28</td>
+ <td><span class="price">8991</span></td>
+ <td class="dlt">成交</td>
+ <td>161.1</td>
+ <td class="premium-low">6.5%</td>
+ <td><span class="price">9573</span></td>
+ <td>12</td>
+ <td>2</td>
+</tr>
+<tr class="stripe-b">
+ <td>仓山</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">金山街道燎原路130号(原横江路西南侧)江南水都5D、5E地块5D-2#楼3102单元</td>
+ <td>江南水都</td>
+ <td>住宅</td>
+ <td>721.0</td>
+ <td>205.96</td>
+ <td><span class="price">35000</span></td>
+ <td class="dlt">成交</td>
+ <td>721.0</td>
+ <td class="premium-low">0.0%</td>
+ <td><span class="price">35000</span></td>
+ <td>1</td>
+ <td>1</td>
+</tr>
+<tr class="stripe-b">
+ <td>仓山</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">建新镇淮安路8号(原西三环路东南侧)山水天下花园二区（淮安二期）A12#楼2204单元</td>
+ <td>山水天下花园二区（淮安二期）</td>
+ <td>住宅</td>
+ <td>97.0</td>
+ <td>101.70</td>
+ <td><span class="price">9538</span></td>
+ <td class="dlt">成交</td>
+ <td>106.0</td>
+ <td class="premium-low">9.3%</td>
+ <td><span class="price">10423</span></td>
+ <td>11</td>
+ <td>4</td>
+</tr>
+<tr class="stripe-b">
+ <td>仓山</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">盖山镇金浦路99号（原林浦路西侧（金浦旧厂房出让地块A））世茂云浦公馆13#1001单元</td>
+ <td>世茂云浦公馆</td>
+ <td>住宅</td>
+ <td>78.0</td>
+ <td>122.34</td>
+ <td><span class="price">6376</span></td>
+ <td class="dlt">成交</td>
+ <td>115.8</td>
+ <td class="premium-high">48.5%</td>
+ <td><span class="price">9465</span></td>
+ <td>38</td>
+ <td>11</td>
+</tr>
+<tr class="stripe-b">
+ <td>仓山</td>
+ <td><span class="rnd rnd2">二拍</span></td>
+ <td class="addr">城门镇螺城路南侧湖际佳园（原湖滨北苑东部新城4#安置地周边）2#楼1401单元</td>
+ <td>湖际佳园</td>
+ <td>住宅</td>
+ <td>80.0</td>
+ <td>138.95</td>
+ <td><span class="price">5758</span></td>
+ <td class="dlt">成交</td>
+ <td>80.0</td>
+ <td class="premium-low">0.0%</td>
+ <td><span class="price">5758</span></td>
+ <td>1</td>
+ <td>1</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">新店镇龙头路359号香山时代花园（香山新时代花园）7#楼1905单元及福建省连江县潘渡镇沿江大道1号贵安新天地贵锦苑地下室上平台B600车位</td>
+ <td>香山时代花园</td>
+ <td>住宅</td>
+ <td>219.3</td>
+ <td>101.07</td>
+ <td><span class="price">21698</span></td>
+ <td class="dlt">成交</td>
+ <td>219.3</td>
+ <td class="premium-high">68.8%</td>
+ <td><span class="price">21698</span></td>
+ <td>1</td>
+ <td>3</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd2">二拍</span></td>
+ <td class="addr">岳峰镇登云路388号登云山庄A区71#楼整座</td>
+ <td>登云山庄</td>
+ <td>住宅</td>
+ <td>381.8</td>
+ <td>227.27</td>
+ <td><span class="price">16800</span></td>
+ <td class="dlt">成交</td>
+ <td>381.8</td>
+ <td class="premium-low">0.0%</td>
+ <td><span class="price">16800</span></td>
+ <td>1</td>
+ <td>2</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd2">二拍</span></td>
+ <td class="addr">鼓山镇浦墘路303号金辉东景C区二期（御景家园）42#楼206单元</td>
+ <td>金辉东景</td>
+ <td>住宅</td>
+ <td>131.3</td>
+ <td>146.59</td>
+ <td><span class="price">8957</span></td>
+ <td class="dlt">成交</td>
+ <td>154.1</td>
+ <td class="premium-high">17.4%</td>
+ <td><span class="price">10512</span></td>
+ <td>34</td>
+ <td>10</td>
+</tr>
+<tr class="stripe-b">
+ <td>台江</td>
+ <td><span class="rnd rnd2">二拍</span></td>
+ <td class="addr">后洲街道安平小区7#楼507单元</td>
+ <td>安平小区</td>
+ <td>住宅</td>
+ <td>33.9</td>
+ <td>48.80</td>
+ <td><span class="price">6947</span></td>
+ <td class="dlt">成交</td>
+ <td>38.1</td>
+ <td class="premium-high">12.4%</td>
+ <td><span class="price">7808</span></td>
+ <td>12</td>
+ <td>5</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月15日结束 <i>3条成交</i></td></tr>
+<tr class="stripe-a">
+ <td>仓山</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">金山街道亭头路256号（原亭头路北侧）杉林·悦榕公馆3#楼201单元</td>
+ <td>杉林·悦榕公馆</td>
+ <td>住宅</td>
+ <td>133.3</td>
+ <td>102.15</td>
+ <td><span class="price">13049</span></td>
+ <td class="dlt">成交</td>
+ <td>168.1</td>
+ <td class="premium-high">26.1%</td>
+ <td><span class="price">16457</span></td>
+ <td>40</td>
+ <td>8</td>
+</tr>
+<tr class="stripe-a">
+ <td>仓山</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">建新镇西三环路28号洪塘新城7#楼102单元</td>
+ <td>洪塘新城</td>
+ <td>住宅</td>
+ <td>68.0</td>
+ <td>91.10</td>
+ <td><span class="price">7464</span></td>
+ <td class="dlt">成交</td>
+ <td>84.0</td>
+ <td class="premium-high">23.5%</td>
+ <td><span class="price">9221</span></td>
+ <td>15</td>
+ <td>5</td>
+</tr>
+<tr class="stripe-b">
+ <td>台江</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">上海街道白马支路88号天琴和苑8#楼1201单元及福州市台江区上海街道交通西路北侧，西环中路东侧天琴和苑地下室地下1层562车位</td>
+ <td>天琴和苑</td>
+ <td>住宅</td>
+ <td>441.0</td>
+ <td>211.75</td>
+ <td><span class="price">20826</span></td>
+ <td class="dlt">成交</td>
+ <td>738.0</td>
+ <td class="premium-high">67.4%</td>
+ <td><span class="price">34852</span></td>
+ <td>77</td>
+ <td>15</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月16日结束 <i>1条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">华大街道湖前路13号（原五四北路西侧）民都商住楼512单身公寓</td>
+<td>民都商住楼</td>
+<td>商服用地</td>
+<td>75.2</td>
+<td>64.1</td>
+<td><span class="price">11732</span></td>
+<td class="dlt">成交</td>
+<td>75.8</td>
+<td class="premium-low">0.8%</td>
+<td><span class="price">11825</span></td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月17日结束 <i>7条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">东街街道津泰路津泰新村4#楼608单元房产</td>
+<td></td>
+<td>住宅</td>
+<td>83.0</td>
+<td>78.30</td>
+<td><span class="price">10604</span></td>
+<td class="dlt">成交</td>
+<td>94.1</td>
+<td class="premium-high">13.4%</td>
+<td><span class="price">12021</span></td>
+<td>38</td>
+<td>4</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">三叉街道高湖路9号城南新村望旺楼1#-2#连接体1层39市场</td>
+<td>城南新村望旺楼</td>
+<td>商业</td>
+<td>330.3</td>
+<td>470.11</td>
+<td><span class="price">7026</span></td>
+<td class="dlt">成交</td>
+<td>335.1</td>
+<td class="premium-low">1.5%</td>
+<td><span class="price">7128</span></td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">对湖街道上三路牛眠山巷58号鸿城小区8#楼702复式单元</td>
+<td>鸿城小区</td>
+<td>住宅</td>
+<td>105.4</td>
+<td>166.68</td>
+<td><span class="price">6326</span></td>
+<td class="dlt">成交</td>
+<td>116.4</td>
+<td class="premium-high">10.4%</td>
+<td><span class="price">6983</span></td>
+<td>21</td>
+<td>2</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓山镇连凤路72号三木花园A区6#楼104单元、3#楼1层109附属间</td>
+<td>三木花园</td>
+<td>住宅</td>
+<td>57.0</td>
+<td>93.69</td>
+<td><span class="price">6084</span></td>
+<td class="dlt">成交</td>
+<td>70.8</td>
+<td class="premium-high">24.2%</td>
+<td><span class="price">7557</span></td>
+<td>26</td>
+<td>13</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">洋中街道国货西路143号金垱地块（金尊名都）2509单元</td>
+<td>金尊名都</td>
+<td>住宅</td>
+<td>36.0</td>
+<td>35.39</td>
+<td><span class="price">10172</span></td>
+<td class="dlt">成交</td>
+<td>49.8</td>
+<td class="premium-high">38.3%</td>
+<td><span class="price">14072</span></td>
+<td>39</td>
+<td>8</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">上海街道交通支路7号（原白马中路东侧与交通路南侧交叉处）上海新苑C-2#楼2108单元</td>
+<td>上海新苑</td>
+<td>住宅</td>
+<td>71.1</td>
+<td>74.23</td>
+<td><span class="price">9578</span></td>
+<td class="dlt">成交</td>
+<td>88.6</td>
+<td class="premium-high">24.6%</td>
+<td><span class="price">11936</span></td>
+<td>22</td>
+<td>7</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鳌峰街道福光南路379号武夷绿洲小区（原武夷绿洲二期）40#楼302单元</td>
+<td>武夷绿洲小区</td>
+<td>住宅</td>
+<td>124.0</td>
+<td>147.03</td>
+<td><span class="price">8434</span></td>
+<td class="dlt">成交</td>
+<td>143.8</td>
+<td class="premium-high">16.0%</td>
+<td><span class="price">9780</span></td>
+<td>30</td>
+<td>3</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月18日结束 <i>1条成交</i></td></tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">金山街道卢滨路639号金色怡和园（洪湾中路与卢滨路交汇处）28#楼803单元</td>
+<td>金色怡和园</td>
+<td>住宅</td>
+<td>140.0</td>
+<td>124.54</td>
+<td><span class="price">11241</span></td>
+<td class="dlt">成交</td>
+<td>164.5</td>
+<td class="premium-high">17.5%</td>
+<td><span class="price">13209</span></td>
+<td>36</td>
+<td>8</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月19日结束 <i>3条成交</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">华大街道五四路319号奥体都市花园（琴亭花园广场）2#楼C区826单元</td>
+<td>奥体都市花园</td>
+<td>住宅</td>
+<td>139.0</td>
+<td>169.65</td>
+<td><span class="price">8193</span></td>
+<td class="dlt">成交</td>
+<td>160.6</td>
+<td class="premium-high">15.5%</td>
+<td><span class="price">9467</span></td>
+<td>37</td>
+<td>5</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">城门镇江滨东大道366号三江城二期21#楼103单元</td>
+<td>三江城二期</td>
+<td>住宅</td>
+<td>52.6</td>
+<td>85.78</td>
+<td><span class="price">6130</span></td>
+<td class="dlt">成交</td>
+<td>52.6</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">6130</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">王庄新村桃园3座202单元房地产</td>
+<td>王庄新村桃园</td>
+<td>住宅</td>
+<td>63.0</td>
+<td>81.70</td>
+<td><span class="price">7711</span></td>
+<td class="dlt">成交</td>
+<td>72.4</td>
+<td class="premium-high">15.0%</td>
+<td><span class="price">8862</span></td>
+<td>24</td>
+<td>2</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月20日结束 <i>6条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">五凤街道华大新村B5#楼601单元、1层43附属间</td>
+<td>华大新村</td>
+<td>住宅</td>
+<td>139.9</td>
+<td>82.44</td>
+<td><span class="price">16966</span></td>
+<td class="dlt">成交</td>
+<td>157.3</td>
+<td class="premium-high">12.4%</td>
+<td><span class="price">19076</span></td>
+<td>27</td>
+<td>4</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">洪山镇梅峰路166号美之国花园（保福新苑三期一、二组团）3-96#楼101复式单元</td>
+<td>美之国花园</td>
+<td>住宅</td>
+<td>1009.0</td>
+<td>370.52</td>
+<td><span class="price">27232</span></td>
+<td class="dlt">成交</td>
+<td>2209.0</td>
+<td class="premium-high">119.0%</td>
+<td><span class="price">59619</span></td>
+<td>178</td>
+<td>9</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">城门镇前锦村大沙53号前锦新城（二区）（东部新城9号社会保障房）4#楼1106单元</td>
+<td>前锦新城</td>
+<td>住宅</td>
+<td>36.7</td>
+<td>77.05</td>
+<td><span class="price">4760</span></td>
+<td class="dlt">成交</td>
+<td>39.4</td>
+<td class="premium-low">7.4%</td>
+<td><span class="price">5110</span></td>
+<td>10</td>
+<td>4</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">金山街道亭头路319号福州仓山万达广场B区（原金洲南路东侧与亭头路南侧交叉处）B1#1803单元</td>
+<td>福州仓山万达广场B区</td>
+<td>住宅</td>
+<td>90.6</td>
+<td>86.29</td>
+<td><span class="price">10500</span></td>
+<td class="dlt">成交</td>
+<td>101.4</td>
+<td class="premium-high">11.9%</td>
+<td><span class="price">11751</span></td>
+<td>13</td>
+<td>5</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">岳峰镇桂溪路11号（原连江北路东侧)香槟花园（二期）4#楼2804单元</td>
+<td>香槟花园</td>
+<td>住宅</td>
+<td>43.0</td>
+<td>45.63</td>
+<td><span class="price">9424</span></td>
+<td class="dlt">成交</td>
+<td>58.6</td>
+<td class="premium-high">36.3%</td>
+<td><span class="price">12842</span></td>
+<td>40</td>
+<td>9</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">茶亭街道群众路190号帝登花园2#楼202单元</td>
+<td>帝登花园</td>
+<td>住宅</td>
+<td>133.6</td>
+<td>90.18</td>
+<td><span class="price">14817</span></td>
+<td class="dlt">成交</td>
+<td>140.8</td>
+<td class="premium-low">5.4%</td>
+<td><span class="price">15613</span></td>
+<td>13</td>
+<td>2</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月21日结束 <i>4条成交</i></td></tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">东升街道则徐大道270号金辉·莱茵城二期10#楼101单元</td>
+<td>金辉·莱茵城二期</td>
+<td>住宅</td>
+<td>127.1</td>
+<td>130.17</td>
+<td><span class="price">9761</span></td>
+<td class="dlt">成交</td>
+<td>133.1</td>
+<td class="premium-low">4.7%</td>
+<td><span class="price">10222</span></td>
+<td>11</td>
+<td>2</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">金山街道亭头路253号福州仓山万达广场B区B12#楼402单元及亭头路319号福州仓山万达广场B区地下室地下2层312车位</td>
+<td>福州仓山万达广场B区</td>
+<td>住宅</td>
+<td>96.0</td>
+<td>125.58</td>
+<td><span class="price">7645</span></td>
+<td class="dlt">成交</td>
+<td>100.5</td>
+<td class="premium-low">4.7%</td>
+<td><span class="price">8003</span></td>
+<td>7</td>
+<td>4</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">对湖街道上三路6号兰庭新天地26#楼503单元</td>
+<td>兰庭新天地</td>
+<td>住宅</td>
+<td>66.4</td>
+<td>78.76</td>
+<td><span class="price">8431</span></td>
+<td class="dlt">成交</td>
+<td>77.8</td>
+<td class="premium-high">17.2%</td>
+<td><span class="price">9878</span></td>
+<td>9</td>
+<td>8</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓山镇福马路648号大景城13#楼102单元</td>
+<td>大景城</td>
+<td>住宅</td>
+<td>75.5</td>
+<td>97.22</td>
+<td><span class="price">7766</span></td>
+<td class="dlt">成交</td>
+<td>83.9</td>
+<td class="premium-high">11.1%</td>
+<td><span class="price">8630</span></td>
+<td>13</td>
+<td>5</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月22日结束 <i>3条成交</i></td></tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇高宅路183号金山桔园三期（浦新小区）9#楼301单元</td>
+<td>金山桔园三期（浦新小区）</td>
+<td></td>
+<td>95.9</td>
+<td>96.96</td>
+<td><span class="price">9891</span></td>
+<td class="dlt">成交</td>
+<td>95.9</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">9891</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">岳峰镇六一北路216号晋安花园平安阁（1#楼）102单元及晋安花园平安阁（1#楼）2层22#附属间</td>
+<td>晋安花园</td>
+<td>住宅</td>
+<td>80.8</td>
+<td>104.99</td>
+<td><span class="price">7698</span></td>
+<td class="dlt">成交</td>
+<td>90.4</td>
+<td class="premium-high">11.9%</td>
+<td><span class="price">8610</span></td>
+<td>13</td>
+<td>3</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">寿山乡岭头村258号华云山庄A25#楼101复式单元</td>
+<td>华云山庄</td>
+<td>住宅</td>
+<td>46.8</td>
+<td>89.50</td>
+<td><span class="price">5233</span></td>
+<td class="dlt">成交</td>
+<td>46.8</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">5233</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月23日结束 <i>3条成交</i></td></tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">金山街道金桔路278号中天金海岸天骄苑1#地三期42#楼4204复式单元</td>
+<td>中天金海岸天骄苑</td>
+<td>住宅</td>
+<td>400.2</td>
+<td>357.46</td>
+<td><span class="price">11196</span></td>
+<td class="dlt">成交</td>
+<td>400.2</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">11196</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇玉兰一路6号福湾新城春风苑（社会保障房）B区29#楼310单元</td>
+<td>福湾新城春风苑</td>
+<td>住宅</td>
+<td>55.1</td>
+<td>80.64</td>
+<td><span class="price">6833</span></td>
+<td class="dlt">成交</td>
+<td>60.6</td>
+<td class="premium-high">10.0%</td>
+<td><span class="price">7515</span></td>
+<td>12</td>
+<td>5</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">下渡街道朝阳路278号南江滨旧屋区改造临江新天地四地块2#楼1703单元</td>
+<td>临江新天地</td>
+<td>住宅</td>
+<td>69.7</td>
+<td>89.78</td>
+<td><span class="price">7763</span></td>
+<td class="dlt">成交</td>
+<td>85.2</td>
+<td class="premium-high">22.2%</td>
+<td><span class="price">9491</span></td>
+<td>32</td>
+<td>4</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月27日结束 <i>5条成交</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">洪水镇国光路86号仁文·大儒世家原厝南地块17#楼1803室（现小区名称：金帝仁文大儒世家江语城）</td>
+<td>金帝仁文大儒世家江语城</td>
+<td>住宅</td>
+<td>170.0</td>
+<td>136.71</td>
+<td><span class="price">12435</span></td>
+<td class="dlt">成交</td>
+<td>183.2</td>
+<td class="premium-low">7.8%</td>
+<td><span class="price">13399</span></td>
+<td>39</td>
+<td>3</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">盖山镇高兴路33号后坂小区二期13#、14#、15#、16#连接体1层34店面</td>
+<td>后坂小区</td>
+<td>商业</td>
+<td>42.8</td>
+<td>60.05</td>
+<td><span class="price">7127</span></td>
+<td class="dlt">成交</td>
+<td>66.0</td>
+<td class="premium-high">54.2%</td>
+<td><span class="price">10991</span></td>
+<td>49</td>
+<td>9</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">盖山镇高兴路33号后坂小区二期13#、14#、15#、16#连接体1层35店面</td>
+<td>后坂小区</td>
+<td>商业</td>
+<td>38.8</td>
+<td>54.41</td>
+<td><span class="price">7131</span></td>
+<td class="dlt">成交</td>
+<td>64.6</td>
+<td class="premium-high">66.5%</td>
+<td><span class="price">11873</span></td>
+<td>69</td>
+<td>10</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">岳峰镇三八路53号鹤林新城25号楼206单元</td>
+<td>鹤林新城</td>
+<td>住宅</td>
+<td>48.6</td>
+<td>69.61</td>
+<td><span class="price">6982</span></td>
+<td class="dlt">成交</td>
+<td>60.6</td>
+<td class="premium-high">24.7%</td>
+<td><span class="price">8706</span></td>
+<td>31</td>
+<td>6</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">岳峰镇后浦路699号（原化工路南侧与后浦路东侧交叉处）香开新城13#楼1203单元</td>
+<td>香开新城</td>
+<td>住宅</td>
+<td>157.0</td>
+<td>100.26</td>
+<td><span class="price">15659</span></td>
+<td class="dlt">成交</td>
+<td>187.6</td>
+<td class="premium-high">19.5%</td>
+<td><span class="price">18711</span></td>
+<td>38</td>
+<td>7</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月28日结束 <i>8条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">温泉街道东大路大营街8号榕泉花园4#楼03附属间、504单元</td>
+<td>榕泉花园</td>
+<td>住宅</td>
+<td>258.0</td>
+<td>162.82</td>
+<td><span class="price">15846</span></td>
+<td class="dlt">成交</td>
+<td>268.0</td>
+<td class="premium-low">3.9%</td>
+<td><span class="price">16460</span></td>
+<td>7</td>
+<td>2</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">城门镇福峡路11号鸿运馨境B区11#楼402单元</td>
+<td>鸿运馨境</td>
+<td>住宅</td>
+<td>74.9</td>
+<td>116.57</td>
+<td><span class="price">6425</span></td>
+<td class="dlt">成交</td>
+<td>100.1</td>
+<td class="premium-high">33.6%</td>
+<td><span class="price">8587</span></td>
+<td>37</td>
+<td>8</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">上渡街道横江路181号凯龙滨江花园（原闽江半岛花园）2#楼707单元房产</td>
+<td>凯龙滨江花园</td>
+<td>住宅</td>
+<td>214.0</td>
+<td>123.09</td>
+<td><span class="price">17386</span></td>
+<td class="dlt">成交</td>
+<td>261.0</td>
+<td class="premium-high">22.0%</td>
+<td><span class="price">21204</span></td>
+<td>31</td>
+<td>4</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇百花洲路90号建华小区（拆迁安置房）A-2#楼403单元</td>
+<td>建华小区</td>
+<td>住宅</td>
+<td>51.0</td>
+<td>90.65</td>
+<td><span class="price">5626</span></td>
+<td class="dlt">成交</td>
+<td>70.8</td>
+<td class="premium-high">38.8%</td>
+<td><span class="price">7810</span></td>
+<td>43</td>
+<td>10</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇健康路60号健康佳园（绕城高速14#安置地）13#楼1802单元</td>
+<td>健康佳园</td>
+<td>住宅</td>
+<td>60.5</td>
+<td>106.74</td>
+<td><span class="price">5668</span></td>
+<td class="dlt">成交</td>
+<td>108.5</td>
+<td class="premium-high">79.5%</td>
+<td><span class="price">10165</span></td>
+<td>41</td>
+<td>13</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇战坂路32号西垅佳园（绕城高速5#楼安置地）9#楼101单元</td>
+<td>西垅佳园</td>
+<td>住宅</td>
+<td>60.0</td>
+<td>108.15</td>
+<td><span class="price">5548</span></td>
+<td class="dlt">成交</td>
+<td>74.4</td>
+<td class="premium-high">24.0%</td>
+<td><span class="price">6879</span></td>
+<td>25</td>
+<td>4</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇观泉路289号熙云花园（熙悦府）Y-5#楼609单元</td>
+<td>熙云花园</td>
+<td>住宅</td>
+<td>74.0</td>
+<td>100.79</td>
+<td><span class="price">7342</span></td>
+<td class="dlt">成交</td>
+<td>81.2</td>
+<td class="premium-low">9.7%</td>
+<td><span class="price">8056</span></td>
+<td>13</td>
+<td>2</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">浦墘路16号君临东城小区（原山水丽景）13#楼402单元</td>
+<td>君临东城小区</td>
+<td>住宅</td>
+<td>94.4</td>
+<td>108.57</td>
+<td><span class="price">8695</span></td>
+<td class="dlt">成交</td>
+<td>107.9</td>
+<td class="premium-high">14.3%</td>
+<td><span class="price">9938</span></td>
+<td>16</td>
+<td>4</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月31日结束 <i>6条成交</i></td></tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇金山大道418号汇创名居19#楼203单元</td>
+<td>汇创名居</td>
+<td>住宅</td>
+<td>136.4</td>
+<td>177.17</td>
+<td><span class="price">7699</span></td>
+<td class="dlt">成交</td>
+<td>174.5</td>
+<td class="premium-high">27.9%</td>
+<td><span class="price">9849</span></td>
+<td>57</td>
+<td>11</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">金山街道闽江大道246号锦绣江南3#楼801单元</td>
+<td>锦绣江南</td>
+<td>住宅</td>
+<td>201.6</td>
+<td>173.38</td>
+<td><span class="price">11628</span></td>
+<td class="dlt">成交</td>
+<td>201.6</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">11628</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">城门镇湖滨北苑东侧安平佳园（原湖滨北苑东侧地块）7#楼305单元</td>
+<td>安平佳园</td>
+<td>住宅</td>
+<td>69.4</td>
+<td>121.45</td>
+<td><span class="price">5714</span></td>
+<td class="dlt">成交</td>
+<td>74.2</td>
+<td class="premium-low">6.9%</td>
+<td><span class="price">6110</span></td>
+<td>9</td>
+<td>4</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">金山街道石边路52号金山碧水三期夏沁苑16#楼201单元房产</td>
+<td>金山碧水三期夏沁苑</td>
+<td>住宅</td>
+<td>96.4</td>
+<td>107.62</td>
+<td><span class="price">8957</span></td>
+<td class="dlt">成交</td>
+<td>116.1</td>
+<td class="premium-high">20.4%</td>
+<td><span class="price">10788</span></td>
+<td>189</td>
+<td>6</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">下渡街道港南路77号（原港南港务公司宿舍）1#楼506单元</td>
+<td>港南港务公司宿舍</td>
+<td>住宅</td>
+<td>36.8</td>
+<td>59.70</td>
+<td><span class="price">6164</span></td>
+<td class="dlt">成交</td>
+<td>41.9</td>
+<td class="premium-high">13.9%</td>
+<td><span class="price">7014</span></td>
+<td>10</td>
+<td>3</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">王庄街道福马路250号福马名城（现福马公寓）B#楼202单元</td>
+<td>福马名城</td>
+<td>住宅</td>
+<td>104.7</td>
+<td>109.95</td>
+<td><span class="price">9523</span></td>
+<td class="dlt">成交</td>
+<td>115.2</td>
+<td class="premium-high">10.0%</td>
+<td><span class="price">10478</span></td>
+<td>16</td>
+<td>2</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 8月1日结束 <i>1条成交</i></td></tr>
+<tr class="stripe-a"><td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇战坂路32号西垅佳园（绕城高速5#安置地）3#楼1804单元</td>
+<td>西垅佳园</td>
+<td>住宅</td>
+<td>63.0</td>
+<td>108.40</td>
+<td><span class="price">5812</span></td>
+<td class="dlt">成交</td>
+<td>66.0</td>
+<td class="premium-low">4.8%</td>
+<td><span class="price">6089</span></td>
+<td>6</td>
+<td>2</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 8月2日结束 <i>1条成交</i></td></tr>
+<tr class="stripe-a"><td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓山镇浦墘路303号金辉东景C区二期（御景家园）49#楼202单元</td>
+<td>金辉东景C区二期（御景家园）</td>
+<td>住宅</td>
+<td>68.0</td>
+<td>77.86</td>
+<td><span class="price">8734</span></td>
+<td class="dlt">成交</td>
+<td>78.5</td>
+<td class="premium-high">15.4%</td>
+<td><span class="price">10082</span></td>
+<td>21</td>
+<td>6</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 8月3日结束 <i>3条成交</i></td></tr>
+<tr class="stripe-b"><td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇建新南路51号金域蓝湾家园（原金辉·金域蓝湾）27#楼405单元</td>
+<td>金域蓝湾家园</td>
+<td>住宅</td>
+<td>99.0</td>
+<td>暂无</td>
+<td>暂无</td>
+<td class="dlt">成交</td>
+<td>99.0</td>
+<td class="premium-low">0.0%</td>
+<td>暂无</td>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr class="stripe-a"><td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鼓山镇福马路958号禹洲鼓山一号1-28#楼102复式单元，地下1层02车库</td>
+<td>禹洲鼓山一号</td>
+<td>住宅</td>
+<td>508.4</td>
+<td>363.22</td>
+<td><span class="price">13996</span></td>
+<td class="dlt">成交</td>
+<td>508.4</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">13996</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-a"><td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓山镇浦墘路19号兴元星辰（现名兴辰嘉园）14#楼501单元</td>
+<td>兴元星辰</td>
+<td>住宅</td>
+<td>86.9</td>
+<td>108.22</td>
+<td><span class="price">8030</span></td>
+<td class="dlt">成交</td>
+<td>95.4</td>
+<td class="premium-low">9.8%</td>
+<td><span class="price">8815</span></td>
+<td>11</td>
+<td>5</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 8月4日结束 <i>11条成交</i></td></tr>
+<tr class="stripe-b"><td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓东街道五四路128号中旅城二期北住宅楼502单元</td>
+<td>中旅城二期</td>
+<td>住宅</td>
+<td>79.0</td>
+<td>37.57</td>
+<td><span class="price">21027</span></td>
+<td class="dlt">成交</td>
+<td>114.7</td>
+<td class="premium-high">45.2%</td>
+<td><span class="price">30530</span></td>
+<td>32</td>
+<td>7</td>
+</tr>
+<tr class="stripe-b"><td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层02室</td>
+<td>闽发西湖广场</td>
+<td>商业</td>
+<td>233.3</td>
+<td>339.89</td>
+<td><span class="price">6863</span></td>
+<td class="dlt">成交</td>
+<td>275.1</td>
+<td class="premium-high">17.9%</td>
+<td><span class="price">8094</span></td>
+<td>39</td>
+<td>5</td>
+</tr>
+<tr class="stripe-b"><td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层04室</td>
+<td>闽发西湖广场</td>
+<td>商业</td>
+<td>176.8</td>
+<td>258.51</td>
+<td><span class="price">6839</span></td>
+<td class="dlt">成交</td>
+<td>205.6</td>
+<td class="premium-high">16.3%</td>
+<td><span class="price">7953</span></td>
+<td>34</td>
+<td>3</td>
+</tr>
+<tr class="stripe-b"><td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层03室</td>
+<td>闽发西湖广场</td>
+<td>商业</td>
+<td>191.4</td>
+<td>285.69</td>
+<td><span class="price">6700</span></td>
+<td class="dlt">成交</td>
+<td>236.4</td>
+<td class="premium-high">23.5%</td>
+<td><span class="price">8275</span></td>
+<td>45</td>
+<td>4</td>
+</tr>
+<tr class="stripe-a"><td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">王庄街道长福路139号王庄荷园新区8#楼603单元</td>
+<td>王庄荷园新区</td>
+<td>住宅</td>
+<td>70.0</td>
+<td>86.80</td>
+<td><span class="price">8065</span></td>
+<td class="dlt">成交</td>
+<td>84.8</td>
+<td class="premium-high">21.1%</td>
+<td><span class="price">9770</span></td>
+<td>38</td>
+<td>3</td>
+</tr>
+<tr class="stripe-b"><td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">瀛洲街道台江路107号元洪锦江二期2#楼1503单元</td>
+<td>元洪锦江二期</td>
+<td>住宅</td>
+<td>245.2</td>
+<td>166.77</td>
+<td><span class="price">14703</span></td>
+<td class="dlt">成交</td>
+<td>372.4</td>
+<td class="premium-high">51.9%</td>
+<td><span class="price">22330</span></td>
+<td>91</td>
+<td>11</td>
+</tr>
+<tr class="stripe-b"><td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鳌峰街道鳌兴路283号水岸华庭20#楼503复式单元房产</td>
+<td>水岸华庭</td>
+<td>住宅</td>
+<td>127.0</td>
+<td>165.28</td>
+<td><span class="price">7684</span></td>
+<td class="dlt">成交</td>
+<td>127.0</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">7684</span></td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五四路128号中旅城二期北住宅楼502单元</td>
+<td>中旅城</td>
+<td>住宅</td>
+<td>79.0</td>
+<td>37.57</td>
+<td><span class="price">21027</span></td>
+<td class="dlt">成交</td>
+<td>114.7</td>
+<td class="premium-high">45.2%</td>
+<td><span class="price">30530</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">长福路139号王庄荷园新区8#楼603单元</td>
+<td>王庄荷园</td>
+<td>住宅</td>
+<td>70.0</td>
+<td>86.80</td>
+<td><span class="price">8065</span></td>
+<td class="dlt">成交</td>
+<td>84.8</td>
+<td class="premium-high">21.1%</td>
+<td><span class="price">9770</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">台江路107号元洪锦江二期2#楼1503单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>245.2</td>
+<td>166.77</td>
+<td><span class="price">14700</span></td>
+<td class="dlt">成交</td>
+<td>372.4</td>
+<td class="premium-high">51.9%</td>
+<td><span class="price">22327</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">海坛中路7号世茂璀璨熙湖13#楼10商业</td>
+<td>商住小区</td>
+<td>商业</td>
+<td>6.5</td>
+<td>15.46</td>
+<td><span class="price">4231</span></td>
+<td class="dlt">成交</td>
+<td>7.7</td>
+<td class="premium-high">17.9%</td>
+<td><span class="price">4988</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 7月30日结束 <i>1条成交</i></td></tr>
+<tr class="stripe-a">
+<td>福清</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">牛宅村城头镇黄墩村的不动产及机器设备</td>
+<td>工业区</td>
+<td>工业</td>
+<td>2967.7</td>
+<td>21736.00</td>
+<td><span class="price">1365</span></td>
+<td class="dlt">成交</td>
+<td>2967.7</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">1365</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 8月5日结束 <i>7条成交</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓屏路与城隍街交叉口冶山新村1#楼114单元及1层23附属间</td>
+<td>与城</td>
+<td>住宅</td>
+<td>149.0</td>
+<td>84.03</td>
+<td><span class="price">17732</span></td>
+<td class="dlt">成交</td>
+<td>149.0</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">17732</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">乐东公寓2D，3D单元，1层47#、48#附属间、C车库</td>
+<td>乐东公寓</td>
+<td>住宅</td>
+<td>128.6</td>
+<td><span style="color:#999">暂无</span></td>
+<td><span style="color:#999">暂无</span></td>
+<td class="dlt">成交</td>
+<td>174.2</td>
+<td class="premium-high">35.5%</td>
+<td><span style="color:#999">暂无</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">达江路南方花园3#楼208单元 精选资产</td>
+<td>南方花园</td>
+<td>住宅</td>
+<td>38.0</td>
+<td>61.35</td>
+<td><span class="price">6194</span></td>
+<td class="dlt">成交</td>
+<td>49.4</td>
+<td class="premium-high">30.0%</td>
+<td><span class="price">8052</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-a">
+<td>闽侯</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">滨江西大道69号博仕后龙港城10#楼301单元</td>
+<td>博仕后龙港城</td>
+<td>住宅</td>
+<td>68.0</td>
+<td>109.58</td>
+<td><span class="price">6206</span></td>
+<td class="dlt">成交</td>
+<td>68.0</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">6206</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-b">
+<td>连江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">沿江大道1号贵安新天地贵尊苑9幢2703单元</td>
+<td>贵安新天地贵尊苑</td>
+<td>住宅</td>
+<td>16.2</td>
+<td>69.68</td>
+<td><span class="price">2324</span></td>
+<td class="dlt">成交</td>
+<td>20.0</td>
+<td class="premium-high">23.5%</td>
+<td><span class="price">2870</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-a">
+<td>福清</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">音西村瑶峰村凯景新天地16号楼2605单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>87.8</td>
+<td>164.38</td>
+<td><span class="price">5342</span></td>
+<td class="dlt">成交</td>
+<td>87.8</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">5342</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">如意中路1号世茂璀璨湖郡A5#101商业</td>
+<td>世茂璀璨湖郡</td>
+<td>商业</td>
+<td>12.1</td>
+<td>43.67</td>
+<td><span class="price">2763</span></td>
+<td class="dlt">成交</td>
+<td>17.8</td>
+<td class="premium-high">47.2%</td>
+<td><span class="price">4068</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 待核日期结束 <i>3条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">湖滨路78号闽发西湖广场2#楼6层04室</td>
+<td>闽发西湖广场</td>
+<td>商业</td>
+<td>176.8</td>
+<td>258.51</td>
+<td><span class="price">6839</span></td>
+<td class="dlt">成交</td>
+<td>205.6</td>
+<td class="premium-high">16.3%</td>
+<td><span class="price">7953</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">湖滨路78号闽发西湖广场2#楼6层03室</td>
+<td>闽发西湖广场</td>
+<td>商业</td>
+<td>191.4</td>
+<td>285.69</td>
+<td><span class="price">6699</span></td>
+<td class="dlt">成交</td>
+<td>236.4</td>
+<td class="premium-high">23.5%</td>
+<td><span class="price">8274</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">湖滨路78号闽发西湖广场2#楼6层02室</td>
+<td>闽发西湖广场</td>
+<td>商业</td>
+<td>233.3</td>
+<td>339.89</td>
+<td><span class="price">6863</span></td>
+<td class="dlt">成交</td>
+<td>275.1</td>
+<td class="premium-high">17.9%</td>
+<td><span class="price">8093</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+<tr class="day-sep"><td colspan="14">📅 8月6日结束 <i>8条成交</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">通湖路保定巷保定新村5#楼203单元及6#楼1层17附属间</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>105.8</td>
+<td>70.23</td>
+<td><span class="price">15063</span></td>
+<td class="dlt">成交</td>
+<td>111.8</td>
+<td class="premium-low">5.7%</td>
+<td><span class="price">15918</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">胪中路10号永南佳园3#楼1102单元</td>
+<td>永南佳园</td>
+<td>住宅</td>
+<td>57.6</td>
+<td>117.41</td>
+<td><span class="price">4903</span></td>
+<td class="dlt">成交</td>
+<td>71.6</td>
+<td class="premium-high">24.3%</td>
+<td><span class="price">6095</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-a">
+<td>闽侯</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">滨城大道96号闽侯世茂滨江新城41#楼3806复式单元</td>
+<td>闽侯世茂滨江新城</td>
+<td>住宅</td>
+<td>85.5</td>
+<td>149.78</td>
+<td><span class="price">5708</span></td>
+<td class="dlt">成交</td>
+<td>85.5</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">5708</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-a">
+<td>闽侯</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">乌龙江南大道99号泰禾红悦B8#楼903单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>40.8</td>
+<td>88.87</td>
+<td><span class="price">4591</span></td>
+<td class="dlt">成交</td>
+<td>51.2</td>
+<td class="premium-high">25.5%</td>
+<td><span class="price">5761</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-b">
+<td>连江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">沿江大道1号贵安新天地贵盛苑3幢1402单元</td>
+<td>贵安新天地贵盛苑</td>
+<td>住宅</td>
+<td>27.5</td>
+<td>129.35</td>
+<td><span class="price">2125</span></td>
+<td class="dlt">成交</td>
+<td>28.1</td>
+<td class="premium-low">2.4%</td>
+<td><span class="price">2175</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-a">
+<td>福清</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">六一北路高华国际广场一层023商铺</td>
+<td>高华国际广场</td>
+<td>商业</td>
+<td>12.6</td>
+<td>36.71</td>
+<td><span class="price">3421</span></td>
+<td class="dlt">成交</td>
+<td>12.6</td>
+<td class="premium-low">0.0%</td>
+<td><span class="price">3421</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-a">
+<td>福清</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">福清万达广场A1号楼1516室</td>
+<td>福清万达广场</td>
+<td>商业</td>
+<td>34.0</td>
+<td>69.49</td>
+<td><span class="price">4893</span></td>
+<td class="dlt">成交</td>
+<td>40.6</td>
+<td class="premium-high">19.4%</td>
+<td><span class="price">5843</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+
+<tr class="stripe-a">
+<td>福清</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">福清万达广场A1号楼1501室</td>
+<td>福清万达广场</td>
+<td>商业</td>
+<td>83.0</td>
+<td>168.51</td>
+<td><span class="price">4926</span></td>
+<td class="dlt">成交</td>
+<td>91.0</td>
+<td class="premium-low">9.6%</td>
+<td><span class="price">5400</span></td>
+<td>暂无</td>
+<td>暂无</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<!-- ===== 流拍表格 ===== -->
+<div class="s">
+<div class="sh fail-h"><span>流拍标的</span><span class="ct">203 条</span></div>
+<div style="overflow-x:auto">
+<table class="ft">
+<thead>
+<tr>
+<th>区域</th>
+<th>拍卖阶段</th>
+<th>拍卖标的地址</th>
+<th>小区名称</th>
+<th>房屋用途</th>
+<th>起拍总价（万元）</th>
+<th>建筑面积（㎡）</th>
+<th>起拍单价（元/㎡）</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody><tr class="day-sep"><td colspan="9">📅 7月9日结束 <i>3条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">城门镇龙江路100号（原螺江东路南侧）禹洲天悦湾花园（东方威尼斯三期（E南地块））E3#楼305单元住宅房</td>
+<td>禹洲天悦湾花园</td>
+<td>住宅</td>
+<td>101.4</td>
+<td>116.85</td>
+<td><span class="price">8678</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">下渡街道朝阳路395号（原朝阳路南侧）南江滨旧屋区改造临江新天地七地块（二期）8#楼801单元</td>
+<td>临江新天地</td>
+<td>住宅</td>
+<td>126.0</td>
+<td>129.84</td>
+<td><span class="price">9704</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">茶亭街道五一中路138号金钻公寓2#楼104单元</td>
+<td>金钻公寓</td>
+<td>住宅</td>
+<td>171.5</td>
+<td>153.15</td>
+<td><span class="price">11198</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月10日结束 <i>12条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">城门镇龙江路98号东方威尼斯一期C区H29#楼601复式单元</td>
+<td>东方威尼斯</td>
+<td>住宅</td>
+<td>276.0</td>
+<td>260.00</td>
+<td><span class="price">10616</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">盖山镇竹榄路以西，南三环路以北清逸华庭（帝封江2020-29）11#楼1层11商业服务网点（兼容餐饮）</td>
+<td>清逸华庭</td>
+<td>商业</td>
+<td>55.7</td>
+<td>75.77</td>
+<td><span class="price">7354</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">盖山镇竹榄路以西，南三环路以北清逸华庭（帝封江2020-29）16#楼1层07商业服务网点（兼容餐饮）</td>
+<td>清逸华庭</td>
+<td>商业</td>
+<td>47.0</td>
+<td>63.93</td>
+<td><span class="price">7352</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">盖山镇竹榄路以西，南三环路以北清逸华庭（帝封江2020-29）S-2#楼1层01商业服务网点（兼容餐饮）</td>
+<td>清逸华庭</td>
+<td>商业</td>
+<td>42.9</td>
+<td>51.58</td>
+<td><span class="price">8317</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">仓山镇三高路152号海通商务中心（海通广场）2#楼14层08商务办公、09商务办公</td>
+<td>海通商务中心</td>
+<td>商务办公</td>
+<td>263.0</td>
+<td>288.64</td>
+<td><span class="price">9112</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">仓山镇三高路152号海通商务中心（海通广场）2#楼14层07商务办</td>
+<td>海通商务中心</td>
+<td>商务办公</td>
+<td>132.0</td>
+<td>144.68</td>
+<td><span class="price">9124</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">建新镇金河路168号金山碧水西区翠榕苑15#楼202单元</td>
+<td>金山碧水西区翠榕苑</td>
+<td>住宅</td>
+<td>144.0</td>
+<td>113.96</td>
+<td><span class="price">12636</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">建新镇台屿路216号（原金洲南路）福湾新城冬阳苑16#楼107单元</td>
+<td>福湾新城冬阳苑</td>
+<td>住宅</td>
+<td>49.4</td>
+<td>80.10</td>
+<td><span class="price">6167</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇福飞北路189号福晟·钱隆御景（二期）9#楼106单元</td>
+<td>福晟·钱隆御景（二期）</td>
+<td>住宅</td>
+<td>125.9</td>
+<td>119.91</td>
+<td><span class="price">10500</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇浮村路5号（原秀峰路西侧）建发北湖苑（一区）2#楼702单元</td>
+<td>建发北湖苑（一区）</td>
+<td>住宅</td>
+<td>153.6</td>
+<td>91.45</td>
+<td><span class="price">16796</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">岳峰镇连江北路联福花园2#楼201单元</td>
+<td>联福花园</td>
+<td>住宅</td>
+<td>55.5</td>
+<td>70.82</td>
+<td><span class="price">7837</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>福清</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">土地使用权及地上在建工程</td>
+<td>工业区</td>
+<td>工业</td>
+<td>7325.4</td>
+<td>153577.00</td>
+<td><span class="price">477</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月13日结束 <i>2条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓山镇福马路958号禹洲鼓山一号1-28#楼102复式单元，地下1层02车库</td>
+<td>禹洲鼓山一号</td>
+<td>住宅</td>
+<td>635.5</td>
+<td>363.22</td>
+<td><span class="price">17496</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd4">末次</span></td>
+<td class="addr">桂溪路11号香槟花园(二期)39#楼3601复式楼</td>
+<td>保利香槟花园2期</td>
+<td>住宅</td>
+<td>410.0</td>
+<td>238.76</td>
+<td><span class="price">17172</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月14日结束 <i>9条流拍</i></td></tr>
+<tr class="stripe-b">
+ <td>鼓楼</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层04室（不含室内家具家电）</td>
+ <td>闽发西湖广场</td>
+ <td>商业</td>
+ <td>221.0</td>
+ <td>258.51</td>
+ <td><span class="price">8549</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+ <td>鼓楼</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层03室（不含室内家具家电）</td>
+ <td>闽发西湖广场</td>
+ <td>商业</td>
+ <td>239.2</td>
+ <td>285.69</td>
+ <td><span class="price">8373</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+ <td>鼓楼</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">鼓西街道湖滨路78号闽发西湖广场2#楼6层02室（不含室内家具家电）</td>
+ <td>闽发西湖广场</td>
+ <td>商业</td>
+ <td>291.6</td>
+ <td>339.89</td>
+ <td><span class="price">8579</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">宦溪镇桂湖路59号（原湖中村湖山村）泉景山庄一区（福州桂湖生态温泉城（融汇泉景A区）GH-06地块）4#楼104单元</td>
+ <td>泉景山庄一区</td>
+ <td>住宅</td>
+ <td>32.0</td>
+ <td>115.43</td>
+ <td><span class="price">2772</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">宦溪镇温汤路88号世茂国风苑（世茂桂湖新城）16#楼302单元</td>
+ <td>世茂国风苑</td>
+ <td>住宅</td>
+ <td>49.4</td>
+ <td>85.40</td>
+ <td><span class="price">5785</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">宦溪镇温汤路178号世茂珊谷苑（世茂桂湖溪里）8#楼303复式单元</td>
+ <td>世茂珊谷苑（世茂桂湖溪里）</td>
+ <td>/</td>
+ <td>72.7</td>
+ <td>129.74</td>
+ <td><span class="price">5604</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd3">变卖</span></td>
+ <td class="addr">鼓山镇福马路418号缔景花园（一期）11#楼404复式单元房产</td>
+ <td>缔景花园</td>
+ <td>住宅</td>
+ <td>208.0</td>
+ <td>152.26</td>
+ <td><span class="price">13661</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd3">变卖</span></td>
+ <td class="addr">新店镇西园路663号西园小区一区36#楼308单元房产</td>
+ <td>西园小区</td>
+ <td>住宅</td>
+ <td>70.0</td>
+ <td>98.71</td>
+ <td><span class="price">7092</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+ <td>台江</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">瀛洲街道江滨中大道188号福州世茂外滩花园3#楼206单元</td>
+ <td>福州世茂外滩花园</td>
+ <td>住宅</td>
+ <td>489.7</td>
+ <td>194.31</td>
+ <td><span class="price">25202</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月15日结束 <i>7条流拍</i></td></tr>
+<tr class="stripe-a">
+ <td>鼓楼</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">杨桥中路231号黎明大厦1613复式单元</td>
+ <td>黎明大厦</td>
+ <td>/</td>
+ <td>207.3</td>
+ <td>155.14</td>
+ <td><span class="price">13362</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+ <td>仓山</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">建新镇花溪南路33号华润橡树湾家园（三期）51#楼303单元房产</td>
+ <td>华润橡树湾家园（三期）</td>
+ <td>住宅</td>
+ <td>112.0</td>
+ <td>88.66</td>
+ <td><span class="price">12633</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+ <td>仓山</td>
+ <td><span class="rnd rnd2">二拍</span></td>
+ <td class="addr">金山街道洪湾中路14号吉元小区一区（原吉元小区南一片）7#楼506单元</td>
+ <td>吉元小区</td>
+ <td>住宅</td>
+ <td>132.0</td>
+ <td>117.70</td>
+ <td><span class="price">11215</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">王庄街道乐东公寓2D，3D单元，1层47#、48#附属间、C车库</td>
+ <td>乐东公寓</td>
+ <td>住宅</td>
+ <td>160.7</td>
+ <td>204.71</td>
+ <td><span class="price">7850</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+ <td>晋安</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">新店镇山北路233号居住主题公园176#楼402复式单元</td>
+ <td>居住主题公园</td>
+ <td>住宅</td>
+ <td>146.0</td>
+ <td>182.67</td>
+ <td><span class="price">7993</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+ <td>台江</td>
+ <td><span class="rnd rnd1">一拍</span></td>
+ <td class="addr">后洲街道安平小区10#楼110单元</td>
+ <td>安平小区</td>
+ <td>住宅</td>
+ <td>155.3</td>
+ <td>93.33</td>
+ <td><span class="price">16640</span></td>
+ <td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>闽清</td>
+<td><span class="rnd ">再次拍卖</span></td>
+<td class="addr">福建神马酒业有限公司破产清算涉及位于闽清县东桥镇安仁溪村房屋建筑物、土地使用权和机械设备</td>
+<td>工业区</td>
+<td>工业</td>
+<td>160.0</td>
+<td>2362.69</td>
+<td><span class="price">677</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月16日结束 <i>5条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓西街道通湖路保定巷保定新村5#楼203单元及6#楼1层17附属间</td>
+<td>保定新村</td>
+<td>住宅</td>
+<td>132.2</td>
+<td>75.67</td>
+<td><span class="price">17477</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">下渡街道港南路79号2#楼104单元、2#楼1层06附属间</td>
+<td></td>
+<td>住宅</td>
+<td>70.9</td>
+<td>97.45</td>
+<td><span class="price">7280</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">盖山镇天水路6号（原天水路北侧）利嘉海峡商业城（二区）6A#馆2层110店面</td>
+<td>利嘉海峡商业城（二区）</td>
+<td>商铺</td>
+<td>64.3</td>
+<td>54.67</td>
+<td><span class="price">11762</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">盖山镇天水路6号（原天水路北侧）利嘉海峡商业城（二区）6A#馆2层150、151、152店面</td>
+<td>利嘉海峡商业城（二区）</td>
+<td>商铺</td>
+<td>276.9</td>
+<td>235.43</td>
+<td><span class="price">11762</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">盖山镇天水路6号（原天水路北侧）利嘉海峡商业城（二区）6A#馆2层090店面</td>
+<td>利嘉海峡商业城（二区）</td>
+<td>商铺</td>
+<td>142.6</td>
+<td>121.24</td>
+<td><span class="price">11762</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月17日结束 <i>8条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓西街道达明新村二里8#楼704单元、8#楼1层14附属间</td>
+<td>达明新村</td>
+<td>住宅</td>
+<td>97.0</td>
+<td>81.83</td>
+<td><span class="price">11854</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">东街街道津泰路津泰新村4#楼608单元房产</td>
+<td>津泰新村</td>
+<td>住宅</td>
+<td>186.0</td>
+<td>81.32</td>
+<td><span class="price">22873</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">水部街道六一北路565号天创佳缘商住楼1#楼1405单元房</td>
+<td>天创佳缘商住楼</td>
+<td>住宅</td>
+<td>400.0</td>
+<td>159.50</td>
+<td><span class="price">25078</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">城门镇南江滨东大道366号（原三江路南侧）三江城一期9#楼2304单元</td>
+<td>三江城一期</td>
+<td>住宅</td>
+<td>248.3</td>
+<td>281.11</td>
+<td><span class="price">8834</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">城门镇浦道支路26号永南佳园（福厦铁路4#安置地）15#楼907单元</td>
+<td>永南佳园</td>
+<td>住宅</td>
+<td>48.7</td>
+<td>91.00</td>
+<td><span class="price">5355</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">三叉街道高湖路9号城南新村望旺楼1#-2#连接体1层41市场</td>
+<td>城南新村望旺楼</td>
+<td>商业</td>
+<td>267.0</td>
+<td>372.49</td>
+<td><span class="price">7168</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇南平东路100号东方高尔夫花园二期2#楼504复式单元</td>
+<td>东方高尔夫花园</td>
+<td>住宅</td>
+<td>169.0</td>
+<td>193.63</td>
+<td><span class="price">8728</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">岳峰镇连江北路312号万事利花园1#楼501单元</td>
+<td>万事利花园</td>
+<td>住宅</td>
+<td>77.9</td>
+<td>74.15</td>
+<td><span class="price">10506</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月18日结束 <i>3条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">金山街道石边路124号建中小区23#楼505单元房产</td>
+<td>建中小区</td>
+<td>住宅</td>
+<td>90.0</td>
+<td>119.95</td>
+<td><span class="price">7503</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">建新镇东岭路南侧、盘屿路东侧奥体新天地花园G04地块(二期)A7#楼105复式单元</td>
+<td>奥体新天地花园</td>
+<td>住宅</td>
+<td>326.9</td>
+<td>159.23</td>
+<td><span class="price">20530</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">下渡街道展进巷13号先锋金山花园2#楼1层58附属间、3#乙楼2层01附属间、2层02附属间、101单元、2层21附属间</td>
+<td>先锋金山花园</td>
+<td>住宅</td>
+<td>212.3</td>
+<td>209.16</td>
+<td><span class="price">10150</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月19日结束 <i>1条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">华大街道融侨路35号思儿亭小区5#楼706单元房产</td>
+<td>思儿亭小区</td>
+<td>住宅</td>
+<td>98.0</td>
+<td>116.52</td>
+<td><span class="price">8411</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月20日结束 <i>3条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td></td>
+<td class="addr"></td>
+<td>福湾新城冬阳苑</td>
+<td>住宅</td>
+<td>64.2</td>
+<td>101.03</td>
+<td><span class="price">6358</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇观泉路289号熙云花园（熙悦府）17#楼1002单元</td>
+<td>熙云花园</td>
+<td>住宅</td>
+<td>55.5</td>
+<td>79.33</td>
+<td><span class="price">6998</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">义洲街道锦标路37号义洲新区北兴园B2地块3#楼605复式单元</td>
+<td>义洲新区北兴园</td>
+<td>住宅</td>
+<td>109.0</td>
+<td>118.88</td>
+<td><span class="price">9169</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月21日结束 <i>6条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇花溪南路48号（原花溪南路西南侧）融信湾花园A13#楼903单元</td>
+<td>融信湾花园</td>
+<td>住宅</td>
+<td>169.0</td>
+<td>112.80</td>
+<td><span class="price">14982</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇淮安路1号（原淮安路南侧）淮安五期6#楼202单元</td>
+<td>淮安五期</td>
+<td>住宅</td>
+<td>94.9</td>
+<td>95.88</td>
+<td><span class="price">9898</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">金山街道闽江大道202号三迪·凯旋枫丹2#楼806单元</td>
+<td>三迪·凯旋枫丹</td>
+<td>住宅</td>
+<td>575.0</td>
+<td>246.25</td>
+<td><span class="price">23350</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">苍霞街道中平路158号中平花园7#楼607单元，2#、3#、4#楼连体地下1层018附属间</td>
+<td>中平花园</td>
+<td>住宅</td>
+<td>94.6</td>
+<td>116.50</td>
+<td><span class="price">8120</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">上海街道工业路398号荷花新村11#楼709单元</td>
+<td>荷花新村</td>
+<td>住宅</td>
+<td>133.3</td>
+<td>85.40</td>
+<td><span class="price">15609</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">宁化街道工业路193号宝龙城市广场1#、2#楼连体3层139店面</td>
+<td>宝龙城市广场</td>
+<td>商业</td>
+<td>27.2</td>
+<td>51.29</td>
+<td><span class="price">5303</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月22日结束 <i>7条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五凤街道台后路8号左海花园2#楼106单元及1层18,19附属间</td>
+<td>左海花园</td>
+<td>住宅</td>
+<td>104.0</td>
+<td>118.02</td>
+<td><span class="price">8812</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五四北路琴亭花园3#楼（兰花阁）705、805单元及1层45车库、1层41、42附属间</td>
+<td>琴亭花园</td>
+<td>住宅</td>
+<td>182.9</td>
+<td>193.73</td>
+<td><span class="price">9441</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓山镇远洋路392号蓝湾雅境公寓（原实华公寓）9#楼504复式单元</td>
+<td>蓝湾雅境公寓（原实华公寓）</td>
+<td>住宅</td>
+<td>216.5</td>
+<td>200.13</td>
+<td><span class="price">10818</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">寿山乡岭头村258号华云山庄A3#楼310复式单元</td>
+<td>华云山庄</td>
+<td>住宅</td>
+<td>49.2</td>
+<td>85.64</td>
+<td><span class="price">5746</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">寿山乡岭头村258号华云山庄A3#楼309复式单元</td>
+<td>华云山庄</td>
+<td>住宅</td>
+<td>49.2</td>
+<td>85.64</td>
+<td><span class="price">5746</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">寿山乡岭头村258号华云山庄A26#楼116复式单元</td>
+<td>华云山庄</td>
+<td>住宅</td>
+<td>44.1</td>
+<td>73.90</td>
+<td><span class="price">5971</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">寿山乡岭头村258号华云山庄A27#楼103复式单元</td>
+<td>华云山庄</td>
+<td>住宅</td>
+<td>46.8</td>
+<td>89.50</td>
+<td><span class="price">5233</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月23日结束 <i>2条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">宦溪镇后垄路18号悦玲珑花园（北郡花园）1#楼103单元</td>
+<td>悦玲珑花园</td>
+<td>住宅</td>
+<td>17.8</td>
+<td>69.76</td>
+<td><span class="price">2552</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">宦溪镇后垄路18号悦玲珑花园（北郡花园）10#楼101单元</td>
+<td>悦玲珑花园</td>
+<td>住宅</td>
+<td>22.9</td>
+<td>89.52</td>
+<td><span class="price">2558</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月24日结束 <i>7条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">温泉街道得贵路南侧琼河村旧屋区改造（蓝海·国际）7#楼3503单元</td>
+<td>蓝海·国际</td>
+<td>住宅</td>
+<td>525.3</td>
+<td>172.44</td>
+<td><span class="price">30463</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">古田路柳后23号2#楼603单元及2#楼1层08附属间</td>
+<td>/</td>
+<td>住宅</td>
+<td>93.0</td>
+<td>78.32</td>
+<td><span class="price">11874</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">盖山镇阳歧路61号金山工业集中区福湾片区通洲实业有限公司1#、2#、3#、4#、5#厂房整座共计5个厂房</td>
+<td>金山工业集中区福湾片区</td>
+<td>工业</td>
+<td>6952.7</td>
+<td>暂无</td>
+<td>暂无</td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">城门镇南江滨东大道366号（原三江路南侧）三江城一期9#楼1603单元</td>
+<td>三江城一期</td>
+<td>住宅</td>
+<td>139.1</td>
+<td>177.42</td>
+<td><span class="price">7840</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">宦溪镇桂湖路59号（原湖中村湖山村）泉景山庄一区（桂湖生态温泉城(融汇泉景A区)GH-06地块）2#楼103单元</td>
+<td>泉景山庄一区</td>
+<td>住宅</td>
+<td>51.6</td>
+<td>90.37</td>
+<td><span class="price">5710</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新港街道水运里1号光明花园3#楼1层46附属间及401单元</td>
+<td>光明花园</td>
+<td>住宅</td>
+<td>180.2</td>
+<td>125.43</td>
+<td><span class="price">14367</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">阳歧路61号金山工业集中区福湾片区福州通洲实业有限公司1#、2#、3#、4#、5#厂房整座共计5个厂房</td>
+<td>金山工业集中区福湾</td>
+<td>工业</td>
+<td>6952.7</td>
+<td><span style="color:#999">暂无</span></td>
+<td><span style="color:#999">暂无</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月27日结束 <i>4条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鼓西街道光荣路18号光荣新村B#楼307单元、1.1层36附属间</td>
+<td>光荣新村</td>
+<td>住宅</td>
+<td>85.7</td>
+<td>暂无</td>
+<td>暂无</td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">王庄街道福马路159号福晟钱隆首府6号楼1801单元</td>
+<td>福晟钱隆首府</td>
+<td>住宅</td>
+<td>404.1</td>
+<td>183.67</td>
+<td><span class="price">22001</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">达道路68号华兴广场1层3区综合一层（3）</td>
+<td>华兴广场</td>
+<td>商业</td>
+<td>4627.8</td>
+<td>3883.71</td>
+<td><span class="price">11916</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">瀛洲街道江滨中大道116号君临闽江公寓1#、2#、3#、4#、5#、6#、7#楼连地下1层21铺位</td>
+<td>君临闽江公寓</td>
+<td>商业</td>
+<td>125.0</td>
+<td>127.73</td>
+<td><span class="price">9786</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月28日结束 <i>17条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">温泉街道五四路149号骏建大厦1003单元</td>
+<td>骏建大厦</td>
+<td>住宅</td>
+<td>433.9</td>
+<td>172.20</td>
+<td><span class="price">25200</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">洪山镇首凤路21号乌山西路凤湖片安置房（地块二-B）1#楼904单元</td>
+<td>乌山西路凤湖片安置房（地块二-B）</td>
+<td>住宅</td>
+<td>73.6</td>
+<td>61.86</td>
+<td><span class="price">11900</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">元帅路联湖花园1#（A）楼B5B单元</td>
+<td>联湖花园</td>
+<td>住宅</td>
+<td>55.2</td>
+<td>39.94</td>
+<td><span class="price">13828</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">下渡街道三高路156号金彩新村6#楼201单元</td>
+<td>金彩新村</td>
+<td>住宅</td>
+<td>138.0</td>
+<td>137.82</td>
+<td><span class="price">10010</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">金山街道卢滨路639号金色怡和园2#楼105单元（现为：美林湾东区）</td>
+<td>金色怡和园</td>
+<td>住宅</td>
+<td>161.1</td>
+<td>127.31</td>
+<td><span class="price">12654</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">城门镇龙江路98号东方威尼斯一期C区H29#楼601复式单元</td>
+<td>东方威尼斯一期</td>
+<td>住宅</td>
+<td>220.8</td>
+<td>260.00</td>
+<td><span class="price">8493</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>仓山</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">建新镇闽江大道99号天俊·蓝水湾2#楼203单元</td>
+<td>天俊·蓝水湾</td>
+<td>住宅</td>
+<td>179.0</td>
+<td>141.34</td>
+<td><span class="price">12665</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">王庄街道长乐中路96号王庄绎园（原王庄紫阳旧屋区改造）1#楼501复式单元</td>
+<td>王庄绎园</td>
+<td>住宅</td>
+<td>310.8</td>
+<td>221.99</td>
+<td><span class="price">14000</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">象园街道晋连路19号世欧王庄城C-a4地块2#楼33层03、05、06办公</td>
+<td>世欧王庄城</td>
+<td>商业</td>
+<td>117.3</td>
+<td>152.32</td>
+<td><span class="price">7701</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">王庄街道晋安南路30号紫阳新苑2#楼1904单元</td>
+<td>紫阳新苑</td>
+<td>住宅</td>
+<td>165.3</td>
+<td>75.67</td>
+<td><span class="price">21845</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇秀峰路413号三木秀峰家园12#楼606复式单元房产</td>
+<td>三木秀峰家园</td>
+<td>住宅</td>
+<td>130.0</td>
+<td>154.62</td>
+<td><span class="price">8408</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇桂山路688号桂山花园29#楼405单元住宅及地下室地下1层029车位</td>
+<td>桂山花园</td>
+<td>住宅</td>
+<td>146.9</td>
+<td>178.24</td>
+<td><span class="price">8242</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">新店镇浮村路5号（原秀峰路西侧）建发北湖苑（一区）2#楼702单元</td>
+<td>建发北湖苑（一区）</td>
+<td>住宅</td>
+<td>122.9</td>
+<td>91.45</td>
+<td><span class="price">13440</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">新店镇南平东路11号浮村新城（一区）（原琴湖湾西区）5#楼202单元</td>
+<td>浮村新城（一区）</td>
+<td>住宅</td>
+<td>61.0</td>
+<td>76.22</td>
+<td><span class="price">8000</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">上海街道工业路118号东辉花园乐居亭6#楼4B单元</td>
+<td>东辉花园乐居亭</td>
+<td>住宅</td>
+<td>178.2</td>
+<td>141.44</td>
+<td><span class="price">12600</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新港街道琯后街2号柔远雅苑(地铁安置房)2#楼1104单元</td>
+<td>柔远雅苑</td>
+<td>住宅</td>
+<td>71.9</td>
+<td>45.07</td>
+<td><span class="price">15960</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">同德路北侧同德新村（原闽清花园）7#楼601单元，2层37附属间</td>
+<td>同德新村</td>
+<td>住宅</td>
+<td>71.3</td>
+<td>102.94</td>
+<td><span class="price">6926</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月29日结束 <i>4条流拍</i></td></tr>
+<tr class="stripe-b"><td>鼓楼</td><td><span class="rnd rnd1">一拍</span></td><td class="addr">五凤街道西二环路158号金泉公寓8#楼605单元、2层31附属间</td><td>金泉公寓</td><td>住宅</td><td>103.0</td><td>110.84</td><td><span class="price">9293</span></td><td class="flt">流拍</td></tr>
+<tr class="stripe-a"><td>晋安</td><td><span class="rnd rnd2">二拍</span></td><td class="addr">新店镇山南路279号熙景苑（福州火车北站G地块（熙景苑）保障房）7#楼101单元</td><td>熙景苑</td><td>住宅</td><td>76.2</td><td>117.55</td><td><span class="price">6483</span></td><td class="flt">流拍</td></tr>
+<tr class="stripe-a"><td>晋安</td><td><span class="rnd rnd1">一拍</span></td><td class="addr">鼓山镇双溪路7号东山新苑（二期经济租赁房、廉租房、经济适用房）项目一区1#楼1908单元</td><td>东山新苑</td><td>住宅</td><td>36.6</td><td>59.53</td><td><span class="price">6148</span></td><td class="flt">流拍</td></tr>
+<tr class="stripe-b"><td>台江</td><td><span class="rnd rnd1">一拍</span></td><td class="addr">尾垱街台江农贸市场北侧江滨新村（广宇商贸城）南北区地下1层南区32店面、地下1层南区33店面、地下1层南区34店面</td><td>江滨新村</td><td>商业</td><td>53.0</td><td>64.21</td><td><span class="price">8254</span></td><td class="flt">流拍</td></tr>
+<tr class="day-sep"><td colspan="9">📅 7月30日结束 <i>1条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">瀛洲街道老药洲街99号古街商厦1#楼508单元</td>
+<td>古街商厦</td>
+<td>住宅</td>
+<td>64.0</td>
+<td>114.70</td>
+<td><span class="price">5580</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 7月31日结束 <i>8条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五凤街道丞相路52号五凤兰庭21#楼707复式单元</td>
+<td>五凤兰庭</td>
+<td>住宅</td>
+<td>234.9</td>
+<td>158.21</td>
+<td><span class="price">14847</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇福湾路916号福湾新城秋月苑2#楼101单元</td>
+<td>福湾新城秋月苑</td>
+<td>住宅</td>
+<td>61.9</td>
+<td>100.15</td>
+<td><span class="price">6184</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">下渡街道工农街36号菖蒲棚屋区下池片16#楼706复式单元</td>
+<td>菖蒲棚屋区下池片</td>
+<td>住宅</td>
+<td>110.6</td>
+<td>151.97</td>
+<td><span class="price">7278</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">城门镇三江路南侧中海悦江公馆二区(中海紫御花园二区)3#楼3302单元</td>
+<td>中海悦江公馆二区</td>
+<td>住宅</td>
+<td>59.1</td>
+<td>88.02</td>
+<td><span class="price">6715</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">宦溪镇温汤路178号世茂珊谷苑（世茂桂湖溪里）8#楼303复式单元</td>
+<td>世茂珊谷苑</td>
+<td>住宅</td>
+<td>58.1</td>
+<td>129.74</td>
+<td><span class="price">4478</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">宦溪镇温汤路88号世茂国风苑（世茂桂湖新城）16#楼302单元</td>
+<td>世茂国风苑</td>
+<td>住宅</td>
+<td>39.6</td>
+<td>85.40</td>
+<td><span class="price">4637</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">瀛洲街道建新新村3#楼3层49附属间、709单元</td>
+<td>建新新村</td>
+<td>住宅</td>
+<td>43.2</td>
+<td>55.04</td>
+<td><span class="price">7847</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">宁化街道工业路193号宝龙城市广场2#楼516单元</td>
+<td>宝龙城市广场</td>
+<td>住宅</td>
+<td>43.1</td>
+<td>36.26</td>
+<td><span class="price">11900</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 8月1日结束 <i>1条流拍</i></td></tr>
+<tr class="stripe-b"><td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">瀛洲街道江滨中大道116号君临闽江公寓(原君临闽江)4#楼303单元</td>
+<td>君临闽江公寓</td>
+<td>住宅</td>
+<td>301.0</td>
+<td>162.05</td>
+<td><span class="price">18575</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 8月2日结束 <i>3条流拍</i></td></tr>
+<tr class="stripe-a"><td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">建新镇凤冠路2号奥体融侨花园(B区)B3#楼909单元</td>
+<td>奥体融侨花园(B区)</td>
+<td>住宅</td>
+<td>217.7</td>
+<td>135.90</td>
+<td><span class="price">16021</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b"><td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">寿山乡岭头村258号华云山庄E2#楼108复式单元</td>
+<td>华云山庄</td>
+<td>住宅</td>
+<td>65.3</td>
+<td>145.78</td>
+<td><span class="price">4479</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>永泰</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">古岸村樟[2014]挂04号宗地及该地块上协昌制衣服装生产加工厂区</td>
+<td>宗地及该地块上协昌制衣服装生产加工厂区</td>
+<td>工业</td>
+<td>1900.0</td>
+<td>53100.00</td>
+<td><span class="price">358</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 8月3日结束 <i>1条流拍</i></td></tr>
+<tr class="stripe-b"><td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">鼓山镇后浦路226号后浦小区12#楼703单元及1层104附属间</td>
+<td>后浦小区</td>
+<td>住宅</td>
+<td>63.8</td>
+<td>暂无</td>
+<td>暂无</td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 8月4日结束 <i>9条流拍</i></td></tr>
+<tr class="stripe-b"><td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">新店镇南平东路58号浮村新城（二区）（一期）2#楼2502单元</td>
+<td>浮村新城</td>
+<td>住宅</td>
+<td>59.9</td>
+<td>76.03</td>
+<td><span class="price">7879</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a"><td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">鳌峰街道曙光路6号（原鳌兴路北侧）中庚香江万里6#楼1101单元</td>
+<td>中庚香江万里</td>
+<td>住宅</td>
+<td>241.0</td>
+<td>107.59</td>
+<td><span class="price">22400</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a"><td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">洋中街道广达路378号广达汇多利专业建材装饰城1层147店面商业房产</td>
+<td>广达汇多利专业建材装饰城</td>
+<td>商业</td>
+<td>32.4</td>
+<td>37.57</td>
+<td><span class="price">8624</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a"><td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鳌峰街道鳌江路8号福州金融街万达广场二期C1#写字楼12层07室房产</td>
+<td>福州金融街万达广场二期</td>
+<td>商业</td>
+<td>42.8</td>
+<td>53.03</td>
+<td><span class="price">8077</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">广达路378号广达汇多利专业建材装饰城1层147店面商业房产</td>
+<td>广达汇多利专业建材装饰城</td>
+<td>商业</td>
+<td>32.4</td>
+<td>37.57</td>
+<td><span class="price">8624</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">鳌江路8号福州金融街万达广场二期C1#写字楼12层07室房产</td>
+<td>万达广场</td>
+<td>商业</td>
+<td>42.8</td>
+<td>53.03</td>
+<td><span class="price">8080</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>长乐</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">湖文路289号均和云谷产业园B区5#楼201研发</td>
+<td>均和云谷产业园</td>
+<td>工业</td>
+<td>257.4</td>
+<td>1058.10</td>
+<td><span class="price">2433</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>长乐</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">湖文路289号均和云谷产业园B区5#楼3A01研发</td>
+<td>均和云谷产业园</td>
+<td>工业</td>
+<td>257.4</td>
+<td>1058.01</td>
+<td><span class="price">2433</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>长乐</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">湖文路289号均和云谷产业园B区6#楼201无人设备检验检测用房</td>
+<td>均和云谷产业园</td>
+<td>工业</td>
+<td>286.0</td>
+<td>1175.34</td>
+<td><span class="price">2433</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 8月5日结束 <i>48条流拍</i></td></tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五四路269号海富大厦2412单元</td>
+<td>海富大厦</td>
+<td>住宅</td>
+<td>35.9</td>
+<td>22.81</td>
+<td><span class="price">15734</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五四路269号海富大厦2428单元</td>
+<td>海富大厦</td>
+<td>住宅</td>
+<td>79.9</td>
+<td>47.69</td>
+<td><span class="price">16752</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五四路269号海富大厦2405单元</td>
+<td>海富大厦</td>
+<td>住宅</td>
+<td>67.9</td>
+<td>42.45</td>
+<td><span class="price">15993</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>鼓楼</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">五四路269号海富大厦203单元</td>
+<td>海富大厦</td>
+<td>住宅</td>
+<td>71.9</td>
+<td>42.45</td>
+<td><span class="price">16935</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">后浦路699号香开新城东地块地下室一地下1层0654车位</td>
+<td>香开新城</td>
+<td>商业</td>
+<td>13.7</td>
+<td>25.28</td>
+<td><span class="price">5418</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">桂湖路137号泉景山庄二区GH-05地块）8#楼1301单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>34.0</td>
+<td>110.29</td>
+<td><span class="price">3080</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">秀峰路38号金城新村3#楼605单元及1层48附属间</td>
+<td>金城</td>
+<td>住宅</td>
+<td>75.4</td>
+<td>103.56</td>
+<td><span class="price">7280</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">秀峰路219号冠茂芳洲苑3#楼503单元</td>
+<td>冠茂芳洲苑</td>
+<td>住宅</td>
+<td>133.8</td>
+<td>112.45</td>
+<td><span class="price">11900</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">威武军路305号盈福雅苑1#楼307单元</td>
+<td>盈福雅苑</td>
+<td>住宅</td>
+<td>23.5</td>
+<td>44.87</td>
+<td><span class="price">5230</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>台江</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">安平小区10#楼110单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>124.2</td>
+<td>93.33</td>
+<td><span class="price">13312</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>闽侯</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">麦浦路23号翡丽云邸7#楼1003单元房产</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>24.5</td>
+<td>63.47</td>
+<td><span class="price">3860</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>闽侯</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">旗山路10号正祥林语墅4-8#楼403单元房产</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>47.0</td>
+<td>86.90</td>
+<td><span class="price">5409</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>闽侯</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">奔驰大道59号隆恒凤港城2#楼709单元房产</td>
+<td>隆恒凤港城</td>
+<td>住宅</td>
+<td>45.0</td>
+<td>89.93</td>
+<td><span class="price">5004</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>连江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">沿江大道1号贵安新天地贵泉苑3幢1003单元房产</td>
+<td>贵安新天地贵泉苑</td>
+<td>住宅</td>
+<td>23.5</td>
+<td>64.50</td>
+<td><span class="price">3647</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-b">
+<td>福清</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">下井村香樟湖11号楼03复式单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>86.9</td>
+<td>218.99</td>
+<td><span class="price">3969</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">2幢903室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>102.4</td>
+<td>142.72</td>
+<td><span class="price">7174</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6、6-1#楼3005室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.3</td>
+<td>103.10</td>
+<td><span class="price">4980</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺5#、5-1#楼2003室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>49.7</td>
+<td>104.31</td>
+<td><span class="price">4763</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼603室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>48.2</td>
+<td>105.10</td>
+<td><span class="price">4586</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼2502室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>56.5</td>
+<td>112.70</td>
+<td><span class="price">5011</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼302室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.5</td>
+<td>113.90</td>
+<td><span class="price">4519</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼1802室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.7</td>
+<td>112.70</td>
+<td><span class="price">4854</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼3003室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>52.0</td>
+<td>104.38</td>
+<td><span class="price">4980</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1302室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.0</td>
+<td>113.90</td>
+<td><span class="price">4742</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼3002室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.3</td>
+<td>103.10</td>
+<td><span class="price">4980</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼402室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.7</td>
+<td>113.90</td>
+<td><span class="price">4541</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼2905室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.1</td>
+<td>103.10</td>
+<td><span class="price">4958</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼2105室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>49.3</td>
+<td>103.10</td>
+<td><span class="price">4784</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼2605室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>56.7</td>
+<td>112.70</td>
+<td><span class="price">5033</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼1502室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.9</td>
+<td>112.70</td>
+<td><span class="price">4787</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼2002室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.8</td>
+<td>113.90</td>
+<td><span class="price">4899</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1202室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.8</td>
+<td>113.90</td>
+<td><span class="price">4720</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼2903室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.8</td>
+<td>104.38</td>
+<td><span class="price">4958</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1402室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.3</td>
+<td>113.90</td>
+<td><span class="price">4765</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼2805室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>50.9</td>
+<td>103.10</td>
+<td><span class="price">4937</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺5#、5-1#楼1605室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>48.2</td>
+<td>103.04</td>
+<td><span class="price">4676</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼202室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.2</td>
+<td>113.90</td>
+<td><span class="price">4496</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺5#、5-1#楼1903室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>49.5</td>
+<td>104.31</td>
+<td><span class="price">4741</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼2602室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>56.7</td>
+<td>112.70</td>
+<td><span class="price">5033</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺6#、6-1#楼2005室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>49.1</td>
+<td>103.10</td>
+<td><span class="price">4763</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1702室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.0</td>
+<td>113.90</td>
+<td><span class="price">4832</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1902室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.5</td>
+<td>113.90</td>
+<td><span class="price">4876</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺5#、5-1#楼1905室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>48.9</td>
+<td>103.04</td>
+<td><span class="price">4741</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼702室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.9</td>
+<td>112.70</td>
+<td><span class="price">4608</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼2302室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>56.0</td>
+<td>112.70</td>
+<td><span class="price">4966</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼2603室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>52.9</td>
+<td>105.10</td>
+<td><span class="price">5033</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺9#楼2103室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.7</td>
+<td>105.10</td>
+<td><span class="price">4921</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="stripe-a">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1802室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.3</td>
+<td>113.90</td>
+<td><span class="price">4854</span></td>
+<td class="flt">流拍</td>
+</tr>
+<tr class="day-sep"><td colspan="9">📅 8月6日结束 <i>32条流拍</i></td></tr>
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">潘墩路188号闽江世纪城-53地块E区E-5#楼14层02办公用房</td>
+<td>闽江世纪城</td>
+<td>商业</td>
+<td>80.0</td>
+<td>122.00</td>
+<td><span class="price">6557</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>仓山</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">浦道二路36号胪雷新城4#楼706单元</td>
+<td>胪雷新城</td>
+<td>住宅</td>
+<td>58.2</td>
+<td>75.59</td>
+<td><span class="price">7700</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-a">
+<td>晋安</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">樟林秀岭村康乐山庄212#楼整座</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>334.1</td>
+<td>231.98</td>
+<td><span class="price">14400</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">六一中路223号瑞翔新苑2座301单元</td>
+<td>瑞翔新苑</td>
+<td>住宅</td>
+<td>216.3</td>
+<td>149.22</td>
+<td><span class="price">14495</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>台江</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">福光南路379号武夷绿洲10#楼603复式单元</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>169.4</td>
+<td>172.84</td>
+<td><span class="price">9800</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-a">
+<td>长乐</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">会堂南路89号长乐名城2#楼104复式单元</td>
+<td>长乐名城</td>
+<td>住宅</td>
+<td>73.1</td>
+<td>103.56</td>
+<td><span class="price">7061</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>闽侯</td>
+<td><span class="rnd rnd3">变卖</span></td>
+<td class="addr">田垱茶场际兜村1#-37#厂房整座工业房产</td>
+<td>工业区</td>
+<td>工业</td>
+<td>1084.9</td>
+<td>14671.71</td>
+<td><span class="price">739</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-a">
+<td>福清</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">六一北路高华国际广场三层14商铺</td>
+<td>高华国际广场</td>
+<td>商业</td>
+<td>9.6</td>
+<td>45.31</td>
+<td><span class="price">2119</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">龙凤路南侧、东环路东侧平潭滨海国际度假区1#203、208-210、212、213A、215、218-219室的房产</td>
+<td>商住小区</td>
+<td>商业</td>
+<td>625.6</td>
+<td>604.76</td>
+<td><span class="price">10344</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">如意纵一路1号平潭海峡如意城G008地块一期B13#楼105室</td>
+<td>平潭海峡如意城</td>
+<td>住宅</td>
+<td>101.8</td>
+<td>147.59</td>
+<td><span class="price">6897</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd1">一拍</span></td>
+<td class="addr">龙凤路南侧、东环路东侧平潭滨海国际度假区4#101-103、103A、201-203、203A、205-210、1113室的房产</td>
+<td>商住小区</td>
+<td>商业</td>
+<td>2813.5</td>
+<td><span style="color:#999">暂无</span></td>
+<td><span style="color:#999">暂无</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1203室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.6</td>
+<td>113.53</td>
+<td><span class="price">4720</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼2003室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.6</td>
+<td>113.53</td>
+<td><span class="price">4899</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1303室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.8</td>
+<td>113.53</td>
+<td><span class="price">4742</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1103室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.3</td>
+<td>113.53</td>
+<td><span class="price">4697</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼203室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.0</td>
+<td>113.53</td>
+<td><span class="price">4496</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼603室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>52.1</td>
+<td>113.53</td>
+<td><span class="price">4586</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1805室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.3</td>
+<td>113.90</td>
+<td><span class="price">4854</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1905室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.5</td>
+<td>113.90</td>
+<td><span class="price">4876</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1105室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.5</td>
+<td>113.90</td>
+<td><span class="price">4697</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1403室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.1</td>
+<td>113.53</td>
+<td><span class="price">4765</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1903室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.4</td>
+<td>113.53</td>
+<td><span class="price">4876</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼305室房产</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.5</td>
+<td>113.90</td>
+<td><span class="price">4519</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1703室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.9</td>
+<td>113.53</td>
+<td><span class="price">4832</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">霞屿村西南侧岚城安置小区C、D标3#1706室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>71.3</td>
+<td>127.92</td>
+<td><span class="price">5577</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1803室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.1</td>
+<td>113.53</td>
+<td><span class="price">4854</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼205室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>51.2</td>
+<td>113.90</td>
+<td><span class="price">4496</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1305室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.0</td>
+<td>113.90</td>
+<td><span class="price">4742</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1503室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.3</td>
+<td>113.53</td>
+<td><span class="price">4787</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼2005室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>55.8</td>
+<td>113.90</td>
+<td><span class="price">4899</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺10#楼1205室</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>53.8</td>
+<td>113.90</td>
+<td><span class="price">4720</span></td>
+<td class="flt">流拍</td>
+</tr>
+
+<tr class="stripe-b">
+<td>平潭</td>
+<td><span class="rnd rnd2">二拍</span></td>
+<td class="addr">诚意路8号正荣·悦玺11#楼1505室房产</td>
+<td>商住小区</td>
+<td>住宅</td>
+<td>54.2</td>
+<td>113.28</td>
+<td><span class="price">4787</span></td>
+<td class="flt">流拍</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<div class="note">
+<b>说明：</b>
+① 成交与流拍分列为两个独立表格；② <b>按天分组展示</b>，每组标注拍卖结束日期，不同天的数据不混合排序；③ 成交表保留完整交易信息；④ 流拍表结果列之后不再展示成交信息列；⑤ 溢价率≥10%以<span style="color:#e74c3c;font-weight:bold">红色</span>标注，＜10%以<span style="color:#27ae60">绿色</span>标注；⑥ 仓山区首山路55号6#楼406单元小区名暂缺。
+</div>
+
+</div>
+<script>
+(function(){
+  function parseDate(d){
+    if(!d) return 0;
+    var m = d.match(/^(\d{1,2})-(\d{1,2})$/);
+    if(m) return parseInt(m[1],10)*100 + parseInt(m[2],10);
+    var mm = d.match(/(\d{1,2})月(\d{1,2})日/);
+    if(mm) return parseInt(mm[1],10)*100 + parseInt(mm[2],10);
+    return 0;
+  }
+  function normRegion(r){ return (r||'').replace(/[区县市]$/,''); }
+  var tables = Array.prototype.slice.call(document.querySelectorAll('table'));
+  var dates = {}, regions = {};
+  var groups = [];
+  tables.forEach(function(table){
+    var tb = table.querySelector('tbody'); if(!tb) return;
+    var isResult = !!tb.querySelector('tr.day-sep');
+    var cur = null, curHeader = null, curRows = [];
+    function flush(){
+      if(curRows.length){ groups.push({header:curHeader, rows:curRows.slice()}); }
+      curHeader = null; curRows = [];
+    }
+    Array.prototype.slice.call(tb.rows).forEach(function(tr){
+      if(tr.classList.contains('day-sep')){
+        flush();
+        var mt = tr.textContent.match(/(\d{1,2})月(\d{1,2})日/);
+        cur = mt ? (mt[1]+'月'+mt[2]+'日') : tr.textContent.trim();
+        tr.setAttribute('data-date', cur);
+        dates[cur] = true;
+        curHeader = tr; curRows = [];
+      } else if(tr.querySelector('td')){
+        var cells = tr.querySelectorAll('td');
+        var d = cur;
+        if(!d){
+          for(var i=0;i<cells.length;i++){
+            var t = cells[i].textContent.trim();
+            if(/^\d{1,2}-\d{1,2}$/.test(t)){ d = t; break; }
+          }
+          if(!d) d = cells[0] ? cells[0].textContent.trim() : '';
+        }
+        var region = isResult
+          ? (cells[0] ? cells[0].textContent.trim() : '')
+          : (cells[1] ? cells[1].textContent.trim() : '');
+        tr.setAttribute('data-date', d);
+        tr.setAttribute('data-region', normRegion(region));
+        if(d) dates[d] = true;
+        if(region) regions[normRegion(region)] = true;
+        curRows.push(tr);
+      }
+    });
+    flush();
+  });
+
+  var dateSel = document.getElementById('dateFilter');
+  var regionSel = document.getElementById('regionFilter');
+  if(!dateSel || !regionSel) return;
+  Object.keys(dates).sort(function(a,b){return parseDate(a)-parseDate(b);})
+    .forEach(function(d){ var o=document.createElement('option'); o.value=d; o.textContent=d; dateSel.appendChild(o); });
+  Object.keys(regions).sort()
+    .forEach(function(r){ var o=document.createElement('option'); o.value=r; o.textContent=r; regionSel.appendChild(o); });
+
+  var countEl = document.getElementById('filterCount');
+  var visibleData = new Set ? new Set() : {};
+  function apply(){
+    var dv = dateSel.value, rv = regionSel.value, n = 0;
+    var rvn = normRegion(rv);
+    if(visibleData instanceof Set) visibleData.clear(); else visibleData = {};
+    groups.forEach(function(g){
+      g.rows.forEach(function(tr){
+        var okD = (dv==='all' || tr.getAttribute('data-date')===dv);
+        var okR = (rv==='all' || normRegion(tr.getAttribute('data-region'))===rvn);
+        var show = okD && okR;
+        tr.style.display = show ? '' : 'none';
+        if(show){ n++; if(visibleData instanceof Set) visibleData.add(tr); else visibleData[tr]=1; }
+      });
+    });
+    groups.forEach(function(g){
+      if(!g.header) return;
+      var okD = (dv==='all' || g.header.getAttribute('data-date')===dv);
+      var has = g.rows.some(function(tr){
+        return (visibleData instanceof Set) ? visibleData.has(tr) : (visibleData[tr]===1);
+      });
+      g.header.style.display = (okD && has) ? '' : 'none';
+    });
+    countEl.textContent = '当前显示 ' + n + ' 行';
+  }
+  dateSel.addEventListener('change', apply);
+  regionSel.addEventListener('change', apply);
+  apply();
+})();
+</script>
+</body>
+</html>

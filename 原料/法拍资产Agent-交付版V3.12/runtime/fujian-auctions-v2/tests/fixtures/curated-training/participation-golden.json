@@ -1,0 +1,1817 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-09T15:34:28.599Z",
+  "description": "人工法拍结果中的已成交标的报名人数与竞买记录金标准；源HTML未包含详情链接，以标的名称作为训练集键。",
+  "total": 201,
+  "records": [
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "洪山镇双下路37号乌山西路凤湖片安置房地块一3#楼804单元房产",
+      "outcome": "成交",
+      "bidCount": 31,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "首山路55号6#楼406单元",
+      "outcome": "成交",
+      "bidCount": 28,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "变卖",
+      "title": "岳峰镇横屿路25号东二环泰禾城市广场三期11号楼16层16办公房地产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "新店镇井店一路2号君临香格里C区（原秀峰路与井店路交叉处）3#楼303单元",
+      "outcome": "成交",
+      "bidCount": 9,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "杨桥中路283号2#楼704单元及1层20附属间",
+      "outcome": "成交",
+      "bidCount": 76,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "洪山镇梅峰路166号美之国花园（保福新苑三期一、二组团）3-86#楼101复式单元",
+      "outcome": "成交",
+      "bidCount": 241,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "鼓西街道湖头街91号（原西二环东侧，光荣路南侧）金典小区1#楼A区1108单元",
+      "outcome": "成交",
+      "bidCount": 85,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "金山街道浦上大道410号天鹅湾34#楼1608单元",
+      "outcome": "成交",
+      "bidCount": 32,
+      "registrationCount": 12
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "临江街道南江滨西大道16号（原南江滨西大道南侧，观井路北侧）江城锦绣园（江城锦绣商务住宅项目）观井E#楼9层01办公",
+      "outcome": "成交",
+      "bidCount": 68,
+      "registrationCount": 9
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "岳峰镇塔头路158号永兴家园2#楼305单元",
+      "outcome": "成交",
+      "bidCount": 10,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "宁化街道江滨西大道98号滨江御园1#楼302单元",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "洪山镇梅峰路222号（原梅峰路北侧）绿景嘉园8#楼1204单元",
+      "outcome": "成交",
+      "bidCount": 60,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "杨桥中路231号黎明大厦1610复式单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "新店镇南平东路100号东方高尔夫花园二期7#楼602单元",
+      "outcome": "成交",
+      "bidCount": 16,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "后洲街道安平小区5#楼113单元",
+      "outcome": "成交",
+      "bidCount": 2,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "鳌峰街道亚峰新村1#楼1层13附属间、408单元（原坐落;台江区亚峰新村1座408单元、杂物间13#）",
+      "outcome": "成交",
+      "bidCount": 45,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "鼓西街道湖滨路78号闽发西湖广场2#楼6层01室（不含室内家具家电）",
+      "outcome": "成交",
+      "bidCount": 12,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "金山街道燎原路130号(原横江路西南侧)江南水都5D、5E地块5D-2#楼3102单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇淮安路8号(原西三环路东南侧)山水天下花园二区（淮安二期）A12#楼2204单元",
+      "outcome": "成交",
+      "bidCount": 11,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "盖山镇金浦路99号（原林浦路西侧（金浦旧厂房出让地块A））世茂云浦公馆13#1001单元",
+      "outcome": "成交",
+      "bidCount": 38,
+      "registrationCount": 11
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "城门镇螺城路南侧湖际佳园（原湖滨北苑东部新城4#安置地周边）2#楼1401单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "新店镇龙头路359号香山时代花园（香山新时代花园）7#楼1905单元及福建省连江县潘渡镇沿江大道1号贵安新天地贵锦苑地下室上平台B600车位",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "岳峰镇登云路388号登云山庄A区71#楼整座",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "鼓山镇浦墘路303号金辉东景C区二期（御景家园）42#楼206单元",
+      "outcome": "成交",
+      "bidCount": 34,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "二拍",
+      "title": "后洲街道安平小区7#楼507单元",
+      "outcome": "成交",
+      "bidCount": 12,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "金山街道亭头路256号（原亭头路北侧）杉林·悦榕公馆3#楼201单元",
+      "outcome": "成交",
+      "bidCount": 40,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇西三环路28号洪塘新城7#楼102单元",
+      "outcome": "成交",
+      "bidCount": 15,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "上海街道白马支路88号天琴和苑8#楼1201单元及福州市台江区上海街道交通西路北侧，西环中路东侧天琴和苑地下室地下1层562车位",
+      "outcome": "成交",
+      "bidCount": 77,
+      "registrationCount": 15
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "华大街道湖前路13号（原五四北路西侧）民都商住楼512单身公寓",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "东街街道津泰路津泰新村4#楼608单元房产",
+      "outcome": "成交",
+      "bidCount": 38,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "三叉街道高湖路9号城南新村望旺楼1#-2#连接体1层39市场",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "对湖街道上三路牛眠山巷58号鸿城小区8#楼702复式单元",
+      "outcome": "成交",
+      "bidCount": 21,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "鼓山镇连凤路72号三木花园A区6#楼104单元、3#楼1层109附属间",
+      "outcome": "成交",
+      "bidCount": 26,
+      "registrationCount": 13
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "洋中街道国货西路143号金垱地块（金尊名都）2509单元",
+      "outcome": "成交",
+      "bidCount": 39,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "上海街道交通支路7号（原白马中路东侧与交通路南侧交叉处）上海新苑C-2#楼2108单元",
+      "outcome": "成交",
+      "bidCount": 22,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "二拍",
+      "title": "鳌峰街道福光南路379号武夷绿洲小区（原武夷绿洲二期）40#楼302单元",
+      "outcome": "成交",
+      "bidCount": 30,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "金山街道卢滨路639号金色怡和园（洪湾中路与卢滨路交汇处）28#楼803单元",
+      "outcome": "成交",
+      "bidCount": 36,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "华大街道五四路319号奥体都市花园（琴亭花园广场）2#楼C区826单元",
+      "outcome": "成交",
+      "bidCount": 37,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "变卖",
+      "title": "城门镇江滨东大道366号三江城二期21#楼103单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "王庄新村桃园3座202单元房地产",
+      "outcome": "成交",
+      "bidCount": 24,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "五凤街道华大新村B5#楼601单元、1层43附属间",
+      "outcome": "成交",
+      "bidCount": 27,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "洪山镇梅峰路166号美之国花园（保福新苑三期一、二组团）3-96#楼101复式单元",
+      "outcome": "成交",
+      "bidCount": 178,
+      "registrationCount": 9
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "城门镇前锦村大沙53号前锦新城（二区）（东部新城9号社会保障房）4#楼1106单元",
+      "outcome": "成交",
+      "bidCount": 10,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "金山街道亭头路319号福州仓山万达广场B区（原金洲南路东侧与亭头路南侧交叉处）B1#1803单元",
+      "outcome": "成交",
+      "bidCount": 13,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "岳峰镇桂溪路11号（原连江北路东侧)香槟花园（二期）4#楼2804单元",
+      "outcome": "成交",
+      "bidCount": 40,
+      "registrationCount": 9
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "二拍",
+      "title": "茶亭街道群众路190号帝登花园2#楼202单元",
+      "outcome": "成交",
+      "bidCount": 13,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "东升街道则徐大道270号金辉·莱茵城二期10#楼101单元",
+      "outcome": "成交",
+      "bidCount": 11,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "金山街道亭头路253号福州仓山万达广场B区B12#楼402单元及亭头路319号福州仓山万达广场B区地下室地下2层312车位",
+      "outcome": "成交",
+      "bidCount": 7,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "对湖街道上三路6号兰庭新天地26#楼503单元",
+      "outcome": "成交",
+      "bidCount": 9,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "鼓山镇福马路648号大景城13#楼102单元",
+      "outcome": "成交",
+      "bidCount": 13,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇高宅路183号金山桔园三期（浦新小区）9#楼301单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "岳峰镇六一北路216号晋安花园平安阁（1#楼）102单元及晋安花园平安阁（1#楼）2层22#附属间",
+      "outcome": "成交",
+      "bidCount": 13,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "寿山乡岭头村258号华云山庄A25#楼101复式单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "金山街道金桔路278号中天金海岸天骄苑1#地三期42#楼4204复式单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇玉兰一路6号福湾新城春风苑（社会保障房）B区29#楼310单元",
+      "outcome": "成交",
+      "bidCount": 12,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "下渡街道朝阳路278号南江滨旧屋区改造临江新天地四地块2#楼1703单元",
+      "outcome": "成交",
+      "bidCount": 32,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "洪水镇国光路86号仁文·大儒世家原厝南地块17#楼1803室（现小区名称：金帝仁文大儒世家江语城）",
+      "outcome": "成交",
+      "bidCount": 39,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "盖山镇高兴路33号后坂小区二期13#、14#、15#、16#连接体1层34店面",
+      "outcome": "成交",
+      "bidCount": 49,
+      "registrationCount": 9
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "盖山镇高兴路33号后坂小区二期13#、14#、15#、16#连接体1层35店面",
+      "outcome": "成交",
+      "bidCount": 69,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "岳峰镇三八路53号鹤林新城25号楼206单元",
+      "outcome": "成交",
+      "bidCount": 31,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "岳峰镇后浦路699号（原化工路南侧与后浦路东侧交叉处）香开新城13#楼1203单元",
+      "outcome": "成交",
+      "bidCount": 38,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "温泉街道东大路大营街8号榕泉花园4#楼03附属间、504单元",
+      "outcome": "成交",
+      "bidCount": 7,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "城门镇福峡路11号鸿运馨境B区11#楼402单元",
+      "outcome": "成交",
+      "bidCount": 37,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "上渡街道横江路181号凯龙滨江花园（原闽江半岛花园）2#楼707单元房产",
+      "outcome": "成交",
+      "bidCount": 31,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇百花洲路90号建华小区（拆迁安置房）A-2#楼403单元",
+      "outcome": "成交",
+      "bidCount": 43,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "新店镇健康路60号健康佳园（绕城高速14#安置地）13#楼1802单元",
+      "outcome": "成交",
+      "bidCount": 41,
+      "registrationCount": 13
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "新店镇战坂路32号西垅佳园（绕城高速5#楼安置地）9#楼101单元",
+      "outcome": "成交",
+      "bidCount": 25,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "新店镇观泉路289号熙云花园（熙悦府）Y-5#楼609单元",
+      "outcome": "成交",
+      "bidCount": 13,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "浦墘路16号君临东城小区（原山水丽景）13#楼402单元",
+      "outcome": "成交",
+      "bidCount": 16,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇金山大道418号汇创名居19#楼203单元",
+      "outcome": "成交",
+      "bidCount": 57,
+      "registrationCount": 11
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "金山街道闽江大道246号锦绣江南3#楼801单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "城门镇湖滨北苑东侧安平佳园（原湖滨北苑东侧地块）7#楼305单元",
+      "outcome": "成交",
+      "bidCount": 9,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "金山街道石边路52号金山碧水三期夏沁苑16#楼201单元房产",
+      "outcome": "成交",
+      "bidCount": 189,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "二拍",
+      "title": "下渡街道港南路77号（原港南港务公司宿舍）1#楼506单元",
+      "outcome": "成交",
+      "bidCount": 10,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "王庄街道福马路250号福马名城（现福马公寓）B#楼202单元",
+      "outcome": "成交",
+      "bidCount": 16,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "新店镇战坂路32号西垅佳园（绕城高速5#安置地）3#楼1804单元",
+      "outcome": "成交",
+      "bidCount": 6,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "鼓山镇浦墘路303号金辉东景C区二期（御景家园）49#楼202单元",
+      "outcome": "成交",
+      "bidCount": 21,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "仓山",
+      "stage": "一拍",
+      "title": "建新镇建新南路51号金域蓝湾家园（原金辉·金域蓝湾）27#楼405单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "二拍",
+      "title": "鼓山镇福马路958号禹洲鼓山一号1-28#楼102复式单元，地下1层02车库",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "鼓山镇浦墘路19号兴元星辰（现名兴辰嘉园）14#楼501单元",
+      "outcome": "成交",
+      "bidCount": 11,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "一拍",
+      "title": "鼓东街道五四路128号中旅城二期北住宅楼502单元",
+      "outcome": "成交",
+      "bidCount": 32,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "鼓西街道湖滨路78号闽发西湖广场2#楼6层02室",
+      "outcome": "成交",
+      "bidCount": 39,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "鼓西街道湖滨路78号闽发西湖广场2#楼6层04室",
+      "outcome": "成交",
+      "bidCount": 34,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "鼓楼",
+      "stage": "二拍",
+      "title": "鼓西街道湖滨路78号闽发西湖广场2#楼6层03室",
+      "outcome": "成交",
+      "bidCount": 45,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "晋安",
+      "stage": "一拍",
+      "title": "王庄街道长福路139号王庄荷园新区8#楼603单元",
+      "outcome": "成交",
+      "bidCount": 38,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "一拍",
+      "title": "瀛洲街道台江路107号元洪锦江二期2#楼1503单元",
+      "outcome": "成交",
+      "bidCount": 91,
+      "registrationCount": 11
+    },
+    {
+      "sourceFile": "福州法拍结果.html",
+      "district": "台江",
+      "stage": "二拍",
+      "title": "鳌峰街道鳌兴路283号水岸华庭20#楼503复式单元房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "二拍",
+      "title": "霞美镇光电信息产业基地C区C3-4号楼5层503单元",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "福田路118号东霞村29幢701室",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "变卖",
+      "title": "城东街道东星、埭头社区毓才花苑3号楼2605室及地下室地下一层车位187",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳德宏楼1063#住宅",
+      "outcome": "成交",
+      "bidCount": 32,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道象山路8号象峰小区5幢903室住宅",
+      "outcome": "成交",
+      "bidCount": 13,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道象山路8号象峰小区4幢2804室住宅",
+      "outcome": "成交",
+      "bidCount": 29,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "池店镇新店村和平北路1118号百宏·御江南7幢103住宅",
+      "outcome": "成交",
+      "bidCount": 29,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "罗山街道福埔工业综合开发区华泰国际新城八期86幢220住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "罗山福埔综合开发区兰峰城市花园公寓D712住宅",
+      "outcome": "成交",
+      "bidCount": 2,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "二拍",
+      "title": "水头镇林炳片区C地块改造工程（怡锦园）3号楼13层1317室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "东海街道浔埔社区东宏路233号景第小区一期9幢2606室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "东海组团行政中心轴线南端以及景观东路东侧3号地块香缤·御豪苑6号楼1201及地下室车位416",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "洛江",
+      "stage": "二拍",
+      "title": "万福街以南万荣街以北汇龙·大江盛世C区2号楼101",
+      "outcome": "成交",
+      "bidCount": 51,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "池店镇凤池东路399号君逸花园9幢1705",
+      "outcome": "成交",
+      "bidCount": 7,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "池店镇凤池东路699号当代万国城三期30幢2903室",
+      "outcome": "成交",
+      "bidCount": 22,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "惠安",
+      "stage": "二拍",
+      "title": "黄塘镇聚龙小镇东篱新村5#1302",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "二拍",
+      "title": "城厢镇二环南路1号金融行政服务中心3号楼116、119、120、122号店",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "一拍",
+      "title": "仁风新村46幢204单元",
+      "outcome": "成交",
+      "bidCount": 30,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "鲤城",
+      "stage": "二拍",
+      "title": "江南街道锦美社区江南新区商贸物流中心锦美安置区10号楼808住宅及室内家具家电",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "安海镇鸿江西路\"捷宏·盛宴\"B1#-C2101（现门牌号为2107）住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道人工湖片区晋江世茂人工湖项目（K1-3、K2-2地块）2幢1906住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "罗山福埔工业综合开发区华泰国际新城71#-504住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "灵源街道灵水社区下塘东路108号长盛小区一期1幢205住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道双龙西路305号中航城·天玺15-A幢505住宅",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道人工湖片区晋江世茂人工湖项目K5地块A-3幢1301住宅",
+      "outcome": "成交",
+      "bidCount": 30,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道世纪大道888号晋江万达广场8幢802住宅",
+      "outcome": "成交",
+      "bidCount": 20,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道陈村社区宾阳路2号高阳小区12幢1402住宅",
+      "outcome": "成交",
+      "bidCount": 28,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "池店镇凤池东路599号当代万国城二期17幢2802室住宅",
+      "outcome": "成交",
+      "bidCount": 8,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "永春",
+      "stage": "二拍",
+      "title": "石鼓镇真武南路8号雍璟小区13号楼302室",
+      "outcome": "成交",
+      "bidCount": 16,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "一拍",
+      "title": "安溪特产城6号楼88A号、88B号房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "一拍",
+      "title": "安溪特产城6号楼95A号、95B号房产",
+      "outcome": "成交",
+      "bidCount": 2,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "一拍",
+      "title": "安溪特产城6号楼92A号、92B号房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "洛江",
+      "stage": "二拍",
+      "title": "万安街道后埭社区、杏宅社区荣嘉江滨公馆10号楼2705室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "洛江",
+      "stage": "二拍",
+      "title": "万福街135号铭基新天地二期2幢607室",
+      "outcome": "成交",
+      "bidCount": 7,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "青阳街道高霞社区高霞新天地商贸广场1幢-A区703室住宅",
+      "outcome": "成交",
+      "bidCount": 17,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "青阳街道高霞社区高霞新天地商贸广场1幢-A区1304室住宅",
+      "outcome": "成交",
+      "bidCount": 16,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "青阳街道高霞社区高霞新天地商贸广场1幢-A区1103室住宅",
+      "outcome": "成交",
+      "bidCount": 49,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "二拍",
+      "title": "水头镇下店村1幢1-10层房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "惠安",
+      "stage": "一拍",
+      "title": "螺阳镇大红埔盛世锦都公寓440室房产",
+      "outcome": "成交",
+      "bidCount": 15,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "惠安",
+      "stage": "一拍",
+      "title": "螺阳镇大红埔盛世锦都公寓442室房产",
+      "outcome": "成交",
+      "bidCount": 15,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "惠安",
+      "stage": "一拍",
+      "title": "螺阳镇大红埔盛世锦都公寓435室房产",
+      "outcome": "成交",
+      "bidCount": 17,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "惠安",
+      "stage": "二拍",
+      "title": "螺城镇福璟花园三、四期6#905室房产",
+      "outcome": "成交",
+      "bidCount": 54,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "一拍",
+      "title": "宝洲路中段南侧泉州浦西万达广场商业综合楼4号建筑（室外步行街）5幢一层酒楼的不动产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "泉港",
+      "stage": "二拍",
+      "title": "驿峰东路南侧山海国聚5#楼503住宅",
+      "outcome": "成交",
+      "bidCount": 2,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "丰田路46号联成大厦1001室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "刺桐路63号阳光曼哈顿D幢1503室房产及室内部分家电家具",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "鲤城",
+      "stage": "一拍",
+      "title": "义全后街96号中山花园1幢706室住宅及30号储藏间",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "洛江",
+      "stage": "变卖",
+      "title": "万兴街8号津汇红树湾B区19幢2802室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "泉港",
+      "stage": "一拍",
+      "title": "涂岭镇驿坂村相应不动产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "鲤城",
+      "stage": "一拍",
+      "title": "南环路万祥商城B地块B3幢店面09",
+      "outcome": "成交",
+      "bidCount": 40,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "二拍",
+      "title": "城厢镇二环北路389号溪江月7号楼301室房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "二拍",
+      "title": "城厢镇二环南路888号尚学领地润宇欧洲城15号楼1梯3102室房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "二拍",
+      "title": "官桥镇仁宅村连捷·山水悦城（二期）A1-b地块5号楼1-1302室房产",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "一拍",
+      "title": "凤城镇凤山路207号鸿业嘉辉5号楼803室房产",
+      "outcome": "成交",
+      "bidCount": 51,
+      "registrationCount": 11
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "德化",
+      "stage": "一拍",
+      "title": "浔中镇举人路5号美伦· 山景叠苑22幢2单元14层1403室及-1层414",
+      "outcome": "成交",
+      "bidCount": 30,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道人工湖片区晋江世茂人工湖项目K5地块A-8幢2905住宅",
+      "outcome": "成交",
+      "bidCount": 5,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "德化",
+      "stage": "一拍",
+      "title": "诗墩二期工业区北侧百德·畔山云海5区9号",
+      "outcome": "成交",
+      "bidCount": 40,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "变卖",
+      "title": "市区竹树下小区竹丽园大厦五层",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "通港西街174号保利公馆18幢2003室",
+      "outcome": "成交",
+      "bidCount": 17,
+      "registrationCount": 9
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "罗山街道梧垵社区、樟井社区豪新食品市场C7幢109",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "罗山街道梧垵社区、樟井社区豪新食品市场C7幢110",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "德化",
+      "stage": "二拍",
+      "title": "龙浔镇腾龙路100号金交颐园2幢32层3202室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "淮口花苑（北区）1号楼1505",
+      "outcome": "成交",
+      "bidCount": 2,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "池店镇望江路490号百捷·中央金街10幢306",
+      "outcome": "成交",
+      "bidCount": 24,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "池店镇滨江路3513号卓辉·海港城2幢1201",
+      "outcome": "成交",
+      "bidCount": 32,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "一拍",
+      "title": "水头镇顶乡片区一期改造工程时代新城16号楼7层711室",
+      "outcome": "成交",
+      "bidCount": 25,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "一拍",
+      "title": "水头镇顶乡片区一期改造工程时代新城16号楼7层710室",
+      "outcome": "成交",
+      "bidCount": 23,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "一拍",
+      "title": "水头镇顶乡片区一期改造工程时代新城16号楼7层709室",
+      "outcome": "成交",
+      "bidCount": 26,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "二拍",
+      "title": "水头镇水头村力嘉城市中心D幢301室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "泉港",
+      "stage": "二拍",
+      "title": "南山南路西侧天马广场2#2803",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "泉港",
+      "stage": "变卖",
+      "title": "泉二路东盛商城11#604-704楼中楼",
+      "outcome": "成交",
+      "bidCount": 19,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "德化",
+      "stage": "一拍",
+      "title": "浔中镇浔北路12幢21-22号1层店22商业",
+      "outcome": "成交",
+      "bidCount": 118,
+      "registrationCount": 18
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "二拍",
+      "title": "水头镇大盈村大盈街297号宏发豪庭（鼎丰书香豪庭）18号楼8层812室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "刺桐西路新晖苑C幢102店面",
+      "outcome": "成交",
+      "bidCount": 36,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "二拍",
+      "title": "东霞新村19幢503室住宅及储藏间",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "磁灶镇大埔村陶美路1号财富新城2幢903",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "磁灶镇延泽路中瑞阳光豪庭15幢904",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "新塘街道新塘园区新城路2号晋江新塘园区大唐世家6幢1101",
+      "outcome": "成交",
+      "bidCount": 5,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道石鼓路阳辉华庭3幢2001",
+      "outcome": "成交",
+      "bidCount": 17,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "陈埭镇双龙东路888号浔兴世运华林春天一期3幢1806室",
+      "outcome": "成交",
+      "bidCount": 17,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道世纪大道888号晋江万达广场8幢2829",
+      "outcome": "成交",
+      "bidCount": 20,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "罗山街道罗裳社区正荣浔兴世纪春天10幢1103",
+      "outcome": "成交",
+      "bidCount": 41,
+      "registrationCount": 10
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道世纪大道518号宝龙广场国际公馆5幢1004",
+      "outcome": "成交",
+      "bidCount": 2,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "梅岭街道许厝社区联昌•凯旋国际1幢1403",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "磁灶镇延泽路中瑞阳光豪庭12幢1202",
+      "outcome": "成交",
+      "bidCount": 9,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道陈村社区南环路明鑫广场B2#-1503及B2#-1504",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "石狮",
+      "stage": "一拍",
+      "title": "东港路188号百德·康桥假日32幢902",
+      "outcome": "成交",
+      "bidCount": 21,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "石狮",
+      "stage": "一拍",
+      "title": "湖滨曾坑村霞角永安路9号（公安局曾坑宿舍楼2号楼101#）",
+      "outcome": "成交",
+      "bidCount": 28,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "永春",
+      "stage": "二拍",
+      "title": "五里街镇仰贤社区北环路北侧永春碧桂园二期鹏祥居十六号楼1单元2401",
+      "outcome": "成交",
+      "bidCount": 18,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "池店镇南片区中梁·国府梁宸8幢、D-1幢2007",
+      "outcome": "成交",
+      "bidCount": 17,
+      "registrationCount": 5
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道世纪大道518号宝龙广场国际公馆1幢2602住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道世纪大道518号宝龙广场国际公馆3幢2010住宅",
+      "outcome": "成交",
+      "bidCount": 12,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道世纪大道518号宝龙广场国际公馆3幢2503住宅",
+      "outcome": "成交",
+      "bidCount": 11,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "青阳街道世纪大道518号宝龙广场国际公馆4幢1608住宅",
+      "outcome": "成交",
+      "bidCount": 7,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "一拍",
+      "title": "池店镇东山村凤池东路888号舒华·奥体中心2幢304室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "一拍",
+      "title": "洪濑镇溪霞村东大路777号源昌龙阁湾10号楼8层801室",
+      "outcome": "成交",
+      "bidCount": 28,
+      "registrationCount": 8
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "泉港",
+      "stage": "变卖",
+      "title": "驿沙路昌茂商住小区B幢507-607住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "梅岭街道人工湖片区晋江世茂人工湖项目K5地块A-7幢901",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "池店镇华洲村华东路86号百捷·中央公园A区11幢1618",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "磁灶镇中国包装印刷产业（晋江）基地晋江世茂云玺8幢903",
+      "outcome": "成交",
+      "bidCount": 25,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "鲤城",
+      "stage": "变卖",
+      "title": "浮桥街道新步社区卓辉·金色外滩19号楼903",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "安海镇鸿江西路\"捷宏·盛宴\"1#C1601室住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "安溪",
+      "stage": "一拍",
+      "title": "凤城镇二环南路1089号力志御峰（二期)21号楼C梯2701室房产",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "泉港",
+      "stage": "一拍",
+      "title": "驿峰西路北侧龙珠新村A2#楼120店面",
+      "outcome": "成交",
+      "bidCount": 23,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "德化",
+      "stage": "二拍",
+      "title": "浔中镇炭湖坂危旧房改造工程2幢12层1201室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "一拍",
+      "title": "泉秀路南侧温陵新城一期月季阁11D",
+      "outcome": "成交",
+      "bidCount": 14,
+      "registrationCount": 3
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "丰泽",
+      "stage": "一拍",
+      "title": "宝珊花园湖秀北路31号不动产",
+      "outcome": "成交",
+      "bidCount": 90,
+      "registrationCount": 12
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "紫帽镇紫园路452号龙安嘉园7幢1403住宅",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "青阳街道曾井小区新世纪豪园3幢1104室住宅",
+      "outcome": "成交",
+      "bidCount": 31,
+      "registrationCount": 6
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "东石镇郭岑村中骏·东璟府3幢1802住宅",
+      "outcome": "成交",
+      "bidCount": 44,
+      "registrationCount": 7
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "梅岭街道碧山社区碧兴路128号崎山小区2幢1302住宅",
+      "outcome": "成交",
+      "bidCount": 3,
+      "registrationCount": 2
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "梅岭街道世纪大道888号晋江万达广场8幢605室",
+      "outcome": "成交",
+      "bidCount": 14,
+      "registrationCount": 4
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "晋江",
+      "stage": "二拍",
+      "title": "罗山街道福埔工业综合开发区华泰国际新城5幢407室",
+      "outcome": "成交",
+      "bidCount": 1,
+      "registrationCount": 1
+    },
+    {
+      "sourceFile": "泉州法拍结果.html",
+      "district": "南安",
+      "stage": "二拍",
+      "title": "溪美镇溪美街8幢405室",
+      "outcome": "成交",
+      "bidCount": 47,
+      "registrationCount": 9
+    }
+  ]
+}

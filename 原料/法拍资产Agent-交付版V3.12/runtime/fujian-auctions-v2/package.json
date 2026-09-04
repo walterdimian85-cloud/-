@@ -1,0 +1,40 @@
+{
+  "name": "fujian-auctions-v2",
+  "version": "2.0.0-alpha.1",
+  "private": false,
+  "type": "module",
+  "description": "福建省阿里资产与京东拍卖司法拍卖房产增量采集与Excel整理Skill",
+  "bin": {
+    "fujian-auctions": "./bin/auction-cli.mjs"
+  },
+  "files": [
+    "SKILL.md",
+    "用户操作手册.md",
+    "adapters",
+    "agents",
+    "assets",
+    "bin",
+    "config",
+    "references",
+    "scripts",
+    "src",
+    "tests"
+  ],
+  "scripts": {
+    "check": "node --check scripts/run.mjs && node --check src/workbook/standard.mjs",
+    "test": "node tests/productization_check.mjs",
+    "test:codex": "node scripts/self_check.mjs",
+    "test:regression": "node tests/regression/fixed_samples.mjs && node tests/regression/special_cases.mjs && node tests/regression/v2_architecture.mjs",
+    "test:supervisor": "node tests/supervisor_check.mjs",
+    "test:release": "node tests/release_check.mjs",
+    "test:all": "npm run test && npm run test:codex && npm run test:regression && npm run test:supervisor && npm run test:release",
+    "help": "node bin/auction-cli.mjs help"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "exceljs": "4.4.0",
+    "playwright-core": "1.54.1"
+  }
+}

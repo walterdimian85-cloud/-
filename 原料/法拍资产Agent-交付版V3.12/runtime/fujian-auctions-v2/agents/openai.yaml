@@ -1,0 +1,4 @@
+interface:
+  display_name: "福建法拍房整理 V2"
+  short_description: "增量采集、断点续跑并提升福建司法拍卖房产字段准确度"
+  default_prompt: "使用 $fujian-auctions-v2 核对高水位、恢复进度并生成带字段证据的福建法拍房增量工作簿。"

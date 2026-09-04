@@ -1,0 +1,8 @@
+node_modules/
+path/
+tmp/
+房源整理结果/
+*.xlsx.inspect.ndjson
+*.log
+*.zip
+**/edge-profile/

@@ -1,0 +1,5 @@
+export function workbenchPrompt(config, target = "工作台", purpose = "run") {
+  const root = config.skillV2Dir.replace(/[\\/]runtime[\\/]fujian-auctions-v2$/u, "");
+  if (purpose === "review") return `请在${target}中接管本机“法拍资产Agent”的AI字段复核。不要重新采集，不得启动采集进程。\n\nAgent根目录：${root}\n配置文件：${config.configPath}\n\n高效执行：\n1. 运行：node bin/agent-cli.mjs review-export --config "${config.configPath}"\n2. 只处理返回的“工作台复核任务.json”中的高风险候选，不要检查未入选记录，不要扩展成全量复核。\n3. 优先利用任务中已有的面积证据；只有证据不足或冲突时才打开网页。读取“工作台复核规则.md”，不要反复加载整份任务文件。\n4. 面积优先级：建筑面积、房屋建筑面积、总建筑面积、产权建筑面积；不得把土地、占地、分摊或公摊面积当作主面积。住宅/商业与车位、车库、储藏间并列时，主面积只取住宅/商业部分，完整原文写入备注。\n5. 住宅或商业面积大于10000㎡，或者起拍价÷面积大于100000元/㎡或小于500元/㎡时，备注必须包含“数据疑似有误”及具体原因。\n6. 每完成一条只追加保存“工作台复核结果.json”；不要求逐条回传网页进度。登录或验证码必须暂停通知人工，禁止报名、出价、收藏或提醒。\n7. 全部完成后运行：node bin/agent-cli.mjs review-apply --config "${config.configPath}"。网页此时一次性显示“复核已完成”。\n8. 已有结果必须从断点继续，不得清空。`;
+  return `请在${target}中运行本机“法拍资产Agent”。\n\nAgent根目录：${root}\n配置文件：${config.configPath}\n\n运行：node bin/agent-cli.mjs run --config "${config.configPath}"\n不得使用--restart，不修改生产高水位；复用现有断点；账号只读；遇到登录或验证码暂停通知人工；已有任务运行时不得启动第二个实例。`;
+}

@@ -1,0 +1,28 @@
+# 每日运行数据与正式产物：通过 Syncthing 共享，不进入源码仓库
+/中间/法拍agent房源结果目录/
+/中间/WorkBuddy交接/
+/中间/诊断归档/
+/产物/
+/.workbuddy/
+
+# 本机 Agent 运行态、浏览器 Profile 与依赖
+/原料/**/agent-data/
+/原料/**/path/
+/原料/**/node_modules/
+/原料/**/config/agent.local.json
+/原料/**/data/output/
+/原料/**/data/state/
+
+# 当前只维护 V3.12；旧采集版本仅保留在本机，不纳入开发仓库
+/原料/法拍自动爬取v2.0/
+/原料/法拍资产Agent-交付版V3.7/
+/法拍自动爬取v2.0/
+/法拍资产Agent-交付版V3.7/
+
+# 临时文件、密钥与 Office 锁文件
+*.tmp
+*.bak-*
+~$*
+.env
+*.log
+中间/生成工具/dingcheng_report_tmp.docx

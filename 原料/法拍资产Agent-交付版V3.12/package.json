@@ -1,0 +1,25 @@
+{
+  "name": "judicial-auction-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "法拍资产每日采集、AI复核、历史维护与摘要Agent",
+  "bin": {
+    "auction-agent": "./bin/agent-cli.mjs"
+  },
+  "scripts": {
+    "start": "node bin/agent-cli.mjs serve",
+    "test": "node tests/agent-core.mjs && node tests/status-scope.mjs && node tests/task-state-model.mjs && node tests/verification-metrics.mjs && node tests/worker-lock.mjs && node tests/batch-binding.mjs && node tests/ai-providers.mjs && node tests/credentials.mjs && node tests/high-water-initialization.mjs && node tests/custom-high-water.mjs && node tests/high-water-parser.mjs && node tests/list-readiness.mjs && node tests/checkpoint-monotonicity.mjs && node tests/jd-city-filter-regression.mjs && node tests/alibaba-pc.mjs && node tests/jd-pc.mjs && node tests/assessment-price-rules.mjs && node tests/review-risk-rules.mjs && node tests/review-verification.mjs && node tests/review-batch-routing.mjs && node tests/review-skip.mjs && node tests/cache-cleanup.mjs && node tests/first-run-auth-regression.mjs && node tests/delivery-workflow.mjs",
+    "test:server": "node tests/server-smoke.mjs",
+    "test:ui": "node tests/browser-ui.mjs",
+    "check": "node --check bin/agent-cli.mjs && node --check src/orchestrator.mjs && node --check src/server.mjs && node --check src/batches.mjs && node --check src/batch-binding.mjs && node --check src/task-state-model.mjs && node --check src/task-metrics.mjs && node --check src/verification-state.mjs && node --check src/worker-lock.mjs && node --check src/review/providers/index.mjs && node --check runtime/fujian-auctions-v2/scripts/list-readiness.mjs && node --check runtime/fujian-auctions-v2/scripts/run.mjs && node --check runtime/fujian-auctions-v2/scripts/supervisor.mjs && node --check scripts/recover-current-batch-from-evidence.mjs && node --check scripts/restore-history-batch.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@napi-rs/keyring": "^1.3.0",
+    "exceljs": "4.4.0",
+    "playwright-core": "1.54.1"
+  }
+}

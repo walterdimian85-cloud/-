@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "outcomes": [
+    {
+      "id": "alibaba-sold",
+      "platform": "alibaba",
+      "text": "本场已结束！ 拍下价481,985元",
+      "expected": "是"
+    },
+    {
+      "id": "alibaba-unsold",
+      "platform": "alibaba",
+      "text": "本场已流拍，无人出价！ 当前价1,280,000元",
+      "expected": "否"
+    },
+    {
+      "id": "jd-sold",
+      "platform": "jd",
+      "status": "已成交",
+      "amount": 741722.4,
+      "expected": { "outcome": "是", "amount": 741722.4 }
+    },
+    {
+      "id": "jd-unsold",
+      "platform": "jd",
+      "status": "已流拍",
+      "amount": 1145799.2,
+      "expected": { "outcome": "否", "amount": 0 }
+    }
+  ],
+  "areas": [
+    {
+      "id": "alibaba-introduction-table",
+      "sourceUrl": "https://sf-item.taobao.com/sf_item/1072003333289.htm",
+      "sources": [{ "text": "标的物介绍", "rows": [["建筑面积", "131.02平方米"]] }],
+      "expected": { "area": 131.02, "source": "页面表格建筑面积列", "ruleId": "area-table-v1" }
+    },
+    {
+      "id": "jd-investigation-table-slash-unit",
+      "sourceUrl": "https://paimai.jd.com/311047111",
+      "sources": [{ "text": "拍卖标的物调查情况表 房屋状况", "rows": [["建筑面积", "105.41/㎡"]] }],
+      "expected": { "area": 105.41, "source": "页面表格建筑面积列", "ruleId": "area-table-v1" }
+    },
+    {
+      "id": "announcement-column-table",
+      "sourceUrl": "https://sf-item.taobao.com/sf_item/1065295238629.htm",
+      "sources": [{
+        "text": "竞买公告",
+        "rows": [
+          ["项目名称", "权证号码", "用途", "建筑面积（m2）"],
+          ["厦门市同安区美峰六里1号3101单元", "闽（2020）厦门市不动产权第0084498号", "SOHO办公/商品房", "269.35"]
+        ]
+      }],
+      "expected": { "area": 269.35, "source": "页面表格建筑面积列", "ruleId": "area-table-v1" }
+    }
+  ],
+  "scope": [
+    { "text": "首页 > 资产交易 > 项目详情", "excluded": true },
+    { "text": "首页 > 司法拍卖 > 标的详情", "excluded": false }
+  ],
+  "titles": [
+    {
+      "id": "preserve-community-in-parentheses",
+      "input": "福建省南平市建阳区黄花山路45号（大潭映象16幢1单元402室）",
+      "expected": "黄花山路45号（大潭映象16幢1单元402室）"
+    },
+    {
+      "id": "preserve-street-and-project-in-parentheses",
+      "input": "福建省南平市建阳区潭城街道景贤路288号（正达·名郡25幢1单元19层1902房）",
+      "expected": "潭城街道景贤路288号（正达·名郡25幢1单元19层1902房）"
+    },
+    {
+      "id": "remove-original-address-note",
+      "input": "港南路18号（原港南港务公司宿舍）2幢301室",
+      "expected": "港南路18号2幢301室"
+    },
+    {
+      "id": "remove-current-doorplate-note",
+      "input": "灵石路81号（门牌号为灵石东路81-53）3层",
+      "expected": "灵石路81号3层"
+    }
+  ],
+  "highWater": {
+    "emptyAllMissing": 12,
+    "requiredDimensions": ["alibaba", "jd", "住宅用房", "商业用房", "工业用房", "即将开始", "已结束"]
+  },
+  "checkpoint": {
+    "records": [
+      { "网站链接": "https://sf-item.taobao.com/sf_item/1000000000999.htm", "标的名称": "断点记录A" },
+      { "网站链接": "https://paimai.jd.com/300000999", "标的名称": "断点记录B" }
+    ],
+    "expectedRestored": 2
+  }
+}

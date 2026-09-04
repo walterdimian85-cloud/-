@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "福建法拍房采集配置",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "platform": { "enum": ["all", "alibaba", "jd"] },
+    "categories": { "type": "array", "items": { "enum": ["住宅用房", "商业用房", "工业用房"] }, "minItems": 1, "uniqueItems": true },
+    "statusFilters": { "type": "array", "items": { "enum": ["即将开始", "已结束"] }, "minItems": 1, "uniqueItems": true },
+    "headless": { "type": "boolean" },
+    "dryRun": { "type": "boolean" },
+    "lowFrequency": { "type": "boolean" },
+    "includeParties": { "type": "boolean" },
+    "checkpointEvery": { "type": "integer", "minimum": 1 },
+    "requestIntervalMs": { "type": "integer", "minimum": 0 },
+    "maxItems": { "type": "integer", "minimum": 1 },
+    "maxPages": { "type": "integer", "minimum": 1 },
+    "loginWaitMinutes": { "type": "number", "exclusiveMinimum": 0 },
+    "outputDir": { "type": "string", "minLength": 1 },
+    "stateDir": { "type": "string", "minLength": 1 },
+    "profileDir": { "type": "string", "minLength": 1 },
+    "workbookAdapter": { "enum": ["codex", "standard"] }
+  }
+}

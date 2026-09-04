@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "description": "V2人工确认正确答案集；不得用重新生成V1工作簿的方式覆盖。",
+  "titles": [
+    {
+      "id": "keep-project-location-parentheses-1",
+      "input": "福建省南平市建阳区黄花山路45号（大潭映象16幢1单元402室）",
+      "expected": "黄花山路45号（大潭映象16幢1单元402室）",
+      "confirmedBy": "user"
+    },
+    {
+      "id": "keep-street-and-project-location-parentheses-2",
+      "input": "福建省南平市建阳区潭城街道景贤路288号（正达·名郡25幢1单元19层1902房）",
+      "expected": "潭城街道景贤路288号（正达·名郡25幢1单元19层1902房）",
+      "confirmedBy": "user"
+    }
+  ],
+  "communities": [
+    {
+      "id": "community-from-parentheses-1",
+      "title": "黄花山路45号（大潭映象16幢1单元402室）",
+      "propertyType": "住宅",
+      "expected": "大潭映象",
+      "confirmedBy": "user"
+    },
+    {
+      "id": "community-from-parentheses-2",
+      "title": "潭城街道景贤路288号（正达·名郡25幢1单元19层1902房）",
+      "propertyType": "住宅",
+      "expected": "正达·名郡",
+      "confirmedBy": "user"
+    }
+  ]
+}

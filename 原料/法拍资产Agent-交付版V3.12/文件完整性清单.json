@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "bin\\agent-cli.mjs",
+      "sha256": "ae18aba762864f83e86fd42e8434ab6f71530379a27414fe52d9349edce97ee1",
+      "bytes": 6179
+    },
+    {
+      "path": "config\\agent.local.json",
+      "sha256": "7d9c25f7fb6228c6846cebee4f6fdbeff82a3a89f182bf2645a32168ad25225b",
+      "bytes": 1506
+    },
+    {
+      "path": "distribution.json",
+      "sha256": "f3e60f1ad0501554e202a335ba0ca22ecf825800239097f54c85713cd436385c",
+      "bytes": 76
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "37e86191af3ac7e330b6051ea2b4601ded39dfd208e83217ea24ba92e2e47504",
+      "bytes": 47709
+    },
+    {
+      "path": "package.json",
+      "sha256": "578a52fd712551cfbb6c7278b717f91ff8c50e2f48af976768e1d2748e82aa65",
+      "bytes": 2107
+    },
+    {
+      "path": "public\\app.js",
+      "sha256": "bd28525d971eda5c98b729ec2d3f4543d31dfec447de4d8c4b72503bb696acad",
+      "bytes": 108239
+    },
+    {
+      "path": "public\\high-water-parser.js",
+      "sha256": "9cef0f45a56b35a747beeb35e16b180568439f9cb3ff2b8aef0453a98442cb7c",
+      "bytes": 3017
+    },
+    {
+      "path": "public\\index.html",
+      "sha256": "6e84fd4bad17fffa305d8d4e6fdf56cbd365210336c30460f8a487b5cf8ffa2d",
+      "bytes": 8883
+    },
+    {
+      "path": "public\\regions.js",
+      "sha256": "ddeedd3fcb4a2bb496deffccbf6abac0f169b95312250d61289721457dd20aca",
+      "bytes": 5492
+    },
+    {
+      "path": "public\\style.css",
+      "sha256": "48f320d9f991b9a383671c5f319072eb25876b295b62e81c8d8d914b34b7db7d",
+      "bytes": 21580
+    },
+    {
+      "path": "README.md",
+      "sha256": "ff36fd994b45e9ad2a10dac89be17afb1b50aa5fda3dfedf82b12a1182a4f96a",
+      "bytes": 5133
+    },
+    {
+      "path": "references\\agent-policy.md",
+      "sha256": "a91f6cb19267574306431d1e7174672645b27bdbc652260fb287ad6fb1314180",
+      "bytes": 1190
+    },
+    {
+      "path": "references\\ai-review-rules.md",
+      "sha256": "128301442383323e78dbc743a803f64d097fb93d345384362156cb425e2806c7",
+      "bytes": 2219
+    },
+    {
+      "path": "references\\status-scope-api-contract.md",
+      "sha256": "76c48562a36381333975c4263e035111b0ba8c92ba01f84cf3aab5be573057df",
+      "bytes": 771
+    },
+    {
+      "path": "references\\交付版核心保护与AI受控修复设计.md",
+      "sha256": "c313cd1dc9c7934cc1cf1cba6ee3a8f017521426e8e76e57d5cee895eb9800bf",
+      "bytes": 14098
+    },
+    {
+      "path": "runtime\\assessment-evidence-20260820.json",
+      "sha256": "4cb480b512ec529ffbf32e6f57f3eff77f019c507e505a9b6fab323ac7f745fc",
+      "bytes": 10949
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\.gitignore",
+      "sha256": "3f2ab0bddb0979acb46f6e6f40f4abe6b1112ec6906ae07ef2278120c834acae",
+      "bytes": 96
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\.npmignore",
+      "sha256": "3f2ab0bddb0979acb46f6e6f40f4abe6b1112ec6906ae07ef2278120c834acae",
+      "bytes": 96
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\adapters\\deepseek\\prompt.md",
+      "sha256": "f516f1f133b405671749780e1da44a7206ba688d378585e5d27f933733f58659",
+      "bytes": 678
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\adapters\\generic\\prompt.md",
+      "sha256": "74e5301e738abf0e4c6dbf3affaf1efe0b448c39b0cece1a45c975091b09556e",
+      "bytes": 859
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\adapters\\hy3\\prompt.md",
+      "sha256": "e5fd60c3d097795f79ec19c2b82d3319072d794dd45729bfdbb50f4569609815",
+      "bytes": 736
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\adapters\\workbuddy\\prompt-deepseek.md",
+      "sha256": "06f8879e1fa5df2624e75e8518d089704edf4aa0527c47d763c5e9540c177366",
+      "bytes": 561
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\adapters\\workbuddy\\prompt-hy3.md",
+      "sha256": "ff133c771901fd66505b49fbeba8e9e23e06250031ecd0d1dcadd72b626ae68f",
+      "bytes": 539
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\adapters\\workbuddy\\prompt.md",
+      "sha256": "9e78a71625a92e8116403124ce5fac87ed49e07bdf69aae9bfbcf921a05516a0",
+      "bytes": 1123
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\agents\\openai.yaml",
+      "sha256": "fc35e94c2cf86883a360a3b9cecc9fbfb09cd86019472cbf7431449ab5c3d4bd",
+      "bytes": 295
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\assets\\community-address-mappings.json",
+      "sha256": "c30268efe31e65a3f49e01ff59e6187bf82b2ce7a3a698ceb5ad0c0950b8a753",
+      "bytes": 1102
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\assets\\community-dictionary.json",
+      "sha256": "3464ac76a5dd96dd85b99357c7825dba00d6d6f7018984c99616d80575202ac6",
+      "bytes": 81103
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\assets\\房源信息整理模板.xlsx",
+      "sha256": "395ad410a0392cb22ea30607f8334e2e9a8e752e6e0064b5d6e83e54c54e18a0",
+      "bytes": 9330
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\assets\\所有小区名称清单.txt",
+      "sha256": "0cbe8b64fd44862e216bf85f75841a65681cffe6fe7262ac0448147b36ee72a5",
+      "bytes": 27226
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\bin\\auction-cli.mjs",
+      "sha256": "11f387f19c842734f451b3bf455d630e1511ce28e1b06e5f7bb457b00933dabb",
+      "bytes": 383
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\config\\default.json",
+      "sha256": "18f90806cc481390b5c57957f54214606ee24c75130097e07cdb902318c7629a",
+      "bytes": 371
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\config\\example.json",
+      "sha256": "18f90806cc481390b5c57957f54214606ee24c75130097e07cdb902318c7629a",
+      "bytes": 371
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\config\\schema.json",
+      "sha256": "572a0641cd884c68313634043088d1efb165fdcc6ffe817fb2cf3eba0bade931",
+      "bytes": 1195
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\config\\workbuddy.example.json",
+      "sha256": "18f90806cc481390b5c57957f54214606ee24c75130097e07cdb902318c7629a",
+      "bytes": 371
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\package-lock.json",
+      "sha256": "59c2a73afecb4d08518f664e73e01c0d3744112c8b826493ec3152fc780cefc7",
+      "bytes": 40369
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\package.json",
+      "sha256": "7a8ddd2c070ecf356ef27b88c34e080fcf53483a3cedf4ac0a0297c73afbb5d1",
+      "bytes": 1229
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\area-expression-catalog.md",
+      "sha256": "dbdf4e369ec6e8e9b5161271d8ce170e40d672f38c6f041971d04d292704d610",
+      "bytes": 9051
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\field-rules.md",
+      "sha256": "2abf0b7872a40d797e4165a77e276e5e2ead247e145b9a57c9cb7190a5a81d80",
+      "bytes": 15895
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\file-manifest.md",
+      "sha256": "3067fa10891df007ce6391acc5e87d7e4abb6c16bffd046d214137ca4ede42a3",
+      "bytes": 1966
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\participation-rules.md",
+      "sha256": "6d6edb75ab5d17a81d4f6293f68b284ffa647954ca27e0d20cbe1e58a16b9790",
+      "bytes": 1994
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\platforms.md",
+      "sha256": "91400a96c2472e65e4e906881e1a2e70d3953c62b00132a22808cbc9510411b1",
+      "bytes": 11547
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\recovery.md",
+      "sha256": "f182e6f9042e59a009cb90f40a9c44271b26087e21fbc20768b00f7c68006f5b",
+      "bytes": 1218
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\release-notes.md",
+      "sha256": "d7426192b82d3df3949fb1203aca5146228644ab94bd67fe5d939ac8239a5271",
+      "bytes": 2282
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\security-rules.md",
+      "sha256": "6ee241eee1b57a3bae53b94d83fa0e992dde527568ed2832a82a1379ccad7c7b",
+      "bytes": 579
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\setup.md",
+      "sha256": "b829dc0a65168203309828eb2ecfeeadc665599177e34657cdfca1f87374e2fd",
+      "bytes": 1344
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\supervisor.md",
+      "sha256": "b9da0688a2b844d7616368cea589e2a590c237d1fc0d33dccb416fa8560bc598",
+      "bytes": 2441
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\title-community-rules.md",
+      "sha256": "2828d91d792ee5b73b7038e243878b800f33cadeb744242a450bc48a4e702e11",
+      "bytes": 6246
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\trial-run.md",
+      "sha256": "16dd7e9d5ab2093dffe22b525308dad7aedf25cf51c68d53128491f97cb81a81",
+      "bytes": 1480
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\v1-baseline.md",
+      "sha256": "8314900236732c8834f09004453934e3adc13f7a3a71d7f53d7460c7f5816dd6",
+      "bytes": 1690
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\references\\workbuddy.md",
+      "sha256": "9bd9cbb6687deba8254fb59461dba219c825d45e93d10a834f29db2defaa57b1",
+      "bytes": 2945
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\build-community-dictionary.mjs",
+      "sha256": "4ffa741d98c5ace12b0defd2a9f99ea435cd83d908bcd1bde155da284db4cbaf",
+      "bytes": 1947
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\build-participation-training.mjs",
+      "sha256": "974ed743509b4053bba69037869909bec2a76b3ec4dfce4f67091a6289f349ac",
+      "bytes": 2492
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\build_workbook.mjs",
+      "sha256": "6066c4aac6570de754bdde064fd09a26d52b149fdd63fef305b09fe71124a2e4",
+      "bytes": 22584
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\import-curated-html.mjs",
+      "sha256": "5f1cd1cf1b75997acfa53b417e9e21d162cd9a402517b7f2a74d31ad80a83f22",
+      "bytes": 5901
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\list-readiness.mjs",
+      "sha256": "dcb3df78fc387d3d82e6793ee4bf16ec24f22c24499cc1cbff6189c59b40131b",
+      "bytes": 937
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\run.mjs",
+      "sha256": "7103ec9f58f4aa99fb2b7a0ce251d0f24f1a9b0a038cc442562e1dfdc094afb0",
+      "bytes": 198094
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\runtime.mjs",
+      "sha256": "b85f1cb5e8ab5a205a77205b8e90ea6298f514a3cc22e03d430bf59243217ca4",
+      "bytes": 2803
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\self_check.mjs",
+      "sha256": "436f257e36200075e1013c124115854e47d7683f1e28a5cfc1021ba88638d666",
+      "bytes": 24584
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\supervisor.mjs",
+      "sha256": "4f0dcea95a5b22d68ed6470a4f38693c4bba633d38df683104ba4397715a685a",
+      "bytes": 17322
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\scripts\\workbuddy_probe.mjs",
+      "sha256": "ae6d41c858560ea9475ae660390dcf11f3dd28c4cb1f2043c0beff30cc405bd0",
+      "bytes": 3162
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\SKILL.md",
+      "sha256": "29877b2a47cd86358cc702229104f124ff947d4874c1e95e9614929167d2b763",
+      "bytes": 13858
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\config\\load.mjs",
+      "sha256": "b6a54cc64df7b676f129c3f12caeeb76a60bd0612138e4e0d88a788b3ce0280b",
+      "bytes": 1504
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\core\\constants.mjs",
+      "sha256": "7bfe0a6fbff737f2d17578f027d8f615d4114848cfae480e6a224993a4226bc7",
+      "bytes": 2739
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\core\\title.mjs",
+      "sha256": "9426457c3fbac31fa7abd203ac6aef98d9080a26207c4344917b835333b6f679",
+      "bytes": 286
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\core\\urls.mjs",
+      "sha256": "05a463cfee156a94233abaabba0aae0804975485e5794a81f1977b7a52e9c203",
+      "bytes": 1013
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\extractors\\area.mjs",
+      "sha256": "36ccc4c8d054bcf3987d409040d15f46c029e7e87b4ebb97ff3144ac7b6e806f",
+      "bytes": 31986
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\extractors\\community.mjs",
+      "sha256": "fe7e6539df5d55e65b6ec38334d3888e252a3a8ffeca55d160ea8b650e85aa41",
+      "bytes": 13894
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\extractors\\field-evidence.mjs",
+      "sha256": "69e03e73cf5ffcd0465325d07470e30ec62956f5c30cceaeab382285dbcb211e",
+      "bytes": 633
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\extractors\\participation.mjs",
+      "sha256": "bc2bf58b4028a5d1f28f26702cca2a3e490a34d43d4ce0217410e2c31dbc7358",
+      "bytes": 3019
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\extractors\\price.mjs",
+      "sha256": "d4d34ee902b3e6017899994ea79f3726514c378b117d0987f8102f88284b4571",
+      "bytes": 2219
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\extractors\\title.mjs",
+      "sha256": "79c2c4d67b89af08ccf08db0a58b9461f64d265c03ecdec1c9ceffd76d258f9e",
+      "bytes": 3533
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\workbook\\index.mjs",
+      "sha256": "e77525291062b3a67cb5f259a636b20c1f483799174662421a0d2f9af006e55e",
+      "bytes": 489
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\src\\workbook\\standard.mjs",
+      "sha256": "bd98789a32546504ce2edecd7208c509f76efb84559b3edd650b8046102ee015",
+      "bytes": 10920
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-html\\manifest.json",
+      "sha256": "2930a07eeb49b5de08931afeb571cf758d032758dfd4313928b61e800189fcc3",
+      "bytes": 1069
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-html\\泉州房源上新.html",
+      "sha256": "99e5d310564351eb373241151df6233d767b129971d6b866175935f3d1cd1268",
+      "bytes": 461498
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-html\\泉州法拍结果.html",
+      "sha256": "e9a9aac978388211abed511a7552e5e257479298980c2ca800e25b034d301913",
+      "bytes": 163885
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-html\\福州房源上新.html",
+      "sha256": "ccd51a0ae5c2ac0f747f2f32c8b4642c5fda3795c7c4c5c12f3b2a629c53891e",
+      "bytes": 241812
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-html\\福州法拍结果.html",
+      "sha256": "ac30124e91f79e7ad66e515bd4545d572bed22b666c26760511f89d9d4a4f001",
+      "bytes": 131813
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-training\\golden-records.json",
+      "sha256": "b982e41a670d4fd4afcef2c270812982b2287fba3e29cf2af0a91cb689ad7174",
+      "bytes": 962550
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\curated-training\\participation-golden.json",
+      "sha256": "fc6b2eb318be8de41a13388e425132afdd330aec39985dbaee3a5a79922118c5",
+      "bytes": 56077
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\special-cases.json",
+      "sha256": "2fc7932d376e6d31d62b7b7a4a35d6da4d978a2104ec80a4cae0430b606105c6",
+      "bytes": 3441
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\fixtures\\v2-golden.json",
+      "sha256": "6d685066a407d774a761da8ff18fcd3c19c05785817ce87222d81a3b102eccbf",
+      "bytes": 1214
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\productization_check.mjs",
+      "sha256": "914667be61179df6c643e0d7e38ee9a98a981f66d4314efe1dbda47d2e791590",
+      "bytes": 5549
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\qa_existing_workbook.mjs",
+      "sha256": "3acc5fb801ef7b0fe9125aa68081fc8f0aaf0e74b4d3d092610c31c2f37f72b2",
+      "bytes": 1212
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\regression\\fixed_samples.mjs",
+      "sha256": "6abbe9f5abb42d0304efbffd5a7277efaf439963389dd31143ba983f31b23de0",
+      "bytes": 4562
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\regression\\helpers.mjs",
+      "sha256": "d3e2ac38991d5a87b6a14b67c2ec94f1800610f432eed6fb006bc34c3f59c688",
+      "bytes": 201
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\regression\\special_cases.mjs",
+      "sha256": "ea4604ec60b5bf7c972e718ad65e5e0f18b56ab21b34bd22ddd10d8349f45d43",
+      "bytes": 4291
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\regression\\v2_architecture.mjs",
+      "sha256": "6c4196ef9ad9c183e23b0db25defb429c4db9f9421f82f19b7b73cba22ee0ffb",
+      "bytes": 21606
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\release_check.mjs",
+      "sha256": "54e1fea2f2d9998a327674f3d015da43d2fab53a4b5969fdfc5c19eb38ced797",
+      "bytes": 2821
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tests\\supervisor_check.mjs",
+      "sha256": "2283380c82ab4e7b961d775280f9d88c33fc4f44e786c1b3b8c1a55cbc9e22ac",
+      "bytes": 4740
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tmp\\self-check\\self-check-progress.xlsx",
+      "sha256": "8ca25cab4ff91e1fba9060bf65eb946d86f96ff1b15f6bf9bcc9e9a3bd1b549b",
+      "bytes": 8396
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tmp\\self-check\\self-check-progress.xlsx.inspect.ndjson",
+      "sha256": "007dee2cf38b7c88ca56b81d9c39d752807a0315f6010aa0cf53dd5fa78fc8b3",
+      "bytes": 62568
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tmp\\self-check\\self-check.xlsx",
+      "sha256": "5f9da628c7f10dcb77e1f952e34d11189194978d3febf39104889f85d4d20c1f",
+      "bytes": 7301
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\tmp\\self-check\\self-check.xlsx.inspect.ndjson",
+      "sha256": "619b213d894aa3853369cade9c31e5904c04d897447c5937deb6f3d7433eeda2",
+      "bytes": 50055
+    },
+    {
+      "path": "runtime\\fujian-auctions-v2\\用户操作手册.md",
+      "sha256": "7bacb772279c3084872fbf56d75f1a783b8474df6a2460e6b54d30e1dd0ac2bc",
+      "bytes": 9844
+    },
+    {
+      "path": "scripts\\apply-assessment-price-supplement.mjs",
+      "sha256": "c808ca742af67fce5f8bef4ae789a17f78801aabebd8e9bec101b3c0b627c90a",
+      "bytes": 2759
+    },
+    {
+      "path": "scripts\\apply-disposal-start-price-correction.mjs",
+      "sha256": "bd3344bdca93fdf0405d3b3d406f44415e9de7b7d3587fe4de92c291d1854773",
+      "bytes": 2367
+    },
+    {
+      "path": "scripts\\apply-start-price-supplement.mjs",
+      "sha256": "c8e9b79d7e05b92c8735209ade120789587be12eeb46fbac1a9868f6800a6e81",
+      "bytes": 2225
+    },
+    {
+      "path": "scripts\\correct-record-from-evidence.mjs",
+      "sha256": "41bd4f89ba545ae98876349a125aac0d3393690d6b4b847cb57cdd6a6655b5bc",
+      "bytes": 3563
+    },
+    {
+      "path": "scripts\\read-assessment-price-bsk.mjs",
+      "sha256": "6f384585963f9116505c9f09edf5d4b2f114b9b269c1c11c7a05a433f27023ef",
+      "bytes": 2679
+    },
+    {
+      "path": "scripts\\read-assessment-price-http.mjs",
+      "sha256": "c90c003bd1f382a947b1fcb16d48525315e9f32e2b1b57b8eb0aa2216a3d9e6f",
+      "bytes": 1897
+    },
+    {
+      "path": "scripts\\read-disposal-start-bsk.mjs",
+      "sha256": "30895d8271e344c8ef1d4b58db2061a2227b0eaa48bf714210d08dc1d0321053",
+      "bytes": 1353
+    },
+    {
+      "path": "scripts\\read-start-price-bsk.mjs",
+      "sha256": "80569903c7e31f41df5b5ad8f683e21e1cb272d62e33eaf5b320033d02098077",
+      "bytes": 1371
+    },
+    {
+      "path": "scripts\\recover-current-batch-from-evidence.mjs",
+      "sha256": "15be4f9a911a8aafa0c9e02982ace427700f4d037fb583be9dc83b973abfda51",
+      "bytes": 3740
+    },
+    {
+      "path": "scripts\\repair-pc-anchor-overrun.mjs",
+      "sha256": "60b9ea7528113c032a555c9efd73cd16af23690e008bf010fe4eee81e0cd2847",
+      "bytes": 4563
+    },
+    {
+      "path": "scripts\\restore-history-batch.mjs",
+      "sha256": "4cb8891571259d8f0fc3114d9cf33cae226cb9db0c3503c9161140a12c8c814d",
+      "bytes": 1771
+    },
+    {
+      "path": "scripts\\retry-failed-ai-review.mjs",
+      "sha256": "f8f658d56b5764188a764759fe8f37221e0289a26d3d438b57d814dbef5fbb80",
+      "bytes": 3658
+    },
+    {
+      "path": "scripts\\start-agent.ps1",
+      "sha256": "b41aa3c6b8e395f19dd11d85ef714d2bc4e84d04e1b8b96edffdad6df9ec2b8a",
+      "bytes": 2960
+    },
+    {
+      "path": "scripts\\workbench-review-process.mjs",
+      "sha256": "978ceaf9697279a2c93cc35f9f79f5e64561825c763fd302558b05b0fb367ff5",
+      "bytes": 15005
+    },
+    {
+      "path": "src\\batch-binding.mjs",
+      "sha256": "50dca3947cd88d0e878aa8bda420dfcdbb64bb983ce38e87304b88d27339e115",
+      "bytes": 6356
+    },
+    {
+      "path": "src\\batch-data-integrity.mjs",
+      "sha256": "23545c6eedcbbc2cb38476a9a73b178f5829828409a5ce6cc80da970b2c38925",
+      "bytes": 4022
+    },
+    {
+      "path": "src\\batches.mjs",
+      "sha256": "866163e26add56558b63a220a40c6c8a7f2f56d0716dd4bbc792903ad4c112f3",
+      "bytes": 538
+    },
+    {
+      "path": "src\\cache-cleanup.mjs",
+      "sha256": "e2c5cda4dad7be7bdc05f7a4b9bbbd17196f97a0642328c07778e32fb43726ab",
+      "bytes": 5999
+    },
+    {
+      "path": "src\\collector.mjs",
+      "sha256": "0e96ec91d9539af3bbce75793ef0bf6a9645e014443b360191cee5253aae8c7e",
+      "bytes": 12456
+    },
+    {
+      "path": "src\\config.mjs",
+      "sha256": "ab45d00106e6f8e591d4400badd65f58b112a33ff58e6fb9e00c7758bf279cd7",
+      "bytes": 6071
+    },
+    {
+      "path": "src\\credentials.mjs",
+      "sha256": "2d72d5d9d0519f96a295abf7957b6c3be4f4c4975e73d897b2e61f5f82023c43",
+      "bytes": 1261
+    },
+    {
+      "path": "src\\custom-high-water.mjs",
+      "sha256": "1f3ae6eef4ee923712b5ace64d1c282a5d623633d8a2a61742c2050a3dec8d58",
+      "bytes": 3058
+    },
+    {
+      "path": "src\\delivery-export.mjs",
+      "sha256": "7facf46f74b087aadb195b6510b040e0405280cbb67322032d74036e2820ade0",
+      "bytes": 9408
+    },
+    {
+      "path": "src\\developer-auth.mjs",
+      "sha256": "cd8cb27a76c1dfa92ca0b68829c9ddc42b10b68b525a875bb41e537600d01e07",
+      "bytes": 1967
+    },
+    {
+      "path": "src\\distribution.mjs",
+      "sha256": "6d6bddb206d13dbb3bc31d63e583544a03bbbcc5e110504e5f5825bc6c42f104",
+      "bytes": 549
+    },
+    {
+      "path": "src\\high-water.mjs",
+      "sha256": "6938d356aa784af45826fcf4458b6d8f5848f63160b3b08afa806a03a6a72577",
+      "bytes": 2387
+    },
+    {
+      "path": "src\\history.mjs",
+      "sha256": "d90300d002dd7142e0b848cfba212c5042f7d6adb5f9bbeef1fb38ff4604e1ab",
+      "bytes": 1134
+    },
+    {
+      "path": "src\\onboarding.mjs",
+      "sha256": "f38c9627ea5f9fe4997576374b706f50c5b488e60300db5f1740e631b22f19fa",
+      "bytes": 2376
+    },
+    {
+      "path": "src\\opportunities.mjs",
+      "sha256": "37a36782a318ad67d983f45587f48fd421c2eb632a6d5eb2ba0aa77d551abd63",
+      "bytes": 2630
+    },
+    {
+      "path": "src\\orchestrator.mjs",
+      "sha256": "e4478f2a7ab11cfd6527072024fbcc228b65deba67f6e4bb8661beb8c8b1fbd2",
+      "bytes": 26474
+    },
+    {
+      "path": "src\\progress-summary.mjs",
+      "sha256": "cb681d99808999a06c9a4a5ef25f1f64775833dabb01583ca7cb6b113426374c",
+      "bytes": 4675
+    },
+    {
+      "path": "src\\reports.mjs",
+      "sha256": "a93dfd9567330a40905d5562b45306b24cf4bfc17c987988d531952d884d7e40",
+      "bytes": 2945
+    },
+    {
+      "path": "src\\review\\browser.mjs",
+      "sha256": "512da488014766ee3c02693e5a0a2d3e5a8ae9549eaa4700232e3c548eb30550",
+      "bytes": 5469
+    },
+    {
+      "path": "src\\review\\candidates.mjs",
+      "sha256": "709f2814fdb96b0502487b05e0c93133cff47aeb228c1770adaec58756fa126f",
+      "bytes": 6736
+    },
+    {
+      "path": "src\\review\\deepseek.mjs",
+      "sha256": "2f933c3b47ce14417e0476dd3493661c7bcb362498f0aac41864f7c2873dbf6a",
+      "bytes": 162
+    },
+    {
+      "path": "src\\review\\index.mjs",
+      "sha256": "25193a7d6a95649c7dc0b988ffad18da2ced6da7225e2357f65a89b0374e369b",
+      "bytes": 6882
+    },
+    {
+      "path": "src\\review\\model.mjs",
+      "sha256": "12e723488b23aebbbfbadb30cfd0bb34742510ffc3deff250f362d0c1c237b57",
+      "bytes": 645
+    },
+    {
+      "path": "src\\review\\prompt.mjs",
+      "sha256": "7346ba81c2cf3fa1f553721f22c94fc8437baed4d9005c541c593696361379a5",
+      "bytes": 2195
+    },
+    {
+      "path": "src\\review\\providers\\anthropic.mjs",
+      "sha256": "406a63a04bdfccdc72c9b47a2b19a36952579f4583679dced283c05a5f2a5e33",
+      "bytes": 787
+    },
+    {
+      "path": "src\\review\\providers\\gemini.mjs",
+      "sha256": "014506edf97796a883d6c797ca114a082a6d12a20c78fcbe5f70e334f3debf2e",
+      "bytes": 864
+    },
+    {
+      "path": "src\\review\\providers\\index.mjs",
+      "sha256": "c84d4f4c094175a68c17fe5aa677f532ba6d5c36387455d38e8b57b479d11bb0",
+      "bytes": 820
+    },
+    {
+      "path": "src\\review\\providers\\openai-compatible.mjs",
+      "sha256": "2223072613e47da4615344606e2448dec774640d2acee5e8cc0340b2b76b4e19",
+      "bytes": 749
+    },
+    {
+      "path": "src\\review\\providers\\openai.mjs",
+      "sha256": "0762f5c9aa59da09378930076c09c44aae5863e46a8086091399c1c5a39f625c",
+      "bytes": 825
+    },
+    {
+      "path": "src\\server.mjs",
+      "sha256": "5a509bea2a245cf5438f0b18336e5b6c91128731d76f7f455c2f024a01e4781d",
+      "bytes": 58469
+    },
+    {
+      "path": "src\\state.mjs",
+      "sha256": "7616deeadfa0bd24199cc605d0d8ec2552822a66614e5a8c8858de464d673c62",
+      "bytes": 2861
+    },
+    {
+      "path": "src\\status-scope.mjs",
+      "sha256": "0544f9f8d0cc555bac5c18fec306da71051864b67945bcab7a5ce405d40b0423",
+      "bytes": 1750
+    },
+    {
+      "path": "src\\task-metrics.mjs",
+      "sha256": "42dbbf19c018ef43dfecb3c5957f95c6942e42daf56c4cbcc603b8c7829af802",
+      "bytes": 2481
+    },
+    {
+      "path": "src\\task-scope.mjs",
+      "sha256": "b63c9b8d5f78db23ddbc17586e9176eb4ebdfca2b35bdd1b1b083f50b00dfd0f",
+      "bytes": 8054
+    },
+    {
+      "path": "src\\task-state-model.mjs",
+      "sha256": "18f799fcef10ba2aad7e07b6f183d42cd7a64a3a7998b9bd69118218c078ca14",
+      "bytes": 7887
+    },
+    {
+      "path": "src\\utils.mjs",
+      "sha256": "2a35a25f7f80f88644e0346381aeff3cbbf3736e77475eb57c366f9dfd2b2c95",
+      "bytes": 1773
+    },
+    {
+      "path": "src\\verification-state.mjs",
+      "sha256": "c06e4314f2a34174e3f102ea2f09b05f020e3bd6a54ed63ebc78998b889fb4f4",
+      "bytes": 1737
+    },
+    {
+      "path": "src\\workbench-review.mjs",
+      "sha256": "0be2b045b7083a4d5e20babae41d0d0c601eccec3a01a0bc1e67a1ec8276d856",
+      "bytes": 10857
+    },
+    {
+      "path": "src\\workbench.mjs",
+      "sha256": "c68199bbbd7d353b9dfca3c9b162b76c2196b8175e4a2fdc444ccd81b30b45d5",
+      "bytes": 2053
+    },
+    {
+      "path": "src\\worker-lock.mjs",
+      "sha256": "cdadd453d8584bffe40f0741afe832b60e95763cfaebd495041aa0212508214e",
+      "bytes": 2960
+    },
+    {
+      "path": "启动法拍资产Agent.cmd",
+      "sha256": "8f654d1e954788ed0152c10325ffab8cd9b34595b715b8366e196947d713c442",
+      "bytes": 299
+    },
+    {
+      "path": "常见问题及解决办法.md",
+      "sha256": "8fab1cf0ac7bcf114256040fcaa96a0889d3c3eae8847fd4483724d48f8e688e",
+      "bytes": 17758
+    },
+    {
+      "path": "用户使用手册.md",
+      "sha256": "1de099e2fdb1b19267ad24cbf483683cc1556f4b4661818092569c8cc27519f7",
+      "bytes": 14677
+    },
+    {
+      "path": "用户操作说明.md",
+      "sha256": "54eccf8d8b495b58b24a94a4e3dcf432a09c4feda0f4867e19bbc42b6f7c0c20",
+      "bytes": 7657
+    }
+  ]
+}

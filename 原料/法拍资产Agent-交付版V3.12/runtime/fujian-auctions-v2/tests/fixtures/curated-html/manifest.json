@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "description": "福州、泉州人工确认的房源上新及法拍结果离线回归样本",
+  "expected": {
+    "rawRows": 881,
+    "uniqueUrls": 874,
+    "knownConflicts": 6,
+    "withArea": 844,
+    "withoutArea": 30,
+    "alibaba": 487,
+    "jd": 387
+  },
+  "files": {
+    "福州房源上新.html": {
+      "bytes": 241812,
+      "sha256": "ccd51a0ae5c2ac0f747f2f32c8b4642c5fda3795c7c4c5c12f3b2a629c53891e"
+    },
+    "泉州房源上新.html": {
+      "bytes": 461498,
+      "sha256": "99e5d310564351eb373241151df6233d767b129971d6b866175935f3d1cd1268"
+    },
+    "福州法拍结果.html": {
+      "bytes": 131813,
+      "sha256": "ac30124e91f79e7ad66e515bd4545d572bed22b666c26760511f89d9d4a4f001"
+    },
+    "泉州法拍结果.html": {
+      "bytes": 163885,
+      "sha256": "e9a9aac978388211abed511a7552e5e257479298980c2ca800e25b034d301913"
+    }
+  },
+  "communitySource": {
+    "path": "assets/所有小区名称清单.txt",
+    "bytes": 27226,
+    "sha256": "0cbe8b64fd44862e216bf85f75841a65681cffe6fe7262ac0448147b36ee72a5"
+  }
+}

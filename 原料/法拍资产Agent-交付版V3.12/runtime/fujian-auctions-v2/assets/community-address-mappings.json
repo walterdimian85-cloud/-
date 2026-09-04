@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "description": "仅保存人工训练数据已经确认的地址或地块到小区映射；不得自动推测。",
+  "entries": [
+    { "pattern": "安吉路281-60号", "community": "东方星城", "city": "泉州" },
+    { "pattern": "晋江市P2018-21号地块", "community": "盛联国际华府", "city": "泉州" },
+    { "pattern": "螺阳镇阳川路2号", "community": "奥林阳光", "city": "泉州" },
+    { "pattern": "凤城镇水门巷20-2号", "community": "碧湖佳苑", "city": "泉州" },
+    { "pattern": "凤城镇水门巷18-6号", "community": "碧湖佳苑", "city": "泉州" },
+    { "pattern": "津淮改造工程F1幢", "community": "迎津新村", "city": "泉州" },
+    { "pattern": "湖东路64号", "community": "省物资厅宿舍", "city": "福州" },
+    { "pattern": "永宁镇沙堤十二区3号", "community": "朗悦湾", "city": "泉州" },
+    { "pattern": "聚龙小镇甘泉居", "community": "聚龙小镇", "city": "泉州" },
+    { "pattern": "中海悦江公馆二区", "community": "中海悦江公馆", "city": "福州" }
+  ]
+}

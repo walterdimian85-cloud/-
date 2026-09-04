@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-01T01:19:47.985Z",
+  "sourceVersion": "V2.0",
+  "targetRoot": "C:\\Users\\HUAWEI\\Desktop\\法拍资产Agent-交付版V3.12",
+  "validation": {
+    "syntax": "passed",
+    "tests": "passed"
+  },
+  "inspection": {
+    "safe": true,
+    "findings": [],
+    "fileCount": 2691
+  },
+  "deliverable": true
+}

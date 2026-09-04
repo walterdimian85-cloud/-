@@ -1,0 +1,14 @@
+{
+  "platform": "all",
+  "categories": ["住宅用房", "商业用房", "工业用房"],
+  "statusFilters": ["即将开始", "已结束"],
+  "headless": false,
+  "lowFrequency": true,
+  "includeParties": false,
+  "checkpointEvery": 1,
+  "requestIntervalMs": 8000,
+  "maxPages": 100,
+  "loginWaitMinutes": 15,
+  "stateDir": "../../path",
+  "workbookAdapter": "standard"
+}
